@@ -8,7 +8,7 @@ test('Elementary math content stays identical and middle grade links open the ne
   await expect(page.getByRole('heading',{name:/중2 수학을/})).toBeVisible();
   await expect(page.getByRole('heading',{name:'숫자와 도형을 바꿔 보세요'})).toBeVisible();
   await expect(page.getByRole('group',{name:'학습 단계'}).getByRole('button')).toHaveCount(2);
-  await expect(page.getByRole('img',{name:/수학 그림/})).toBeVisible();
+  await expect(page.locator('.middle-lab-canvas svg[role="img"]')).toBeVisible();
   await expect(page.getByRole('group',{name:'중학교 학년 선택'})).toBeVisible();
 });
 test('Middle grade interactive lab changes result and practice is playable',async({page})=>{
