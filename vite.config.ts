@@ -19,5 +19,8 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/mathgenius_fr/',
+  // GitHub Pages serves the app from /mathgenius_fr/.
+  // Cloudflare Pages (and custom domains) serves it from /.
+  // CF_PAGES=1 is provided automatically by Cloudflare's build environment.
+  base: process.env.CF_PAGES === '1' ? '/' : '/mathgenius_fr/',
 });
