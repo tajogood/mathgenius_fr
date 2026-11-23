@@ -26,8 +26,8 @@ export default function PrimeFactorLab(){
   const choices=[...candidates.filter(v=>v<=remaining),
     ...(isPrime(remaining)&&!candidates.includes(remaining as typeof candidates[number])?[remaining]:[])];
   const valid=remaining%chosen===0;
-  const groupCount=target%chosen===0?chosen:1;
-  const itemsPerGroup=target/groupCount;
+  const groupCount=remaining%chosen===0?chosen:1;
+  const itemsPerGroup=remaining/groupCount;
   const expression=found.length?[...found,...(remaining>1?[remaining]:[])].join(' × '):String(target);
   function reset(value:number){
     setTarget(value);setChosen(2);setFound([]);
@@ -71,16 +71,16 @@ export default function PrimeFactorLab(){
       </div>
       <div className="prime-dots-panel">
         <h4>② 점의 개수를 직접 세어 보세요</h4>
-        <p className="prime-dot-caption">{target}개의 점 · {groupCount}묶음 × {itemsPerGroup}개
+        <p className="prime-dot-caption">{remaining}개의 남은 점 · {groupCount}묶음 × {itemsPerGroup}개
           {!valid&&<small>현재 남은 수 {remaining}은 {chosen}로 나누어떨어지지 않아요.</small>}</p>
         <div className="prime-groups" role="img"
-          aria-label={target+'개의 점을 '+groupCount+'묶음으로 나누어 한 묶음에 '+itemsPerGroup+'개씩 나타냄'}>
+          aria-label={remaining+'개의 점을 '+groupCount+'묶음으로 나누어 한 묶음에 '+itemsPerGroup+'개씩 나타냄'}>
           {Array.from({length:groupCount},(_,i)=><div key={i} className="prime-dot-group"
             style={{gridTemplateColumns:'repeat('+Math.min(12,itemsPerGroup)+',1fr)'}}>
             {Array.from({length:itemsPerGroup},(_,j)=><span key={j} className={'prime-dot prime-tone-'+i%5}/>)}
           </div>)}
         </div>
-        <p className="prime-dot-tip">그림에는 정확히 <strong>{target}개</strong>의 점이 있습니다. 소수를 선택하면 묶음도 달라집니다.</p>
+        <p className="prime-dot-tip">그림에는 지금 남은 수와 똑같이 <strong>{remaining}개</strong>의 점이 있습니다. 나눗셈이 성공하면 점의 수도 줄어듭니다.</p>
       </div>
     </div>
     <div className="prime-equation" aria-live="polite">
