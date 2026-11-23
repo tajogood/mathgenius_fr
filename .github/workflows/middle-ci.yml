@@ -1,0 +1,36 @@
+name: Verify middle school 1–3 before release
+on:
+  push:
+    branches: [feature/middle-school-1-3-20261123]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: middle-school-validation
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund --legacy-peer-deps
+      - name: Type-check, Vite build and SEO pages
+        run: npm run build
+        env:
+          SITE_URL: https://tajogood.github.io/mathgenius_fr/
+      - name: Check mathematics and randomized middle school problems
+        run: npm test
+      - name: Check interactive UI
+        run: npm run test:ui
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Verify middle courses and all original elementary labs
+        run: npm run test:viewport
