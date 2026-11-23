@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import PrimeFactorLab from './PrimeFactorLab.tsx';
 import {type MiddleTopic} from './curriculum.ts';
 
 type Control={label:string;min:number;max:number;step?:number;initial:number};
@@ -415,6 +416,9 @@ export default function MiddleLab({topic}:{topic:MiddleTopic}){
     setAttempts(prev=>prev+1);
     if(Math.random()<a/(a+b))setSuccesses(prev=>prev+1);
   };
+  // Topic-specific exploratory experience: do not substitute generic dots
+  // for actual prime decomposition.
+  if(topic==='primes')return <PrimeFactorLab/>;
   return <section className="middle-lab" aria-label="직접 탐구하는 수학 실험">
     <div className="middle-lab-head"><span>🖐️ TRY IT YOURSELF</span><h3>값을 바꾸며 변화를 살펴보세요</h3></div>
     <div className="middle-lab-grid">
