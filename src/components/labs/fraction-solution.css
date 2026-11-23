@@ -1,0 +1,14 @@
+.fraction-solution{margin:6px 0 0;padding:14px 14px 10px;border:1px solid #e1e7f7;border-radius:14px;background:#fbfcff}
+.fraction-solution svg{display:block;width:100%;height:auto;max-height:260px}
+.fraction-solution figcaption{margin-top:8px;font-size:14px;font-weight:800;line-height:1.6;color:#34466e}
+.fs-cell{fill:#fff;stroke:#7c8fd6;stroke-width:1.4}
+.fs-cell--blue,.fs-cell--amber,.fs-cell--green{animation:fs-in .45s ease both}
+.fs-cell--blue{fill:#c9d3fb;stroke:#586bde}
+.fs-cell--amber{fill:#ffdcae;stroke:#e08a25}
+.fs-cell--green{fill:#bfe9d5;stroke:#2fae7b}
+.fs-strike line{stroke:#e55d6b;stroke-width:2.6;stroke-linecap:round}
+.fs-strike{animation:fs-in .35s ease both}
+.fs-guide{stroke:#e08a25;stroke-width:1.6;stroke-dasharray:4 3;animation:fs-in .4s ease both}
+.fs-label{font-size:15px;font-weight:900;fill:#263759}
+@keyframes fs-in{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.fraction-solution *{animation:none!important}}

@@ -5,6 +5,7 @@ import { LabHint, LabTools, SmallControl, bound } from './types';
 import { displayNumber } from '../../interactions.ts';
 import { gcd, lcm } from '../../math.ts';
 import { Fraction, MathText } from '../MathText.tsx';
+import FractionSolutionFigure from './FractionSolutionFigure.tsx';
 
 type PieceBarProps = { n:number; d:number; color:'blue'|'amber'; onChange:(value:number)=>void; title:string };
 function PieceBar({n,d,color,onChange,title}:PieceBarProps) {
@@ -81,6 +82,9 @@ export function FractionsLab({problem:p,phase,step}:LabProps) {
   const updateLeft=(n:number)=>{setLeft(n);setNotice('');};
   const updateRight=(n:number)=>{setRight(n);setNotice('');};
   const reset=()=>{setFactor(1);setLeft(firstN);setRight(secondN);setNotice('');};
+  // 풀이 단계: 통분 → 분자끼리 계산 → 약분 순서를 그림으로 보여 준다
+  if(phase==='solution'&&two&&(add||subtract))
+    return <div className="lab-body"><FractionSolutionFigure n1={firstN} d1={firstD} n2={secondN} d2={secondD} subtract={subtract} step={step}/></div>;
   return <div className="lab-body">
     <div className="lab-hero-count">
       <strong><Fraction numerator={left} denominator={totalDen}/></strong><span> = {displayNumber(fractionValue,3)} 전체</span>

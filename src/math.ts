@@ -262,9 +262,11 @@ export function solutionSteps(p: Problem): string[] {
     case 'fraction': {
       const common = lcm(b, d!);
       const n1 = a * (common / b), n2 = c! * (common / d!);
-      return ['서로 다른 크기의 분수 조각을 같은 크기로 바꾸어 볼게요.',
-        a + '/' + b + ' = ' + n1 + '/' + common + ', ' + c + '/' + d + ' = ' + n2 + '/' + common + '로 통분해요.',
-        n1 + '/' + common + ' + ' + n2 + '/' + common + ' = ' + (n1 + n2) + '/' + common + ', 약분하면 ' + p.answer + '이에요.'];
+      const sum = n1 + n2, g = gcd(sum, common);
+      return ['조각 크기가 달라서 같은 크기로 바꿔요: ' + a + '/' + b + ' = ' + n1 + '/' + common + ', ' + c + '/' + d + ' = ' + n2 + '/' + common + ' (통분)',
+        n1 + '/' + common + ' + ' + n2 + '/' + common + ' = ' + sum + '/' + common + ' : 분자끼리 더해요.',
+        g > 1 ? sum + '/' + common + '의 분자와 분모를 ' + g + '로 나누면(약분) ' + p.answer + ' — 크기는 그대로예요. 답은 ' + p.answer + '이에요.'
+          : sum + '/' + common + '은 더 간단히 할 수 없어요. 답은 ' + p.answer + '이에요.'];
     }
     case 'reduce': {
       const factor = gcd(a, b);

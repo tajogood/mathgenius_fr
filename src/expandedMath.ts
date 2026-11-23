@@ -20,6 +20,13 @@ const r = (from: number, to: number) => from + Math.floor(Math.random() * (to - 
 const choice = <T,>(items: readonly T[]): T => items[r(0, items.length - 1)];
 const gcd = (a: number, b: number) => { let x = a, y = b; while(y){[x,y]=[y,x%y];} return x || 1; };
 const fract = (n: number, d: number) => { const factor = gcd(n,d); return (n/factor) + '/' + (d/factor); };
+/** 풀이 마지막 단계: 계산 결과 n/d를 약분해 답에 이르는 과정을 한 단계로 보여 준다 */
+const reduceStep = (n: number, d: number, answer: string) => {
+  const g = gcd(n, d);
+  return n === 0 ? '남는 양이 없으니 답은 0이에요.' : g > 1
+    ? n+'/'+d+'의 분자와 분모를 '+g+'로 나누면(약분) '+answer+' — 크기는 그대로예요. 답은 '+answer+'이에요.'
+    : n+'/'+d+'은 더 간단히 할 수 없어요. 답은 '+answer+'이에요.';
+};
 const fixed = (n: number, places: number) => n.toFixed(places);
 const shuffle = <T,>(array: T[]) => {
   const out = [...array];
@@ -80,8 +87,9 @@ export function createExpandedProblem(topic: ExtraTopic): Problem {
       const a=r(1,b-1),c=r(1,Math.max(1,Math.min(d-1,a*(d/b)-1)));
       const n=a*(d/b)-c,ans=fract(n,d);
       return make(topic,a,b,ans,a+'/'+b+' − '+c+'/'+d+' = ?',
-        ['분모를 같게 만들어 빼요.',a+'/'+b+'을 '+a*(d/b)+'/'+d+'로 통분해요.',
-          a*(d/b)+'/'+d+' − '+c+'/'+d+' = '+ans+'이에요.'],[],c,d);
+        ['분모가 달라 조각 크기가 달라요. '+a+'/'+b+'을 '+a*(d/b)+'/'+d+'로 통분해 같은 크기 조각으로 만들어요.',
+          a*(d/b)+'/'+d+' − '+c+'/'+d+' = '+n+'/'+d+' : 분자끼리 빼요.',
+          reduceStep(n,d,ans)],[],c,d);
     }
     case 'bandgraph': {
       const a=choice([10,20,30,40,50,60,70,80] as const),b=100-a;
@@ -260,8 +268,9 @@ export function createExpandedProblem(topic: ExtraTopic): Problem {
       const d=choice([4,5,6,7,8] as const),a=r(2,d-1),b=r(1,a-1),subtract=Math.random()>.5;
       const n=subtract?a-b:a+b,answer=fract(n,d);
       return make(topic,a,b,answer,a+'/'+d+(subtract?' − ':' + ')+b+'/'+d+' = ?',
-        ['두 분수의 분모가 모두 '+d+'로 같아요.','분모는 그대로 두고 분자만 '+(subtract?'빼요.':'더해요.'),
-          n+'/'+d+'이므로 답은 '+answer+'이에요.'],[],d,0,subtract?'subtract':'add');
+        ['두 분수의 분모가 모두 '+d+'로 같아서 한 조각의 크기가 같아요.',
+          a+'/'+d+(subtract?' − ':' + ')+b+'/'+d+' = '+n+'/'+d+' : 분모는 그대로 두고 분자만 '+(subtract?'빼요.':'더해요.'),
+          reduceStep(n,d,answer)],[],d,0,subtract?'subtract':'add');
     }
     case 'triangletypes': {
       const a=r(0,2),names=['정삼각형','이등변삼각형','직각삼각형'];
