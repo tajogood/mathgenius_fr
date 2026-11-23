@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState,type ReactNode} from 'react';
 import type {MiddleTopic} from './curriculum.ts';
 import './foundation-labs.css';
 
@@ -6,7 +6,7 @@ const range=(count:number)=>Array.from({length:Math.max(0,count)},(_,i)=>i);
 const signed=(n:number)=>(n>=0?' + ':' − ')+Math.abs(n);
 const sup=(n:number)=>String(n).replace(/[0-9]/g,d=>'⁰¹²³⁴⁵⁶⁷⁸⁹'[Number(d)]);
 
-function ConceptPanel({title,children}:{title:string;children:React.ReactNode}){
+function ConceptPanel({title,children}:{title:string;children:ReactNode}){
   return <section className="discovery-lab"><div className="discovery-heading"><span>직접 해보기</span><h3>{title}</h3></div>{children}</section>;
 }
 function Slider({id,label,value,min,max,onChange}:{id:string;label:string;value:number;min:number;max:number;onChange:(n:number)=>void}){
@@ -50,7 +50,7 @@ function EquationLab(){
     setSecret(2+Math.floor(Math.random()*5));setStage(0);
   }
   return <ConceptPanel title="양쪽에 똑같이 계산해서 x를 찾아요">
-    <p>왼쪽과 오른쪽은 같아요. x는 **모든 주머니에 들어 있는 같은 개수의 구슬**을 뜻해요.</p>
+    <p>왼쪽과 오른쪽은 같아요. x는 **모든 주머니에 들어 있는 같은 개수의 구슬을 뜻해요.</p>
     <div className="discovery-eq-title" aria-label="풀어야 할 일차방정식">
       {stage===0?a+'x + '+b+' = '+total:stage===1?a+'x = '+a*secret:'x = '+secret}
     </div>
@@ -131,7 +131,7 @@ function ExponentLab(){
           {range(left+right).map(i=><span key={i} className={merged?'discovery-factor merged':i<left?'discovery-factor first':'discovery-factor second'}>{base}</span>)}
         </div>
         <p>왼쪽 {left}개 + 오른쪽 {right}개 = 총 {left+right}개</p>
-        <div className="discovery-big-formula">{base}{sup(left+right)} = <strong>{base**(left+right).toLocaleString('ko-KR')}</strong></div>
+        <div className="discovery-big-formula">{base}{sup(left+right)} = <strong>{(base**(left+right)).toLocaleString('ko-KR')}</strong></div>
       </div>
     </div>
     <div className="discovery-result">발견: 밑은 <strong>{base}</strong>로 그대로이고, 곱해진 인수의 개수만 <strong>{left}+{right}={left+right}</strong>로 늘어납니다.</div>
