@@ -1,0 +1,55 @@
+name: Deploy MathGenius Free to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: free-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout free edition
+        uses: actions/checkout@v4
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Type-check, build and generate SEO pages
+        run: npm run build
+        env:
+          SITE_URL: https://tajogood.github.io/mathgenius_fr/
+      - name: Check math generators
+        run: npm test
+      - name: Check interactive lesson interfaces
+        run: npm run test:ui
+      - name: Install headless Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Check free homepage and grade learning
+        run: npm run test:viewport
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload static website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+      - name: Deploy public free website
+        id: deployment
+        uses: actions/deploy-pages@v4
