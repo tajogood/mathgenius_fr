@@ -1,6 +1,6 @@
 .prime-experiment{display:grid;gap:16px;color:#2c3b61}
 .prime-question{background:#edf2ff;border:1px solid #cfdafa;padding:20px;border-radius:15px}
-.prime-question>strong{display:block;font-size:17px;margin-bottom:12px}
+.prime-question>h3{display:block;font-size:17px;margin:0 0 12px}
 .prime-question>label{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:800;color:#5b6c95}
 .prime-question>label span{font-size:26px;color:#425aca;font-weight:950}
 .prime-question>input{width:100%;accent-color:#4d64d9;cursor:pointer;margin:12px 0}
