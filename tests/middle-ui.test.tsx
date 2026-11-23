@@ -23,7 +23,7 @@ describe('middle school interactive learning portal',()=>{
     expect(screen.getByRole('heading',{name:'직접 탐구'})).toBeTruthy();
     expect(screen.getByRole('heading',{name:/소수만의 곱/})).toBeTruthy();
     expect(screen.getByRole('group',{name:'학습 단계'}).querySelectorAll('button')).toHaveLength(2);
-    const number=screen.getByLabelText(/분해할 수/);
+    const number=screen.getByRole('slider',{name:/분해할 수/});
     fireEvent.change(number,{target:{value:'48'}});
     expect(screen.getByRole('img',{name:/48개의 점/})).toBeTruthy();
     fireEvent.click(screen.getByRole('button',{name:/48 ÷ 2 계산하기/}));
