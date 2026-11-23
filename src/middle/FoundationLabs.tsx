@@ -79,7 +79,7 @@ function RepeatingLab(){
   const firstRepeat=remainder===0?-1:seen.slice(0,-1).indexOf(remainder);
   const finished=remainder===0||firstRepeat>=0;
   const digits=steps.map(s=>s.digit).join('');
-  const expression=steps.length===0?'아직 계산하지 않았어요':remainder===0?
+  const expression=steps.length===0?(initial===0?String(integer):'아직 계산하지 않았어요'):remainder===0?
     String(integer)+'.'+digits:
     firstRepeat>=0?String(integer)+'.'+digits.slice(0,firstRepeat)+'('+digits.slice(firstRepeat)+')':
       String(integer)+'.'+digits+'…';

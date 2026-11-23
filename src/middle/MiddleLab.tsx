@@ -201,6 +201,19 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
       </>:<>
         <path d={pointsToLine(fn)} stroke="#5267e8" strokeWidth="3.5" fill="none" clipPath="url(#middle-graph-clip)"/>
         {(topic==='systems'||topic==='functionIntersection')&&<path d={pointsToLine(x=>-x+(topic==='systems'?2:4))} stroke="#ef9958" strokeWidth="3" fill="none" strokeDasharray="7 4"/>}
+        {(topic==='systems'||topic==='functionIntersection')&&a!==-1&&(()=>{
+          const intercept=topic==='systems'?2:4;
+          const ix=(intercept-b)/(a+1),iy=-ix+intercept;
+          const point=toGraph(ix,iy);
+          return <g><circle cx={point.x} cy={point.y} r="6.5" stroke="#fff" strokeWidth="2"
+            fill="#25a183"/><text x={point.x+9} y={point.y-9} fill="#22856d" fontSize="12" fontWeight="850">
+            교점 ({format(ix)}, {format(iy)})</text></g>;
+        })()}
+        {topic==='quadraticEquation'&&[a,b].map((root,i)=>{
+          const p=toGraph(root,0);
+          return <g key={i}><circle cx={p.x} cy={p.y} r="6" stroke="#fff" strokeWidth="2" fill="#e38a59"/>
+            <text x={p.x} y={p.y+23} textAnchor="middle" fill="#bb734e" fontSize="12">x={root}</text></g>;
+        })}
       </>}
       <defs><clipPath id="middle-graph-clip"><rect x="8" y="8" width="396" height="255"/></clipPath></defs>
       <text x="15" y="23" fill="#5969aa" fontSize="12" fontWeight="700">{model.value}</text>
@@ -220,7 +233,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
   }
   if(model.visual==='sector'||model.visual==='circle'){
     const degree=topic==='circleTheorem'?a:b;
-    const r=topic==='sectors'?45+a*7:45+b*7,center=205,cy=138;
+    const r=(topic==='sectors'?a:b)*13,center=205,cy=138;
     const t=degree*Math.PI/180;
     const endX=center+r*Math.cos(-t),endY=cy+r*Math.sin(-t);
     const path='M'+center+' '+cy+' L'+(center+r)+' '+cy+' A'+r+' '+r+' 0 '+(degree>180?1:0)+' 0 '+endX+' '+endY+' Z';
@@ -296,7 +309,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     </svg>;
   }
   if(model.visual==='parallelogram'){
-    const base=40+b*16,theta=a*Math.PI/180;
+    const base=b*18,theta=a*Math.PI/180;
     const dx=90*Math.cos(theta),dy=90*Math.sin(theta);
     const x=110,y=230;
     const pts=[x+','+y,(x+base)+','+y,(x+base+dx)+','+(y-dy),(x+dx)+','+(y-dy)].join(' ');
@@ -309,7 +322,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     </svg>;
   }
   if(model.visual==='similar'){
-    const base=18+b*4.5,large=base*a;
+    const base=b*6,large=base*a;
     return <svg viewBox="0 0 412 272" role="img" aria-label="닮음비에 따라 동시에 변하는 두 정사각형" className="middle-svg">
       <rect x="42" y={223-base} width={base} height={base} stroke="#3e9c82" strokeWidth="3" fill="#dcf5eb"/>
       <rect x="160" y={223-large} width={large} height={large} stroke="#556ddd" strokeWidth="3" fill="#e1e7ff"/>
@@ -334,7 +347,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     </svg>;
   }
   if(model.visual==='cylinder'){
-    const r=25+a*5,height=70+b*8,cx=205,topY=230-height;
+    const r=11*a,height=11*b,cx=205,topY=230-height;
     return <svg viewBox="0 0 412 272" role="img" aria-label="반지름과 높이에 따라 부피가 변하는 원기둥" className="middle-svg">
       <path d={'M'+(cx-r)+' '+topY+' V230 A'+r+' '+(r/3)+' 0 0 0 '+(cx+r)+' 230 V'+topY}
         fill="#e0e8ff" stroke="#5268d5" strokeWidth="2.5"/>
@@ -388,7 +401,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
   }
   if(model.visual==='triangle'){
     const radians=a*Math.PI/180;
-    const length=40+b*17;
+    const length=b*20;
     const width=length*Math.cos(radians),height=length*Math.sin(radians);
     const sx=94,by=226,px=sx+width,topY=by-height;
     return <svg viewBox="0 0 412 272" role="img" aria-label="변 길이와 각도를 조절하는 삼각형" className="middle-svg">
@@ -413,6 +426,23 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
         return <g key={i}><rect x={x} y={242-h} width={w} height={h} rx="6" fill={i%2?'#f1af70':'#7189ea'}/>
           <text x={x+w/2} y={236-h} textAnchor="middle" fontSize="13" fill="#4d5d8b">{v}</text></g>;
       })}
+    </svg>;
+  }
+  if(model.visual==='number' && topic==='integers'){
+    const from=a,to=a+b,position=(n:number)=>206+n*9;
+    return <svg viewBox="0 0 412 272" role="img" aria-label={a+'에서 '+(b>=0?'오른쪽':'왼쪽')+' '+Math.abs(b)+'칸 이동하여 '+to+'에 도착하는 수직선'} className="middle-svg">
+      <line x1="20" y1="150" x2="392" y2="150" stroke="#9aa9c4" strokeWidth="3"/>
+      {Array.from({length:41},(_,i)=>i-20).map(n=><g key={n}>
+        <line x1={position(n)} y1={n%5===0?142:146} x2={position(n)} y2="158" stroke="#899cb6"/>
+        {n%5===0&&<text x={position(n)} y="173" textAnchor="middle" fontSize="11" fill="#7486a6">{n}</text>}
+      </g>)}
+      <line x1={position(from)} y1="115" x2={position(to)} y2="115" stroke="#506bd9" strokeWidth="4"/>
+      <path d={b>=0?'M'+position(to)+',115 l-11,-7 v14 Z':'M'+position(to)+',115 l11,-7 v14 Z'} fill="#506bd9"/>
+      <circle cx={position(from)} cy="150" r="8" fill="#edab73" stroke="#fff" strokeWidth="2.5"/>
+      <circle cx={position(to)} cy="150" r="8" fill="#4d69d5" stroke="#fff" strokeWidth="2.5"/>
+      <text x={position(from)} y="196" textAnchor="middle" fontSize="13" fill="#ac783e">시작 {from}</text>
+      <text x={position(to)} y="225" textAnchor="middle" fontSize="15" fontWeight="850" fill="#3e57b2">결과 {to}</text>
+      <text x="206" y="33" fontSize="17" textAnchor="middle" fill="#455faf">{from} + ({b}) = {to}</text>
     </svg>;
   }
   if(model.visual==='number'){
