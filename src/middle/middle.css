@@ -87,3 +87,10 @@
 .middle-proportion-toggle{display:flex;gap:6px;border:1px solid #dce4fa;background:#eff3ff;border-radius:9px;padding:4px;margin-top:5px}
 .middle-proportion-toggle button{flex:1;border:none;padding:10px 7px;border-radius:7px;background:transparent;color:#74819d;font-size:12px;font-weight:800}
 .middle-proportion-toggle button[aria-pressed=true]{background:white;color:#4860c5;box-shadow:0 2px 8px #4a5fa91a}
+
+.middle-activity-cue{display:flex;flex-direction:column;gap:9px;padding:15px 20px;border-left:4px solid #5069d4;background:#f0f4ff;border-radius:11px;line-height:1.8}
+.middle-activity-cue span{font-size:11px;font-weight:900;color:#4d65c6;letter-spacing:.6px}
+.middle-activity-cue strong{font-size:15px;color:#2b4084;font-weight:800}
+.middle-why{background:#f8f9ff;border:1px solid #e2e9fa;border-radius:12px;padding:14px 18px;line-height:1.9;color:#5c6e92}
+.middle-why summary{cursor:pointer;font-size:14px;font-weight:900;color:#566abb}
+.middle-why p{margin:10px 0 0;font-size:13px}
