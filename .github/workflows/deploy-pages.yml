@@ -33,7 +33,7 @@ jobs:
       - name: Validate all educational UI
         run: npm run test:ui
       - name: Install Chromium
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install chromium
       - name: Validate GitHub Pages base URL and all grade lessons
         run: npm run test:viewport
       - name: Verify static output
