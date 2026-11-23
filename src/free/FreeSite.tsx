@@ -44,7 +44,7 @@ export default function FreeSite(){
     <nav className="free-level-nav" aria-label="학교급 선택">
       <strong>✦ 수학천재 FREE</strong>
       <span className="free-current-level">초등 1~6학년</span>
-      <span className="free-level-intro">중학교 수학도 직접 움직이며 배워요.</span>
+      <span className="free-level-intro">중학교 수학도 숫자와 도형을 바꿔 보세요.</span>
       <div role="group" aria-label="중학교 수학 선택">
         {([1,2,3] as const).map(grade=><button type="button" key={grade}
           onClick={()=>openMiddle(grade)}>중{grade} 수학 →</button>)}

@@ -392,7 +392,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
       <text x="206" y="90" fontSize="19" textAnchor="middle" fill="#4a5fa9" fontWeight="800">{model.value}</text>
     </svg>;
   }
-  return <svg viewBox="0 0 412 272" role="img" aria-label="숫자 변경에 따라 수량과 구성이 바뀌는 시각 교구" className="middle-svg">
+  return <svg viewBox="0 0 412 272" role="img" aria-label="숫자 변경에 따라 수량과 구성이 바뀌는 수학 그림" className="middle-svg">
     <rect x="28" y="36" width="356" height="195" rx="17" fill="#f5f7ff" stroke="#e4e8f8" strokeWidth="2"/>
     {Array.from({length:Math.min(40,Math.max(1,Math.abs(Math.round(a*b)||a)))},(_,i)=>{
       const col=i%10,row=Math.floor(i/10);
@@ -415,8 +415,8 @@ export default function MiddleLab({topic}:{topic:MiddleTopic}){
     setAttempts(prev=>prev+1);
     if(Math.random()<a/(a+b))setSuccesses(prev=>prev+1);
   };
-  return <section className="middle-lab" aria-label="직접 조작하는 수학 개념 실험실">
-    <div className="middle-lab-head"><span>🖐️ LIVE CONCEPT LAB</span><h3>직접 조절하면서 개념을 발견하세요</h3></div>
+  return <section className="middle-lab" aria-label="직접 탐구하는 수학 실험">
+    <div className="middle-lab-head"><span>🖐️ TRY IT YOURSELF</span><h3>값을 바꾸며 변화를 살펴보세요</h3></div>
     <div className="middle-lab-grid">
       <div className="middle-controls">
         <label htmlFor="middle-control-a">{config.a.label} <strong>{a}</strong></label>

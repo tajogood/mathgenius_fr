@@ -5,7 +5,7 @@ import {createMiddleProblem,type MiddleProblem} from './problems.ts';
 import './middle.css';
 
 type Grade=1|2|3;
-type Phase=0|1|2;
+type Phase=0|1;
 const STORAGE_KEY='mathgenius.middle.completed.v1';
 function loadCompleted():string[]{
   try{
@@ -89,9 +89,9 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
     </header>
     <div className="middle-topline">
       <div className="middle-headline">
-        <span>중학교 수학 · 직접 움직이는 개념</span>
+        <span>중학교 수학 · 직접 탐구</span>
         <h1>중{grade} 수학을 손으로 이해해요.</h1>
-        <p>개념 이해 → 실험 교구 → 문제 풀이 · 서버 로그인 없이 무료 이용</p>
+        <p>숫자와 도형을 바꿔 보고, 문제로 확인하세요. · 로그인 없이 무료 이용</p>
       </div>
       <div className="middle-grade-select" role="group" aria-label="중학교 학년 선택">
         {([1,2,3] as const).map(g=><button key={g} type="button"
@@ -127,35 +127,26 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
           <span className="middle-chapter-icon" aria-hidden="true">{chapter.illustration}</span>
         </div>
         <div className="middle-steps" aria-label="학습 단계">
-          {(['개념 이해','직접 실험','문제 확인'] as const).map((name,i)=>
+          {(['직접 탐구','문제 풀기'] as const).map((name,i)=>
             <button type="button" key={name} aria-current={phase===i?'step':undefined}
               className={phase===i?'middle-step-selected':''}
               onClick={()=>setPhase(i as Phase)}>
               <span>{i+1}</span>{name}</button>)}
         </div>
+
         {phase===0&&<section className="middle-concept">
-          <div className="middle-section-label"><span>STEP 01 · UNDERSTAND</span><h3>원리를 먼저 알아봐요</h3></div>
-          {chapter.concept.map((text,i)=><article key={i} className="middle-concept-card">
-            <div className="middle-concept-number">{i+1}</div>
-            <p>{text}</p>
-          </article>)}
-          <div className="middle-inquiry"><strong>🤔 생각해 볼 질문</strong><p>{chapter.inquiry}</p></div>
-          <button type="button" className="middle-next" onClick={()=>setPhase(1)}>
-            움직이는 교구로 확인하기 →</button>
-        </section>}
-        {phase===1&&<section className="middle-concept">
-          <div className="middle-section-label"><span>STEP 02 · EXPERIMENT</span>
-            <h3>숫자와 도형을 직접 바꿔 보세요</h3></div>
+          <div className="middle-section-label"><span>STEP 01 · EXPLORE</span>
+            <h3>숫자와 도형을 바꿔 보세요</h3></div>
           <MiddleLab key={chapter.id} topic={chapter.topic}/>
-          <div className="middle-inquiry"><strong>확인해 볼 내용</strong><p>{chapter.inquiry}</p></div>
-          <button type="button" className="middle-next" onClick={()=>setPhase(2)}>
-            배운 개념으로 문제 풀기 →</button>
+          <div className="middle-inquiry"><strong>눈여겨볼 점</strong><p>{chapter.inquiry}</p></div>
+          <button type="button" className="middle-next" onClick={()=>setPhase(1)}>
+            문제 풀어보기 →</button>
         </section>}
-        {phase===2&&<section className="middle-concept middle-quiz">
-          <div className="middle-section-label"><span>STEP 03 · PRACTICE</span>
-            <h3>스스로 문제를 해결해요</h3></div>
+        {phase===1&&<section className="middle-concept middle-quiz">
+          <div className="middle-section-label"><span>STEP 02 · PRACTICE</span>
+            <h3>문제로 확인해 보세요</h3></div>
           <div className="middle-question">
-            <div className="middle-question-badge">개념 확인 · {chapter.title}</div>
+            <div className="middle-question-badge">연습 문제 · {chapter.title}</div>
             <h3>{question.prompt}</h3>
             <div className="middle-choice-grid">
               {question.choices.map((choice,i)=><button key={choice} type="button"
@@ -167,7 +158,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
               </button>)}
             </div>
             {result&&<div role="status" className={'middle-feedback '+(correct?'middle-feedback--right':'middle-feedback--wrong')}>
-              <strong>{correct?'🎉 정답이에요! 개념을 이해했어요.':'다시 생각해 보세요. 정답은 '+question.answer+'입니다.'}</strong>
+              <strong>{correct?'🎉 정답입니다!':'다시 생각해 보세요. 정답은 '+question.answer+'입니다.'}</strong>
               <p>{question.solution}</p>
             </div>}
             {!result&&<button type="button" className="middle-hint-toggle"
@@ -177,8 +168,8 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
               <button type="button" onClick={regenerate}>↻ 다른 문제 풀기</button>
               {correct&&<button type="button" className="middle-next" onClick={openNext}>
                 다음 단원으로 이동 →</button>}
-              {result&&!correct&&<button type="button" onClick={()=>setPhase(1)}>
-                직접 실험으로 다시 확인하기</button>}
+              {result&&!correct&&<button type="button" onClick={()=>setPhase(0)}>
+                다시 탐구하기</button>}
             </div>
           </div>
         </section>}

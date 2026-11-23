@@ -60,7 +60,7 @@ const curriculumPage={
 };
 const middleOverview={
   slug:'curriculum/middle',
-  title:'중학교 1~3학년 수학 개념·교구 무료 체험 | 수학천재',
+  title:'중학교 1~3학년 수학 직접 탐구·무료 문제 풀이 | 수학천재',
   description:'중1·중2·중3 수학: 소인수분해·일차방정식·함수·도형·확률·이차함수·삼각비까지 회원가입 없이 수학 개념을 직접 움직이며 배워요.',
   eyebrow:'중등 수학 1~3학년',
   headline:'중학교 1·2·3학년 수학 개념과 실험 학습',
@@ -71,9 +71,9 @@ const middlePages=([1,2,3]).map(grade=>({
   title:'중학교 '+grade+'학년 수학 단원·무료 개념 실험 | 수학천재',
   description:'중'+grade+' 수학 1·2학기 단원을 직접 탐구합니다. '+
     middleUnits.filter(u=>u.grade===grade).slice(0,5).map(u=>u.title).join('·')+
-    ' 등 원리를 배우고 그래프와 도형 교구를 움직이며 문제를 풀어보세요.',
+    ' 등 그래프와 도형을 직접 조절하고 문제를 풀어보세요.',
   eyebrow:'중학교 '+grade+'학년 수학',
-  headline:'중'+grade+' 수학 1·2학기 개념과 직접 조작 교구',
+  headline:'중'+grade+' 수학 1·2학기 그래프·도형 탐구와 문제 풀이',
   intro:'중'+grade+' 학생을 위한 자체 개념 수업과 문제 풀이입니다. '+
     (grade===3?'2022 개정 중3 과정은 2027학년도부터 적용됩니다. ':'')+
     '단원 배치와 학교·교과서 진도는 다를 수 있습니다.',
@@ -237,7 +237,7 @@ function middleGradeBody(grade){
       '</div></section>';
   }).join('')+
   '<section class="panel"><h2>직접 만져보는 중등 수학</h2>'+
-    '<p>각 단원에서 개념 설명 → 조작 가능한 그래프·기하 교구 → 풀이 문제를 이용합니다. 별도 회원가입이 없고 학습 진도는 해당 브라우저에 저장됩니다.</p>'+
+    '<p>단원에 들어가면 바로 숫자·그래프·도형을 직접 바꿔 보고, 이어서 연습 문제를 풀고 해설을 확인합니다. 별도 회원가입이 없고 학습 진도는 해당 브라우저에 저장됩니다.</p>'+
     '<p><a href="../middle/">중학교 1~3학년 단원 전체 보기</a></p></section>';
 }
 function middleOverviewBody(){

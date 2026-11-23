@@ -17,17 +17,18 @@ describe('middle school interactive learning portal',()=>{
     fireEvent.click(screen.getByRole('button',{name:/중3.*완료/}));
     expect(screen.getByRole('heading',{name:/중3 수학을/})).toBeTruthy();
   });
-  it('concept -> lab changes live math results -> exercise practice',()=>{
+  it('opens directly to interactive exploration, then proceeds to practice',()=>{
     render(<MiddleApp initialGrade={1} onElementary={()=>{}}/>);
-    expect(screen.getByRole('heading',{name:'원리를 먼저 알아봐요'})).toBeTruthy();
-    fireEvent.click(screen.getByRole('button',{name:/움직이는 교구로 확인하기/}));
-    expect(screen.getByRole('heading',{name:'직접 조절하면서 개념을 발견하세요'})).toBeTruthy();
+    expect(screen.queryByText('개념 이해')).toBeNull();
+    expect(screen.getByRole('heading',{name:'숫자와 도형을 바꿔 보세요'})).toBeTruthy();
+    expect(screen.getByRole('heading',{name:'값을 바꾸며 변화를 살펴보세요'})).toBeTruthy();
+    expect(screen.getByRole('group',{name:'학습 단계'}).querySelectorAll('button')).toHaveLength(2);
     const slider=screen.getByLabelText(/소인수분해할 자연수/);
     expect(slider).toBeTruthy();
     fireEvent.change(slider,{target:{value:'48'}});
     expect(screen.getByText('48 = 2×2×2×2×3')).toBeTruthy();
-    fireEvent.click(screen.getByRole('button',{name:/배운 개념으로 문제 풀기/}));
-    expect(screen.getByRole('heading',{name:'스스로 문제를 해결해요'})).toBeTruthy();
+    fireEvent.click(screen.getByRole('button',{name:/문제 풀어보기/}));
+    expect(screen.getByRole('heading',{name:'문제로 확인해 보세요'})).toBeTruthy();
     expect(screen.getByRole('button',{name:/다른 문제 풀기/})).toBeTruthy();
   });
   it('free site retains elementary mode and switches to middle with no login',()=>{
