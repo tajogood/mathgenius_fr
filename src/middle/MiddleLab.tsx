@@ -155,7 +155,7 @@ function describe(topic:MiddleTopic,a:number,b:number,inverse=false):Model{
     case 'boxplot':return m('자료: '+Array.from({length:8},(_,i)=>b+i*a).join(', '),
       '중앙값 '+format(b+3.5*a)+' · 사분위범위 '+format(4*a),
       '작은 쪽 네 값과 큰 쪽 네 값의 중앙값으로 Q1, Q3를 정해요.','boxplot',a,b);
-    case 'scatter':return m('y = '+a+'x'+signed(b),
+    case 'scatter':return m('추세선 y = '+a+'x'+signed(b),
       a>0?'양의 상관관계':a<0?'음의 상관관계':'선형 상관관계 없음',
       '기울기가 양수면 오른쪽으로 갈수록 점이 올라가고 음수면 내려가요.','scatter',a,b);
   }
@@ -296,7 +296,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
   }
   if(model.visual==='parallelogram'){
     const base=40+b*16,theta=a*Math.PI/180;
-    const dx=75*Math.cos(theta),dy=100*Math.sin(theta);
+    const dx=90*Math.cos(theta),dy=90*Math.sin(theta);
     const x=110,y=230;
     const pts=[x+','+y,(x+base)+','+y,(x+base+dx)+','+(y-dy),(x+dx)+','+(y-dy)].join(' ');
     return <svg viewBox="0 0 412 272" role="img" aria-label="이웃각과 길이가 변하는 평행사변형" className="middle-svg">
@@ -308,12 +308,12 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     </svg>;
   }
   if(model.visual==='similar'){
-    const base=39,large=base*a;
+    const base=18+b*4.5,large=base*a;
     return <svg viewBox="0 0 412 272" role="img" aria-label="닮음비에 따라 동시에 변하는 두 정사각형" className="middle-svg">
       <rect x="42" y={223-base} width={base} height={base} stroke="#3e9c82" strokeWidth="3" fill="#dcf5eb"/>
       <rect x="160" y={223-large} width={large} height={large} stroke="#556ddd" strokeWidth="3" fill="#e1e7ff"/>
-      <text x="43" y="245" fontSize="13" fill="#3e9c82">1배</text>
-      <text x="165" y="245" fontSize="13" fill="#4b5db3">{a}배 · 넓이 {a*a}배</text>
+      <text x="43" y="245" fontSize="13" fill="#3e9c82">{b}cm</text>
+      <text x="165" y="245" fontSize="13" fill="#4b5db3">{b*a}cm · 넓이 {a*a}배</text>
       <text x="26" y="36" fontSize="14" fill="#71809e">길이비 1 : {a}</text>
     </svg>;
   }
