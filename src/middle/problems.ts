@@ -15,6 +15,25 @@ const fraction=(a:number,b:number):string=>{
 const pnum=(n:number)=>n>=0?'+'+n:String(n);
 function P(topic:MiddleTopic,prompt:string,answer:string,wrong:string[],solution:string):MiddleProblem{
   const distinct=[...new Set(wrong.filter(x=>x!==answer&&x!=='').map(String))];
+  // A numerical generator may accidentally produce duplicate distractors
+  // for symmetric examples (such as 3-4-5 triangles or equal roots).
+  // Preserve four distinct choices with mathematically meaningful alternatives.
+  const numeric=Number(answer);
+  const fillers=Number.isFinite(numeric)?
+    Array.from({length:40},(_,i)=>String(numeric+(i%2===0?1:-1)*(Math.floor(i/2)+1))):
+    answer.includes('π')?['π cm²','2π cm²','3π cm²','4π cm²','5π cm²','6π cm²','9π cm²','12π cm²','18π cm²','24π cm²','36π cm²']:
+    answer.includes('x²')?['x²','x²+x+1','x²+2x+1','x²+3x+2','x²+4x+4','x²+5x+6']:
+    answer.startsWith('(x+')?['(x+1)(x+1)','(x+1)(x+2)','(x+2)(x+3)','(x+3)(x+4)','(x+5)(x+6)']:
+    answer.startsWith('(')?['(0, 0)','(1, 1)','(2, 2)','(3, 3)','(−1, 1)','(0, 2)','(−2, 2)','(1, −2)']:
+    answer.includes('√')?['1/2','√2/2','√3/2','2√2','3√2','2√3','3√3','√5','√7','0']:
+    answer.includes('×')?['2×2','2×3','2×2×2','3×3','2×3×5','2×2×3×3','2×2×2×3']:
+    answer.startsWith('±')?['±1','±2','±3','±4','±5','±6','±7','±8','±9','±10','±11','±12']:
+    answer.startsWith('x')?['x','x²','x³','x⁴','x⁵','x⁶','x⁷','x⁸','x⁹','x¹⁰','x¹¹','x¹²']:
+    ['0','1','2','−1','1/2','1/3','2/3','해가 없음','조건이 부족함'];
+  for(const candidate of fillers){
+    if(distinct.length>=3)break;
+    if(candidate!==answer&&!distinct.includes(candidate))distinct.push(candidate);
+  }
   if(distinct.length<3)throw Error('Incorrect distractor bank for '+topic);
   const arr=[answer,...distinct.slice(0,3)];
   const offset=random(0,3);
