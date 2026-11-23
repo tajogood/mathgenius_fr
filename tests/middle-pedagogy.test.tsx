@@ -66,7 +66,7 @@ describe('middle-school concept-first exploration QA',()=>{
     render(<RadicalDiscovery/>);
     expect(screen.getByText('√18')).toBeTruthy();
     fireEvent.click(screen.getByRole('button',{name:/같은 수 두 개를 짝지어/}));
-    expect(screen.getByText(/3√2/)).toBeTruthy();
+    expect(screen.getAllByText(/3√2/).length).toBeGreaterThan(0);
   });
   it('dispersion remains centered at mean while variance grows with spread',()=>{
     render(<DispersionDiscovery/>);
