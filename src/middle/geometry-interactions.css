@@ -1,0 +1,26 @@
+.tactile-lesson{display:grid;gap:15px;color:#32436b}
+.tactile-lesson h3{font-size:19px;margin:0;letter-spacing:-.6px}
+.tactile-lesson>p{font-size:14px;color:#617393;line-height:1.85;margin:0}
+.tactile-grid{display:grid;grid-template-columns:minmax(220px,.85fr) minmax(0,1.15fr);gap:14px}
+.tactile-controls{border:1px solid #dbe6f9;background:#f9faff;border-radius:13px;padding:21px;display:flex;flex-direction:column;gap:13px}
+.tactile-controls label{display:flex;align-items:center;justify-content:space-between;font-size:13px;color:#687896;font-weight:850}
+.tactile-controls label strong{font-size:19px;color:#4460ca}
+.tactile-controls input{width:100%;accent-color:#5067d5;cursor:pointer;min-height:24px}
+.tactile-svg{display:block;width:100%;min-height:265px;background:#fff;border-radius:13px;border:1px solid #dce5f8;touch-action:none;cursor:crosshair}
+.tactile-answer{padding:17px;background:#e9efff;border:1px solid #d4dffc;border-radius:13px;color:#3f59bd;font-weight:900;font-size:23px;text-align:center;margin:5px 0 0}
+.tactile-answer small{display:block;font-size:12px;margin-top:5px;color:#697eac}
+.tactile-label{font-size:13px;font-weight:850;color:#687896;margin:5px 0}
+.tactile-choices{display:flex;flex-wrap:wrap;gap:6px}
+.tactile-choices button{border:1px solid #dbe4f7;background:white;border-radius:9px;padding:10px 15px;color:#5e74a8;font-weight:850}
+.tactile-choices button[aria-pressed=true]{background:#5269d7;border-color:#5269d7;color:white}
+.tactile-action{border:0;border-radius:10px;padding:14px;background:#5269d7;color:white;font-size:14px;font-weight:850}
+.tactile-display{min-width:0;display:flex;flex-direction:column;gap:15px;justify-content:center;align-items:center;text-align:center;border:1px solid #e0e8f9;border-radius:13px;padding:20px;background:#fff}
+.tactile-display p{font-size:13px;line-height:1.8;color:#7584a0;margin:0}
+.tactile-formula{font-size:clamp(21px,2vw,28px);font-weight:900;color:#3d56b7;word-break:break-word}
+.tactile-formula strong{color:#c07946}
+.tactile-factor-row{display:flex;gap:6px;align-items:center;justify-content:center}
+.tactile-factor-row span{width:54px;height:54px;display:grid;place-items:center;border-radius:12px;font-size:23px;font-weight:900;border:2px solid #aebef0;color:#4861c9;background:#edf1ff;transition:background .2s}
+.tactile-factor-row span.outside{background:#dff3e9;color:#2c966f;border-color:#84cbac}
+.tactile-factor-row span.tactile-unpaired{background:#fff0dd;border-color:#f0c693;color:#a46c32}
+.tactile-why{background:#fff8ed;border:1px solid #f4e3bf;border-radius:10px;padding:15px 19px;color:#91723d!important}
+@media(max-width:680px){.tactile-grid{grid-template-columns:1fr}.tactile-controls,.tactile-display{padding:16px}.tactile-svg{min-height:210px}}
