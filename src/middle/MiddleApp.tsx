@@ -2,6 +2,7 @@ import {useEffect,useMemo,useState} from 'react';
 import MiddleLab from './MiddleLab.tsx';
 import {middleGrades,middleUnits,type MiddleChapter} from './curriculum.ts';
 import {createMiddleProblem,type MiddleProblem} from './problems.ts';
+import {activityGuide} from './activityGuide.ts';
 import './middle.css';
 
 type Grade=1|2|3;
@@ -136,9 +137,13 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
 
         {phase===0&&<section className="middle-concept">
           <div className="middle-section-label"><span>STEP 01 · EXPLORE</span>
-            <h3>숫자와 도형을 바꿔 보세요</h3></div>
+            <h3>직접 탐구</h3></div>
+          <div className="middle-activity-cue"><span>오늘 해 볼 일</span>
+            <strong>{activityGuide[chapter.topic].action}</strong></div>
           <MiddleLab key={chapter.id} topic={chapter.topic}/>
-          <div className="middle-inquiry"><strong>눈여겨볼 점</strong><p>{chapter.inquiry}</p></div>
+          <div className="middle-inquiry"><strong>관찰할 점</strong><p>{activityGuide[chapter.topic].notice}</p></div>
+          <details className="middle-why"><summary>왜 이런 결과가 나올까요?</summary>
+            <p>{activityGuide[chapter.topic].reason}</p></details>
           <button type="button" className="middle-next" onClick={()=>setPhase(1)}>
             문제 풀어보기 →</button>
         </section>}
