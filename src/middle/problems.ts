@@ -1,4 +1,4 @@
-import {type MiddleTopic} from './curriculum.ts';
+import {middleUnits,type MiddleTopic} from './curriculum.ts';
 
 export type MiddleProblem={
   topic:MiddleTopic;prompt:string;answer:string;choices:string[];solution:string;
@@ -37,7 +37,9 @@ function P(topic:MiddleTopic,prompt:string,answer:string,wrong:string[],solution
   if(distinct.length<3)throw Error('Incorrect distractor bank for '+topic);
   const arr=[answer,...distinct.slice(0,3)];
   const offset=random(0,3);
-  return {topic,prompt,answer,choices:arr.slice(offset).concat(arr.slice(0,offset)),solution};
+  const concept=middleUnits.find(unit=>unit.topic===topic);
+  return {topic,prompt,answer,choices:arr.slice(offset).concat(arr.slice(0,offset)),
+    solution:solution+' '+(concept?.concept[2]??'')};
 }
 function numberProblem(topic:MiddleTopic,prompt:string,value:number,wrong:number[],solution:string){
   return P(topic,prompt,String(value),wrong.map(String),solution);
