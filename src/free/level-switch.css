@@ -1,0 +1,10 @@
+.free-grade-portal{min-height:100vh}
+.free-level-nav{background:#243454;color:#e8efff;padding:11px clamp(14px,3.5vw,44px);display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-family:system-ui,'Malgun Gothic',sans-serif;font-size:13px}
+.free-level-nav>strong{white-space:nowrap;color:white;font-size:17px;letter-spacing:-.4px}
+.free-current-level{background:#4e64bd;border-radius:9px;padding:7px 11px;color:#fff;font-weight:850;white-space:nowrap}
+.free-level-intro{color:#c4d0e5;flex:1}
+.free-level-nav [role=group]{display:flex;gap:6px}
+.free-level-nav button{background:#f1f4ff;border:1px solid #cdd8f5;color:#334780;border-radius:9px;font:inherit;font-weight:850;padding:8px 12px;white-space:nowrap;cursor:pointer}
+.free-level-nav button:hover{background:#fef3dc}
+@media(max-width:800px){.free-level-intro{display:none}.free-level-nav{justify-content:center;gap:10px}}
+@media(max-width:440px){.free-level-nav{padding:10px;gap:6px}.free-level-nav>strong{font-size:14px}.free-current-level{font-size:11px;padding:7px}.free-level-nav [role=group]{width:100%;justify-content:center}.free-level-nav button{flex:1;font-size:12px;text-align:center}}
