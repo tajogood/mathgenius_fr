@@ -106,7 +106,9 @@ function RoundNet({shape,select,selected}:{
      원 1개 + 부채꼴 옆면</text>
  </svg>;
 }
-export function RoundSolidsExplorerLab({problem:p,standardId}:LabProps){
+export function RoundSolidsExplorerLab({problem:p,phase,standardId}:LabProps){
+ // 문제 풀이 중에는 그림이 곧 문제이므로 모양을 바꾸거나 이름을 보여 주지 않는다
+ const quiz=phase==='question';
  const initial:RoundSolid=standardId==='6수03-08'?'cylinder':
     p.topic==='shapes3d'&&p.a===2?'sphere':
     p.topic==='curvedsolids'&&p.a===1?'cone':
@@ -159,17 +161,17 @@ export function RoundSolidsExplorerLab({problem:p,standardId}:LabProps){
    if(e.key==='ArrowDown'){e.preventDefault();setPitch(v=>bound(v-15,-72,72));}
  };
  return <div className="lab-body lab-round-solids" data-testid="round-solid-explorer">
-   <div className="round-solids-select" role="group" aria-label="원기둥 원뿔 구 모양 선택">
-     {(['cylinder','cone','sphere'] as const).map(name=><button key={name}
+   <div className="round-solids-select" role="group" aria-label="원기둥 원뿔 구 모양 선택" hidden={quiz}>
+     {!quiz&&(['cylinder','cone','sphere'] as const).map(name=><button key={name}
        type="button" aria-pressed={shape===name} onClick={()=>chooseShape(name)}>
        {ROUND_SOLID_LABELS[name]}</button>)}
-     <button type="button" aria-expanded={netOpen} onClick={()=>setNetOpen(v=>!v)}>
-        {netOpen?'전개도 접기':'전개도 펼치기'}</button>
+     {!quiz&&<button type="button" aria-expanded={netOpen} onClick={()=>setNetOpen(v=>!v)}>
+        {netOpen?'전개도 접기':'전개도 펼치기'}</button>}
    </div>
    <div className={'round-layout'+(netOpen?' round-layout--net':'')}>
      <svg viewBox="0 0 334 235" className="round-solid-stage" role="group" tabIndex={0}
        data-testid="round-solid-rotate-stage"
-       aria-label={'마우스나 손가락으로 직접 회전하는 '+ROUND_SOLID_LABELS[shape]+' 입체'}
+       aria-label={'마우스나 손가락으로 직접 회전하는 '+(quiz?'문제 속':ROUND_SOLID_LABELS[shape])+' 입체'}
        onPointerDown={start} onPointerMove={move}
        onPointerUp={finish} onPointerCancel={finish} onKeyDown={onKey}>
        <defs>
@@ -213,8 +215,8 @@ export function RoundSolidsExplorerLab({problem:p,standardId}:LabProps){
      </div>}
    </div>
    <div className="round-discovery" aria-live="polite">
-     <strong>{ROUND_SOLID_LABELS[shape]} · 평평한 원형 밑면 {info.flatBases}개 · 둥근 곡면 {info.curvedSurfaces}개</strong>
-     <p>{roundSurfaceExplanation(shape,selected)}</p>
+     <strong>{quiz?'그림 속 입체':ROUND_SOLID_LABELS[shape]} · 평평한 원형 밑면 {info.flatBases}개 · 둥근 곡면 {info.curvedSurfaces}개</strong>
+     <p>{quiz?'입체를 돌려 보며 평평한 원 모양 밑면과 둥근 면이 몇 개인지 세어 보세요.':roundSurfaceExplanation(shape,selected)}</p>
      {shape==='cone'&&<span>꼭짓점 1개 · 원 모양 모서리 1개</span>}
      {shape==='cylinder'&&<span>원 모양의 모서리 2개 · 뾰족한 꼭짓점 0개</span>}
      {shape==='sphere'&&<span>평평한 면 0개 · 꼭짓점 0개</span>}
