@@ -65,3 +65,7 @@
   .mm-stage *{animation-duration:.001s!important;animation-delay:0s!important;animation-iteration-count:1!important}
   .mm-progress{display:none}
 }
+
+/* 초등 화면: 교구·안내 카드 아래 전체 너비 */
+.mm-player--elementary{margin-top:18px}
+.mm-player--elementary .mm-stage{max-height:360px}

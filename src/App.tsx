@@ -5,6 +5,8 @@ import { createProblem, solutionSteps, TOPICS, type Problem, type Topic } from '
 import Visuals from './components/Visuals';
 import { MathText } from './components/MathText.tsx';
 import StandardStudio from './components/StandardStudio.tsx';
+import MotionPlayer from './motion/MotionPlayer.tsx';
+import {ELEMENTARY_SCENES} from './motion/elementary/index.ts';
 import { parseProgress, recordAnswer, unitMastery, masteryCount, nextPracticeTopic, type LearningProgress } from './progress.ts';
 import { diagnosticHint, conceptTipForTopic } from './feedback.ts';
 import { TOPIC_CHALLENGES } from './interactions.ts';
@@ -365,6 +367,9 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
             </>}
           </section>
         </div>
+
+        {phase === 'concept' && ELEMENTARY_SCENES[topic] && <MotionPlayer key={'motion-' + topic}
+          id={topic} scenes={ELEMENTARY_SCENES[topic]!} className="mm-player--elementary"/>}
 
         <div className="below-workspace">
           <div className="learning-tip"><span>🌈</span><div><strong>오늘의 수학 습관</strong><p>틀리는 것도 배움의 일부예요. 정답보다 ‘왜?’를 아는 것이 더 중요해요.</p></div></div>
