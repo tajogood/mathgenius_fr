@@ -35,7 +35,7 @@ test('Pythagoras visualization places three true squares on corresponding triang
   const svg=page.getByRole('img',{name:/각 변에 정사각형/});
   await expect(svg).toBeVisible();
   await expect(svg.locator('polygon')).toHaveCount(4);
-  await expect(svg.locator('text')).toContainText(['9','16','25']);
+  await expect(svg).toContainText('9 + 16 = 25');
 });
 test('middle 3 boxplot changes its real box width when data spread changes',async({page})=>{
   await page.goto('/mathgenius_fr/?level=middle&grade=3');
