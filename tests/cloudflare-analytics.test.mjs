@@ -19,3 +19,8 @@ test('All public static SEO pages include the same analytics beacon',()=>{
   assert.ok(html.includes(token),route+' should use production token');
  }
 });
+test('Cloudflare Pages build uses its own pages.dev analytics token',()=>{
+ const src=readFileSync('scripts/generate-seo.mjs','utf8');
+ assert.match(src,/defaultPagesAnalyticsToken='ef4f06e8eea14dd48885684291e55231'/);
+ assert.match(src,/CF_PAGES === '1' \? defaultPagesAnalyticsToken : defaultGithubAnalyticsToken/);
+});

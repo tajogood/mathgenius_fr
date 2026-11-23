@@ -40,8 +40,10 @@ const siteUrl=normalizeSiteUrl(
 // The original Web Analytics token belongs to tajogood.github.io. Cloudflare
 // validates the hostname, so it must never be silently reused for pages.dev.
 const defaultGithubAnalyticsToken='d88a528d03094ff5894095a38b1792b8';
+// mathgenius-b0c.pages.dev 용 별도 Web Analytics 사이트 토큰 (Cloudflare Pages 빌드 기본값)
+const defaultPagesAnalyticsToken='ef4f06e8eea14dd48885684291e55231';
 const trackingToken=(process.env.WEB_ANALYTICS_TOKEN ||
-  (process.env.CF_PAGES === '1' ? '' : defaultGithubAnalyticsToken)).trim();
+  (process.env.CF_PAGES === '1' ? defaultPagesAnalyticsToken : defaultGithubAnalyticsToken)).trim();
 if(trackingToken && !/^[a-f0-9]{32}$/i.test(trackingToken)) {
   throw new Error('WEB_ANALYTICS_TOKEN must be a 32-character Cloudflare Web Analytics site token');
 }

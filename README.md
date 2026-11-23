@@ -55,10 +55,9 @@ Cloudflare Pages가 제공하는 `CF_PAGES=1`에서는 Vite가 루트 경로(`/`
 정식 도메인을 연결하면 Cloudflare Pages 빌드 환경 변수 `SITE_URL=https://<정식도메인>/`으로
 설정하면 됩니다. 기존 GitHub Pages의 `/mathgenius_fr/` 경로 빌드는 유지됩니다.
 
-**중요: Cloudflare Web Analytics는 호스트명을 검증합니다.** 기존
-`tajogood.github.io`용 웹 애널리틱스 토큰은 `pages.dev`에서 동작하지 않습니다.
-Web Analytics에서 `mathgenius-b0c.pages.dev`를 별도 사이트로 등록한 다음
-새 추적 토큰을 Cloudflare Pages의 **Production 환경 변수 `WEB_ANALYTICS_TOKEN`**에
-입력하고 재배포합니다. 별도의 데이터베이스는 필요하지 않습니다.
-이 환경 변수를 설정하기 전에는 Cloudflare Pages 빌드에서 기존 GitHub 토큰을
-의도적으로 제거하여 잘못된 집계를 방지합니다. GitHub Pages는 기존 추적을 유지합니다.
+**중요: Cloudflare Web Analytics는 호스트명을 검증합니다.** 그래서 사이트마다 토큰이 다릅니다.
+- GitHub Pages(`tajogood.github.io`): `d88a528d03094ff5894095a38b1792b8`
+- Cloudflare Pages(`mathgenius-b0c.pages.dev`, `CF_PAGES=1` 빌드): `ef4f06e8eea14dd48885684291e55231`
+
+두 값은 `scripts/generate-seo.mjs`에 기본값으로 들어 있고, 빌드 환경 변수
+`WEB_ANALYTICS_TOKEN`을 설정하면 그 값이 우선합니다(정식 도메인을 연결할 때 등). 별도의 데이터베이스는 필요하지 않습니다.
