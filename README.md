@@ -19,11 +19,9 @@ npm run preview
 
 ## GitHub Pages
 
-`main`에 변경사항을 올리면 GitHub Actions의 `Deploy free MathGenius to GitHub Pages`가
-Vite로 빌드한 `dist/`를 GitHub Pages에 배포합니다.
+`source` 브랜치 변경 시 GitHub Actions가 빌드·검사를 수행한 뒤 완성된 `dist/`를 `site-build`와 GitHub Pages의 `main`에 자동 반영합니다.
 
-GitHub 저장소에서 **Settings → Pages → Build and deployment → Source = GitHub Actions**를
-한 번 선택해야 할 수 있습니다. 배포 완료 후:
+GitHub Pages 설정은 **Deploy from a branch → main / (root)**입니다. 공개 주소:
 
 **https://tajogood.github.io/mathgenius_fr/**
 
@@ -35,6 +33,8 @@ GitHub Pages 프로젝트 경로 `/mathgenius_fr/`에 맞추어 Vite의 `base`�
 관리자 시스템 및 서버 측 학습 기록 수집 기능이 포함되어 있지 않습니다.
 학습 진도는 현재 브라우저의 `localStorage`에만 저장되며,
 브라우저 데이터를 삭제하거나 다른 기기를 사용하면 이어서 학습할 수 없습니다.
+
+익명 방문자 통계는 Cloudflare Web Analytics로 집계합니다. 공개 첫 화면과 학년별 검색 안내 페이지에 동일한 방문자 추적 비콘을 삽입했으며, 수학 문제 정오답·학생 이름·학습 진도 등은 분석 이벤트로 전송하지 않습니다.
 
 ## 운영
 

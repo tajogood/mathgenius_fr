@@ -147,6 +147,7 @@ function pageHtml(page,body){
     ldJson(pageSchema(page)),
     '<link rel="icon" href="'+prefix+'icon.svg" type="image/svg+xml">',
     '<link rel="stylesheet" href="'+prefix+'seo-guide.css">',
+    "<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{\"token\":\"d88a528d03094ff5894095a38b1792b8\"}'></script>",
     '</head><body>',
   ].filter(Boolean).join('\n');
   return head +

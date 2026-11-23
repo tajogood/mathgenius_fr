@@ -43,7 +43,7 @@ jobs:
           test -s dist/robots.txt
           test -f dist/.nojekyll
           grep -q '/mathgenius_fr/assets/' dist/index.html
-      - name: Publish build to staging branch
+      - name: Publish tested build to staging and GitHub Pages main
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -56,3 +56,4 @@ jobs:
           git commit -m "build: all original lessons and SEO pages from ${GITHUB_SHA}"
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin HEAD:refs/heads/site-build
+          git push --force origin HEAD:refs/heads/main
