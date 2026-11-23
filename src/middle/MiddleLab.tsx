@@ -62,10 +62,11 @@ function repeating(n:number,d:number):string{
   }
   return integer+'.'+(digits||'0');
 }
-type Visual='line'|'polygon'|'sector'|'triangle'|'bars'|'grid'|'parabola'|'number'|'scatter'|'circle'|'balance';
+type Visual='line'|'polygon'|'sector'|'triangle'|'bars'|'grid'|'parabola'|'number'|'scatter'|'circle'|'balance'|
+  'isosceles'|'parallelogram'|'similar'|'area'|'cylinder'|'boxplot'|'rightTriangle';
 type Model={formula:string;detail:string;value:string;visual:Visual;
   graphA?:number;graphB?:number;graphC?:number};
-function describe(topic:MiddleTopic,a:number,b:number):Model{
+function describe(topic:MiddleTopic,a:number,b:number,inverse=false):Model{
   const m=(formula:string,value:string,detail:string,visual:Visual,graphA?:number,graphB?:number,graphC?:number)=>
     ({formula,value,detail,visual,graphA,graphB,graphC});
   switch(topic){
@@ -79,8 +80,11 @@ function describe(topic:MiddleTopic,a:number,b:number):Model{
       '양쪽에서 '+b+'를 빼고 '+a+'로 나누면 x=(24−'+b+')/'+a+'입니다.','balance',a,b);
     case 'coordinates':return m('P = ('+a+', '+b+')','x='+a+' · y='+b,
       '점은 x축으로 '+a+', y축으로 '+b+'에 있으며 축 위의 점은 사분면에 포함되지 않습니다.','line',a,b);
-    case 'proportion':return m('y = '+a+'x · x = '+b,'y = '+(a*b),
-      'x가 1 늘어날 때 y는 '+a+'씩 변합니다.','line',a,0);
+    case 'proportion':return inverse?
+      m('y='+a+'/x · x='+b,b===0?'x=0에서 정의되지 않음':'y='+format(a/b),
+        '반비례에서 두 값의 곱 xy는 '+a+'로 일정하며 x=0은 정의역에서 제외됩니다.','line',a,b):
+      m('y='+a+'x · x='+b,'y='+(a*b),
+        '정비례 그래프는 원점을 지나며 x가 1 늘 때 y는 '+a+'만큼 변합니다.','line',a,0);
     case 'angles':return m(a+'° + '+(180-a)+'° = 180°','나머지 각 '+(180-a)+'°',
       '직선 위 이웃한 두 각의 합은 항상 180°예요.','sector',a,1);
     case 'polygons':return m('('+a+'−2)×180° = '+((a-2)*180)+'°','내각의 합 '+((a-2)*180)+'°',
@@ -88,7 +92,7 @@ function describe(topic:MiddleTopic,a:number,b:number):Model{
     case 'sectors':return m('π×'+a+'²×'+b+'/360','넓이 ≈ '+format(Math.PI*a*a*b/360)+' cm²',
       '전체 원 넓이의 '+format(b/360*100,1)+'%입니다.','sector',b,a);
     case 'solids':return m('π×'+a+'²×'+b,'부피 ≈ '+format(Math.PI*a*a*b)+' cm³',
-      '반지름을 두 배 늘리면 밑넓이와 부피는 네 배가 돼요.','grid',a,b);
+      '반지름을 두 배 늘리면 밑넓이와 부피는 네 배가 돼요.','cylinder',a,b);
     case 'statistics':return m(a+' + '+b+' + 5 = '+(a+b+5),'전체 도수 '+(a+b+5),
       '전체 도수로 나누면 첫 계급의 상대도수는 '+format(a/(a+b+5),3)+'입니다.','bars',a,b);
     case 'recurring':return m(b+'/'+a+' = '+repeating(b,a),repeating(b,a),
@@ -108,14 +112,14 @@ function describe(topic:MiddleTopic,a:number,b:number):Model{
       a===-1?(b===4?'모든 점이 공통':'교점 없음'):'교점 x≈'+format((4-b)/(a+1)),
       '두 직선의 y를 같게 하여 ('+(a+1)+')x='+(4-b)+'를 풀어보세요.','line',a,b,4);
     case 'triangles':return m('180° − 2×'+a+'°','꼭지각 '+(180-2*a)+'°',
-      '이등변삼각형은 밑각이 같으므로 남은 꼭지각을 구할 수 있어요.','triangle',a,b);
+      '이등변삼각형은 밑각이 같으므로 남은 꼭지각을 구할 수 있어요.','isosceles',a,b);
     case 'quadrilaterals':return m(a+'° + '+(180-a)+'° = 180°','이웃각 '+(180-a)+'°',
-      '평행사변형에서 이웃각은 합이 180°이며 마주 보는 각이 같아요.','polygon',4,b);
+      '평행사변형에서 이웃각은 합이 180°이며 마주 보는 각이 같아요.','parallelogram',a,b);
     case 'similarity':return m(b+'×'+a+' = '+(b*a),'큰 도형의 변 '+(b*a)+' cm',
-      '닮음비 '+a+':1이면 넓이비는 '+(a*a)+':1입니다.','polygon',4,b*a);
+      '닮음비 '+a+':1이면 넓이비는 '+(a*a)+':1입니다.','similar',a,b);
     case 'pythagoras':return m(a+'² + '+b+'² = '+(a*a+b*b),
       '빗변 ≈ '+format(Math.hypot(a,b))+' cm',
-      '두 직각변 위 정사각형 넓이의 합은 빗변 위 정사각형 넓이와 같아요.','triangle',a,b);
+      '두 직각변 위 정사각형 넓이의 합은 빗변 위 정사각형 넓이와 같아요.','rightTriangle',a,b);
     case 'counting':return m(a+' × '+b+' = '+(a*b),'조합 '+(a*b)+'가지',
       '첫 선택마다 두 번째 선택의 '+b+'가지가 있어 모든 경우를 곱해요.','grid',a,b);
     case 'probability':return m(a+'/'+(a+b),'빨강 확률 '+format(a/(a+b)*100,1)+'%',
@@ -126,10 +130,10 @@ function describe(topic:MiddleTopic,a:number,b:number):Model{
       '완전제곱수 '+a*a+'를 근호 밖으로 꺼내세요.','grid',a,b);
     case 'polynomial':return m('(x+'+a+')(x+'+b+') = x²+'+(a+b)+'x+'+(a*b),
       'x의 계수 '+(a+b)+' · 상수항 '+(a*b),
-      '직사각형을 x², '+a+'x, '+b+'x, '+(a*b)+'로 나누면 분배법칙이 보입니다.','grid',a,b);
+      '직사각형을 x², '+a+'x, '+b+'x, '+(a*b)+'로 나누면 분배법칙이 보입니다.','area',a,b);
     case 'factoring':return m('x²+'+(a+b)+'x+'+(a*b)+' = (x+'+a+')(x+'+b+')',
       '합 '+(a+b)+' · 곱 '+(a*b),
-      '합이 '+(a+b)+', 곱이 '+(a*b)+'인 두 수를 이용해 인수분해해요.','grid',a,b);
+      '합이 '+(a+b)+', 곱이 '+(a*b)+'인 두 수를 이용해 인수분해해요.','area',a,b);
     case 'quadraticEquation':return m('(x−'+a+')(x−'+b+') = 0',
       '해 x='+a+' 또는 '+b,
       '곱이 0이 되는 조건으로 두 일차식 중 하나가 0이면 됩니다.','parabola',a+b,-a*b,1);
@@ -148,7 +152,7 @@ function describe(topic:MiddleTopic,a:number,b:number):Model{
       '편차는 −'+a+', 0, +'+a+'로 합이 0이고 분산은 편차 제곱의 평균이에요.','bars',a,b);
     case 'boxplot':return m('자료: '+Array.from({length:8},(_,i)=>b+i*a).join(', '),
       '중앙값 '+format(b+3.5*a)+' · 사분위범위 '+format(4*a),
-      '작은 쪽 네 값과 큰 쪽 네 값의 중앙값으로 Q1, Q3를 정해요.','bars',a,b);
+      '작은 쪽 네 값과 큰 쪽 네 값의 중앙값으로 Q1, Q3를 정해요.','boxplot',a,b);
     case 'scatter':return m('y = '+a+'x'+signed(b),
       a>0?'양의 상관관계':a<0?'음의 상관관계':'선형 상관관계 없음',
       '기울기가 양수면 오른쪽으로 갈수록 점이 올라가고 음수면 내려가요.','scatter',a,b);
@@ -156,14 +160,18 @@ function describe(topic:MiddleTopic,a:number,b:number):Model{
 }
 const toGraph=(x:number,y:number)=>({x:206+x*17,y:136-y*11});
 const pointsToLine=(f:(x:number)=>number)=>{
-  const pts:string[]=[];for(let x=-11;x<=11;x+=.2){
-    const y=f(x);if(Number.isFinite(y)&&Math.abs(y)<=80){
-      const p=toGraph(x,y);pts.push((pts.length?'L':'M')+p.x.toFixed(1)+','+p.y.toFixed(1));
-    }else pts.push('');
+  const pts:string[]=[];let inSegment=false;
+  for(let x=-11;x<=11;x+=.2){
+    const y=f(x);
+    if(Number.isFinite(y)&&Math.abs(y)<=80){
+      const p=toGraph(x,y);
+      pts.push((inSegment?'L':'M')+p.x.toFixed(1)+','+p.y.toFixed(1));
+      inSegment=true;
+    }else inSegment=false;
   }
-  return pts.join(' ').replace(/L(?=\s|$)/g,'');
+  return pts.join(' ');
 };
-function Visual({topic,model,a,b}:{topic:MiddleTopic;model:Model;a:number;b:number}){
+function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a:number;b:number;inverse?:boolean}){
   const axes=<>
     <line x1="12" y1="136" x2="400" y2="136" stroke="#9baaca" strokeWidth="1.8"/>
     <line x1="206" y1="12" x2="206" y2="264" stroke="#9baaca" strokeWidth="1.8"/>
@@ -176,12 +184,18 @@ function Visual({topic,model,a,b}:{topic:MiddleTopic;model:Model;a:number;b:numb
     let fn:(x:number)=>number;
     if(topic==='coordinates')fn=()=>NaN;
     else if(topic==='systems'||topic==='functionIntersection')fn=x=>a*x+b;
+    else if(topic==='proportion')fn=inverse?(x===0?NaN:a/x):a*x;
     else if(topic==='quadraticFunction')fn=x=>a*(x-b)*(x-b)/4+2;
     else if(topic==='quadraticEquation')fn=x=>((x-a)*(x-b))/4;
     else fn=x=>a*x+b;
     return <svg viewBox="0 0 412 272" role="img" aria-label="계수를 조절하면 즉시 변화하는 좌표평면과 수학 그래프" className="middle-svg">
       {axes}
-      {topic==='coordinates'?<circle cx={p.x} cy={p.y} r="8" fill="#5368e8" stroke="#fff" strokeWidth="3"/>:<>
+      {topic==='coordinates'?<circle cx={p.x} cy={p.y} r="8" fill="#5368e8" stroke="#fff" strokeWidth="3"/>:topic==='scatter'?<>
+        {Array.from({length:9},(_,i)=>i-4).map((x,i)=>{
+          const point=toGraph(x,((a*x+b)/2)+Math.sin(i*3)*.6);
+          return <circle key={i} cx={point.x} cy={point.y} r="6" fill="#5368e8" fillOpacity=".88"/>;
+        })}
+      </>:<>
         <path d={pointsToLine(fn)} stroke="#5267e8" strokeWidth="3.5" fill="none" clipPath="url(#middle-graph-clip)"/>
         {(topic==='systems'||topic==='functionIntersection')&&<path d={pointsToLine(x=>-x+(topic==='systems'?2:4))} stroke="#ef9958" strokeWidth="3" fill="none" strokeDasharray="7 4"/>}
       </>}
@@ -216,6 +230,95 @@ function Visual({topic,model,a,b}:{topic:MiddleTopic;model:Model;a:number;b:numb
       <text x="165" y="143" fontSize="17" fontWeight="800" fill="#4c60ba">{sides}각형</text>
     </svg>;
   }
+
+  if(model.visual==='isosceles'){
+    const height=85+b*8;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="두 밑각이 같은 이등변삼각형" className="middle-svg">
+      <polygon points={'95,238 315,238 205,'+(238-height)} fill="#ddf2f0" stroke="#349982" strokeWidth="3"/>
+      <line x1="205" y1="238" x2="205" y2={238-height} stroke="#7bbcaf" strokeDasharray="6 5"/>
+      <text x="109" y="219" fill="#257e71" fontWeight="750">{a}°</text>
+      <text x="273" y="219" fill="#257e71" fontWeight="750">{a}°</text>
+      <text x="182" y={258-height} fill="#257e71" fontWeight="900">{180-2*a}°</text>
+    </svg>;
+  }
+  if(model.visual==='parallelogram'){
+    const base=40+b*16,theta=a*Math.PI/180;
+    const dx=75*Math.cos(theta),dy=100*Math.sin(theta);
+    const x=110,y=230;
+    const pts=[x+','+y,(x+base)+','+y,(x+base+dx)+','+(y-dy),(x+dx)+','+(y-dy)].join(' ');
+    return <svg viewBox="0 0 412 272" role="img" aria-label="이웃각과 길이가 변하는 평행사변형" className="middle-svg">
+      <polygon points={pts} fill="#e1e8ff" stroke="#536cdb" strokeWidth="3"/>
+      <path d={'M'+(x+22)+' '+y+' A22 22 0 0 0 '+(x+22*Math.cos(theta))+' '+(y-22*Math.sin(theta))}
+        stroke="#f1a462" strokeWidth="3" fill="none"/>
+      <text x={x+32} y={y-16} fill="#5565b0" fontWeight="800">{a}°</text>
+      <text x={x+base-42} y={y-16} fill="#5565b0" fontWeight="800">{180-a}°</text>
+    </svg>;
+  }
+  if(model.visual==='similar'){
+    const base=39,large=base*a;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="닮음비에 따라 동시에 변하는 두 정사각형" className="middle-svg">
+      <rect x="42" y={223-base} width={base} height={base} stroke="#3e9c82" strokeWidth="3" fill="#dcf5eb"/>
+      <rect x="160" y={223-large} width={large} height={large} stroke="#556ddd" strokeWidth="3" fill="#e1e7ff"/>
+      <text x="43" y="245" fontSize="13" fill="#3e9c82">1배</text>
+      <text x="165" y="245" fontSize="13" fill="#4b5db3">{a}배 · 넓이 {a*a}배</text>
+      <text x="26" y="36" fontSize="14" fill="#71809e">길이비 1 : {a}</text>
+    </svg>;
+  }
+  if(model.visual==='area'){
+    const x=110,y=38,base=110,wb=b*13,ha=a*13;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="곱셈공식과 인수분해를 네 영역으로 나누는 넓이 모형" className="middle-svg">
+      <rect x={x} y={y} width={base} height={base} fill="#dce5ff" stroke="#5971e0" strokeWidth="2"/>
+      <rect x={x+base} y={y} width={wb} height={base} fill="#fce8ce" stroke="#edb568" strokeWidth="2"/>
+      <rect x={x} y={y+base} width={base} height={ha} fill="#dbf3e9" stroke="#60bb9b" strokeWidth="2"/>
+      <rect x={x+base} y={y+base} width={wb} height={ha} fill="#f7dff0" stroke="#d78cb7" strokeWidth="2"/>
+      <text x={x+base/2} y={y+base/2} textAnchor="middle" fontSize="18" fill="#4b5fb2">x²</text>
+      <text x={x+base+wb/2} y={y+base/2} textAnchor="middle" fontSize="15" fill="#946d38">{b}x</text>
+      <text x={x+base/2} y={y+base+ha/2} textAnchor="middle" fontSize="15" fill="#2e8f73">{a}x</text>
+      <text x={x+base+wb/2} y={y+base+ha/2} textAnchor="middle" fontSize="14" fill="#99517e">{a*b}</text>
+      <text x={x+base/2} y="26" fontSize="12" fill="#4b59aa">x</text>
+      <text x={x+base+wb/2} y="26" fontSize="12" fill="#9a6d31">{b}</text>
+    </svg>;
+  }
+  if(model.visual==='cylinder'){
+    const r=25+a*5,height=70+b*8,cx=205,topY=230-height;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="반지름과 높이에 따라 부피가 변하는 원기둥" className="middle-svg">
+      <path d={'M'+(cx-r)+' '+topY+' V230 A'+r+' '+(r/3)+' 0 0 0 '+(cx+r)+' 230 V'+topY}
+        fill="#e0e8ff" stroke="#5268d5" strokeWidth="2.5"/>
+      <ellipse cx={cx} cy={topY} rx={r} ry={r/3} fill="#bcc9f8" stroke="#5368d5" strokeWidth="2.5"/>
+      <ellipse cx={cx} cy="230" rx={r} ry={r/3} fill="#8499e6" stroke="#5368d5" strokeWidth="2.5"/>
+      <line x1={cx} y1={topY} x2={cx+r} y2={topY} stroke="#f5a967" strokeWidth="2.5" strokeDasharray="5 3"/>
+      <text x={cx+15} y={topY-7} fill="#b36a38" fontSize="13">r={a}</text>
+      <text x={cx+r+6} y={(topY+230)/2} fontSize="12" fill="#5265b7">h={b}</text>
+    </svg>;
+  }
+  if(model.visual==='boxplot'){
+    const values=Array.from({length:8},(_,i)=>b+i*a);
+    const left=40,right=369,at=(n:number)=>left+(n-values[0])/(values[7]-values[0])*(right-left);
+    const q1=(values[1]+values[2])/2,median=(values[3]+values[4])/2,q3=(values[5]+values[6])/2;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="최솟값 사분위수 중앙값 최댓값을 표시한 상자그림" className="middle-svg">
+      <line x1={left} y1="140" x2={right} y2="140" stroke="#536cdd" strokeWidth="3"/>
+      <line x1={left} y1="113" x2={left} y2="167" stroke="#536cdd" strokeWidth="3"/>
+      <line x1={right} y1="113" x2={right} y2="167" stroke="#536cdd" strokeWidth="3"/>
+      <rect x={at(q1)} y="94" width={at(q3)-at(q1)} height="92" fill="#e4eaff" stroke="#536cdd" strokeWidth="3"/>
+      <line x1={at(median)} y1="94" x2={at(median)} y2="186" stroke="#f19d57" strokeWidth="4"/>
+      {[[left,'최솟값'],[at(q1),'Q1'],[at(median),'중앙값'],[at(q3),'Q3'],[right,'최댓값']].map(([x,label],i)=>
+        <text key={i} x={Number(x)} y={i%2===0?82:206} textAnchor="middle" fontSize="11" fill="#52619d">{label}</text>)}
+      <text x="206" y="245" textAnchor="middle" fontSize="12" fill="#7282a8">상자 너비는 사분위범위 (Q3 − Q1)</text>
+    </svg>;
+  }
+  if(model.visual==='rightTriangle'){
+    const max=Math.max(a,b),scale=62/max;
+    const sideA=a*scale,sideB=b*scale;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="직각삼각형 세 변의 정사각형 넓이 비교" className="middle-svg">
+      <polygon points={'105,188 '+(105+sideA)+',188 '+(105+sideA)+','+(188-sideB)}
+        fill="#e6f6ed" stroke="#29967c" strokeWidth="3"/>
+      <rect x="15" y={188-sideA} width={sideA} height={sideA} fill="#dbe9ff" stroke="#7189df" strokeWidth="2"/>
+      <rect x={105+sideA} y="190" width={sideB} height={sideB} fill="#ffeccc" stroke="#e9b062" strokeWidth="2"/>
+      <text x="206" y="46" fontSize="15" textAnchor="middle" fill="#475eaa">a² + b² = c²</text>
+      <text x="105" y="245" fontSize="13" fill="#5a6a93">a²={a*a} · b²={b*b} · c²={a*a+b*b}</text>
+    </svg>;
+  }
+
   if(model.visual==='triangle'){
     const width=topic==='pythagoras'?a*15+50:180;
     const height=topic==='pythagoras'?b*13+30:topic==='trigonometry'?Math.tan(a*Math.PI/180)*95+25:110;
@@ -273,7 +376,8 @@ export default function MiddleLab({topic}:{topic:MiddleTopic}){
   const [b,setB]=useState(config.b?.initial??0);
   const [attempts,setAttempts]=useState(0);
   const [successes,setSuccesses]=useState(0);
-  const model=describe(topic,a,b);
+  const [inverse,setInverse]=useState(false);
+  const model=describe(topic,a,b,inverse);
   const sample=()=>{
     setAttempts(prev=>prev+1);
     if(Math.random()<a/(a+b))setSuccesses(prev=>prev+1);
@@ -292,8 +396,12 @@ export default function MiddleLab({topic}:{topic:MiddleTopic}){
             step={config.b.step??1} value={b} onChange={e=>setB(Number(e.target.value))}/>
           <div className="middle-range"><span>{config.b.min}</span><span>{config.b.max}</span></div>
         </>}
+        {topic==='proportion'&&<div className="middle-proportion-toggle" role="group" aria-label="비례 관계 방식">
+          <button type="button" aria-pressed={!inverse} onClick={()=>setInverse(false)}>정비례</button>
+          <button type="button" aria-pressed={inverse} onClick={()=>setInverse(true)}>반비례</button>
+        </div>}
         <button type="button" className="middle-reset" onClick={()=>{
-          setA(config.a.initial);setB(config.b?.initial??0);setAttempts(0);setSuccesses(0);
+          setA(config.a.initial);setB(config.b?.initial??0);setAttempts(0);setSuccesses(0);setInverse(false);
         }}>↻ 처음 값으로 되돌리기</button>
         {topic==='probability'&&<div className="middle-probability-experiment">
           <button type="button" onClick={sample}>🎲 구슬 한 개 뽑기</button>
@@ -301,7 +409,7 @@ export default function MiddleLab({topic}:{topic:MiddleTopic}){
         </div>}
       </div>
       <div className="middle-lab-canvas">
-        <Visual topic={topic} model={model} a={a} b={b}/>
+        <Visual topic={topic} model={model} a={a} b={b} inverse={inverse}/>
       </div>
     </div>
     <div className="middle-live-result" aria-live="polite">
