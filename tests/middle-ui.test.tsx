@@ -20,16 +20,27 @@ describe('middle school interactive learning portal',()=>{
   it('opens directly to interactive exploration, then proceeds to practice',()=>{
     render(<MiddleApp initialGrade={1} onElementary={()=>{}}/>);
     expect(screen.queryByText('개념 이해')).toBeNull();
-    expect(screen.getByRole('heading',{name:'숫자와 도형을 바꿔 보세요'})).toBeTruthy();
-    expect(screen.getByRole('heading',{name:'값을 바꾸며 변화를 살펴보세요'})).toBeTruthy();
+    expect(screen.getByRole('heading',{name:'직접 탐구'})).toBeTruthy();
+    expect(screen.getByRole('heading',{name:/소수만의 곱/})).toBeTruthy();
     expect(screen.getByRole('group',{name:'학습 단계'}).querySelectorAll('button')).toHaveLength(2);
-    const slider=screen.getByLabelText(/소인수분해할 자연수/);
-    expect(slider).toBeTruthy();
-    fireEvent.change(slider,{target:{value:'48'}});
-    expect(screen.getByText('48 = 2×2×2×2×3')).toBeTruthy();
+    const number=screen.getByRole('slider',{name:/분해할 수/});
+    fireEvent.change(number,{target:{value:'48'}});
+    expect(screen.getByRole('img',{name:/48개의 점/})).toBeTruthy();
+    fireEvent.click(screen.getByRole('button',{name:/48 ÷ 2 계산하기/}));
+    expect(screen.getByRole('img',{name:/24개의 점/})).toBeTruthy();
+    expect(screen.getByText(/48 = 2 × 24/)).toBeTruthy();
     fireEvent.click(screen.getByRole('button',{name:/문제 풀어보기/}));
     expect(screen.getByRole('heading',{name:'문제로 확인해 보세요'})).toBeTruthy();
     expect(screen.getByRole('button',{name:/다른 문제 풀기/})).toBeTruthy();
+  });
+  it('prime factorization completes 26=2×13 with true dot counts',()=>{
+    render(<MiddleApp initialGrade={1} onElementary={()=>{}}/>);
+    expect(screen.getByRole('img',{name:/26개의 점/})).toBeTruthy();
+    fireEvent.click(screen.getByRole('button',{name:/26 ÷ 2 계산하기/}));
+    expect(screen.getByRole('img',{name:/13개의 점/})).toBeTruthy();
+    fireEvent.click(screen.getByRole('button',{name:/13 ÷ 13 계산하기/}));
+    expect(screen.getByText(/모든 인수가 소수/)).toBeTruthy();
+    expect(screen.getAllByText(/26 = 2 × 13/).length).toBeGreaterThan(0);
   });
   it('free site retains elementary mode and switches to middle with no login',()=>{
     window.history.replaceState({},'','/mathgenius_fr/');

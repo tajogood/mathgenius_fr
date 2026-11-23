@@ -47,7 +47,7 @@ export default function PrimeFactorLab(){
   }
   return <section className="prime-experiment" aria-label="소수를 골라 직접 나누는 소인수분해">
     <div className="prime-question">
-      <strong>도전: {target}을 소수만의 곱으로 나타내 볼까요?</strong>
+      <h3>도전: {target}을 소수만의 곱으로 나타내 볼까요?</h3>
       <label htmlFor="prime-number">분해할 수 <span>{target}</span></label>
       <input id="prime-number" type="range" min="2" max="120" value={target}
         onChange={e=>reset(Number(e.target.value))}/>
