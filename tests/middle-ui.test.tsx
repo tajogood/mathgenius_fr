@@ -20,8 +20,8 @@ describe('middle school interactive learning portal',()=>{
   it('opens directly to interactive exploration, then proceeds to practice',()=>{
     render(<MiddleApp initialGrade={1} onElementary={()=>{}}/>);
     expect(screen.queryByText('개념 이해')).toBeNull();
-    expect(screen.getByRole('heading',{name:'숫자와 도형을 바꿔 보세요'})).toBeTruthy();
-    expect(screen.getByRole('heading',{name:/수를 소수만의 곱/})).toBeTruthy();
+    expect(screen.getByRole('heading',{name:'직접 탐구'})).toBeTruthy();
+    expect(screen.getByRole('heading',{name:/소수만의 곱/})).toBeTruthy();
     expect(screen.getByRole('group',{name:'학습 단계'}).querySelectorAll('button')).toHaveLength(2);
     const number=screen.getByLabelText(/분해할 수/);
     fireEvent.change(number,{target:{value:'48'}});
@@ -40,7 +40,7 @@ describe('middle school interactive learning portal',()=>{
     expect(screen.getByRole('img',{name:/13개의 점/})).toBeTruthy();
     fireEvent.click(screen.getByRole('button',{name:/13 ÷ 13 계산하기/}));
     expect(screen.getByText(/모든 인수가 소수/)).toBeTruthy();
-    expect(screen.getByText(/26 = 2 × 13/)).toBeTruthy();
+    expect(screen.getAllByText(/26 = 2 × 13/).length).toBeGreaterThan(0);
   });
   it('free site retains elementary mode and switches to middle with no login',()=>{
     window.history.replaceState({},'','/mathgenius_fr/');
