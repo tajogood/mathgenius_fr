@@ -1,0 +1,67 @@
+/* 수학천재 중등 · 직접 탐구 애니메이션 설명 (middle-motion) */
+.mm-player{--mm-blue:#586bde;--mm-ink:#263759;border:1px solid #dfe6fb;border-radius:16px;background:linear-gradient(180deg,#fbfcff 0%,#f3f6ff 100%);padding:16px 18px 14px;display:flex;flex-direction:column;gap:10px;box-shadow:0 6px 18px rgba(80,101,221,.07)}
+.mm-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.mm-kicker{display:block;font-size:11px;font-weight:950;letter-spacing:1.2px;color:#6b7de0}
+.mm-head h4{margin:5px 0 0;font-size:17px;letter-spacing:-.4px;color:var(--mm-ink)}
+.mm-tabs{display:flex;gap:6px}
+.mm-tabs button{min-width:34px;height:30px;border-radius:9px;border:1px solid #d6def7;background:#fff;color:#5c6e92;font-size:13px;font-weight:900;padding:0 9px}
+.mm-tabs button[aria-selected="true"]{background:var(--mm-blue);border-color:var(--mm-blue);color:#fff}
+.mm-stage-wrap{background:#fff;border:1px solid #e6ecfa;border-radius:13px;overflow:hidden}
+.mm-stage{display:block;width:100%;height:auto;max-height:340px;font-family:system-ui,"Malgun Gothic","Apple SD Gothic Neo",sans-serif}
+.mm-progress{height:4px;border-radius:4px;background:#e4e9f8;overflow:hidden}
+.mm-progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,#7d8cf0,#586bde);border-radius:4px;animation:mm-bar var(--dur,6s) linear forwards}
+.mm-caption{margin:0;min-height:3.4em;font-size:14.5px;line-height:1.75;color:#34466e;font-weight:600}
+.mm-caption b{display:inline-block;margin-right:7px;padding:1px 8px;border-radius:7px;background:#e6edff;color:#4a5fc6;font-size:12px;font-weight:900;vertical-align:1px}
+.mm-ctrl{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.mm-ctrl button{border:1px solid #d6def7;background:#fff;color:#4c5f9e;border-radius:10px;padding:8px 13px;font-size:13px;font-weight:850}
+.mm-ctrl button.mm-main{background:var(--mm-blue);border-color:var(--mm-blue);color:#fff}
+.mm-ctrl button:disabled{opacity:.4}
+.mm-player button:focus-visible{outline:3px solid #9fb0ff;outline-offset:2px}
+
+/* ── 애니메이션 기본 동작 ── */
+.mm-stage .pop{transform-box:fill-box;transform-origin:center;animation:mm-pop .55s cubic-bezier(.3,1.45,.55,1) var(--d,0s) both}
+.mm-stage .fade{animation:mm-fade .6s ease var(--d,0s) both}
+.mm-stage .draw{stroke-dasharray:1 1;stroke-dashoffset:1;animation:mm-draw var(--t,.9s) ease-in-out var(--d,0s) forwards}
+.mm-stage .mv{transform-box:view-box;transform-origin:var(--ox,0px) var(--oy,0px);animation:mm-mv var(--t,1s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.mm-stage .gy{transform-box:fill-box;transform-origin:50% 100%;animation:mm-gy var(--t,.7s) cubic-bezier(.3,1.2,.5,1) var(--d,0s) both}
+.mm-stage .gx{transform-box:fill-box;transform-origin:0% 50%;animation:mm-gx var(--t,.7s) ease-out var(--d,0s) both}
+.mm-stage .gxr{transform-box:fill-box;transform-origin:100% 50%;animation:mm-gx var(--t,.7s) ease-out var(--d,0s) both}
+.mm-stage .sweep{animation:mm-sweep var(--t,1.2s) ease-in-out var(--d,0s) both}
+.mm-stage .flip{transform-box:view-box;transform-origin:var(--ox,0px) var(--oy,0px);animation:mm-flip var(--t,1.2s) ease-in-out var(--d,0s) both}
+.mm-stage .tilt{transform-box:view-box;transform-origin:var(--ox,0px) var(--oy,0px);animation:mm-tilt var(--t,3s) ease-in-out var(--d,0s) both}
+.mm-stage .rot3{transform-box:view-box;transform-origin:var(--ox,0px) var(--oy,0px);animation:mm-rot3 var(--t,5s) ease-in-out var(--d,0s) both}
+.mm-stage .shift3{animation:mm-shift3 var(--t,5s) ease-in-out var(--d,0s) both}
+.mm-stage .pop.gone{animation:mm-pop .55s cubic-bezier(.3,1.45,.55,1) var(--d,0s) both,mm-out .45s ease var(--o) forwards}
+.mm-stage .fade.gone{animation:mm-fade .6s ease var(--d,0s) both,mm-out .45s ease var(--o) forwards}
+.mm-stage .draw.gone{animation:mm-draw var(--t,.9s) ease-in-out var(--d,0s) forwards,mm-out .45s ease var(--o) forwards}
+.mm-stage .mv.gone{animation:mm-mv var(--t,1s) cubic-bezier(.65,0,.35,1) var(--d,0s) both,mm-out .45s ease var(--o) forwards}
+.mm-stage .gone:not(.pop):not(.fade):not(.draw):not(.mv){animation:mm-out .45s ease var(--o) forwards}
+.mm-stage .pop.pulse{animation:mm-pop .55s cubic-bezier(.3,1.45,.55,1) var(--d,0s) both,mm-pulse 1.5s ease-in-out calc(var(--d,0s) + .7s) infinite}
+
+@keyframes mm-pop{from{opacity:0;transform:scale(.15)}70%{opacity:1;transform:scale(1.08)}to{opacity:1;transform:scale(1)}}
+@keyframes mm-fade{from{opacity:0}to{opacity:1}}
+@keyframes mm-out{to{opacity:0}}
+@keyframes mm-draw{to{stroke-dashoffset:0}}
+@keyframes mm-mv{from{transform:translate(var(--fx,0px),var(--fy,0px)) rotate(var(--fr,0deg)) scale(var(--fs,1))}to{transform:translate(var(--tx,0px),var(--ty,0px)) rotate(var(--tr,0deg)) scale(var(--ts,1))}}
+@keyframes mm-gy{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes mm-gx{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes mm-sweep{from{stroke-dasharray:0 100}to{stroke-dasharray:var(--p,25) 100}}
+@keyframes mm-flip{from{transform:scaleX(1)}to{transform:scaleX(-1)}}
+@keyframes mm-tilt{0%{transform:rotate(0deg)}18%{transform:rotate(var(--r1,7deg))}55%{transform:rotate(var(--r1,7deg))}78%,100%{transform:rotate(0deg)}}
+@keyframes mm-rot3{0%{transform:rotate(var(--r0,0deg))}22%,36%{transform:rotate(var(--r1,0deg))}58%,72%{transform:rotate(var(--r2,0deg))}94%,100%{transform:rotate(var(--r3,0deg))}}
+@keyframes mm-shift3{0%{transform:translateY(0)}22%,36%{transform:translateY(var(--y1,0px))}58%,72%{transform:translateY(var(--y2,0px))}94%,100%{transform:translateY(var(--y3,0px))}}
+@keyframes mm-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes mm-bar{from{width:0}to{width:100%}}
+
+.mm-paused .mm-stage *,.mm-paused .mm-progress i{animation-play-state:paused!important}
+
+@media (max-width:640px){
+  .mm-player{padding:13px 12px 12px}
+  .mm-head h4{font-size:15px}
+  .mm-caption{font-size:13.5px}
+  .mm-ctrl button{padding:8px 10px;font-size:12.5px;flex:1 1 auto}
+}
+@media (prefers-reduced-motion:reduce){
+  .mm-stage *{animation-duration:.001s!important;animation-delay:0s!important;animation-iteration-count:1!important}
+  .mm-progress{display:none}
+}

@@ -1,5 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
 import MiddleLab from './MiddleLab.tsx';
+import MotionExplainer from './motion/MotionExplainer.tsx';
 import {middleGrades,middleUnits,type MiddleChapter} from './curriculum.ts';
 import {createMiddleProblem,type MiddleProblem} from './problems.ts';
 import {activityGuide} from './activityGuide.ts';
@@ -140,6 +141,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
             <h3>직접 탐구</h3></div>
           <div className="middle-activity-cue"><span>오늘 해 볼 일</span>
             <strong>{activityGuide[chapter.topic].action}</strong></div>
+          <MotionExplainer key={`motion-${chapter.id}`} topic={chapter.topic}/>
           <MiddleLab key={chapter.id} topic={chapter.topic}/>
           <div className="middle-inquiry"><strong>관찰할 점</strong><p>{activityGuide[chapter.topic].notice}</p></div>
           <details className="middle-why"><summary>왜 이런 결과가 나올까요?</summary>
