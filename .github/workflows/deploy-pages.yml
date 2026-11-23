@@ -1,55 +1,58 @@
-name: Deploy MathGenius Free to GitHub Pages
-
+name: Build full free mathematics site
 on:
   push:
-    branches: [main]
+    branches: [source]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: free-pages
+  group: mathgenius-free-build
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 25
     steps:
-      - name: Checkout free edition
+      - name: Checkout source
         uses: actions/checkout@v4
-      - name: Setup Node.js 22
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-audit --no-fund --legacy-peer-deps
-      - name: Type-check, build and generate SEO pages
-        run: npm run build
+      - name: Build complete static site
         env:
           SITE_URL: https://tajogood.github.io/mathgenius_fr/
-      - name: Check math generators
+        run: npm run build
+      - name: Validate all math exercises
         run: npm test
-      - name: Check interactive lesson interfaces
+      - name: Validate all educational UI
         run: npm run test:ui
-      - name: Install headless Chromium
+      - name: Install Chromium
         run: npx playwright install --with-deps chromium
-      - name: Check free homepage and grade learning
+      - name: Validate GitHub Pages base URL and all grade lessons
         run: npm run test:viewport
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Upload static website
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-      - name: Deploy public free website
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Verify static output
+        run: |
+          test -s dist/index.html
+          test -s dist/sitemap.xml
+          test -s dist/robots.txt
+          test -f dist/.nojekyll
+          grep -q '/mathgenius_fr/assets/' dist/index.html
+      - name: Publish build to staging branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd dist
+          git init -b site-build
+          git config user.name "MathGenius Free Build"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "build: all original lessons and SEO pages from ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:refs/heads/site-build
