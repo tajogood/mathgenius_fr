@@ -11,7 +11,9 @@ test('Cloudflare Web Analytics loads once on the main free math app',()=>{
 });
 test('All public static SEO pages include the same analytics beacon',()=>{
  for(const route of ['for-parents','for-teachers','for-education','curriculum',
-  ...Array.from({length:6},(_,i)=>'curriculum/grade-'+(i+1))]){
+  ...Array.from({length:6},(_,i)=>'curriculum/grade-'+(i+1)),
+  'curriculum/middle',
+  ...Array.from({length:3},(_,i)=>'curriculum/middle-'+(i+1))]){
   const html=readFileSync('dist/'+route+'/index.html','utf8');
   assert.equal(html.split(beacon).length-1,1,route+' should have one tracker');
   assert.ok(html.includes(token),route+' should use production token');

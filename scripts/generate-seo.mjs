@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { curriculumUnits } from '../src/curriculum.ts';
+import {middleGrades as middleCourses,middleUnits} from '../src/middle/curriculum.ts';
 
 const outDir = resolve(process.env.SEO_DIST_DIR || 'dist');
 const contents = JSON.parse(readFileSync(new URL('./seo-content.json', import.meta.url), 'utf8'));
@@ -57,11 +58,33 @@ const curriculumPage={
   headline:'초등 1~6학년 수학, 학년별 단원과 학습 내용',
   intro:'수학천재는 2022 개정 수학과 교육과정을 참고해 1~6학년 교재형 단원들을 구성합니다. 단원명과 배열은 학교와 교과서 출판사에 따라 다를 수 있으며, 공식 교과서 목차를 그대로 재현한 자료는 아닙니다.',
 };
+const middleOverview={
+  slug:'curriculum/middle',
+  title:'중학교 1~3학년 수학 개념·교구 무료 체험 | 수학천재',
+  description:'중1·중2·중3 수학: 소인수분해·일차방정식·함수·도형·확률·이차함수·삼각비까지 회원가입 없이 수학 개념을 직접 움직이며 배워요.',
+  eyebrow:'중등 수학 1~3학년',
+  headline:'중학교 1·2·3학년 수학 개념과 실험 학습',
+  intro:'2022 개정 수학과 교육과정을 참고한 자체 편제로 구성했습니다. 2026년에는 중1·중2에 적용되고 중3에는 2027학년도부터 적용되며 교과서별 배열은 다를 수 있습니다.',
+};
+const middlePages=([1,2,3]).map(grade=>({
+  slug:'curriculum/middle-'+grade,
+  title:'중학교 '+grade+'학년 수학 단원·무료 개념 실험 | 수학천재',
+  description:'중'+grade+' 수학 1·2학기 단원을 직접 탐구합니다. '+
+    middleUnits.filter(u=>u.grade===grade).slice(0,5).map(u=>u.title).join('·')+
+    ' 등 원리를 배우고 그래프와 도형 교구를 움직이며 문제를 풀어보세요.',
+  eyebrow:'중학교 '+grade+'학년 수학',
+  headline:'중'+grade+' 수학 1·2학기 개념과 직접 조작 교구',
+  intro:'중'+grade+' 학생을 위한 자체 개념 수업과 문제 풀이입니다. '+
+    (grade===3?'2022 개정 중3 과정은 2027학년도부터 적용됩니다. ':'')+
+    '단원 배치와 학교·교과서 진도는 다를 수 있습니다.',
+}));
 const routes=[
   {slug:''},
   ...contents.pages,
   curriculumPage,
   ...grades,
+  middleOverview,
+  ...middlePages,
 ];
 
 function orgSchema(){
@@ -79,9 +102,9 @@ function homeSchema(){
       inLanguage:'ko-KR',publisher:org},
     {'@type':['WebApplication','EducationalApplication'],
       name:'수학천재',url:siteUrl||undefined,inLanguage:'ko-KR',
-      description:'초등학교 1~6학년 수학을 직접 조작하는 시각 교구로 학습하는 한국어 웹앱',
+      description:'초등학교 1~6학년 및 중학교 1~3학년 수학을 직접 조작하는 시각 교구로 학습하는 한국어 웹앱',
       operatingSystem:'Web',applicationCategory:'EducationalApplication',
-      educationalLevel:'초등학교 1~6학년',isAccessibleForFree:true,
+      educationalLevel:'초등학교 1~6학년 및 중학교 1~3학년',isAccessibleForFree:true,
       offers:{'@type':'Offer',price:'0',priceCurrency:'KRW',description:'무료 수학 체험'},
       provider:org,
       audience:[
@@ -120,13 +143,16 @@ function relativeRoot(slug) {
 function navHtml(prefix) {
   const nav=[
     ['학부모','for-parents'],['초등 교사','for-teachers'],
-    ['교육 관계자','for-education'],['학년별 수학','curriculum'],
+    ['교육 관계자','for-education'],['초등 단원','curriculum'],['중등 수학','curriculum/middle'],
   ];
   return '<nav aria-label="학습 정보">' + nav.map(([name,slug])=>
     '<a href="'+prefix+slug+'/">'+escapeHtml(name)+'</a>').join(' ')+'</nav>';
 }
 function pageHtml(page,body){
   const prefix=relativeRoot(page.slug);
+  const middleGrade=page.slug.match(/^curriculum\/middle-([123])$/)?.[1];
+  const studyQuery=middleGrade?'?level=middle&amp;grade='+middleGrade:
+    '?guest=1'+(page.slug.startsWith('curriculum/grade-')?'&amp;grade='+page.slug.slice(-1):'');
   const url=absolute(page.slug);
   const head=[
     '<!doctype html><html lang="ko"><head>',
@@ -157,7 +183,7 @@ function pageHtml(page,body){
     '<p class="eyebrow">'+escapeHtml(page.eyebrow)+'</p>'+
     '<h1>'+escapeHtml(page.headline)+'</h1>'+
     '<p class="intro">'+escapeHtml(page.intro)+'</p>'+body+
-    '<div class="actions"><a href="'+prefix+'?guest=1'+(page.slug.startsWith('curriculum/grade-')?'&amp;grade='+page.slug.slice(-1):'')+'">회원가입 없이 무료 수학 체험</a>'+
+    '<div class="actions"><a href="'+prefix+studyQuery+'">회원가입 없이 무료 수학 체험</a>'+
     '<a class="secondary" href="'+prefix+'curriculum/">전체 학년 단원 보기</a></div>'+
     '<p class="callout">안내된 수업 자료는 수학천재의 자체 콘텐츠입니다. 교육부·교육청 공식 운영 또는 인증을 뜻하지 않으며, 학교 성취평가를 대체하지 않습니다.</p>'+
     '</main><footer>© '+new Date().getUTCFullYear()+
@@ -200,6 +226,35 @@ function curriculumBody(){
       '학년 단원·개념 상세 안내 →</a></section>';
   }).join('');
 }
+
+function middleGradeBody(grade){
+  return [1,2].map(semester=>{
+    const units=middleUnits.filter(u=>u.grade===grade&&u.semester===semester);
+    return '<section class="panel"><h2>중'+grade+' '+semester+'학기 개념 단원</h2>'+
+      '<div class="unit-list">'+units.map(u=>'<article><h3>'+
+        escapeHtml(u.number+'. '+u.title)+'</h3><p>'+escapeHtml(u.subtitle)+
+        '</p><span class="quiet">'+escapeHtml(u.label)+'</span></article>').join('')+
+      '</div></section>';
+  }).join('')+
+  '<section class="panel"><h2>직접 만져보는 중등 수학</h2>'+
+    '<p>각 단원에서 개념 설명 → 조작 가능한 그래프·기하 교구 → 풀이 문제를 이용합니다. 별도 회원가입이 없고 학습 진도는 해당 브라우저에 저장됩니다.</p>'+
+    '<p><a href="../middle/">중학교 1~3학년 단원 전체 보기</a></p></section>';
+}
+function middleOverviewBody(){
+  return middleCourses.map(item=>{
+    const units=item.chapters;
+    return '<section class="panel"><h2>중학교 '+item.grade+'학년</h2>'+
+      '<p>'+escapeHtml(item.title)+'</p>'+
+      '<ul>'+[1,2].map(semester=>'<li><strong>'+semester+'학기: </strong>'+
+        units.filter(u=>u.semester===semester).map(u=>escapeHtml(u.title)).join(' · ')+
+        '</li>').join('')+'</ul>'+
+      '<p><a class="grade-link" href="../middle-'+item.grade+'/">'+
+        '중'+item.grade+' 학습 단원 자세히 보기 →</a></p>'+
+      '<p><a class="grade-link" href="../../?level=middle&amp;grade='+item.grade+'">'+
+        '중'+item.grade+' 수학 무료 체험 바로 시작하기 →</a></p></section>';
+  }).join('');
+}
+
 function writeStaticPage(page,body){
   const dir=join(outDir,page.slug);
   mkdirSync(dir,{recursive:true});
@@ -217,6 +272,8 @@ function run(){
   for(const page of contents.pages)writeStaticPage(page,audienceBody(page));
   writeStaticPage(curriculumPage,curriculumBody());
   for(let grade=1;grade<=6;grade++)writeStaticPage(gradeInfo(grade),gradeBody(grade));
+  writeStaticPage(middleOverview,middleOverviewBody());
+  for(let grade=1;grade<=3;grade++)writeStaticPage(middlePages[grade-1],middleGradeBody(grade));
   const robots=['User-agent: *','Allow: /'];
   if(siteUrl){
     const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n'+
