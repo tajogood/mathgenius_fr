@@ -69,3 +69,9 @@
 /* 초등 화면: 교구·안내 카드 아래 전체 너비 */
 .mm-player--elementary{margin-top:18px}
 .mm-player--elementary .mm-stage{max-height:360px}
+
+/* 설명 문장 속 분수: 분자 위, 분모 아래 (사이트 공통 .math-fraction 과 같은 모양) */
+.mm-caption .math-fraction{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;vertical-align:middle;line-height:1.05;font-size:.92em;margin:0 .12em;text-align:center}
+.mm-caption .math-fraction__top,.mm-caption .math-fraction__bottom{display:block;padding:0 .13em;min-width:100%}
+.mm-caption .math-fraction__bar{display:block;align-self:stretch;height:0;border-top:currentColor solid max(1.5px,.075em);margin:.1em 0}
+.mm-caption{line-height:2.1}

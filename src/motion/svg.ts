@@ -1,4 +1,5 @@
 // @ts-nocheck — 애니메이션 장면용 SVG 문자열 빌더 (초등·중등 공용). 출력은 tests/*motion*.test.tsx 에서 전 장면 검증.
+import { mathTokens, textWidth } from './mathTokens.ts';
 /* 좌표계: viewBox 0 0 520 260. 클래스(pop/fade/draw/mv/...)는 src/motion/motion.css 의 키프레임을 사용 */
 const C = { b:'#586bde', bl:'#e3e9ff', o:'#f29a38', ol:'#ffeacc', g:'#2fae7b', gl:'#d8f3e7', r:'#e55d6b', rl:'#fde0e3',
   p:'#9a6ad8', pl:'#eee3fb', k:'#263759', m:'#8592ad', l:'#e4e9f6', w:'#ffffff' };
@@ -35,9 +36,33 @@ const R = (x, y, w, h, o = {}) =>
   `<rect x="${f(x)}" y="${f(y)}" width="${f(w)}" height="${f(h)}" rx="${o.rx ?? 0}"${pa(o, C.bl, C.b)}${cl(o, 'pop')}${sv(o)}/>`;
 const Ci = (cx, cy, r, o = {}) =>
   `<circle cx="${f(cx)}" cy="${f(cy)}" r="${f(r)}" pathLength="1"${pa(o, C.b, 'none')}${cl(o, 'pop')}${sv(o)}/>`;
-const T = (x, y, s, o = {}) =>
-  `<text x="${f(x)}" y="${f(y)}" text-anchor="${o.an ?? 'middle'}" dominant-baseline="central" font-size="${o.z ?? 16}" font-weight="${o.wt ?? 800}" fill="${o.f ?? C.k}"` +
-  (o.mono ? ' font-family="ui-monospace,Menlo,Consolas,monospace"' : '') + (o.a ? ' ' + o.a : '') + `${cl(o, 'pop')}${sv(o)}>${String(s).replace(/<(?=[\s\d])/g, '&lt;')}</text>`;
+const tAttrs = (o) => ` font-size="${o.z ?? 16}" font-weight="${o.wt ?? 800}" fill="${o.f ?? C.k}"` +
+  (o.mono ? ' font-family="ui-monospace,Menlo,Consolas,monospace"' : '');
+const escT = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+/** 글자. 분수(2/3, 높이/빗변, ⅙ …)가 있으면 분자 위·분모 아래로 쌓아 그린다 */
+const T = (x, y, s, o = {}) => {
+  const str = String(s), toks = mathTokens(str);
+  if (!toks.some(t => t.t === 'frac'))
+    return `<text x="${f(x)}" y="${f(y)}" text-anchor="${o.an ?? 'middle'}" dominant-baseline="central"${tAttrs(o)}` +
+      (o.a ? ' ' + o.a : '') + `${cl(o, 'pop')}${sv(o)}>${escT(str)}</text>`;
+  const z = o.z ?? 16, fz = z * .8, pad = z * .18;
+  const parts = toks.map(t => t.t === 'text'
+    ? { ...t, w: textWidth(t.s, z, o.mono) }
+    : { ...t, w: Math.max(textWidth(t.n, fz, o.mono), textWidth(t.d, fz, o.mono)) + pad * 2 });
+  const total = parts.reduce((a, p) => a + p.w, 0);
+  let cx = o.an === 'start' ? x : o.an === 'end' ? x - total : x - total / 2, g = '';
+  for (const p of parts) {
+    if (p.t === 'text') { if (p.s.trim()) g += `<text x="${f(cx)}" y="${f(y)}" text-anchor="start" dominant-baseline="central"${tAttrs(o)} xml:space="preserve">${escT(p.s)}</text>`; }
+    else {
+      const m = cx + p.w / 2, fo = { ...o, z: fz };
+      g += `<text x="${f(m)}" y="${f(y - fz * .62)}" text-anchor="middle" dominant-baseline="central"${tAttrs(fo)}>${escT(p.n)}</text>` +
+        `<line x1="${f(cx + pad * .6)}" y1="${f(y)}" x2="${f(cx + p.w - pad * .6)}" y2="${f(y)}" stroke="${o.f ?? C.k}" stroke-width="${f(Math.max(1.5, z * .08))}" stroke-linecap="round"/>` +
+        `<text x="${f(m)}" y="${f(y + fz * .66)}" text-anchor="middle" dominant-baseline="central"${tAttrs(fo)}>${escT(p.d)}</text>`;
+    }
+    cx += p.w;
+  }
+  return `<g${cl(o, 'pop')}${sv(o)}${o.a ? ' ' + o.a : ''} role="img" aria-label="${escT(str)}">${g}</g>`;
+};
 const G = (inner, o = {}) => `<g${cl(o, '')}${sv(o)}${o.tf ? ` transform="${o.tf}"` : ''}${o.a ? ' ' + o.a : ''}>${inner}</g>`;
 const Poly = (pts, o = {}) =>
   `<polygon points="${pts.map(p => f(p[0]) + ',' + f(p[1])).join(' ')}"${pa(o, C.bl, C.b)}${cl(o, 'fade')}${sv(o)}/>`;

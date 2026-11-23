@@ -6,7 +6,14 @@ import {createProblem,solutionSteps,type Problem} from '../src/math.ts';
 afterEach(cleanup);
 const same=(a:number,b:number,d:number,mode='add'):Problem=>({topic:'samefraction',a,b,c:d,d:0,mode,
   prompt:`${a}/${d} + ${b}/${d} = ?`,answer:'',choices:[]});
-const caption=()=>document.querySelector('[data-testid="fraction-solution"] figcaption')?.textContent??'';
+// 설명 문장의 뜻은 그림의 aria-label 로 확인하고, 화면 글자에는 빗금 분수가 없어야 한다(분자 위·분모 아래)
+const caption=()=>{
+  const fig=document.querySelector('[data-testid="fraction-solution"]')!;
+  const shown=fig.querySelector('figcaption')!;
+  expect(shown.textContent).not.toMatch(/\d\s*\/\s*\d/);
+  expect(fig.querySelector('svg')!.textContent).not.toMatch(/\d\s*\/\s*\d/);
+  return fig.querySelector('svg')!.getAttribute('aria-label')??'';
+};
 
 describe('분수 덧셈·뺄셈 풀이는 계산 결과 → 약분 순서로 그림과 함께 설명한다',()=>{
   it('1/8 + 3/8: 같은 크기 조각 → 4/8 → 약분해서 1/2',()=>{

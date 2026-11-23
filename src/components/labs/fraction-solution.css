@@ -12,3 +12,5 @@
 .fs-label{font-size:15px;font-weight:900;fill:#263759}
 @keyframes fs-in{from{opacity:0}to{opacity:1}}
 @media (prefers-reduced-motion:reduce){.fraction-solution *{animation:none!important}}
+.fs-bar{stroke:#263759;stroke-width:1.6;stroke-linecap:round}
+.fraction-solution figcaption{line-height:2.1}

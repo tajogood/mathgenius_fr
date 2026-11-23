@@ -1,6 +1,22 @@
 import type { ReactElement } from 'react';
 import { gcd, lcm } from '../../math.ts';
+import { mathTokens, textWidth } from '../../motion/mathTokens.ts';
+import { MathText } from '../MathText.tsx';
 import './fraction-solution.css';
+
+/** SVG 글자 (왼쪽 정렬) — 분수는 분자 위·분모 아래로 쌓는다 */
+function SvgMath({ x, y, text, z = 15 }: { x:number; y:number; text:string; z?:number }) {
+  const fz = z * .8, pad = z * .18;
+  let cx = x;
+  return <g className="fs-label" aria-label={text}>{mathTokens(text).map((t, i) => {
+    if (t.t === 'text') { const el = <text key={i} x={cx} y={y} dominantBaseline="central" xmlSpace="preserve">{t.s}</text>; cx += textWidth(t.s, z); return el; }
+    const w = Math.max(textWidth(t.n, fz), textWidth(t.d, fz)) + pad * 2, m = cx + w / 2;
+    const el = <g key={i}><text x={m} y={y - fz * .62} textAnchor="middle" dominantBaseline="central" fontSize={fz}>{t.n}</text>
+      <line x1={cx + pad * .6} x2={cx + w - pad * .6} y1={y} y2={y} className="fs-bar" />
+      <text x={m} y={y + fz * .66} textAnchor="middle" dominantBaseline="central" fontSize={fz}>{t.d}</text></g>;
+    cx += w; return el;
+  })}</g>;
+}
 
 /** 분수 덧셈·뺄셈 풀이 그림: ① 같은 크기 조각(통분) → ② 분자끼리 계산 → ③ 약분 */
 export type FractionSolutionInput = { n1:number; d1:number; n2:number; d2:number; subtract:boolean; step:number };
@@ -24,7 +40,7 @@ function Bar({ y, d, cells, delay = 0, strike = [] as number[], label }:
     {strike.map(i => <g key={'s' + i} className="fs-strike" style={{ animationDelay: (delay + .6 + i * .05) + 's' }}>
       <line x1={X0 + i * w + 4} y1={y + 4} x2={X0 + (i + 1) * w - 4} y2={y + H - 4} />
       <line x1={X0 + (i + 1) * w - 4} y1={y + 4} x2={X0 + i * w + 4} y2={y + H - 4} /></g>)}
-    {label && <text x={X0 + W + 12} y={y + H / 2} className="fs-label" dominantBaseline="central">{label}</text>}
+    {label && <SvgMath x={X0 + W + 12} y={y + H / 2} text={label} />}
   </g>;
 }
 const fill = (d:number, ranges:[number, number, string][]) =>
@@ -77,6 +93,6 @@ export default function FractionSolutionFigure(props: FractionSolutionInput) {
   const height = step === 2 ? 14 + wholes * 40 + (reducible ? 40 + wholes * 40 : 0) : step === 1 ? 30 + wholes * 44 + 10 : d1 === d2 ? 104 : 190;
   return <figure className="fraction-solution" data-testid="fraction-solution" data-step={step}>
     <svg key={step} viewBox={`0 0 ${X0 + W + 90} ${height}`} role="img" aria-label={caption}>{body}</svg>
-    <figcaption>{caption}</figcaption>
+    <figcaption><MathText text={caption}/></figcaption>
   </figure>;
 }

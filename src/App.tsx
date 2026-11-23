@@ -3,7 +3,7 @@ import { grades, curriculumUnits, TOTAL_UNITS, type Chapter } from './curriculum
 import { standardsForChapter } from './standards';
 import { createProblem, solutionSteps, TOPICS, type Problem, type Topic } from './math';
 import Visuals from './components/Visuals';
-import { MathText } from './components/MathText.tsx';
+import { Fraction, MathText } from './components/MathText.tsx';
 import StandardStudio from './components/StandardStudio.tsx';
 import MotionPlayer from './motion/MotionPlayer.tsx';
 import {ELEMENTARY_SCENES} from './motion/elementary/index.ts';
@@ -271,7 +271,7 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
           <p>{currentInfo ? currentInfo.subtitle : '이 학년의 수학 수업을 만나 보세요. 먼저 2, 5, 6학년 체험 단원을 둘러보세요.'}</p>
         </div>
         <div className="hero-illustration" aria-hidden="true">
-          <span className="floating-figure figure-circle">½</span>
+          <span className="floating-figure figure-circle"><Fraction numerator={1} denominator={2}/></span>
           <span className="floating-figure figure-square">+</span>
           <span className="floating-figure figure-star">✦</span>
         </div>
