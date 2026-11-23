@@ -28,7 +28,7 @@ describe('elementary motion explainers',()=>{
     render(<App initialGrade={5}/>);
     const player=()=>document.querySelector('.mm-player--elementary');
     expect(player()).toBeTruthy();
-    expect(player()!.previousElementSibling?.className).toBe('workspace');
+    expect(player()!.nextElementSibling?.className).toBe('workspace');   // 원리 애니메이션이 먼저
     fireEvent.click(screen.getByRole('button',{name:/문제 도전하기/}));
     expect(player()).toBeNull();
   });

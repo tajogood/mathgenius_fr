@@ -302,6 +302,10 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
           ))}
         </div>
 
+        {/* 개념 학습: 애니메이션으로 원리를 먼저 보고 → 교구·안내 카드로 직접 이해하기 */}
+        {phase === 'concept' && ELEMENTARY_SCENES[topic] && <MotionPlayer key={'motion-' + topic}
+          id={topic} scenes={ELEMENTARY_SCENES[topic]!} className="mm-player--elementary"/>}
+
         <div className="workspace">
           <section className="visual-card" aria-label="수학 체험 화면">
             <div className="card-topline"><div className="card-kicker">✳ INTERACTIVE MATH</div><span className="live-badge"><span /> 움직이는 수학</span></div>
@@ -367,9 +371,6 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
             </>}
           </section>
         </div>
-
-        {phase === 'concept' && ELEMENTARY_SCENES[topic] && <MotionPlayer key={'motion-' + topic}
-          id={topic} scenes={ELEMENTARY_SCENES[topic]!} className="mm-player--elementary"/>}
 
         <div className="below-workspace">
           <div className="learning-tip"><span>🌈</span><div><strong>오늘의 수학 습관</strong><p>틀리는 것도 배움의 일부예요. 정답보다 ‘왜?’를 아는 것이 더 중요해요.</p></div></div>
