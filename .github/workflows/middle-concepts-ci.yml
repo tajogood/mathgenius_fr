@@ -34,6 +34,6 @@ jobs:
       - name: Interactive React screen tests
         run: npm run test:ui
       - name: Install Chromium
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install chromium
       - name: Verify direct manipulation in real browser
         run: npm run test:viewport
