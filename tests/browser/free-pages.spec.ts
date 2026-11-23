@@ -4,7 +4,7 @@ test('무료판은 원본 학습실을 홈에서 즉시 시작한다',async({pag
   await expect(page.getByRole('group',{name:'학년 선택'})).toBeVisible();
   await expect(page.locator('.grade-button--active')).toContainText('5');
   await expect(page.locator('.visual-card')).toBeVisible();
-  await page.getByRole('group',{name:'학년 선택'}).getByRole('button',{name:'2학년'}).click();
+  await page.locator('.grade-picker .grade-button').nth(1).click();
   await expect(page.locator('.grade-button--active')).toContainText('2');
   await expect(page.locator('.visual-card')).toBeVisible();
 });
