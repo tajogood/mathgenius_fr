@@ -184,7 +184,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     let fn:(x:number)=>number;
     if(topic==='coordinates')fn=()=>NaN;
     else if(topic==='systems'||topic==='functionIntersection')fn=x=>a*x+b;
-    else if(topic==='proportion')fn=inverse?(x===0?NaN:a/x):a*x;
+    else if(topic==='proportion')fn=inverse?(x=>x===0?NaN:a/x):(x=>a*x);
     else if(topic==='quadraticFunction')fn=x=>a*(x-b)*(x-b)+2;
     else if(topic==='quadraticEquation')fn=x=>((x-a)*(x-b))/4;
     else fn=x=>a*x+b;
