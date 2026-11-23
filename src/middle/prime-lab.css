@@ -1,0 +1,33 @@
+.prime-experiment{display:grid;gap:16px;color:#2c3b61}
+.prime-question{background:#edf2ff;border:1px solid #cfdafa;padding:20px;border-radius:15px}
+.prime-question>strong{display:block;font-size:17px;margin-bottom:12px}
+.prime-question>label{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:800;color:#5b6c95}
+.prime-question>label span{font-size:26px;color:#425aca;font-weight:950}
+.prime-question>input{width:100%;accent-color:#4d64d9;cursor:pointer;margin:12px 0}
+.prime-presets{display:flex;flex-wrap:wrap;gap:7px}
+.prime-presets button{background:white;border:1px solid #d4dffb;padding:8px 13px;border-radius:9px;color:#536aa8;font-weight:800}
+.prime-presets button[aria-pressed=true]{border-color:#5166db;background:#5166db;color:white}
+.prime-layout{display:grid;grid-template-columns:minmax(230px,0.88fr) minmax(0,1.12fr);gap:15px}
+.prime-divisor-panel,.prime-dots-panel{border:1px solid #e0e7f8;border-radius:14px;padding:21px;background:#fff;min-width:0}
+.prime-experiment h4{font-size:17px;letter-spacing:-.45px;margin:0 0 14px}
+.prime-divisor-panel>p:first-of-type{font-size:13px;line-height:1.8;color:#62738f;margin:0 0 16px}
+.prime-candidates{display:flex;gap:8px;flex-wrap:wrap}
+.prime-candidates button{background:#f4f6fd;border:1px solid #dce4f6;border-radius:10px;min-width:43px;padding:10px;font-size:15px;font-weight:850;color:#5d6c93}
+.prime-candidates button[aria-pressed=true]{background:#4e65d9;color:#fff;border-color:#4e65d9;box-shadow:0 5px 16px #4e65d92b}
+.prime-try{width:100%;margin-top:19px;border:0;border-radius:10px;background:#344dbf;color:white;font-size:15px;font-weight:850;padding:16px}
+.prime-try:disabled{background:#d5e3d7;color:#317a4a}
+.prime-feedback{background:#fffbf0;border:1px solid #fae6b0;padding:14px;border-radius:10px;line-height:1.8;color:#886c2d;font-size:13px;margin:13px 0}
+.prime-restore{border:1px solid #dfe5f6;background:white;padding:9px 13px;border-radius:8px;color:#68789d;font-size:12px;font-weight:800}
+.prime-dot-caption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:13px;color:#5369aa;font-weight:800}
+.prime-dot-caption small{color:#b45c49;width:100%}
+.prime-groups{background:#f8faff;border:1px solid #e4eaff;border-radius:14px;min-height:205px;max-height:330px;padding:15px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:7px;overflow:auto}
+.prime-dot-group{display:grid;align-content:center;gap:4px;padding:6px;border:1px solid #d9e3f5;background:#fff;border-radius:8px}
+.prime-dot{display:block;width:13px;height:13px;border-radius:50%;background:#5268d7}
+.prime-tone-1{background:#efad61}.prime-tone-2{background:#62bca2}.prime-tone-3{background:#c188d4}.prime-tone-4{background:#e28187}
+.prime-dot-tip{font-size:12px;line-height:1.75;color:#687994;margin:13px 0 0}
+.prime-equation{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:#eaf0ff;border:1px solid #d2ddfb;border-radius:14px;gap:12px;padding:18px}
+.prime-equation>div{display:flex;flex-direction:column;gap:8px;min-width:0}
+.prime-equation small{font-size:11px;color:#7081a8;font-weight:800}
+.prime-equation strong{font-size:17px;color:#3d57b9;word-break:break-word}
+.prime-complete{padding:16px;background:#e7f8ef;border:1px solid #bee5cd;color:#2b7d57;border-radius:12px;line-height:1.6}
+@media(max-width:680px){.prime-layout{grid-template-columns:1fr}.prime-question,.prime-divisor-panel,.prime-dots-panel{padding:15px}.prime-equation{grid-template-columns:1fr 1fr}.prime-dot{width:11px;height:11px}.prime-dot-group{padding:4px}}
