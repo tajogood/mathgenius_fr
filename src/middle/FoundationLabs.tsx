@@ -166,7 +166,9 @@ function CountingLab(){
 function InequalityLab(){
   const [threshold,setThreshold]=useState(3),[greater,setGreater]=useState(true),[negative,setNegative]=useState(false);
   const x=206+threshold*18;
-  const statement=(negative?'−x '+(greater?'<':'>')+' '+(-threshold):'x '+(greater?'>':'<')+' '+threshold);
+  const signedNumber=(n:number)=>n<0?'−'+Math.abs(n):String(n);
+  const statement=(negative?'−x '+(greater?'<':'>')+' '+signedNumber(-threshold):
+    'x '+(greater?'>':'<')+' '+signedNumber(threshold));
   return <ConceptPanel title="부등호가 가리키는 쪽이 해가 되는 방향이에요">
     <p>빈 동그라미는 경계값 자체가 포함되지 않는다는 뜻입니다. 음수를 곱하면 부등호 방향이 바뀌어요.</p>
     <div className="discovery-grid">
