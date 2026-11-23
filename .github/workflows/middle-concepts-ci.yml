@@ -1,0 +1,39 @@
+name: Verify middle-school conceptual interactions
+on:
+  push:
+    branches:
+      - feature/middle-interactions-rebuild-20261123
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: middle-concept-rebuild
+  cancel-in-progress: true
+
+jobs:
+  inspect-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+      - name: Use Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install
+        run: npm install --no-audit --no-fund --legacy-peer-deps
+      - name: Type-check and create Pages build
+        run: npm run build
+        env:
+          SITE_URL: https://tajogood.github.io/mathgenius_fr/
+      - name: Mathematical correctness tests
+        run: npm test
+      - name: Interactive React screen tests
+        run: npm run test:ui
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Verify direct manipulation in real browser
+        run: npm run test:viewport
