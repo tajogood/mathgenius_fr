@@ -42,3 +42,23 @@ GitHub Pages 프로젝트 경로 `/mathgenius_fr/`에 맞추어 Vite의 `base`�
 운영사: 주식회사 라릭 · https://larix.kr
 
 교육부/교육청 공식 인증 서비스 또는 학교 공식 성취평가가 아닙니다.
+
+## Cloudflare Pages (독립 도메인 및 광고 운영)
+
+Cloudflare Pages는 `tajogood/mathgenius_fr` 저장소의 **`source`** 브랜치를 빌드합니다.
+React (Vite) · 명령어 `npm run build` · 출력 `dist` · Node 22 ·
+`NPM_CONFIG_LEGACY_PEER_DEPS=true`를 사용합니다.
+
+현재 기본 공개 주소는 **https://mathgenius-b0c.pages.dev/** 입니다.
+Cloudflare Pages가 제공하는 `CF_PAGES=1`에서는 Vite가 루트 경로(`/`)에
+빌드되고, 검색엔진 대표 주소/사이트맵도 `mathgenius-b0c.pages.dev`를 기본으로 사용합니다.
+정식 도메인을 연결하면 Cloudflare Pages 빌드 환경 변수 `SITE_URL=https://<정식도메인>/`으로
+설정하면 됩니다. 기존 GitHub Pages의 `/mathgenius_fr/` 경로 빌드는 유지됩니다.
+
+**중요: Cloudflare Web Analytics는 호스트명을 검증합니다.** 기존
+`tajogood.github.io`용 웹 애널리틱스 토큰은 `pages.dev`에서 동작하지 않습니다.
+Web Analytics에서 `mathgenius-b0c.pages.dev`를 별도 사이트로 등록한 다음
+새 추적 토큰을 Cloudflare Pages의 **Production 환경 변수 `WEB_ANALYTICS_TOKEN`**에
+입력하고 재배포합니다. 별도의 데이터베이스는 필요하지 않습니다.
+이 환경 변수를 설정하기 전에는 Cloudflare Pages 빌드에서 기존 GitHub 토큰을
+의도적으로 제거하여 잘못된 집계를 방지합니다. GitHub Pages는 기존 추적을 유지합니다.

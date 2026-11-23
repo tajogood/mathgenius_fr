@@ -57,3 +57,16 @@ jobs:
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin HEAD:refs/heads/site-build
           git push --force origin HEAD:refs/heads/main
+      - name: Check Cloudflare Pages production build and SEO domain
+        env:
+          CF_PAGES: '1'
+          CF_PAGES_BRANCH: source
+          SITE_URL: https://mathgenius-b0c.pages.dev/
+        run: |
+          npm run build
+          grep -q 'https://mathgenius-b0c.pages.dev/' dist/sitemap.xml
+          grep -q 'https://mathgenius-b0c.pages.dev/' dist/robots.txt
+          grep -q 'rel="canonical" href="https://mathgenius-b0c.pages.dev/"' dist/index.html
+          grep -q '/assets/' dist/index.html
+          if grep -q '/mathgenius_fr/assets/' dist/index.html; then exit 1; fi
+          if grep -q 'd88a528d03094ff5894095a38b1792b8' dist/index.html; then exit 1; fi

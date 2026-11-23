@@ -25,7 +25,30 @@ function normalizeSiteUrl(raw) {
   u.pathname=u.pathname.replace(/\/+$/,'')+'/';
   return u.href;
 }
-const siteUrl=normalizeSiteUrl(process.env.SITE_URL);
+// Cloudflare Pages automatically sets CF_PAGES, CF_PAGES_BRANCH and CF_PAGES_URL.
+// Keep production canonicals stable rather than pointing at an ephemeral deployment URL.
+// SITE_URL overrides this value when a purchased custom domain is ready.
+const siteUrl=normalizeSiteUrl(
+  process.env.SITE_URL ||
+  (process.env.CF_PAGES === '1' ?
+    (process.env.CF_PAGES_BRANCH === 'source' ?
+      'https://mathgenius-b0c.pages.dev/' :
+      (process.env.CF_PAGES_URL || 'https://mathgenius-b0c.pages.dev/')) :
+    null)
+);
+
+// The original Web Analytics token belongs to tajogood.github.io. Cloudflare
+// validates the hostname, so it must never be silently reused for pages.dev.
+const defaultGithubAnalyticsToken='d88a528d03094ff5894095a38b1792b8';
+const trackingToken=(process.env.WEB_ANALYTICS_TOKEN ||
+  (process.env.CF_PAGES === '1' ? '' : defaultGithubAnalyticsToken)).trim();
+if(trackingToken && !/^[a-f0-9]{32}$/i.test(trackingToken)) {
+  throw new Error('WEB_ANALYTICS_TOKEN must be a 32-character Cloudflare Web Analytics site token');
+}
+const trackerTag=trackingToken?
+  '<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='+
+  "'"+JSON.stringify({token:trackingToken})+"'"+'></script>':'';
+const oldTrackerPattern=/<script type="module" src="https:\/\/static\.cloudflareinsights\.com\/beacon\.min\.js" data-cf-beacon='[^']*'><\/script>/g;
 const absolute=slug=>siteUrl?new URL(slug?slug+'/':'',siteUrl).href:null;
 const siteName='수학천재 MathGenius';
 const gradeDescriptions={
@@ -173,7 +196,7 @@ function pageHtml(page,body){
     ldJson(pageSchema(page)),
     '<link rel="icon" href="'+prefix+'icon.svg" type="image/svg+xml">',
     '<link rel="stylesheet" href="'+prefix+'seo-guide.css">',
-    "<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{\"token\":\"d88a528d03094ff5894095a38b1792b8\"}'></script>",
+    trackerTag,
     '</head><body>',
   ].filter(Boolean).join('\n');
   return head +
@@ -267,7 +290,8 @@ function run(){
   if(!initial.includes('<!--SEO_HEAD-->') || !initial.includes('<!--SEO_STRUCTURED_DATA-->')){
     throw new Error('index.html SEO placeholders missing');
   }
-  writeFileSync(indexPath,initial.replace('<!--SEO_HEAD-->',homepageTags())
+  writeFileSync(indexPath,initial.replace(oldTrackerPattern,trackerTag)
+    .replace('<!--SEO_HEAD-->',homepageTags())
     .replace('<!--SEO_STRUCTURED_DATA-->',ldJson(homeSchema())));
   for(const page of contents.pages)writeStaticPage(page,audienceBody(page));
   writeStaticPage(curriculumPage,curriculumBody());
