@@ -126,7 +126,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
             <h2>{chapter.title}</h2><p>{chapter.subtitle}</p></div>
           <span className="middle-chapter-icon" aria-hidden="true">{chapter.illustration}</span>
         </div>
-        <div className="middle-steps" aria-label="학습 단계">
+        <div className="middle-steps" role="group" aria-label="학습 단계">
           {(['직접 탐구','문제 풀기'] as const).map((name,i)=>
             <button type="button" key={name} aria-current={phase===i?'step':undefined}
               className={phase===i?'middle-step-selected':''}
