@@ -6,7 +6,7 @@ test('Elementary math content stays identical and middle grade links open the ne
   await expect(page.getByRole('group',{name:'중학교 수학 선택'})).toBeVisible();
   await page.getByRole('button',{name:/중2 수학 →/}).click();
   await expect(page.getByRole('heading',{name:/중2 수학을/})).toBeVisible();
-  await expect(page.getByRole('heading',{name:'숫자와 도형을 바꿔 보세요'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'직접 탐구'})).toBeVisible();
   await expect(page.getByRole('group',{name:'학습 단계'}).getByRole('button')).toHaveCount(2);
   await expect(page.locator('.discovery-lab')).toBeVisible();
   await expect(page.getByRole('heading',{name:/나눗셈의 나머지가 반복되면/})).toBeVisible();

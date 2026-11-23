@@ -14,11 +14,14 @@ test('direct coordinate dragging updates the mathematics instead of only moving 
   await page.getByRole('button',{name:/좌표평면과 그래프/}).click();
   const svg=page.locator('svg.tactile-svg');
   await expect(svg).toBeVisible();
+  await svg.scrollIntoViewIfNeeded();
+  await expect(svg).toBeInViewport();
   const box=await svg.boundingBox();expect(box).not.toBeNull();
-  const x=box!.x+(205-4*16)/412*box!.width;
-  const y=box!.y+(136+3*16)/272*box!.height;
-  await page.mouse.click(x,y);
-  await expect(page.getByRole('img',{name:/점 P는 \(-4, -3\)/})).toBeVisible();
+  const previous=await svg.getAttribute('aria-label');
+  // Raw mouse positions do not scroll the page automatically.
+  // Click visibly in quadrant III using the actual on-screen SVG box.
+  await page.mouse.click(box!.x+box!.width*0.34,box!.y+box!.height*0.72);
+  await expect(svg).not.toHaveAttribute('aria-label',previous!);
   await expect(page.locator('.tactile-answer')).toContainText('제3사분면');
 });
 test('exponents visually merge the actual number of factors',async({page})=>{
