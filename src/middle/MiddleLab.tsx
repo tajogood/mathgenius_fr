@@ -22,7 +22,7 @@ const controls:Record<MiddleTopic,LabConfig>={
   systems:{a:C('첫 직선 기울기',-4,5,2),b:C('첫 직선 절편',-6,6,1)},
   linearFunction:{a:C('기울기 a',-5,5,2),b:C('y절편 b',-8,8,3)},
   functionIntersection:{a:C('첫 번째 직선 기울기',-4,5,2),b:C('첫 번째 직선 절편',-6,6,1)},
-  triangles:{a:C('두 밑각 크기 (°)',10,85,55,5),b:C('삼각형 높이',3,9,5)},
+  triangles:{a:C('두 밑각 크기 (°)',15,70,55,5),b:C('삼각형 크기',3,9,5)},
   quadrilaterals:{a:C('한 내각 크기 (°)',20,160,65,5),b:C('평행사변형 밑변',2,10,6)},
   similarity:{a:C('닮음비 (배)',1,4,2,0.5),b:C('원래 길이 (cm)',2,9,5)},
   pythagoras:{a:C('첫 직각변 (cm)',1,12,3),b:C('둘째 직각변 (cm)',1,12,4)},
@@ -35,7 +35,7 @@ const controls:Record<MiddleTopic,LabConfig>={
   quadraticEquation:{a:C('첫 번째 근',-7,7,2),b:C('두 번째 근',-7,7,5)},
   quadraticFunction:{a:C('포물선의 열림과 폭 a',-4,4,1),b:C('꼭짓점의 x좌표 p',-5,5,2)},
   trigonometry:{a:C('각 θ (°)',10,80,30,5),b:C('빗변의 길이',2,10,6)},
-  circleTheorem:{a:C('중심각 (°)',20,320,120,10),b:C('반지름 (cm)',2,8,5)},
+  circleTheorem:{a:C('중심각 (°)',20,160,120,10),b:C('반지름 (cm)',2,8,5)},
   dispersion:{a:C('값들의 퍼짐 간격',1,9,3),b:C('자료의 평균',-4,12,6)},
   boxplot:{a:C('자료들의 간격',1,8,2),b:C('시작 값',0,15,2)},
   scatter:{a:C('변화 방향과 기울기',-5,5,2),b:C('전체 위치 이동',-5,5,1)},
@@ -185,7 +185,7 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     if(topic==='coordinates')fn=()=>NaN;
     else if(topic==='systems'||topic==='functionIntersection')fn=x=>a*x+b;
     else if(topic==='proportion')fn=inverse?(x===0?NaN:a/x):a*x;
-    else if(topic==='quadraticFunction')fn=x=>a*(x-b)*(x-b)/4+2;
+    else if(topic==='quadraticFunction')fn=x=>a*(x-b)*(x-b)+2;
     else if(topic==='quadraticEquation')fn=x=>((x-a)*(x-b))/4;
     else fn=x=>a*x+b;
     return <svg viewBox="0 0 412 272" role="img" aria-label="계수를 조절하면 즉시 변화하는 좌표평면과 수학 그래프" className="middle-svg">
@@ -213,6 +213,13 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
       <circle cx={center} cy={cy} r={r} fill="#f5f8ff" stroke="#8c9bdd" strokeWidth="2"/>
       <path d={path} fill="#91a2f0" fillOpacity=".72" stroke="#465fca" strokeWidth="2"/>
       <circle cx={center} cy={cy} r="4" fill="#273b85"/>
+      {topic==='circleTheorem'&&(()=>{
+        const px=center+r*Math.cos(235*Math.PI/180),py=cy+r*Math.sin(235*Math.PI/180);
+        return <g><line x1={px} y1={py} x2={center+r} y2={cy} stroke="#e88a55" strokeWidth="2.5"/>
+          <line x1={px} y1={py} x2={endX} y2={endY} stroke="#e88a55" strokeWidth="2.5"/>
+          <circle cx={px} cy={py} r="5" fill="#e88a55"/>
+          <text x="40" y="235" fill="#bc724d" fontSize="13">원주각 {format(degree/2)}°</text></g>;
+      })()}
       <text x="220" y="155" fontSize="18" fill="#30428b" fontWeight="800">{degree}°</text>
       <text x="150" y="255" fontSize="12" fill="#7885a3">각도 슬라이더를 조절해 보세요</text>
     </svg>;
@@ -231,10 +238,36 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
     </svg>;
   }
 
+
+  if(model.visual==='balance'){
+    const left=topic==='equations'?a:3*a;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="문자를 대입하고 양변을 같은 연산으로 다루는 수식 저울" className="middle-svg">
+      <rect x="48" y="90" width="145" height="115" rx="12" fill="#e4eaff" stroke="#586fdc" strokeWidth="2"/>
+      <rect x="219" y="90" width="145" height="115" rx="12" fill="#e4f3ed" stroke="#40a48a" strokeWidth="2"/>
+      <line x1="205" y1="40" x2="205" y2="236" stroke="#b8c2dd" strokeWidth="3"/>
+      <text x="120" y="130" textAnchor="middle" fontSize="22" fill="#4157b7">{topic==='equations'?a+'x':a+'×3'}</text>
+      <text x="120" y="171" textAnchor="middle" fontSize="18" fill="#4157b7">{b>=0?'+':'−'} {Math.abs(b)}</text>
+      <text x="291" y="149" textAnchor="middle" fontSize="17" fill="#258771" fontWeight="800">
+        {topic==='equations'?'24':3*a+b}</text>
+      <text x="206" y="261" textAnchor="middle" fontSize="13" fill="#7785a5">{model.value}</text>
+    </svg>;
+  }
+  if(topic==='roots'){
+    const size=Math.min(20,185/a),left=110,top=32;
+    return <svg viewBox="0 0 412 272" role="img" aria-label="한 변의 길이에 따라 격자 넓이가 제곱으로 증가하는 정사각형" className="middle-svg">
+      {Array.from({length:a*a},(_,i)=><rect key={i} x={left+(i%a)*size}
+        y={top+Math.floor(i/a)*size} width={size} height={size} fill={i%2?'#f6ddb1':'#b8c7f8'}
+        stroke="#fff" strokeWidth="1"/>)}
+      <text x="205" y="250" textAnchor="middle" fontSize="16" fill="#5267b7" fontWeight="800">
+        {a} × {a} = {a*a}칸
+      </text>
+    </svg>;
+  }
+
   if(model.visual==='isosceles'){
-    const height=85+b*8;
+    const halfWidth=40+b*5,height=halfWidth*Math.tan(a*Math.PI/180);
     return <svg viewBox="0 0 412 272" role="img" aria-label="두 밑각이 같은 이등변삼각형" className="middle-svg">
-      <polygon points={'95,238 315,238 205,'+(238-height)} fill="#ddf2f0" stroke="#349982" strokeWidth="3"/>
+      <polygon points={(205-halfWidth)+',238 '+(205+halfWidth)+',238 205,'+(238-height)} fill="#ddf2f0" stroke="#349982" strokeWidth="3"/>
       <line x1="205" y1="238" x2="205" y2={238-height} stroke="#7bbcaf" strokeDasharray="6 5"/>
       <text x="109" y="219" fill="#257e71" fontWeight="750">{a}°</text>
       <text x="273" y="219" fill="#257e71" fontWeight="750">{a}°</text>
@@ -320,9 +353,9 @@ function Visual({topic,model,a,b,inverse=false}:{topic:MiddleTopic;model:Model;a
   }
 
   if(model.visual==='triangle'){
-    const width=topic==='pythagoras'?a*15+50:180;
-    const height=topic==='pythagoras'?b*13+30:topic==='trigonometry'?Math.tan(a*Math.PI/180)*95+25:110;
-    const sx=94,by=226,px=Math.min(342,sx+width),topY=Math.max(25,by-Math.min(height,195));
+    const radians=a*Math.PI/180;
+    const width=166*Math.cos(radians),height=166*Math.sin(radians);
+    const sx=94,by=226,px=sx+width,topY=by-height;
     return <svg viewBox="0 0 412 272" role="img" aria-label="변 길이와 각도를 조절하는 삼각형" className="middle-svg">
       <polygon points={sx+','+by+' '+px+','+by+' '+px+','+topY} fill="#e1f3ed" stroke="#309982" strokeWidth="3" strokeLinejoin="round"/>
       <path d={'M'+(px-16)+' '+by+' v-16 h16'} stroke="#309982" fill="none" strokeWidth="2"/>
