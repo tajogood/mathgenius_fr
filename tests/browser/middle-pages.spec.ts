@@ -16,8 +16,9 @@ test('Middle grade interactive lab changes result and practice is playable',asyn
   await expect(page.getByRole('img',{name:/수량과 구성이 바뀌는 시각 교구/})).toBeVisible();
   const output=page.locator('.middle-live-result strong').first();
   await expect(output).toContainText('36');
-  await page.locator('#middle-control-a').fill('48');
-  await expect(output).toContainText('48');
+  await page.locator('#middle-control-a').focus();
+  await page.keyboard.press('End');
+  await expect(output).toContainText('96');
   await page.getByRole('button',{name:/배운 개념으로 문제 풀기/}).click();
   await expect(page.locator('.middle-choice-grid button')).toHaveCount(4);
   await page.locator('.middle-choice-grid button').first().click();
