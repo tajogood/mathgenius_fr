@@ -4,6 +4,7 @@ import MotionExplainer from './motion/MotionExplainer.tsx';
 import {middleGrades,middleUnits,type MiddleChapter} from './curriculum.ts';
 import {createMiddleProblem,type MiddleProblem} from './problems.ts';
 import {activityGuide} from './activityGuide.ts';
+import {MathLine} from '../components/MathLine.tsx';
 import './middle.css';
 
 type Grade=1|2|3;
@@ -21,8 +22,8 @@ function chooseChapter(grade:Grade,semester:1|2):MiddleChapter{
   if(!found)throw new Error('Middle grade lesson not found');
   return found;
 }
-export default function MiddleApp({initialGrade=1,onElementary}:{
-  initialGrade?:Grade;onElementary:()=>void;
+export default function MiddleApp({initialGrade=1,onElementary,onHigh}:{
+  initialGrade?:Grade;onElementary:()=>void;onHigh?:()=>void;
 }){
   const [grade,setGrade]=useState<Grade>(initialGrade);
   const [semester,setSemester]=useState<1|2>(1);
@@ -87,7 +88,10 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
       <div className="middle-brand"><strong>✦ 수학천재</strong>
         <span>중등 수학 실험실</span><small>2022 개정 참고</small>
       </div>
-      <button type="button" onClick={onElementary}>← 초등 수학 학습실</button>
+      <div className="middle-level-links">
+        <button type="button" onClick={onElementary}>← 초등 수학 학습실</button>
+        {onHigh&&<button type="button" onClick={onHigh}>고등 수학 →</button>}
+      </div>
     </header>
     <div className="middle-topline">
       <div className="middle-headline">
@@ -125,7 +129,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
       <main className="middle-lesson">
         <div className="middle-chapter-top">
           <div><span className="middle-eyebrow">중{grade} · {semester}학기 · {chapter.label}</span>
-            <h2>{chapter.title}</h2><p>{chapter.subtitle}</p></div>
+            <h2>{chapter.title}</h2><p><MathLine text={chapter.subtitle}/></p></div>
           <span className="middle-chapter-icon" aria-hidden="true">{chapter.illustration}</span>
         </div>
         <div className="middle-steps" role="group" aria-label="학습 단계">
@@ -140,12 +144,12 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
           <div className="middle-section-label"><span>STEP 01 · EXPLORE</span>
             <h3>직접 탐구</h3></div>
           <div className="middle-activity-cue"><span>오늘 해 볼 일</span>
-            <strong>{activityGuide[chapter.topic].action}</strong></div>
+            <strong><MathLine text={activityGuide[chapter.topic].action}/></strong></div>
           <MotionExplainer key={`motion-${chapter.id}`} topic={chapter.topic}/>
           <MiddleLab key={chapter.id} topic={chapter.topic}/>
-          <div className="middle-inquiry"><strong>관찰할 점</strong><p>{activityGuide[chapter.topic].notice}</p></div>
+          <div className="middle-inquiry"><strong>관찰할 점</strong><p><MathLine text={activityGuide[chapter.topic].notice}/></p></div>
           <details className="middle-why"><summary>왜 이런 결과가 나올까요?</summary>
-            <p>{activityGuide[chapter.topic].reason}</p></details>
+            <p><MathLine text={activityGuide[chapter.topic].reason}/></p></details>
           <button type="button" className="middle-next" onClick={()=>setPhase(1)}>
             문제 풀어보기 →</button>
         </section>}
@@ -154,23 +158,23 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
             <h3>문제로 확인해 보세요</h3></div>
           <div className="middle-question">
             <div className="middle-question-badge">연습 문제 · {chapter.title}</div>
-            <h3>{question.prompt}</h3>
+            <h3><MathLine text={question.prompt}/></h3>
             <div className="middle-choice-grid">
               {question.choices.map((choice,i)=><button key={choice} type="button"
                 disabled={result} aria-pressed={selected===choice}
                 className={result&&choice===question.answer?'middle-choice-right':
                   result&&choice===selected?'middle-choice-wrong':''}
                 onClick={()=>selectAnswer(choice)}>
-                <span>{i+1}</span>{choice}
+                <span>{i+1}</span><span className="middle-choice-text"><MathLine text={choice}/></span>
               </button>)}
             </div>
             {result&&<div role="status" className={'middle-feedback '+(correct?'middle-feedback--right':'middle-feedback--wrong')}>
-              <strong>{correct?'🎉 정답입니다!':'다시 생각해 보세요. 정답은 '+question.answer+'입니다.'}</strong>
-              <p>{question.solution}</p>
+              <strong>{correct?'🎉 정답입니다!':<>다시 생각해 보세요. 정답은 <MathLine text={question.answer}/>입니다.</>}</strong>
+              <p><MathLine text={question.solution}/></p>
             </div>}
             {!result&&<button type="button" className="middle-hint-toggle"
               onClick={()=>setShowHint(p=>!p)}>{showHint?'힌트 접기':'힌트 보기'}</button>}
-            {showHint&&!result&&<p className="middle-hint">{chapter.concept[1]}</p>}
+            {showHint&&!result&&<p className="middle-hint"><MathLine text={chapter.concept[1]}/></p>}
             <div className="middle-quiz-actions">
               <button type="button" onClick={regenerate}>↻ 다른 문제 풀기</button>
               {correct&&<button type="button" className="middle-next" onClick={openNext}>

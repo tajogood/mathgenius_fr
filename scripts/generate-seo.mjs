@@ -3,6 +3,7 @@ import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { curriculumUnits } from '../src/curriculum.ts';
 import {middleGrades as middleCourses,middleUnits} from '../src/middle/curriculum.ts';
+import {highCourses} from '../src/high/curriculum.ts';
 
 const outDir = resolve(process.env.SEO_DIST_DIR || 'dist');
 const contents = JSON.parse(readFileSync(new URL('./seo-content.json', import.meta.url), 'utf8'));
@@ -103,6 +104,25 @@ const middlePages=([1,2,3]).map(grade=>({
     (grade===3?'2022 개정 중3 과정은 2027학년도부터 적용됩니다. ':'')+
     '단원 배치와 학교·교과서 진도는 다를 수 있습니다.',
 }));
+const highSlug={c1:'high-common-1',c2:'high-common-2',alg:'high-algebra',calc:'high-calculus-1',stat:'high-probability-statistics'};
+const highOverview={
+  slug:'curriculum/high',
+  title:'고등학교 수학 공통수학1·2·대수·미적분Ⅰ·확률과 통계 | 수학천재',
+  description:'2022 개정 고등학교 수학: 공통수학1·공통수학2·대수·미적분Ⅰ·확률과 통계 '+highCourses.reduce((n,c)=>n+c.chapters.length,0)+
+    '개 단원을 그래프와 도형을 직접 움직이며 배우고 문제로 확인해요. 회원가입 없이 바로 시작합니다.',
+  eyebrow:'고등 수학',
+  headline:'고등학교 수학, 그래프를 움직이며 이해하는 개념과 문제',
+  intro:'2022 개정 수학과 교육과정을 참고한 자체 편제입니다. 2025학년도 고1부터 순차 적용되며 공통 과목(공통수학1·2)과 일반 선택 과목(대수·미적분Ⅰ·확률과 통계)을 다룹니다. 교과서별 단원 배열은 다를 수 있습니다.',
+};
+const highPages=highCourses.map(course=>({
+  slug:'curriculum/'+highSlug[course.id],course:course.id,
+  title:'고등학교 '+course.name+' 단원·개념 실험 | 수학천재',
+  description:course.name+'('+course.level+') '+course.summary+': '+course.chapters.slice(0,5).map(u=>u.title).join('·')+
+    ' 등 '+course.chapters.length+'개 단원을 그래프로 직접 탐구하고 문제를 풀어 보세요.',
+  eyebrow:'고등학교 '+course.name,
+  headline:course.name+' 그래프·도형 탐구와 문제 풀이',
+  intro:course.name+'은(는) 2022 개정 교육과정의 '+course.kind+' 과목입니다. '+course.summary+'을 단원마다 직접 조작하는 실험과 연습 문제로 익힙니다. 단원 배치와 학교·교과서 진도는 다를 수 있습니다.',
+}));
 const routes=[
   {slug:''},
   ...contents.pages,
@@ -110,6 +130,8 @@ const routes=[
   ...grades,
   middleOverview,
   ...middlePages,
+  highOverview,
+  ...highPages,
 ];
 
 function orgSchema(){
@@ -127,9 +149,9 @@ function homeSchema(){
       inLanguage:'ko-KR',publisher:org},
     {'@type':['WebApplication','EducationalApplication'],
       name:'수학천재',url:siteUrl||undefined,inLanguage:'ko-KR',
-      description:'초등학교 1~6학년 및 중학교 1~3학년 수학을 직접 조작하는 시각 교구로 학습하는 한국어 웹앱',
+      description:'초등학교 1~6학년, 중학교 1~3학년, 고등학교 수학을 직접 조작하는 시각 교구로 학습하는 한국어 웹앱',
       operatingSystem:'Web',applicationCategory:'EducationalApplication',
-      educationalLevel:'초등학교 1~6학년 및 중학교 1~3학년',isAccessibleForFree:true,
+      educationalLevel:'초등학교 1~6학년, 중학교 1~3학년, 고등학교',isAccessibleForFree:true,
       offers:{'@type':'Offer',price:'0',priceCurrency:'KRW',description:'수학천재 수학 학습'},
       provider:org,
       audience:[
@@ -168,7 +190,7 @@ function relativeRoot(slug) {
 function navHtml(prefix) {
   const nav=[
     ['학부모','for-parents'],['초등 교사','for-teachers'],
-    ['교육 관계자','for-education'],['초등 단원','curriculum'],['중등 수학','curriculum/middle'],
+    ['교육 관계자','for-education'],['초등 단원','curriculum'],['중등 수학','curriculum/middle'],['고등 수학','curriculum/high'],
   ];
   return '<nav aria-label="학습 정보">' + nav.map(([name,slug])=>
     '<a href="'+prefix+slug+'/">'+escapeHtml(name)+'</a>').join(' ')+'</nav>';
@@ -176,7 +198,8 @@ function navHtml(prefix) {
 function pageHtml(page,body){
   const prefix=relativeRoot(page.slug);
   const middleGrade=page.slug.match(/^curriculum\/middle-([123])$/)?.[1];
-  const studyQuery=middleGrade?'?level=middle&amp;grade='+middleGrade:
+  const highCourse=page.course||(page.slug==='curriculum/high'?'c1':null);
+  const studyQuery=highCourse?'?level=high&amp;course='+highCourse:middleGrade?'?level=middle&amp;grade='+middleGrade:
     '?guest=1'+(page.slug.startsWith('curriculum/grade-')?'&amp;grade='+page.slug.slice(-1):'');
   const url=absolute(page.slug);
   const head=[
@@ -280,6 +303,23 @@ function middleOverviewBody(){
   }).join('');
 }
 
+function highCourseBody(course){
+  const parts=[];
+  for(const u of course.chapters){const last=parts.at(-1);if(last&&last.part===u.part)last.items.push(u);else parts.push({part:u.part,items:[u]});}
+  return parts.map(g=>'<section class="panel"><h2>'+escapeHtml(course.name+' · '+g.part)+'</h2>'+
+      '<div class="unit-list">'+g.items.map(u=>'<article><h3>'+escapeHtml(u.number+'. '+u.title)+'</h3><p>'+
+        escapeHtml(u.subtitle.replace(/\{\{([^|}]*)\|([^}]*)\}\}/g,'$1÷($2)').replace(/[\^_]\{([^{}]*)\}/g,'$1'))+
+        '</p><span class="quiet">'+escapeHtml(g.part)+'</span></article>').join('')+'</div></section>').join('')+
+    '<section class="panel"><h2>직접 움직이는 고등 수학</h2>'+
+    '<p>단원마다 핵심 개념 세 가지를 확인하고, 값을 바꾸면 그래프·도형·분포가 바로 달라지는 실험을 한 뒤 연습 문제와 풀이로 점검합니다. 회원가입이 없고 학습 진도는 해당 브라우저에만 저장됩니다.</p>'+
+    '<p><a href="../high/">고등학교 수학 전체 과목 보기</a></p></section>';
+}
+function highOverviewBody(){
+  return highCourses.map(c=>'<section class="panel"><h2>'+escapeHtml(c.name)+' <span class="quiet">'+escapeHtml(c.level+' · '+c.kind)+'</span></h2>'+
+    '<p>'+escapeHtml(c.summary)+'</p><p>'+c.chapters.map(u=>escapeHtml(u.title)).join(' · ')+'</p>'+
+    '<p><a class="grade-link" href="../'+highSlug[c.id]+'/">'+escapeHtml(c.name)+' 단원 자세히 보기 →</a></p>'+
+    '<p><a class="grade-link" href="../../?level=high&amp;course='+c.id+'">'+escapeHtml(c.name)+' 바로 시작하기 →</a></p></section>').join('');
+}
 function writeStaticPage(page,body){
   const dir=join(outDir,page.slug);
   mkdirSync(dir,{recursive:true});
@@ -300,6 +340,8 @@ function run(){
   for(let grade=1;grade<=6;grade++)writeStaticPage(gradeInfo(grade),gradeBody(grade));
   writeStaticPage(middleOverview,middleOverviewBody());
   for(let grade=1;grade<=3;grade++)writeStaticPage(middlePages[grade-1],middleGradeBody(grade));
+  writeStaticPage(highOverview,highOverviewBody());
+  highPages.forEach((page,i)=>writeStaticPage(page,highCourseBody(highCourses[i])));
   const robots=['User-agent: *','Allow: /'];
   if(siteUrl){
     const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n'+

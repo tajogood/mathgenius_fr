@@ -1,4 +1,5 @@
 import {useState,type ReactNode} from 'react';
+import {dotRepeat} from './notation.ts';
 import type {MiddleTopic} from './curriculum.ts';
 import './foundation-labs.css';
 
@@ -81,7 +82,7 @@ function RepeatingLab(){
   const digits=steps.map(s=>s.digit).join('');
   const expression=steps.length===0?(initial===0?String(integer):'아직 계산하지 않았어요'):remainder===0?
     String(integer)+'.'+digits:
-    firstRepeat>=0?String(integer)+'.'+digits.slice(0,firstRepeat)+'('+digits.slice(firstRepeat)+')':
+    firstRepeat>=0?dotRepeat(integer,digits.slice(0,firstRepeat),digits.slice(firstRepeat)):
       String(integer)+'.'+digits+'…';
   function next(){
     if(finished)return;

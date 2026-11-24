@@ -1,0 +1,26 @@
+/* 고등 수학: 중등 레이아웃을 그대로 쓰고 색과 과목 선택만 바꾼다 */
+.high-root{--middle-blue:#3f5bd0;background:#f4f6fd}
+.high-level-links{display:flex;gap:8px}
+.high-level-links button{background:#f6f8fc;border:1px solid #dde5f6;color:#4c5e95;border-radius:9px;padding:10px 14px;font-size:13px;font-weight:800;cursor:pointer}
+.high-level-links button:hover{background:#fef3dc}
+.high-course-select{flex-wrap:wrap;justify-content:flex-end;max-width:640px}
+.high-course-select button{font-size:15px;padding:11px 14px;cursor:pointer}
+.high-part h3{font-size:11px;letter-spacing:.2px;color:#8a97b4;margin:12px 12px 4px;font-weight:850}
+.high-part:first-child h3{margin-top:4px}
+.high-concepts{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:8px}
+.high-concepts li{display:flex;gap:12px;align-items:flex-start;background:#f8f9ff;border:1px solid #e3e8f8;border-radius:13px;padding:12px 15px}
+.high-concepts li>span{flex:none;width:24px;height:24px;border-radius:50%;background:var(--middle-blue);color:#fff;font-size:12px;font-weight:900;display:grid;place-items:center;margin-top:2px}
+.high-concepts p{margin:0;font-size:14.5px;line-height:1.95;color:#2e3c5e}
+.high-control+.high-control{margin-top:6px}
+.high-toggle{margin:10px 0 4px}
+.high-toggle small{display:block;font-size:11px;font-weight:800;color:#7c8aa4;margin-bottom:5px}
+.high-toggle div{display:flex;flex-wrap:wrap;gap:5px}
+.high-toggle button{border:1px solid #d8e0f4;background:#fff;color:#4c5e95;border-radius:8px;padding:6px 9px;font-size:12px;font-weight:800;cursor:pointer}
+.high-toggle button[aria-pressed=true]{background:var(--middle-blue);border-color:var(--middle-blue);color:#fff}
+.high-svg{width:100%;height:auto}
+.high-root .middle-live-result strong{line-height:2}
+.high-root .middle-question h3{line-height:2}
+.high-root .middle-choice-grid button{line-height:1.9}
+.high-root .middle-feedback p{line-height:2}
+@media(max-width:790px){.high-course-select{justify-content:flex-start;max-width:none}.high-root .middle-sidebar nav{display:block}.high-part{display:grid;grid-template-columns:repeat(2,1fr);gap:3px}.high-part h3{grid-column:1/-1}}
+@media(max-width:500px){.high-level-links button{font-size:11px;padding:8px}.high-course-select button{font-size:13px;padding:9px 10px}.high-part{grid-template-columns:1fr}}

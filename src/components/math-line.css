@@ -1,0 +1,14 @@
+.math-sup,.math-sub{font-size:.72em;line-height:0}
+.math-sup .math-fraction{font-size:.95em;vertical-align:.35em}
+.math-matrix{display:inline-flex;align-items:stretch;vertical-align:middle;margin:0 .2em;position:relative;padding:0 .35em}
+.math-matrix::before,.math-matrix::after{content:'';position:absolute;top:0;bottom:0;width:.32em;border:currentColor solid max(1.5px,.08em)}
+.math-matrix::before{left:0;border-right:0;border-radius:.5em 0 0 .5em}
+.math-matrix::after{right:0;border-left:0;border-radius:0 .5em .5em 0}
+.math-matrix__grid{display:inline-grid;column-gap:.7em;row-gap:.05em;padding:.12em .2em;text-align:center;line-height:1.25}
+.math-op{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1;margin:0 .15em}
+.math-op__sym{font-size:1.35em;line-height:1}
+.math-op--lim .math-op__sym{font-size:1em}
+.math-op__upper,.math-op__lower{font-size:.62em;white-space:nowrap}
+.math-int{display:inline-flex;align-items:center;vertical-align:middle;margin:0 .1em}
+.math-int__sym{font-size:1.5em;line-height:1;font-style:italic}
+.math-int__lim{display:inline-flex;flex-direction:column;justify-content:space-between;font-size:.62em;line-height:1.05;margin-left:.05em;align-self:stretch}

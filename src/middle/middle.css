@@ -66,7 +66,7 @@
 .middle-choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .middle-choice-grid button{display:flex;align-items:center;gap:12px;text-align:left;border:1px solid #dfe6f7;border-radius:11px;padding:14px;background:white;color:#394967;font-size:16px;font-weight:750;overflow-wrap:anywhere;line-height:1.5}
 .middle-choice-grid button:not(:disabled):hover{border-color:#7284dc;background:#f7f9ff}
-.middle-choice-grid button span{display:grid;place-items:center;flex:none;width:27px;height:27px;border-radius:50%;background:#eff2fa;color:#70809e;font-size:13px}
+.middle-choice-grid button>span:first-child{display:grid;place-items:center;flex:none;width:27px;height:27px;border-radius:50%;background:#eff2fa;color:#70809e;font-size:13px}
 .middle-choice-grid button.middle-choice-right{border-color:#57b883;background:#e8f9ef;color:#21815b}
 .middle-choice-grid button.middle-choice-wrong{border-color:#eaa08b;background:#fff1ed;color:#b5543b}
 .middle-feedback{padding:21px;border-radius:13px;margin-top:23px;line-height:1.9}
@@ -94,3 +94,7 @@
 .middle-why{background:#f8f9ff;border:1px solid #e2e9fa;border-radius:12px;padding:14px 18px;line-height:1.9;color:#5c6e92}
 .middle-why summary{cursor:pointer;font-size:14px;font-weight:900;color:#566abb}
 .middle-why p{margin:10px 0 0;font-size:13px}
+.middle-level-links{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.middle-level-links button{background:#f6f8fc;border:1px solid #dde5f6;color:#4c5e95;border-radius:9px;padding:10px 14px;font-size:13px;font-weight:800;cursor:pointer}
+@media(max-width:500px){.middle-level-links button{font-size:11px;padding:8px}}
+.middle-choice-grid .middle-choice-text{display:block;min-width:0;flex:1}

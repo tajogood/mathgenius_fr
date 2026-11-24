@@ -49,7 +49,7 @@ describe('middle-school concept-first exploration QA',()=>{
   it('long division exposes recurring decimal by a repeated remainder, not a number line',()=>{
     render(<FoundationLab topic="recurring"/>);
     for(let i=0;i<6;i++)fireEvent.click(screen.getByRole('button',{name:/다음 소수 자리/}));
-    expect(screen.getByText('0.(142857)')).toBeTruthy();
+    expect(screen.getByText('0.1\u030742857\u0307')).toBeTruthy();
     expect(screen.getByText(/나머지 1이 다시 나왔어요/)).toBeTruthy();
   });
   it('inequality reverses sign under multiplication by negative one without changing solution set',()=>{

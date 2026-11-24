@@ -3,6 +3,8 @@ import PrimeFactorLab from './PrimeFactorLab.tsx';
 import FoundationLab,{isFoundationTopic} from './FoundationLabs.tsx';
 import {CoordinateDiscovery,RadicalDiscovery,DispersionDiscovery} from './ConceptInteractionLabs.tsx';
 import {type MiddleTopic} from './curriculum.ts';
+import {MathLine} from '../components/MathLine.tsx';
+import {dotRepeat} from './notation.ts';
 
 type Control={label:string;min:number;max:number;step?:number;initial:number};
 type LabConfig={a:Control;b?:Control};
@@ -58,7 +60,7 @@ function repeating(n:number,d:number):string{
   while(r&&digits.length<25){
     if(seen.has(r)){
       const at=seen.get(r)!;
-      return integer+'.'+digits.slice(0,at)+'('+digits.slice(at)+')';
+      return dotRepeat(integer,digits.slice(0,at),digits.slice(at));
     }
     seen.set(r,digits.length);r*=10;
     digits+=Math.floor(r/d);r%=d;
@@ -520,9 +522,9 @@ export default function MiddleLab({topic}:{topic:MiddleTopic}){
       </div>
     </div>
     <div className="middle-live-result" aria-live="polite">
-      <div><small>수학적 관계</small><strong>{model.formula}</strong></div>
-      <div><small>조작 결과</small><strong>{model.value}</strong></div>
-      <p>{model.detail}</p>
+      <div><small>수학적 관계</small><strong><MathLine text={model.formula}/></strong></div>
+      <div><small>조작 결과</small><strong><MathLine text={model.value}/></strong></div>
+      <p><MathLine text={model.detail}/></p>
     </div>
   </section>;
 }

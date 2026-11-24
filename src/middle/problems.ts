@@ -1,4 +1,5 @@
 import {middleUnits,type MiddleTopic} from './curriculum.ts';
+import {dotRepeat} from './notation.ts';
 
 export type MiddleProblem={
   topic:MiddleTopic;prompt:string;answer:string;choices:string[];solution:string;
@@ -12,7 +13,6 @@ const fraction=(a:number,b:number):string=>{
   const n=a/div,d=b/div;
   return d===1?String(n):n+'/'+d;
 };
-const pnum=(n:number)=>n>=0?'+'+n:String(n);
 function P(topic:MiddleTopic,prompt:string,answer:string,wrong:string[],solution:string):MiddleProblem{
   const distinct=[...new Set(wrong.filter(x=>x!==answer&&x!=='').map(String))];
   // A numerical generator may accidentally produce duplicate distractors
@@ -125,7 +125,7 @@ export function createMiddleProblem(topic:MiddleTopic):MiddleProblem{
     }
     case 'recurring':{
       const d=one([3,6,9,11]);
-      const decimals:Record<number,string>={3:'0.(3)',6:'0.1(6)',9:'0.(1)',11:'0.(09)'};
+      const decimals:Record<number,string>={3:dotRepeat(0,'','3'),6:dotRepeat(0,'1','6'),9:dotRepeat(0,'','1'),11:dotRepeat(0,'','09')};
       const ans=fraction(1,d);
       return P(topic,decimals[d]+'을 분수로 나타내면?',ans,
         [fraction(1,d+1),fraction(2,d),fraction(d-1,d)],
@@ -195,7 +195,7 @@ export function createMiddleProblem(topic:MiddleTopic):MiddleProblem{
       const a=one([2,3,4]),b=one([3,5,7]),ans=fraction(a,a+b);
       return P(topic,'빨강 공 '+a+'개, 파랑 공 '+b+'개에서 무작위로 한 개 뽑을 때 빨강일 확률은?',ans,
         [fraction(b,a+b),fraction(a,b),fraction(a,a+b+1)],
-        '전체 '+(a+b)+'개 중 빨강 '+a+'개이므로 '+a+'/'+(a+b)+' = '+ans+'입니다.');
+        '전체 '+(a+b)+'개 중 빨강 '+a+'개이므로 '+(ans===a+'/'+(a+b)?ans:a+'/'+(a+b)+' = '+ans)+'입니다.');
     }
     case 'roots':{
       const a=random(2,12),v=a*a;
@@ -211,10 +211,12 @@ export function createMiddleProblem(topic:MiddleTopic):MiddleProblem{
     }
     case 'polynomial':{
       const a=random(1,6),b=random(1,6),v=a+b;
+      const cx=(k:number)=>(k===1?'':String(k))+'x';
+      const tri=(p:number,q:number)=>'x²+'+cx(p)+'+'+q;
       return P(topic,'(x+'+a+')(x+'+b+')를 전개하면?',
-        'x²+'+v+'x+'+(a*b),
-        ['x²+'+(a*b)+'x+'+v,'x²+'+v+'x+'+v,'x²+'+(v+1)+'x+'+(a*b)],
-        '넓이 모형으로 x²+'+a+'x+'+b+'x+'+(a*b)+'를 합치면 x²+'+v+'x+'+(a*b)+'입니다.');
+        tri(v,a*b),
+        [tri(a*b,v),tri(v,v),tri(v+1,a*b),tri(v,a*b+1)],
+        '넓이 모형으로 x²+'+cx(a)+'+'+cx(b)+'+'+(a*b)+'를 합치면 '+tri(v,a*b)+'입니다.');
     }
     case 'factoring':{
       const a=random(1,6),b=random(1,6),sum=a+b,mul=a*b;
@@ -231,12 +233,13 @@ export function createMiddleProblem(topic:MiddleTopic):MiddleProblem{
         '(x−'+a+')(x−'+b+')=0이므로 x='+a+' 또는 x='+b+'입니다.');
     }
     case 'quadraticFunction':{
-      const a=one([-3,-2,2,3]),p=random(-3,4),q=random(-5,5);
-      const ans='('+p+', '+q+')';
-      return P(topic,'y='+a+'(x'+(p<0?'+'+(-p):'−'+p)+')²'+pnum(q)+'의 꼭짓점은?',
+      const a=one([-3,-2,2,3]),p=one([-3,-2,-1,1,2,3,4]),q=one([-5,-4,-3,-2,-1,1,2,3,4,5]);
+      const s=(n:number)=>n<0?'−'+(-n):String(n);
+      const ans='('+s(p)+', '+s(q)+')';
+      return P(topic,'y='+s(a)+'(x'+(p<0?'+'+(-p):'−'+p)+')²'+(q<0?'−'+(-q):'+'+q)+'의 꼭짓점은?',
         ans,
-        ['(' +(-p)+', '+q+')','('+p+', '+(-q)+')','(0, '+q+')'],
-        '꼭짓점 형태 y=a(x−p)²+q에서 꼭짓점은 ('+p+', '+q+')이고 대칭축은 x='+p+'입니다.');
+        ['(' +s(-p)+', '+s(q)+')','('+s(p)+', '+s(-q)+')','('+s(-p)+', '+s(-q)+')','(0, '+s(q)+')'],
+        '꼭짓점 형태 y=a(x−p)²+q에서 꼭짓점은 '+ans+'이고 대칭축은 x='+s(p)+'입니다.');
     }
     case 'trigonometry':{
       const angle=one([30,45,60]),fn=one(['sin','cos'] as const);

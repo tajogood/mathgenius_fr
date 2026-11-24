@@ -8,3 +8,5 @@
 .free-level-nav button:hover{background:#fef3dc}
 @media(max-width:800px){.free-level-intro{display:none}.free-level-nav{justify-content:center;gap:10px}}
 @media(max-width:440px){.free-level-nav{padding:10px;gap:6px}.free-level-nav>strong{font-size:14px}.free-current-level{font-size:11px;padding:7px}.free-level-nav [role=group]{width:100%;justify-content:center}.free-level-nav button{flex:1;font-size:12px;text-align:center}}
+.free-level-nav .free-high-button{background:#ffe9c7;border-color:#f3cf93;color:#7a4b10}
+@media(max-width:440px){.free-level-nav [role=group]+[role=group]{margin-top:2px}}
