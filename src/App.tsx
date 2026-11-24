@@ -78,6 +78,9 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
   const completedCount = masteryCount(progress);
   const unitStatus = unitMastery(progress, unitId);
   const topicStatus = progress.records[unitId]?.[topic];
+  const unitIndex = curriculumUnits.findIndex(unit => unit.id === unitId);
+  const prevUnit = unitIndex > 0 ? curriculumUnits[unitIndex - 1] : null;
+  const nextUnit = unitIndex >= 0 && unitIndex < curriculumUnits.length - 1 ? curriculumUnits[unitIndex + 1] : null;
   const conceptGuidance = topic==='shapes' ? [
     '세모·네모·동그라미를 골라 보세요. 도형 안쪽을 직접 끌어 움직이며 생김새를 살펴봐요.',
     '도형의 곧은 변과 주황색 꼭짓점을 하나씩 눌러 세어 보세요. 삼각형은 3개씩, 사각형은 4개씩이에요.',
@@ -364,10 +367,25 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
               <div className="guide-progress" role="img" aria-label={'풀이 ' + String(step + 1) + '/3 단계'}>
                 {[0, 1, 2].map(i => <span key={i} className={i <= step ? 'guide-progress--filled' : ''} />)}
               </div>
-              <div className="guide-actions">
+              {step < 2 ? <div className="guide-actions">
                 <button type="button" className="btn btn--outline" disabled={step === 0} onClick={() => setStep(Math.max(0, step - 1))}>← 이전 풀이</button>
-                <button type="button" className="btn btn--primary" onClick={() => { if (step < 2) setStep(step + 1); else newQuestion(); }}>{step === 2 ? '다른 문제 풀기 ↻' : '다음 풀이 →'}</button>
-              </div>
+                <button type="button" className="btn btn--primary" onClick={() => setStep(step + 1)}>다음 풀이 →</button>
+              </div> : <div className="unit-nav-wrap">
+                <button type="button" className="unit-nav-back" onClick={() => setStep(1)}>← 이전 풀이 다시 보기</button>
+                <div className="unit-nav" role="group" aria-label="다음 학습 선택">
+                  <button type="button" className="btn btn--outline unit-nav-btn" disabled={!prevUnit}
+                    onClick={() => prevUnit && startTopic(prevUnit)}>
+                    <span>← 이전 단원</span>{prevUnit && <small>{prevUnit.grade !== grade ? prevUnit.grade + '학년 · ' : ''}{prevUnit.title}</small>}
+                  </button>
+                  <button type="button" className="btn btn--outline unit-nav-btn unit-nav-btn--retry" onClick={newQuestion}>
+                    <span>↻ 다시 풀기</span><small>문제 하나 더</small>
+                  </button>
+                  <button type="button" className="btn btn--primary unit-nav-btn" disabled={!nextUnit}
+                    onClick={() => nextUnit && startTopic(nextUnit)}>
+                    <span>다음 단원 →</span>{nextUnit && <small>{nextUnit.grade !== grade ? nextUnit.grade + '학년 · ' : ''}{nextUnit.title}</small>}
+                  </button>
+                </div>
+              </div>}
             </>}
           </section>
         </div>

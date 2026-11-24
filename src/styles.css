@@ -668,3 +668,19 @@ button:focus-visible, input:focus-visible { outline: 3px solid #97a8ff; outline-
 /* The quiz must keep its question and four choices within one viewport.
    Company details remain at the page bottom on lesson/solution/studio screens. */
 .app-shell--question .page-footer { display: none; }
+
+
+/* 풀이 확인 마지막 단계: 이전 단원 / 다시 풀기 / 다음 단원 */
+.unit-nav-wrap { margin-top: auto; padding-top: 18px; display: grid; gap: 8px; }
+.unit-nav-back { justify-self: start; background: none; border: 0; padding: 4px 2px; font-size: 12px; font-weight: 800; color: #95a0ba; cursor: pointer; }
+.unit-nav-back:hover { color: #5966df; }
+.unit-nav { display: grid; grid-template-columns: 1fr 1fr 1.25fr; gap: 8px; }
+.unit-nav-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 58px; padding: 9px 8px; line-height: 1.2; }
+.unit-nav-btn span { font-size: 13px; }
+.unit-nav-btn small { font-size: 10.5px; font-weight: 700; opacity: .8; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.unit-nav-btn--retry { background: #eef1ff; color: #525fc9; }
+@media (max-width: 520px) {
+  .unit-nav { grid-template-columns: 1fr 1fr; }
+  .unit-nav .btn--primary { grid-column: 1 / -1; grid-row: 1; min-height: 60px; }
+  .unit-nav .btn--primary span { font-size: 15px; }
+}
