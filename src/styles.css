@@ -684,3 +684,26 @@ button:focus-visible, input:focus-visible { outline: 3px solid #97a8ff; outline-
   .unit-nav .btn--primary { grid-column: 1 / -1; grid-row: 1; min-height: 60px; }
   .unit-nav .btn--primary span { font-size: 15px; }
 }
+
+
+/* 문제 화면 교구 칸: 안쪽 스크롤이 있다는 것을 처음부터 알 수 있게 */
+.visual-scroll-wrap { position: relative; }
+.visual-more-hint { display: none; }
+@media (max-width: 850px) {
+  .app-shell--question .visual-scroll-wrap--more::after {
+    content: ''; position: absolute; left: 1px; right: 1px; bottom: 1px; height: 46px; pointer-events: none;
+    border-radius: 0 0 16px 16px; background: linear-gradient(to bottom, #f7f8ff00, #f7f8ffee 70%);
+  }
+  .app-shell--question .visual-more-hint {
+    display: inline-flex; align-items: center; gap: 5px; position: absolute; left: 50%; bottom: 8px; z-index: 2;
+    transform: translateX(-50%); padding: 6px 13px; border: 0; border-radius: 999px;
+    background: #5966df; color: #fff; font-size: 11px; font-weight: 900; white-space: nowrap;
+    box-shadow: 0 6px 16px #5366e244; cursor: pointer;
+  }
+  .app-shell--question .visual-more-hint span { display: inline-block; animation: visual-more-bounce 1.3s ease-in-out infinite; }
+  .app-shell--question .visual-more-hint--mini { padding: 4px 9px; opacity: .85; }
+  .app-shell--question .visual-canvas--interactive::-webkit-scrollbar { width: 5px; }
+  .app-shell--question .visual-canvas--interactive::-webkit-scrollbar-thumb { background: #b8c1e8; border-radius: 9px; }
+}
+@keyframes visual-more-bounce { 0%,100% { transform: translateY(-1px); } 50% { transform: translateY(3px); } }
+@media (prefers-reduced-motion: reduce) { .visual-more-hint span { animation: none !important; } }

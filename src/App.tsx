@@ -71,6 +71,9 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
   const lastActivityAt=useRef(Date.now());
   const lastInteractionReportAt=useRef(0);
   const [explored, setExplored] = useState(false);
+  const visualWrapRef = useRef<HTMLDivElement>(null);
+  const [moreBelow, setMoreBelow] = useState(false);
+  const [scrolledOnce, setScrolledOnce] = useState(false);
   const gradeInfo = grades.find(item => item.grade === grade)!;
   const currentInfo = gradeInfo.chapters.find(item => item.id === unitId) ?? gradeInfo.chapters[0];
   const right = selected === problem.answer;
@@ -133,6 +136,27 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
     }
   },[]); // Opening of the initially selected unit
 
+
+  // 휴대폰 문제 화면: 교구 칸 안쪽에 가려진 내용이 있으면 '아래로 더 보기' 안내를 보여 준다.
+  useEffect(()=>{
+    setScrolledOnce(false);
+    const canvas=visualWrapRef.current?.querySelector<HTMLElement>('.visual-canvas');
+    if(!canvas){setMoreBelow(false);return;}
+    const update=()=>setMoreBelow(canvas.scrollHeight-canvas.clientHeight-canvas.scrollTop>6);
+    const onScroll=()=>{update();if(canvas.scrollTop>4)setScrolledOnce(true);};
+    update();
+    canvas.addEventListener('scroll',onScroll,{passive:true});
+    const observer=typeof ResizeObserver!=='undefined'?new ResizeObserver(update):null;
+    observer?.observe(canvas);
+    if(canvas.firstElementChild)observer?.observe(canvas.firstElementChild);
+    window.addEventListener('resize',update);
+    return ()=>{canvas.removeEventListener('scroll',onScroll);observer?.disconnect();window.removeEventListener('resize',update);};
+  },[phase,topic,problem,studioOpen]);
+
+  function scrollVisualDown(){
+    const canvas=visualWrapRef.current?.querySelector<HTMLElement>('.visual-canvas');
+    if(canvas)canvas.scrollBy?.({top:Math.round(canvas.clientHeight*.7),behavior:'smooth'});
+  }
 
   function startTopic(unit: Chapter) {
     const nextTopic = unit.topics[0];
@@ -315,7 +339,13 @@ export default function App({initialGrade=5,initialUnitId,initialProgress,initia
             <h3>{phase === 'concept' ? '직접 움직여 원리를 발견해요'
               : phase === 'question' ? '그림을 보면서 풀어 보세요'
               : '정답까지 가는 길을 살펴봐요'}</h3>
+            <div className={'visual-scroll-wrap' + (moreBelow ? ' visual-scroll-wrap--more' : '')} ref={visualWrapRef}>
             <Visuals phase={phase} step={step} problem={problem} onEngage={() => {setExplored(true);const now=Date.now();if(now-lastInteractionReportAt.current>=5000){lastInteractionReportAt.current=now;onLearningEvent?.({event_type:'lab_interaction',unit_id:unitId,topic});}}} />
+            {moreBelow && <button type="button" className={'visual-more-hint' + (scrolledOnce ? ' visual-more-hint--mini' : '')}
+              onClick={scrollVisualDown} aria-label="교구 아래쪽 더 보기">
+              <span aria-hidden="true">↓</span>{!scrolledOnce && ' 아래로 밀어서 더 보기'}
+            </button>}
+            </div>
             <div className="visual-caption"><span aria-hidden="true">✦</span> {explored ? '내 손으로 수학을 변화시켰어요! 다른 방법도 탐구해 보세요.' : '블록·선·도형을 클릭하거나 손가락으로 움직여 보세요.'}</div>
           </section>
 
