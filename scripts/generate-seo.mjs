@@ -85,7 +85,7 @@ const curriculumPage={
 };
 const middleOverview={
   slug:'curriculum/middle',
-  title:'중학교 1~3학년 수학 직접 탐구·무료 문제 풀이 | 수학천재',
+  title:'중학교 1~3학년 수학 직접 탐구·문제 풀이 | 수학천재',
   description:'중1·중2·중3 수학: 소인수분해·일차방정식·함수·도형·확률·이차함수·삼각비까지 회원가입 없이 수학 개념을 직접 움직이며 배워요.',
   eyebrow:'중등 수학 1~3학년',
   headline:'중학교 1·2·3학년 수학 개념과 실험 학습',
@@ -93,7 +93,7 @@ const middleOverview={
 };
 const middlePages=([1,2,3]).map(grade=>({
   slug:'curriculum/middle-'+grade,
-  title:'중학교 '+grade+'학년 수학 단원·무료 개념 실험 | 수학천재',
+  title:'중학교 '+grade+'학년 수학 단원·개념 실험 | 수학천재',
   description:'중'+grade+' 수학 1·2학기 단원을 직접 탐구합니다. '+
     middleUnits.filter(u=>u.grade===grade).slice(0,5).map(u=>u.title).join('·')+
     ' 등 그래프와 도형을 직접 조절하고 문제를 풀어보세요.',
@@ -130,7 +130,7 @@ function homeSchema(){
       description:'초등학교 1~6학년 및 중학교 1~3학년 수학을 직접 조작하는 시각 교구로 학습하는 한국어 웹앱',
       operatingSystem:'Web',applicationCategory:'EducationalApplication',
       educationalLevel:'초등학교 1~6학년 및 중학교 1~3학년',isAccessibleForFree:true,
-      offers:{'@type':'Offer',price:'0',priceCurrency:'KRW',description:'무료 수학 체험'},
+      offers:{'@type':'Offer',price:'0',priceCurrency:'KRW',description:'수학천재 수학 학습'},
       provider:org,
       audience:[
         {'@type':'EducationalAudience',educationalRole:'student'},
@@ -208,7 +208,7 @@ function pageHtml(page,body){
     '<p class="eyebrow">'+escapeHtml(page.eyebrow)+'</p>'+
     '<h1>'+escapeHtml(page.headline)+'</h1>'+
     '<p class="intro">'+escapeHtml(page.intro)+'</p>'+body+
-    '<div class="actions"><a href="'+prefix+studyQuery+'">회원가입 없이 무료 수학 체험</a>'+
+    '<div class="actions"><a href="'+prefix+studyQuery+'">회원가입 없이 수학 시작하기</a>'+
     '<a class="secondary" href="'+prefix+'curriculum/">전체 학년 단원 보기</a></div>'+
     '<p class="callout">안내된 수업 자료는 수학천재의 자체 콘텐츠입니다. 교육부·교육청 공식 운영 또는 인증을 뜻하지 않으며, 학교 성취평가를 대체하지 않습니다.</p>'+
     '</main><footer>© '+new Date().getUTCFullYear()+
@@ -276,7 +276,7 @@ function middleOverviewBody(){
       '<p><a class="grade-link" href="../middle-'+item.grade+'/">'+
         '중'+item.grade+' 학습 단원 자세히 보기 →</a></p>'+
       '<p><a class="grade-link" href="../../?level=middle&amp;grade='+item.grade+'">'+
-        '중'+item.grade+' 수학 무료 체험 바로 시작하기 →</a></p></section>';
+        '중'+item.grade+' 수학 바로 시작하기 →</a></p></section>';
   }).join('');
 }
 

@@ -3,7 +3,7 @@ import {cleanup,fireEvent,render,screen} from '@testing-library/react';
 import FreeSite from '../src/free/FreeSite.tsx';
 afterEach(()=>{cleanup();window.history.replaceState({},'','/');localStorage.clear();});
 
-describe('무료판은 기존 수학천재와 동일한 학습 엔진을 렌더링한다',()=>{
+describe('홈은 기존 수학천재와 동일한 학습 엔진을 렌더링한다',()=>{
   it('기본 5학년과 모든 학년 선택 기능이 원본 그대로 표시된다',()=>{
     window.history.replaceState({},'','/mathgenius_fr/');
     render(<FreeSite/>);

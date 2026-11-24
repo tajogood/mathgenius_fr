@@ -42,7 +42,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
   const chapterIndex=units.findIndex(c=>c.id===chapter.id);
   const correct=selected===question.answer;
   const result=selected!==null;
-  useEffect(()=>{document.title='중'+grade+' 수학 · '+chapter.title+' | 수학천재 무료판';},[grade,chapter.title]);
+  useEffect(()=>{document.title='중'+grade+' 수학 · '+chapter.title+' | 수학천재';},[grade,chapter.title]);
 
   function selectChapter(next:MiddleChapter){
     setGrade(next.grade);setSemester(next.semester);setChapter(next);
@@ -85,7 +85,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
   return <div className="middle-root">
     <header className="middle-site-header">
       <div className="middle-brand"><strong>✦ 수학천재</strong>
-        <span>중등 수학 실험실</span><small>FREE · 2022 개정 참고</small>
+        <span>중등 수학 실험실</span><small>2022 개정 참고</small>
       </div>
       <button type="button" onClick={onElementary}>← 초등 수학 학습실</button>
     </header>
@@ -93,7 +93,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
       <div className="middle-headline">
         <span>중학교 수학 · 직접 탐구</span>
         <h1>중{grade} 수학을 손으로 이해해요.</h1>
-        <p>숫자와 도형을 바꿔 보고, 문제로 확인하세요. · 로그인 없이 무료 이용</p>
+        <p>숫자와 도형을 바꿔 보고, 문제로 확인하세요. · 로그인 없이 바로 이용</p>
       </div>
       <div className="middle-grade-select" role="group" aria-label="중학교 학년 선택">
         {([1,2,3] as const).map(g=><button key={g} type="button"
@@ -186,7 +186,7 @@ export default function MiddleApp({initialGrade=1,onElementary}:{
         </div>
       </main>
     </div>
-    <footer className="middle-footer">© {new Date().getFullYear()} 주식회사 라릭 · 수학천재 무료판
+    <footer className="middle-footer">© {new Date().getFullYear()} 주식회사 라릭 · 수학천재
       <span>교육부·교육청 공식 서비스 또는 성취평가가 아닙니다.</span></footer>
   </div>;
 }

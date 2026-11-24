@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-test('무료판은 원본 학습실을 홈에서 즉시 시작한다',async({page})=>{
+test('홈은 원본 학습실을 홈에서 즉시 시작한다',async({page})=>{
   await page.goto('/mathgenius_fr/');
   await expect(page.getByRole('group',{name:'학년 선택'})).toBeVisible();
   await expect(page.locator('.grade-button--active')).toContainText('5');

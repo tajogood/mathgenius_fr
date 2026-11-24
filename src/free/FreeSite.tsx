@@ -42,7 +42,7 @@ export default function FreeSite(){
     initialGrade={mode.grade} onElementary={openElementary}/>;
   return <div className="free-grade-portal">
     <nav className="free-level-nav" aria-label="학교급 선택">
-      <strong>✦ 수학천재 FREE</strong>
+      <strong>✦ 수학천재</strong>
       <span className="free-current-level">초등 1~6학년</span>
       <span className="free-level-intro">중학교 수학도 숫자와 도형을 바꿔 보세요.</span>
       <div role="group" aria-label="중학교 수학 선택">
