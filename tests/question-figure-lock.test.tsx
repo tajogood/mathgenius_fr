@@ -1,5 +1,5 @@
 import {afterEach,describe,expect,it} from 'vitest';
-import {cleanup,render,screen} from '@testing-library/react';
+import {cleanup,fireEvent,render,screen} from '@testing-library/react';
 import InteractiveLab from '../src/components/InteractiveLab.tsx';
 import type {Problem} from '../src/math.ts';
 
@@ -28,5 +28,12 @@ describe('문제 단계의 그림은 정답과 일치하고 바꿀 수 없다',(
     render(<InteractiveLab problem={solid(0)} phase="concept" step={0}/>);
     expect(screen.getByRole('button',{name:'원뿔'})).toBeTruthy();
     expect(screen.getByRole('button',{name:/전개도 펼치기/})).toBeTruthy();
+  });
+  it('개념 단계에서 모양을 바꿔도 문제 단계로 넘어가면 정답 입체로 돌아간다',()=>{
+    const {rerender}=render(<InteractiveLab problem={solid(2)} phase="concept" step={0}/>);
+    fireEvent.click(screen.getByRole('button',{name:'원기둥'}));
+    expect(discovery()).toMatch(/원기둥/);
+    rerender(<InteractiveLab problem={solid(2)} phase="question" step={0}/>);
+    expect(discovery()).toMatch(/밑면 0개/);           // 구
   });
 });

@@ -113,7 +113,8 @@ export function RoundSolidsExplorerLab({problem:p,phase,standardId}:LabProps){
     p.topic==='shapes3d'&&p.a===2?'sphere':
     p.topic==='curvedsolids'&&p.a===1?'cone':
     p.topic==='curvedsolids'&&p.a===2?'sphere':'cylinder';
- const [shape,setShape]=useState<RoundSolid>(initial);
+ const [chosenShape,setShape]=useState<RoundSolid>(initial);
+ const shape:RoundSolid=quiz?initial:chosenShape; // 문제 중에는 항상 정답 입체
  const [yaw,setYaw]=useState(-25),[pitch,setPitch]=useState(24);
  const [radius,setRadius]=useState(3);
  const [selected,setSelected]=useState<RoundPart>('curve');

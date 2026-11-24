@@ -82,7 +82,8 @@ function ActiveLab({problem,phase,step,standardId}:InteractiveLabProps) {
 }
 
 // 문제마다 교구를 새로 그린다. 문장이 같아도(예: '그림 속 입체도형의 이름은?') 숫자·정답이 다르면 다른 문제다.
-const labKey=(p:Problem,standardId?:string)=>[standardId,p.topic,p.prompt,p.a,p.b,p.c,p.d,p.mode,p.answer].join('|');
+// 개념 단계에서 학생이 바꾼 교구 상태가 문제 단계로 넘어가지 않도록, 개념→문제 전환 때도 새로 그린다.
+const labKey=(p:Problem,phase:string,standardId?:string)=>[standardId,phase==='concept'?'concept':'quiz',p.topic,p.prompt,p.a,p.b,p.c,p.d,p.mode,p.answer].join('|');
 
 export default function InteractiveLab({problem,phase,step,standardId,onEngage}:InteractiveLabProps) {
   const kind=interactionForProblem(problem);
@@ -122,6 +123,6 @@ export default function InteractiveLab({problem,phase,step,standardId,onEngage}:
       <div><strong>{title}</strong><span>{TOPIC_CHALLENGES[problem.topic] || instructions}</span></div>
       <span className="lab-interactive-tag">터치 가능</span>
     </div>
-    <ActiveLab key={labKey(problem,standardId)} problem={problem} phase={phase} step={step} standardId={standardId}/>
+    <ActiveLab key={labKey(problem,phase,standardId)} problem={problem} phase={phase} step={step} standardId={standardId}/>
   </div>;
 }
