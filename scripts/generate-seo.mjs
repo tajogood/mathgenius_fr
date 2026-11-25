@@ -197,8 +197,10 @@ function navHtml(prefix) {
     ['학부모','for-parents'],['초등 교사','for-teachers'],
     ['교육 관계자','for-education'],['초등 단원','curriculum'],['중등 수학','curriculum/middle'],['고등 수학','curriculum/high'],
   ];
+  // Manual language switch: Korean guide pages link to the English landing page.
   return '<nav aria-label="학습 정보">' + nav.map(([name,slug])=>
-    '<a href="'+prefix+slug+'/">'+escapeHtml(name)+'</a>').join(' ')+'</nav>';
+    '<a href="'+prefix+slug+'/">'+escapeHtml(name)+'</a>').join(' ')+
+    ' <a class="lang-link" href="'+prefix+'en/" hreflang="en" lang="en">English</a></nav>';
 }
 function pageHtml(page,body){
   const prefix=relativeRoot(page.slug);

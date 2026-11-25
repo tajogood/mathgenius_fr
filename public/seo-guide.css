@@ -19,3 +19,4 @@ p{margin:8px 0 14px}.eyebrow{font-size:13px;font-weight:800;color:#6170cf}
 .grade-link{display:block;text-decoration:none;font-weight:800;margin:18px 0 8px}
 .quiet{color:#76849a;font-size:13px}footer{border-top:1px solid #dfe5f1;color:#6f7c95;font-size:13px}
 @media(max-width:620px){header,main,footer{padding:18px}.unit-list{grid-template-columns:1fr}.panel{padding:17px}nav{gap:6px 12px}}
+nav a.lang-link{border:1px solid #cdd8f5;border-radius:8px;padding:1px 9px}
