@@ -135,6 +135,7 @@ const routes=[
   ...middlePages,
   highOverview,
   ...highPages,
+  {slug:'en'},
 ];
 
 function orgSchema(){
@@ -182,6 +183,7 @@ function homepageTags(){
   const tags=[
     url?'<link rel="canonical" href="'+escapeHtml(url)+'">':'',
     url?metaTag('property','og:url',url):'',
+    ...hreflangTags(),
     process.env.GOOGLE_SITE_VERIFICATION?metaTag('name','google-site-verification',process.env.GOOGLE_SITE_VERIFICATION):'',
     process.env.NAVER_SITE_VERIFICATION?metaTag('name','naver-site-verification',process.env.NAVER_SITE_VERIFICATION):'',
   ];
@@ -328,6 +330,79 @@ function writeStaticPage(page,body){
   mkdirSync(dir,{recursive:true});
   writeFileSync(join(dir,'index.html'),pageHtml(page,body));
 }
+
+// ── English landing page (/en/) ────────────────────────────────────────────
+// The app itself switches language in the browser (see src/i18n). This static
+// page gives search engines an English URL and links to the app with ?lang=en.
+function hreflangTags(){
+  const ko=absolute(''),en=absolute('en');
+  if(!ko||!en)return [];
+  return [
+    '<link rel="alternate" hreflang="ko" href="'+escapeHtml(ko)+'">',
+    '<link rel="alternate" hreflang="en" href="'+escapeHtml(en)+'">',
+    '<link rel="alternate" hreflang="x-default" href="'+escapeHtml(ko)+'">',
+  ];
+}
+const englishPage={
+  slug:'en',
+  title:'MathGenius | Hands-on math for grades 1–12, no sign-up',
+  description:'MathGenius (수학천재) lets students move blocks, shapes and graphs to understand math, from grade 1 counting to high school calculus and statistics. Free to try, no sign-up, progress stays in your browser.',
+};
+function englishPageHtml(){
+  const prefix='../';
+  const url=absolute('en');
+  const app=q=>prefix+'?lang=en'+(q?'&amp;'+q:'');
+  const totalHigh=highCourses.reduce((n,c)=>n+c.chapters.length,0);
+  const schema={'@context':'https://schema.org','@graph':[
+    {'@type':'WebPage',name:englishPage.title,description:englishPage.description,inLanguage:'en',url:url||undefined,
+      isPartOf:{'@type':'WebSite',name:siteName,url:siteUrl||undefined}},
+  ]};
+  const head=[
+    '<!doctype html><html lang="en"><head>',
+    '<meta charset="UTF-8">',
+    '<meta name="viewport" content="width=device-width, initial-scale=1">',
+    '<meta name="robots" content="'+(isCfPreview?'noindex,nofollow':'index,follow,max-image-preview:large')+'">',
+    '<meta name="theme-color" content="#f7f8ff">',
+    '<title>'+escapeHtml(englishPage.title)+'</title>',
+    metaTag('name','description',englishPage.description),
+    metaTag('property','og:type','website'),
+    metaTag('property','og:locale','en_US'),
+    metaTag('property','og:locale:alternate','ko_KR'),
+    metaTag('property','og:site_name','MathGenius'),
+    metaTag('property','og:title',englishPage.title),
+    metaTag('property','og:description',englishPage.description),
+    metaTag('name','twitter:card','summary'),
+    url?'<link rel="canonical" href="'+escapeHtml(url)+'">':'',
+    url?metaTag('property','og:url',url):'',
+    ...hreflangTags(),
+    ldJson(schema),
+    '<link rel="icon" href="'+prefix+'icon.svg" type="image/svg+xml">',
+    '<link rel="stylesheet" href="'+prefix+'seo-guide.css">',
+    trackerTag,
+    '</head><body>',
+  ].filter(Boolean).join('\n');
+  const section=(h,p,links)=>'<section class="panel"><h2>'+h+'</h2><p>'+p+'</p>'+(links?'<p>'+links+'</p>':'')+'</section>';
+  return head+
+    '<header><a class="brand" aria-label="MathGenius home" href="'+app('')+'">✦ MathGenius</a>'+
+    '<nav aria-label="Language"><a href="'+prefix+'?lang=ko" hreflang="ko" lang="ko">한국어</a> <a href="./" aria-current="page">English</a></nav></header>'+
+    '<main><p class="eyebrow">Math you can touch · Grades 1–12</p>'+
+    '<h1>Understand math by moving it with your own hands</h1>'+
+    '<p class="intro">MathGenius turns fractions, shapes, area, averages, equations and graphs into models you can drag, split and change. '+
+    'Watch what happens, then check yourself with practice problems and step-by-step solutions. No sign-up or payment needed.</p>'+
+    section('Elementary · Grades 1–6','Count with blocks, split pizzas into fractions, build rectangles to see area and perimeter, and balance candies to find the mean.',
+      [1,2,3,4,5,6].map(g=>'<a href="'+app('guest=1&amp;grade='+g)+'">Grade '+g+'</a>').join(' · '))+
+    section('Middle school · Grades 7–9','Prime factors, linear equations on a balance, slope and intercept, the Pythagorean theorem, probability and quadratic graphs.',
+      [1,2,3].map(g=>'<a href="'+app('level=middle&amp;grade='+g)+'">Grade '+(g+6)+'</a>').join(' · '))+
+    section('High school · '+totalHigh+' units','Polynomials, complex numbers, functions, exponents and logarithms, trigonometry, sequences, limits, derivatives, integrals, and probability distributions.',
+      '<a href="'+app('level=high&amp;course=c1')+'">Start high school math</a>')+
+    section('Good to know','The lessons follow the South Korean national curriculum (2022 revision), so unit order may differ from your school. '+
+      'We are translating lesson explanations into English step by step; some practice problems are still in Korean. '+
+      'Progress is saved only in your browser. We use Cloudflare Web Analytics for anonymous visit counts.')+
+    '<div class="actions"><a href="'+app('guest=1&amp;grade=1')+'">Start learning, no sign-up</a>'+
+    '<a class="secondary" href="'+prefix+'?lang=ko" hreflang="ko">한국어로 보기</a></div>'+
+    '<p class="callout">MathGenius is independent learning content. It is not an official service of any ministry of education and does not replace school assessments.</p>'+
+    '</main><footer>© '+new Date().getUTCFullYear()+' Larix Inc. · <a href="https://larix.kr">larix.kr</a></footer></body></html>';
+}
 function run(){
   if(!existsSync(join(outDir,'index.html')))throw new Error('Run vite build before SEO generation');
   const indexPath=join(outDir,'index.html');
@@ -346,6 +421,8 @@ function run(){
   for(let grade=1;grade<=3;grade++)writeStaticPage(middlePages[grade-1],middleGradeBody(grade));
   writeStaticPage(highOverview,highOverviewBody());
   highPages.forEach((page,i)=>writeStaticPage(page,highCourseBody(highCourses[i])));
+  mkdirSync(join(outDir,'en'),{recursive:true});
+  writeFileSync(join(outDir,'en','index.html'),englishPageHtml());
   const robots=isCfPreview?['User-agent: *','Disallow: /']:['User-agent: *','Allow: /'];
   if(siteUrl){
     const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n'+

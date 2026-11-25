@@ -4,6 +4,8 @@ import MiddleApp from '../middle/MiddleApp.tsx';
 import HighApp from '../high/HighApp.tsx';
 import {HIGH_COURSE_IDS,type HighCourseId} from '../high/curriculum.ts';
 import './level-switch.css';
+import LangSwitch,{TranslationNotice} from '../i18n/LangSwitch.tsx';
+import {L} from '../i18n/index.ts';
 
 // Elementary curriculum and its App component are intentionally untouched.
 // Middle- and high-school modes have independent, browser-only lesson engines.
@@ -38,23 +40,25 @@ export default function FreeSite(){
   const openMiddle=(grade:1|2|3)=>{go({level:'middle',grade:String(grade)});setMode({level:'middle',grade});};
   const openHigh=(course:HighCourseId='c1')=>{go({level:'high',course});setMode({level:'high',course});};
   const openElementary=()=>{go({});setMode({level:'elementary',grade:5});};
-  if(mode.level==='high')return <HighApp key={'high'+mode.course} initialCourse={mode.course}
-    onElementary={openElementary} onMiddle={()=>openMiddle(1)}/>;
-  if(mode.level==='middle')return <MiddleApp key={'middle'+mode.grade}
-    initialGrade={mode.grade} onElementary={openElementary} onHigh={()=>openHigh('c1')}/>;
+  if(mode.level==='high')return <><TranslationNotice/><HighApp key={'high'+mode.course} initialCourse={mode.course}
+    onElementary={openElementary} onMiddle={()=>openMiddle(1)}/></>;
+  if(mode.level==='middle')return <><TranslationNotice/><MiddleApp key={'middle'+mode.grade}
+    initialGrade={mode.grade} onElementary={openElementary} onHigh={()=>openHigh('c1')}/></>;
   return <div className="free-grade-portal">
-    <nav className="free-level-nav" aria-label="학교급 선택">
-      <strong>✦ 수학천재</strong>
-      <span className="free-current-level">초등 1~6학년</span>
-      <span className="free-level-intro">중·고등 수학도 숫자와 그래프를 바꿔 보세요.</span>
-      <div role="group" aria-label="중학교 수학 선택">
+    <nav className="free-level-nav" aria-label={L('학교급 선택','Choose school level')}>
+      <strong>{L('✦ 수학천재','✦ MathGenius')}</strong>
+      <span className="free-current-level">{L('초등 1~6학년','Elementary · Grades 1–6')}</span>
+      <span className="free-level-intro">{L('중·고등 수학도 숫자와 그래프를 바꿔 보세요.','Middle and high school math too: change the numbers and watch the graphs move.')}</span>
+      <div role="group" aria-label={L('중학교 수학 선택','Choose middle school math')}>
         {([1,2,3] as const).map(grade=><button type="button" key={grade}
-          onClick={()=>openMiddle(grade)}>중{grade} 수학 →</button>)}
+          onClick={()=>openMiddle(grade)}>{L('중'+grade+' 수학 →','Grade '+(grade+6)+' →')}</button>)}
       </div>
-      <div role="group" aria-label="고등학교 수학 선택">
-        <button type="button" className="free-high-button" onClick={()=>openHigh('c1')}>고등 수학 →</button>
+      <div role="group" aria-label={L('고등학교 수학 선택','Choose high school math')}>
+        <button type="button" className="free-high-button" onClick={()=>openHigh('c1')}>{L('고등 수학 →','High School →')}</button>
       </div>
+      <LangSwitch/>
     </nav>
+    <TranslationNotice/>
     <App initialGrade={mode.grade}/>
   </div>;
 }

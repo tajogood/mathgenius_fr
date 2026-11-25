@@ -6,6 +6,8 @@ import {createMiddleProblem,type MiddleProblem} from './problems.ts';
 import {activityGuide} from './activityGuide.ts';
 import {MathLine} from '../components/MathLine.tsx';
 import './middle.css';
+import {L,tr,isEn} from '../i18n/index.ts';
+import LangSwitch from '../i18n/LangSwitch.tsx';
 
 type Grade=1|2|3;
 type Phase=0|1;
@@ -43,7 +45,7 @@ export default function MiddleApp({initialGrade=1,onElementary,onHigh}:{
   const chapterIndex=units.findIndex(c=>c.id===chapter.id);
   const correct=selected===question.answer;
   const result=selected!==null;
-  useEffect(()=>{document.title='중'+grade+' 수학 · '+chapter.title+' | 수학천재';},[grade,chapter.title]);
+  useEffect(()=>{document.title=L('중'+grade+' 수학 · '+chapter.title+' | 수학천재','Grade '+(grade+6)+' Math · '+tr(chapter.title)+' | MathGenius');},[grade,chapter.title]);
 
   function selectChapter(next:MiddleChapter){
     setGrade(next.grade);setSemester(next.semester);setChapter(next);
@@ -85,55 +87,56 @@ export default function MiddleApp({initialGrade=1,onElementary,onHigh}:{
   const currentDone=done.find(v=>v.grade===grade)!;
   return <div className="middle-root">
     <header className="middle-site-header">
-      <div className="middle-brand"><strong>✦ 수학천재</strong>
-        <span>중등 수학 실험실</span><small>2022 개정 참고</small>
+      <div className="middle-brand"><strong>{L('✦ 수학천재','✦ MathGenius')}</strong>
+        <span>{L('중등 수학 실험실','Middle School Math Lab')}</span><small>{L('2022 개정 참고','Based on Korea\'s 2022 curriculum')}</small>
       </div>
       <div className="middle-level-links">
-        <button type="button" onClick={onElementary}>← 초등 수학 학습실</button>
-        {onHigh&&<button type="button" onClick={onHigh}>고등 수학 →</button>}
+        <button type="button" onClick={onElementary}>{L('← 초등 수학 학습실','← Elementary math')}</button>
+        {onHigh&&<button type="button" onClick={onHigh}>{L('고등 수학 →','High school math →')}</button>}
+        <LangSwitch/>
       </div>
     </header>
     <div className="middle-topline">
       <div className="middle-headline">
-        <span>중학교 수학 · 직접 탐구</span>
-        <h1>중{grade} 수학을 손으로 이해해요.</h1>
-        <p>숫자와 도형을 바꿔 보고, 문제로 확인하세요. · 로그인 없이 바로 이용</p>
+        <span>{L('중학교 수학 · 직접 탐구','Middle school math · Hands-on')}</span>
+        <h1>{L('중'+grade+' 수학을 손으로 이해해요.','Understand Grade '+(grade+6)+' math with your hands.')}</h1>
+        <p>{L('숫자와 도형을 바꿔 보고, 문제로 확인하세요. · 로그인 없이 바로 이용','Change the numbers and shapes, then check with problems. · No sign-up needed')}</p>
       </div>
-      <div className="middle-grade-select" role="group" aria-label="중학교 학년 선택">
+      <div className="middle-grade-select" role="group" aria-label={L('중학교 학년 선택','Choose middle school grade')}>
         {([1,2,3] as const).map(g=><button key={g} type="button"
           aria-pressed={grade===g} onClick={()=>selectGrade(g)}>
-          중{g}<small>{done.find(v=>v.grade===g)!.completed} / {done.find(v=>v.grade===g)!.total} 완료</small>
+          {L('중'+g,'Grade '+(g+6))}<small>{done.find(v=>v.grade===g)!.completed} / {done.find(v=>v.grade===g)!.total} {L('완료','done')}</small>
         </button>)}
       </div>
     </div>
     <div className="middle-workspace">
       <aside className="middle-sidebar">
-        <div className="middle-sidebar-title"><h2>중{grade} 수학 단원</h2>
-          <p>완료 {currentDone.completed} / {currentDone.total}</p>
+        <div className="middle-sidebar-title"><h2>{L('중'+grade+' 수학 단원','Grade '+(grade+6)+' units')}</h2>
+          <p>{L('완료','Done')} {currentDone.completed} / {currentDone.total}</p>
           <div className="middle-progress"><div style={{width:(currentDone.completed/currentDone.total*100)+'%'}}/></div>
         </div>
-        <div className="middle-semester-selector" role="group" aria-label="학기 선택">
+        <div className="middle-semester-selector" role="group" aria-label={L('학기 선택','Choose semester')}>
           {([1,2] as const).map(s=><button type="button" key={s} aria-pressed={semester===s}
-            onClick={()=>selectSemester(s)}>{s}학기</button>)}
+            onClick={()=>selectSemester(s)}>{L(s+'학기','Semester '+s)}</button>)}
         </div>
-        <nav aria-label="중학교 단원 목록">
+        <nav aria-label={L('중학교 단원 목록','Middle school units')}>
           {units.map((unit,i)=><button type="button" key={unit.id}
             className={chapter.id===unit.id?'middle-unit-current':''}
             aria-current={chapter.id===unit.id?'page':undefined} onClick={()=>selectChapter(unit)}>
             <span className="middle-unit-number">{String(i+1).padStart(2,'0')}</span>
-            <span><strong>{unit.title}</strong><small>{unit.label}</small></span>
-            {completed.includes(unit.id)&&<span className="middle-done" aria-label="완료">✓</span>}
+            <span><strong>{tr(unit.title)}</strong><small>{tr(unit.label)}</small></span>
+            {completed.includes(unit.id)&&<span className="middle-done" aria-label={L('완료','Done')}>✓</span>}
           </button>)}
         </nav>
       </aside>
       <main className="middle-lesson">
         <div className="middle-chapter-top">
-          <div><span className="middle-eyebrow">중{grade} · {semester}학기 · {chapter.label}</span>
-            <h2>{chapter.title}</h2><p><MathLine text={chapter.subtitle}/></p></div>
+          <div><span className="middle-eyebrow">{L('중'+grade+' · '+semester+'학기','Grade '+(grade+6)+' · Semester '+semester)} · {tr(chapter.label)}</span>
+            <h2>{tr(chapter.title)}</h2><p><MathLine text={tr(chapter.subtitle)}/></p></div>
           <span className="middle-chapter-icon" aria-hidden="true">{chapter.illustration}</span>
         </div>
-        <div className="middle-steps" role="group" aria-label="학습 단계">
-          {(['직접 탐구','문제 풀기'] as const).map((name,i)=>
+        <div className="middle-steps" role="group" aria-label={L('학습 단계','Lesson steps')}>
+          {[L('직접 탐구','Explore'),L('문제 풀기','Practice')].map((name,i)=>
             <button type="button" key={name} aria-current={phase===i?'step':undefined}
               className={phase===i?'middle-step-selected':''}
               onClick={()=>setPhase(i as Phase)}>
@@ -142,22 +145,22 @@ export default function MiddleApp({initialGrade=1,onElementary,onHigh}:{
 
         {phase===0&&<section className="middle-concept">
           <div className="middle-section-label"><span>STEP 01 · EXPLORE</span>
-            <h3>직접 탐구</h3></div>
-          <div className="middle-activity-cue"><span>오늘 해 볼 일</span>
+            <h3>{L('직접 탐구','Explore')}</h3></div>
+          <div className="middle-activity-cue"><span>{L('오늘 해 볼 일','Try this today')}</span>
             <strong><MathLine text={activityGuide[chapter.topic].action}/></strong></div>
           <MotionExplainer key={`motion-${chapter.id}`} topic={chapter.topic}/>
           <MiddleLab key={chapter.id} topic={chapter.topic}/>
-          <div className="middle-inquiry"><strong>관찰할 점</strong><p><MathLine text={activityGuide[chapter.topic].notice}/></p></div>
-          <details className="middle-why"><summary>왜 이런 결과가 나올까요?</summary>
+          <div className="middle-inquiry"><strong>{L('관찰할 점','What to notice')}</strong><p><MathLine text={activityGuide[chapter.topic].notice}/></p></div>
+          <details className="middle-why"><summary>{L('왜 이런 결과가 나올까요?','Why does this happen?')}</summary>
             <p><MathLine text={activityGuide[chapter.topic].reason}/></p></details>
           <button type="button" className="middle-next" onClick={()=>setPhase(1)}>
-            문제 풀어보기 →</button>
+            {L('문제 풀어보기 →','Try the problems →')}</button>
         </section>}
         {phase===1&&<section className="middle-concept middle-quiz">
           <div className="middle-section-label"><span>STEP 02 · PRACTICE</span>
-            <h3>문제로 확인해 보세요</h3></div>
+            <h3>{L('문제로 확인해 보세요','Check with a problem')}</h3></div>
           <div className="middle-question">
-            <div className="middle-question-badge">연습 문제 · {chapter.title}</div>
+            <div className="middle-question-badge">{L('연습 문제','Practice')} · {tr(chapter.title)}</div>
             <h3><MathLine text={question.prompt}/></h3>
             <div className="middle-choice-grid">
               {question.choices.map((choice,i)=><button key={choice} type="button"
@@ -169,28 +172,28 @@ export default function MiddleApp({initialGrade=1,onElementary,onHigh}:{
               </button>)}
             </div>
             {result&&<div role="status" className={'middle-feedback '+(correct?'middle-feedback--right':'middle-feedback--wrong')}>
-              <strong>{correct?'🎉 정답입니다!':<>다시 생각해 보세요. 정답은 <MathLine text={question.answer}/>입니다.</>}</strong>
+              <strong>{correct?L('🎉 정답입니다!','🎉 Correct!'):!isEn()?<>다시 생각해 보세요. 정답은 <MathLine text={question.answer}/>입니다.</>:<>Not quite. The answer is <MathLine text={question.answer}/>.</>}</strong>
               <p><MathLine text={question.solution}/></p>
             </div>}
             {!result&&<button type="button" className="middle-hint-toggle"
-              onClick={()=>setShowHint(p=>!p)}>{showHint?'힌트 접기':'힌트 보기'}</button>}
+              onClick={()=>setShowHint(p=>!p)}>{showHint?L('힌트 접기','Hide hint'):L('힌트 보기','Show hint')}</button>}
             {showHint&&!result&&<p className="middle-hint"><MathLine text={chapter.concept[1]}/></p>}
             <div className="middle-quiz-actions">
-              <button type="button" onClick={regenerate}>↻ 다른 문제 풀기</button>
+              <button type="button" onClick={regenerate}>{L('↻ 다른 문제 풀기','↻ Another problem')}</button>
               {correct&&<button type="button" className="middle-next" onClick={openNext}>
-                다음 단원으로 이동 →</button>}
+                {L('다음 단원으로 이동 →','Go to the next unit →')}</button>}
               {result&&!correct&&<button type="button" onClick={()=>setPhase(0)}>
-                다시 탐구하기</button>}
+                {L('다시 탐구하기','Explore again')}</button>}
             </div>
           </div>
         </section>}
         <div className="middle-bottom-note">
-          학습 진도는 이 브라우저에만 저장됩니다. · 단원 배열은 학교 교과서마다 다를 수 있습니다.
-          중3의 2022 개정 과정은 2027학년도부터 적용됩니다.
+          {L('학습 진도는 이 브라우저에만 저장됩니다. · 단원 배열은 학교 교과서마다 다를 수 있습니다. 중3의 2022 개정 과정은 2027학년도부터 적용됩니다.',
+            'Progress is saved only in this browser. · Units follow the Korean curriculum, so the order may differ from your school\'s.')}
         </div>
       </main>
     </div>
-    <footer className="middle-footer">© {new Date().getFullYear()} 주식회사 라릭 · 수학천재
-      <span>교육부·교육청 공식 서비스 또는 성취평가가 아닙니다.</span></footer>
+    <footer className="middle-footer">© {new Date().getFullYear()} {L('주식회사 라릭 · 수학천재','Larix Inc. · MathGenius')}
+      <span>{L('교육부·교육청 공식 서비스 또는 성취평가가 아닙니다.','Not an official Ministry of Education service or assessment.')}</span></footer>
   </div>;
 }

@@ -1,0 +1,14 @@
+.lang-switch{display:inline-flex;gap:2px;padding:3px;border-radius:10px;background:#eef2ff;border:1px solid #d6def5;flex:none}
+.lang-switch button{min-width:38px;min-height:32px;border:none;border-radius:7px;background:transparent;color:#5a6b96;font:inherit;font-size:12px;font-weight:850;cursor:pointer;padding:5px 9px}
+.lang-switch button[aria-pressed=true]{background:#fff;color:#2f44a0;box-shadow:0 1px 5px #2f44a024}
+.lang-switch button:focus-visible{outline:2px solid #4e64bd;outline-offset:1px}
+/* dark top bar of the elementary portal */
+.free-level-nav .lang-switch[role=group]{gap:2px;background:#33456b;border-color:#4a5d86}
+.free-level-nav .lang-switch button{background:transparent;border:none;color:#c9d5ee;padding:5px 9px;font-size:12px;flex:none}
+.free-level-nav .lang-switch button[aria-pressed=true]{background:#fff;color:#243454}
+@media(max-width:440px){.free-level-nav .lang-switch[role=group]{width:auto}.free-level-nav .lang-switch button{flex:none}}
+.translation-notice{margin:0;padding:9px clamp(14px,3.5vw,44px);background:#fff7e6;color:#6b4a12;border-bottom:1px solid #f1dfb8;font:13px/1.6 system-ui,sans-serif}
+/* light headers of the middle and high school labs */
+.middle-level-links,.high-level-links{align-items:center}
+.middle-level-links .lang-switch button,.high-level-links .lang-switch button{background:transparent;border:none;padding:5px 9px;font-size:12px;color:#5a6b96}
+.middle-level-links .lang-switch button[aria-pressed=true],.high-level-links .lang-switch button[aria-pressed=true]{background:#fff;color:#2f44a0}
