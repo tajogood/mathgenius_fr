@@ -4,6 +4,9 @@
  * Keep math markup ({{a|b}} fractions, ^{ } exponents, _{ } subscripts) exactly as in the Korean.
  */
 export const EN:Record<string,string>={
+  // ── Screen-reader labels for stacked fractions (aria-label "4분의 3") ──
+  '⟨0⟩분의 ⟨1⟩':'⟨1⟩ over ⟨0⟩',
+
   // ── Strand labels ──────────────────────────────────────────────
   '수와 연산':'Number & Operations',
   '변화와 관계':'Patterns & Relationships',

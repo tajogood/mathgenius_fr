@@ -63,6 +63,27 @@ describe('English interface',()=>{
     expect(screen.getByRole('button',{name:'High School →'})).toBeTruthy();
     expect(screen.getAllByText('Learn the idea').length).toBeGreaterThan(0);
   });
+  it('elementary problems, solutions and hints translate fully',async()=>{
+    window.localStorage.setItem('mathgenius.lang.v1','en');
+    vi.resetModules();
+    const i18n=await import('../src/i18n/index.ts');
+    await i18n.loadEnglish();
+    const {TOPICS,createProblem,solutionSteps}=await import('../src/math.ts');
+    const {diagnosticHint,conceptTipForTopic}=await import('../src/feedback.ts');
+    const {curriculumUnits}=await import('../src/curriculum.ts');
+    const left=new Set<string>();
+    const check=(s:string)=>{const out=i18n.tr(s);if(/[가-힣]/.test(out))left.add(s);};
+    for(const topic of TOPICS){
+      check(conceptTipForTopic(topic));
+      for(let i=0;i<25;i++){
+        const p=createProblem(topic);
+        check(p.prompt);p.choices.forEach(check);solutionSteps(p).forEach(check);
+        check(diagnosticHint(p,p.answer));p.choices.forEach(c=>check(diagnosticHint(p,c)));
+      }
+    }
+    for(const u of curriculumUnits)u.concept.forEach(check);
+    expect([...left].slice(0,10)).toEqual([]);
+  });
   it('every curriculum title and description has an English entry',async()=>{
     const {EN}=await import('../src/i18n/en.ts');
     const {curriculumUnits,grades}=await import('../src/curriculum.ts');

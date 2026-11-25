@@ -58,7 +58,6 @@ export default function FreeSite(){
       </div>
       <LangSwitch/>
     </nav>
-    <TranslationNotice/>
     <App initialGrade={mode.grade}/>
   </div>;
 }

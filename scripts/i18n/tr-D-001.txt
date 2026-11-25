@@ -1,0 +1,14 @@
+0	Front view: tallest stack in each column ⟨0⟩ ⟨1⟩ ⟨2⟩ ⟨3⟩
+1	axis of symmetry
+2	.
+3	.
+4	.
+5	Look at the shape of the solid. Find where the flat faces and curved surfaces are. This shape is a sphere.
+6	Compare the directions and lengths of the ⟨0⟩ sides. Check whether opposite sides are parallel. This quadrilateral is a parallelogram.
+7	"At least" includes the boundary number; "greater than" does not. "At least ⟨0⟩" is a range with the boundary ⟨1⟩. ⟨2⟩ is included.
+8	Divide the numerator and denominator of ⟨0⟩/⟨1⟩ by ⟨2⟩ (simplify) to get ⟨3⟩/⟨4⟩. The size stays the same. The answer is ⟨5⟩/⟨6⟩.
+9	⟨0⟩M⟨1⟩-⟨2⟩ · Checked!
+10	Checked
+11	
+12	⟨0⟩ + ⟨1⟩ + ⟨2⟩ = ⟨3⟩ squares
+13	⟨0⟩ + ⟨1⟩ + ⟨2⟩ + ⟨3⟩ + ⟨4⟩ = ⟨5⟩ squares

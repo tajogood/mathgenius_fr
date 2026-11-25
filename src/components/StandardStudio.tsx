@@ -7,6 +7,7 @@ import { answerStandard,masteredStandards,readStandardProgress,STANDARD_STORAGE_
 import type { StandardAssessment } from '../standards/lessons.ts';
 import Visuals from './Visuals.tsx';
 import { MathText } from './MathText.tsx';
+import { isEn,tr } from '../i18n/index.ts';
 
 type Mode='explore'|'concept'|'application'|'complete';
 type Props={initialId:string;onExit:()=>void;initialRecords?:StandardProgress;onRecordsChange?:(next:StandardProgress)=>void;onLearningEvent?:(event:StudyEvent)=>void};
@@ -43,7 +44,8 @@ export default function StandardStudio({initialId,onExit,initialRecords,onRecord
   const sceneText=[
     lesson.discover,
     lesson.principle,
-    '직접 '+lesson.title+' 교구를 움직이며 원리를 확인해 보세요. 조작한 결과를 말로 설명할 수 있다면 개념 문제에 도전해요.',
+    isEn()?'Move the "'+tr(lesson.title)+'" model yourself to check the idea. Once you can explain what happened in your own words, try the concept questions.':
+      '직접 '+lesson.title+' 교구를 움직이며 원리를 확인해 보세요. 조작한 결과를 말로 설명할 수 있다면 개념 문제에 도전해요.',
   ];
   const displayLesson=(nextId:string)=>{
     setId(nextId);setMode('explore');setStep(0);setCheckpointIndex(0);setSelected(null);setChecked(false);
@@ -176,7 +178,8 @@ export default function StandardStudio({initialId,onExit,initialRecords,onRecord
               </div>
             </>:<>
               <div className="studio-card-step">{mode==='concept'?
-                '개념 확인 '+(checkpointIndex+1)+' / '+conceptChecks.length+' · '+conceptChecks[checkpointIndex].label:
+                (isEn()?'Concept check '+(checkpointIndex+1)+' / '+conceptChecks.length+' · '+tr(conceptChecks[checkpointIndex].label):
+                '개념 확인 '+(checkpointIndex+1)+' / '+conceptChecks.length+' · '+conceptChecks[checkpointIndex].label):
                 '자동 생성 적용 문제'}</div>
               <h3><MathText text={assessment.question}/></h3>
               <div className="studio-options" role="group" aria-label="성취기준 문제의 정답 선택">
@@ -191,7 +194,7 @@ export default function StandardStudio({initialId,onExit,initialRecords,onRecord
               </div>
               {checked&&<div className={'studio-feedback'+(passed?' studio-feedback--correct':'')}>
                 <strong>{passed?'✔ 정답이에요':'다시 탐구해 봐요'}</strong>
-                <p><MathText text={passed?assessment.explanation:'선택한 답을 다시 살펴봐요. '+(mode==='concept'?lesson.explanation:lesson.principle)}/></p>
+                <p><MathText text={passed?assessment.explanation:isEn()?'Look at your answer again. '+tr(mode==='concept'?lesson.explanation:lesson.principle):'선택한 답을 다시 살펴봐요. '+(mode==='concept'?lesson.explanation:lesson.principle)}/></p>
               </div>}
               <div className="studio-actions">
                 <button className="btn btn--outline" type="button" onClick={()=>{

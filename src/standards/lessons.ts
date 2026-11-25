@@ -4,6 +4,7 @@ import { lowerLessons } from './lowerLessons.ts';
 import { middleLessons } from './middleLessons.ts';
 import { upperLessons } from './upperLessons.ts';
 import type { StandardLesson } from './lessonTypes.ts';
+import { tr } from '../i18n/index.ts';
 
 export type { StandardLesson } from './lessonTypes.ts';
 export const standardLessons:StandardLesson[]=[
@@ -38,7 +39,8 @@ export function standardAssessments(lesson:StandardLesson):[StandardAssessment,S
   const second:StandardAssessment={
     kind:'application',question:p.prompt,
     choices:p.choices,answer:p.answer,
-    explanation:p.steps?.join(' ')||'교구에서 실제 수량을 움직여 확인한 뒤 원래 문제의 계산 순서를 다시 적용해 보세요.',
+    // Each step is translated on its own so English mode never needs every joined combination.
+    explanation:p.steps?.map(tr).join(' ')||tr('교구에서 실제 수량을 움직여 확인한 뒤 원래 문제의 계산 순서를 다시 적용해 보세요.'),
     visualProblem:p,
   };
   return [first,second];

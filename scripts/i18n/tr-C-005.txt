@@ -1,0 +1,201 @@
+900	Change the number of sides of the base and check the numbers of faces and vertices.
+901	A prism has two identical bases, and a pyramid has one base.
+902	How many vertices does a triangular prism have?
+903	It has two triangular bases, so ⟨0⟩×⟨1⟩=⟨2⟩ vertices.
+904	vertices of a pyramid
+905	How many vertices does a square pyramid have?
+906	Add one vertex to the four vertices of the square base.
+907	A prism has two bases of the same shape, one on top and one on the bottom. Each base has ⟨0⟩ vertices. That makes ⟨1⟩ in all.
+908	Understanding nets of prisms
+909	Turn the prism and think about how the side faces join when unfolded.
+910	A triangular prism has two triangular bases and three rectangular side faces.
+911	How many faces are on the net of a triangular prism?
+912	⟨0⟩ bases and ⟨1⟩ side faces make five faces in all.
+913	number of side faces
+914	How many side faces does a rectangular prism have?
+915	There are as many rectangular side faces as the base has sides: four.
+916	How cylinders, cones and spheres differ
+917	Turn the round solids and compare their bases and curved surfaces.
+918	A cylinder has ⟨0⟩ circular bases, a cone has ⟨1⟩, and a sphere has none.
+919	Which solid has one circular base?
+920	A cone has one circular base and one apex.
+921	the curved surface of a sphere
+922	Which solid is made only of a curved surface, with no bases or edges?
+923	A sphere is a curved surface with no bases and no edges.
+924	Look at the curved surfaces and the bases. A cylinder has two circular bases, a cone has one, and a sphere has none. The answer is a cylinder.
+925	Look at the curved surfaces and the bases. A cylinder has two circular bases, a cone has one, and a sphere has none. The answer is a cone.
+926	What makes up the net of a cylinder
+927	Turn the cylinder and imagine how its side unrolls when cut.
+928	Unrolled, the side of a cylinder is a rectangle, and the bases are two circles.
+929	What basic shape is the unrolled side of a cylinder?
+930	Laid flat, the side of a cylinder is a rectangle.
+931	pentagon
+932	semicircle
+933	bases of a cylinder
+934	How many circular bases does the net of a cylinder need?
+935	There are two equal circular bases, top and bottom.
+936	Look at the curved surfaces and the bases. A cylinder has two circular bases, a cone has one, and a sphere has none. The answer is a sphere.
+937	Counting all the stacked cubes
+938	Change the cubes in one layer and the number of layers, and count them all.
+939	If every layer has the same number, multiply (cubes in one layer) × (layers).
+940	What do you get if you stack ⟨1⟩ layers of ⟨0⟩?
+941	Four layers of ⟨0⟩, so ⟨1⟩×⟨2⟩=⟨3⟩.
+942	Solids seen from the top, front and side
+943	Turn the block solid and tell apart how it looks from each direction.
+944	From the top, the height of each stack can be hidden.
+945	If you lay one layer ⟨0⟩ squares long and ⟨1⟩ squares wide with no gaps, how many squares do you see from above?
+946	From above you see ⟨0⟩ × ⟨1⟩, six squares.
+947	⟨0⟩ squares
+948	front view
+949	If you lay ⟨0⟩ squares side by side in one layer, how many squares do you see from the front?
+950	From the front you see three squares side by side.
+951	Looking down from above, you see how the squares are laid out on the floor, not how tall the stacks are. You can see ⟨0⟩ squares across and ⟨1⟩ squares down. From above you see ⟨2⟩ squares.
+952	Finding the perimeter of flat shapes
+953	Drag the length and width of the rectangle and work out the outside length.
+954	Perimeter is the total length along the outside of a shape.
+955	What is the perimeter of a rectangle ⟨0⟩ cm long and ⟨1⟩ cm wide?
+956	Add two lengths and two widths: (⟨0⟩+⟨1⟩)×⟨2⟩=⟨3⟩ cm.
+957	perimeter of a square
+958	What is the perimeter of a square with ⟨0⟩ cm sides?
+959	Add the four equal sides: ⟨0⟩×⟨1⟩=⟨2⟩ cm.
+960	Perimeter is the distance once around the edge of a shape. The length and the width each appear ⟨0⟩ times. The perimeter is (⟨1⟩ + ⟨2⟩) × ⟨3⟩ = ⟨4⟩ cm.
+961	Units of area and converting them
+962	Compare how much area one square on the grid takes up.
+963	⟨0⟩ m² is ⟨1⟩ cm × ⟨2⟩ cm, which is ⟨3⟩ cm².
+964	What is ⟨0⟩ m² in cm²?
+965	⟨0⟩ m is ⟨1⟩ cm, so the area becomes ⟨2⟩×⟨3⟩.
+966	square kilometers
+967	How many m² is ⟨0⟩ km²?
+968	It is ⟨0⟩ m on each side, so ⟨1⟩×⟨2⟩ m².
+969	Area of rectangles and squares
+970	Change the number of squares across and down to find the area.
+971	The area of a rectangle is length × width.
+972	What is the area of a rectangle ⟨0⟩ cm long and ⟨1⟩ cm wide?
+973	Five rows of eight squares, so ⟨0⟩×⟨1⟩=⟨2⟩ cm².
+974	area of a square
+975	What is the area of a square with ⟨0⟩ cm sides?
+976	Area of triangles, trapezoids and rhombuses
+977	Turn flat shapes into other shapes and compare the area formulas.
+978	The area of a triangle is base × height ÷ ⟨0⟩.
+979	What is the area of a triangle with base ⟨0⟩ cm and height ⟨1⟩ cm?
+980	It is half of a ⟨0⟩×⟨1⟩ rectangle, so ⟨2⟩ cm².
+981	area of a parallelogram
+982	What is the area of a parallelogram with base ⟨0⟩ cm and height ⟨1⟩ cm?
+983	base × height: ⟨0⟩×⟨1⟩=⟨2⟩ cm².
+984	area of a trapezoid
+985	What is the area of a trapezoid with top ⟨0⟩ cm, bottom ⟨1⟩ cm and height ⟨2⟩ cm?
+986	Multiply the sum of the two bases by the height, then divide by ⟨0⟩.
+987	area of a rhombus
+988	What is the area of a rhombus with diagonals of ⟨0⟩ cm and ⟨1⟩ cm?
+989	Multiply the two diagonals and divide by ⟨0⟩ to get ⟨1⟩ cm².
+990	How pi and the diameter are related
+991	Change the size of the circle and see whether the ratio of circumference to diameter stays the same.
+992	Circumference ÷ diameter is the same whatever the size of the circle, about ⟨0⟩.
+993	About how long is the circumference of a circle with a diameter of ⟨0⟩ cm?
+994	Multiply the diameter ⟨0⟩ by pi, about ⟨1⟩.
+995	The distance around a circle is called its circumference. Circumference = diameter × pi = ⟨0⟩ × ⟨1⟩. The circumference is ⟨2⟩ cm.
+996	Calculating circumference and the area of a circle
+997	Change the radius and see how the circumference and area grow.
+998	The area of a circle is radius × radius × ⟨0⟩.
+999	About how big is the area of a circle with radius ⟨0⟩ cm?
+1000	⟨0⟩×⟨1⟩×⟨2⟩=⟨3⟩ cm².
+1001	About how long is the circumference of a circle with radius ⟨0⟩ cm?
+1002	The diameter ⟨0⟩ cm times pi ⟨1⟩ is ⟨2⟩ cm.
+1003	The area of a circle is radius × radius × pi. Work out ⟨0⟩ × ⟨1⟩ × ⟨2⟩. The area is ⟨3⟩ cm².
+1004	Surface area of rectangular prisms and cubes
+1005	Look at the six faces of the solid and add up the area of the whole outside.
+1006	The surface area of a cube is the area of its six equal faces added together.
+1007	What is the surface area of a cube with ⟨0⟩ cm edges?
+1008	One face is ⟨0⟩ cm², and six faces together make ⟨1⟩ cm².
+1009	surface area of a rectangular prism
+1010	What is the surface area of a prism ⟨0⟩ cm long, ⟨1⟩ cm wide and ⟨2⟩ cm high?
+1011	⟨0⟩×(⟨1⟩+⟨2⟩+⟨3⟩)=⟨4⟩ cm².
+1012	Surface area is the total area of the ⟨0⟩ faces that cover the outside. There are two faces of each size, so it is ⟨1⟩ × (⟨2⟩ × ⟨3⟩ + ⟨4⟩ × ⟨5⟩ + ⟨6⟩ × ⟨7⟩). The surface area is ⟨8⟩ cm².
+1013	Cubic meters and cubic centimeters
+1014	Change the size of one cube and look at units of volume.
+1015	⟨0⟩ m³ converts to ⟨1⟩ cm³.
+1016	What is ⟨0⟩ m³ in cm³?
+1017	Each of the three directions is ⟨0⟩ times as long, so ⟨1⟩×⟨2⟩×⟨3⟩.
+1018	volume unit m³
+1019	What is the volume of a cube with ⟨0⟩ m sides?
+1020	⟨0⟩×⟨1⟩×⟨2⟩=⟨3⟩ m³.
+1021	Volume of rectangular prisms and cubes
+1022	Adjust the length, width and height and check the total number of cubes.
+1023	The volume of a rectangular prism is length × width × height.
+1024	If a prism is ⟨0⟩ cm long, ⟨1⟩ cm wide and ⟨2⟩ cm high, what is its volume?
+1025	⟨0⟩×⟨1⟩×⟨2⟩=⟨3⟩ cm³, written in cubic centimeters.
+1026	volume of a cube
+1027	What is the volume of a cube with ⟨0⟩ cm edges?
+1028	⟨0⟩×⟨1⟩×⟨2⟩=⟨3⟩ cm³.
+1029	Collecting data and finding the mean
+1030	Move the three friends' candies one at a time so they are shared evenly while the total stays the same.
+1031	The mean is the total divided by the number of values.
+1032	What is the mean of ⟨0⟩, ⟨1⟩ and ⟨2⟩?
+1033	⟨0⟩+⟨1⟩+⟨2⟩=⟨3⟩, divided by three values, is ⟨4⟩.
+1034	Add all three scores. ⟨0⟩ + ⟨1⟩ + ⟨2⟩ = ⟨3⟩ points. There are ⟨4⟩ scores, so divide by ⟨5⟩ to get a mean of ⟨6⟩ points.
+1035	Reading strip graphs and circle graphs
+1036	Move the graph borders to check each item's share of the whole ⟨0⟩%.
+1037	These graphs show the whole as ⟨0⟩% and mark each part's share.
+1038	If ⟨1⟩% of the whole ⟨0⟩% is colored, what share is left?
+1039	⟨0⟩ minus the colored ⟨1⟩ leaves ⟨2⟩%.
+1040	What share of a circle graph is half of the whole?
+1041	Half of the whole circle is ⟨0⟩%.
+1042	The whole strip graph is ⟨0⟩%. Read both ends of the blue section on the scale. The blue part is ⟨1⟩%.
+1043	Choosing the right graph for your question
+1044	Compare shares of items with how data changes.
+1045	Circle graphs suit shares of a whole; line graphs suit change over time.
+1046	Which graph suits the share of students choosing each club?
+1047	A circle shows well how big a part of the whole each club is.
+1048	clock
+1049	a table of numbers only
+1050	change over time
+1051	What suits a graph of body temperature over a month?
+1052	Join continuous changes over time with a line.
+1053	diameter graph
+1054	shape net
+1055	The whole circle graph is ⟨0⟩%. Blue is ⟨1⟩ of the ten parts. So it is ⟨2⟩%.
+1056	Comparing likelihood in words
+1057	Change the marble colors and decide which color is easier to draw.
+1058	Under the same conditions, the more balls of the color you want, the more likely you are to draw one.
+1059	If a bag has ⟨0⟩ red and ⟨1⟩ blue, which color is easier to draw?
+1060	Red is ⟨1⟩ of the ⟨0⟩, so it is more likely.
+1061	red
+1062	blue
+1063	always blue
+1064	almost impossible
+1065	What is the chance of drawing a blue ball from a bag with no blue balls?
+1066	If there are none of the color you want, you cannot draw it.
+1067	impossible
+1068	certain
+1069	even chance
+1070	almost certain
+1071	Each marble has the same chance of being drawn. The chance is the number of marbles of that color divided by the total number of marbles. The answer is ⟨0⟩/⟨1⟩ = ⟨2⟩/⟨3⟩.
+1072	Writing likelihood as a number
+1073	Adjust how many of the marbles are the color you want and check the probability.
+1074	Likelihood can be written as a number from ⟨0⟩ to ⟨1⟩.
+1075	What is the chance of drawing a blue ball if ⟨1⟩ of ⟨0⟩ balls are blue?
+1076	Write it as ⟨0⟩÷⟨1⟩=⟨2⟩.
+1077	What is the chance of drawing a red ball from a bag with only ⟨0⟩ red balls?
+1078	Every ball is red, so the chance is ⟨0⟩.
+1079	Judging likelihood from data
+1080	Draw marbles many times and see how the results differ from what you expected.
+1081	Each single result may vary even after many observations, but the data gives you a reason for your choice.
+1082	In a bag that is ⟨0⟩% red, which color is more likely on the next draw?
+1083	It is not certain every time, but red is more likely.
+1084	exactly half of each color
+1085	neither color
+1086	decide from the data
+1087	In ⟨0⟩ trials, red came up ⟨1⟩ times and blue ⟨2⟩ times. Which color is more likely next time?
+1088	Judging only from the trials, red came up more often, so red is likely, but it is not certain.
+1089	exactly even
+1090	definitely red
+1091	⟨1⟩ groups of ⟨0⟩
+1092	length
+1093	length ⟨0⟩ cm
+1094	What is ⟨0⟩ × ⟨1⟩?
+1095	⟨0⟩ months
+1096	⟨0⟩ ⟨1⟩/⟨2⟩
+1097	⟨0⟩ ⟨1⟩/⟨2⟩
+1098	at most
+1099	chance ⟨0⟩
+1100	⟨0⟩×⟨1⟩=⟨2⟩ cm².

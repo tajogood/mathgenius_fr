@@ -1,0 +1,220 @@
+180	Flip
+181	Enlarge
+182	Slide
+183	Compare the starting shape (light) with the moved shape (dark).
+184	The shape changed direction around one point.
+185	This kind of move is a turn.
+186	Left and right switched, as if in a mirror.
+187	This kind of move is a flip.
+188	Only the position changed; the direction and shape stayed the same.
+189	This kind of move is a slide.
+190	Move along the number line to explore adding decimals.
+191	Line up the decimal points and add the same places together. ⟨0⟩ and ⟨1⟩ are different units.
+192	Line up the decimal points vertically and add.
+193	⟨0⟩ is ⟨1⟩ of ⟨2⟩, and ⟨3⟩ is ⟨4⟩ of ⟨5⟩.
+194	There are ⟨1⟩ of ⟨0⟩, so the sum is ⟨2⟩.
+195	Tap the parts of the two fraction bars to learn common denominators and addition.
+196	You need a common denominator so you are adding pieces of the same size.
+197	The pieces are different sizes, so make them the same: ⟨0⟩/⟨1⟩ = ⟨2⟩/⟨3⟩, ⟨4⟩/⟨5⟩ = ⟨6⟩/⟨7⟩ (common denominator)
+198	⟨0⟩/⟨1⟩ + ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩: add the numerators.
+199	⟨0⟩/⟨1⟩ cannot be simplified. The answer is ⟨2⟩/⟨3⟩.
+200	Divide the numerator and denominator of ⟨0⟩/⟨1⟩ by ⟨2⟩ (simplify) to get ⟨3⟩/⟨4⟩. The size stays the same. The answer is ⟨5⟩/⟨6⟩.
+201	Check that the fraction keeps the same value when you make more parts.
+202	Dividing the numerator and denominator by the same whole number does not change the size of the fraction.
+203	What is ⟨0⟩/⟨1⟩ in simplest form?
+204	Find a number that divides both the numerator and the denominator of ⟨0⟩/⟨1⟩.
+205	⟨0⟩ and ⟨1⟩ can both be divided by ⟨2⟩.
+206	Divide the numerator and denominator by ⟨0⟩ to get ⟨1⟩/⟨2⟩.
+207	Fill ⟨0⟩ cm² squares one row at a time and add the same number again and again to find the area.
+208	What is the area of a rectangle ⟨0⟩ cm long and ⟨1⟩ cm wide?
+209	The rectangle is ⟨0⟩ squares long and ⟨1⟩ squares wide.
+210	⟨1⟩ × ⟨2⟩ squares of ⟨0⟩ cm² fit inside.
+211	Area = length × width = ⟨0⟩ cm².
+212	Change the number of blue and orange marbles and compare the ratios.
+213	A ratio compares a part with the whole. Look at the number of blue marbles and the total number of marbles together.
+214	What percent of all the marbles are blue?
+215	There are ⟨0⟩ blue marbles and ⟨1⟩ orange marbles, ⟨2⟩ in all.
+216	The ratio of blue marbles is ⟨0⟩ ÷ ⟨1⟩.
+217	Multiply that ratio by ⟨0⟩ to get ⟨1⟩%.
+218	Find a way to keep the same ratio while changing the number of each color.
+219	To make an equal ratio, multiply both terms by the same number.
+220	⟨0⟩:⟨1⟩ and ⟨2⟩:? show the same ratio.
+221	The first term was multiplied by ⟨0⟩, so the second term must also be multiplied by ⟨1⟩.
+222	Add cubes one layer at a time to think about the volume of a rectangular prism.
+223	Volume is length × width × height. Think about how many ⟨0⟩ cm³ cubes fit inside.
+224	What is the volume of a rectangular prism ⟨0⟩ cm long, ⟨1⟩ cm wide and ⟨2⟩ cm high?
+225	Check the length, width and height of the prism in turn.
+226	The bottom layer has ⟨1⟩ × ⟨2⟩ cubes of ⟨0⟩ cm³, and there are ⟨3⟩ layers like that.
+227	Volume = length × width × height = ⟨0⟩ cm³.
+228	Hover over or tap the blocks to count them one by one.
+229	Check that the count goes up by one each time you tap a block. For take-away problems, count the blocks that are left.
+230	How many blocks are in the picture?
+231	Let's count the blocks one by one.
+232	Count from the left without missing any.
+233	There are ⟨0⟩ in all.
+234	Tap the faces of the prism or turn the solid with your hand to look at its shape.
+235	Tell apart the base, the side faces and the height of a solid. For stacked cubes, multiply the cubes in one layer by the number of layers.
+236	What is the name of this solid?
+237	sphere
+238	cylinder
+239	cone
+240	Look at the shape of the solid.
+241	Find where the flat faces and curved surfaces are.
+242	This shape is a rectangular prism.
+243	This shape is a cylinder.
+244	This shape is a sphere.
+245	Move the points on the number line to compare which number is bigger.
+246	On a number line, the number further right is bigger. Check where the starting point and the other point are.
+247	⟨0⟩ □ ⟨1⟩: which symbol fits?
+248	Think about how big each number is.
+249	Of ⟨0⟩ and ⟨1⟩, ⟨2⟩ is bigger.
+250	⟨0⟩ > ⟨1⟩ is correct.
+251	⟨0⟩ < ⟨1⟩ is correct.
+252	Tap the groups of ⟨0⟩ to count by ⟨1⟩s, then add the leftover blocks.
+253	What number do the groups of ⟨0⟩ and the ones show?
+254	Count by making groups of ⟨0⟩.
+255	There are ⟨1⟩ groups of ⟨0⟩ and ⟨2⟩ ones.
+256	That makes ⟨0⟩ in all.
+257	Tap the groups of ⟨0⟩ to build numbers up to ⟨1⟩.
+258	Tap the hundreds, tens and ones cards to break a number into place values.
+259	The same digit means a different value in each place. Tap the ones, tens and hundreds places in turn.
+260	In ⟨0⟩, what value does the tens digit show?
+261	Let's break ⟨0⟩ into place values.
+262	The tens place counts groups of ⟨0⟩.
+263	The digit ⟨0⟩ in this place means ⟨1⟩.
+264	Move the m and cm to convert units of length.
+265	⟨0⟩ m is ⟨1⟩ cm. Change m into cm, then add the leftover cm.
+266	How many cm is ⟨0⟩ m ⟨1⟩ cm?
+267	⟨0⟩ m is ⟨1⟩ cm, and then add ⟨2⟩ cm.
+268	So it is ⟨0⟩ cm.
+269	Look at the colors and pick out the blue blocks and the orange blocks.
+270	How many blue blocks are there?
+271	Sort the blocks by color.
+272	Leave out the orange ones and count only the blue ones.
+273	There are ⟨0⟩ blue blocks.
+274	Tap each card of the four-digit number to explore place value.
+275	In ⟨0⟩, what value does the hundreds digit show?
+276	The hundreds place counts groups of ⟨0⟩.
+277	Tap the bars to change their heights and compare the data.
+278	First check the item names and the scale of the graph. Use the same scale when comparing two values.
+279	In the bar graph, how many are in the blue item?
+280	Find the blue item in the graph's key.
+281	Compare where the bar ends with the scale.
+282	Change the starting number and the step to find the rule for the next number.
+283	Check how much the number changes from one to the next. Then use that rule for the next number.
+284	⟨0⟩, ⟨1⟩, ⟨2⟩, ?: what is the next number in the pattern?
+285	Compare numbers that come one after another.
+286	The rule is to add ⟨0⟩ each time.
+287	The next number is ⟨0⟩.
+288	Pick the place-value cards to look at regrouping and the sum.
+289	Line up the hundreds, tens and ones.
+290	Add starting from the ones place and regroup when needed.
+291	The sum is ⟨0⟩.
+292	Drag the ends of the lines to compare the endpoints of a line, a segment and a ray.
+293	What kind of line is shown?
+294	line segment
+295	curve
+296	ray
+297	line
+298	Look at the marks on both ends.
+299	A line segment has two ends; a ray goes on forever in one direction.
+300	The picture shows a line segment.
+301	The picture shows a ray.
+302	The picture shows a line.
+303	Change the rows and columns to think of a big multiplication in parts.
+304	Split ⟨0⟩ into tens and ones.
+305	Work out ⟨0⟩ × ⟨1⟩ and ⟨2⟩ × ⟨3⟩ separately.
+306	Adding the two results gives ⟨0⟩.
+307	Pick the groups and check how many blocks are left over.
+308	Make groups the size of the divisor. The remainder must always be smaller than the divisor.
+309	What are the quotient and remainder of ⟨0⟩ ÷ ⟨1⟩?
+310	quotient ⟨0⟩ remainder ⟨1⟩
+311	Make ⟨1⟩ groups of ⟨0⟩.
+312	⟨0⟩ × ⟨1⟩ = ⟨2⟩, with ⟨3⟩ left over.
+313	The quotient is ⟨0⟩ and the remainder is ⟨1⟩.
+314	Drag the end of the radius and watch how the diameter changes.
+315	The radius is the distance from the center to a point on the circle. The diameter is ⟨0⟩ times the radius.
+316	A circle has a radius of ⟨0⟩ cm. What is its diameter?
+317	The diameter passes through the center, and both its ends are on the circle.
+318	The diameter is ⟨0⟩ times the radius.
+319	The diameter is ⟨0⟩ × ⟨1⟩ = ⟨2⟩ cm.
+320	Adjust the kg and g to learn how the units are related.
+321	⟨0⟩ kg is ⟨1⟩ g. Change kg into g, then add.
+322	What is ⟨0⟩ kg ⟨1⟩ g in grams?
+323	⟨0⟩ kg is ⟨1⟩ g.
+324	⟨0⟩ kg is ⟨1⟩ g.
+325	Add ⟨0⟩ g to get ⟨1⟩ g.
+326	Change the heights of the bars to reorganize the values in the table.
+327	Tap the ten-thousands and hundred-thousands places to read and change large numbers.
+328	In ⟨0⟩, what value does the thousands digit show?
+329	The thousands place counts groups of ⟨0⟩.
+330	Adjust the number of groups and the group size to explore the quotient.
+331	This is division by a two-digit number.
+332	Think about what to multiply ⟨0⟩ by to get ⟨1⟩.
+333	⟨0⟩ × ⟨1⟩ = ⟨2⟩, so the quotient is ⟨3⟩.
+334	Change the heights of the bars yourself to make a graph.
+335	Color fractions split into equal parts to add and subtract them.
+336	Both fractions have the denominator ⟨0⟩, so one piece is the same size.
+337	⟨0⟩/⟨1⟩ + ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩: keep the denominator and add only the numerators.
+338	⟨0⟩/⟨1⟩ − ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩: keep the denominator and subtract only the numerators.
+339	Turn the triangle and look at its side lengths and where the right angle is.
+340	What kind of triangle is in the picture?
+341	isosceles triangle
+342	square
+343	equilateral triangle
+344	right triangle
+345	Look at the side lengths and angles of the triangle.
+346	Check for sides of the same length or a right angle.
+347	This is an equilateral triangle.
+348	This is an isosceles triangle.
+349	This is a right triangle.
+350	Move the quadrilateral and find parallel sides and right angles.
+351	What is the name of the quadrilateral in the picture?
+352	trapezoid
+353	parallelogram
+354	Compare the directions and lengths of the ⟨0⟩ sides.
+355	Check whether opposite sides are parallel.
+356	This quadrilateral is a square.
+357	This quadrilateral is a trapezoid.
+358	This quadrilateral is a rectangle.
+359	This quadrilateral is a parallelogram.
+360	Move the bar values for the points on the graph and watch the change.
+361	How much did the value increase on the line graph?
+362	Read the heights of the first and second points.
+363	It increased from ⟨0⟩ to ⟨1⟩.
+364	The difference is ⟨0⟩ − ⟨1⟩ = ⟨2⟩.
+365	Add or remove sides to learn the names of polygons.
+366	Which polygon has ⟨0⟩ sides?
+367	⟨0⟩-sided polygon
+368	Count the sides and vertices.
+369	A polygon is named by its number of sides.
+370	It has ⟨0⟩ sides, so it is a ⟨1⟩-sided polygon.
+371	Change the multiplier and see how the order of operations decides the result.
+372	Check the order of operations, and use the link between multiplication and division to check your answer.
+373	This expression mixes addition and multiplication.
+374	Multiply first to get ⟨0⟩.
+375	Tap the number board and check by dividing whether each number is a factor.
+376	Find a factor of ⟨0⟩.
+377	A factor is a number that divides another number evenly.
+378	The remainder of ⟨0⟩ ÷ ⟨1⟩ is ⟨2⟩.
+379	So ⟨0⟩ is a factor of ⟨1⟩.
+380	Change the input and see by what rule the output changes.
+381	If □ × ⟨0⟩ + ⟨1⟩ = △ and □ is ⟨2⟩, what is △?
+382	□ and △ correspond by a fixed rule.
+383	Put ⟨0⟩ in □: ⟨1⟩ × ⟨2⟩ + ⟨3⟩.
+384	That works out to ⟨0⟩.
+385	Move the number on the number line to find where the rounded value changes.
+386	Look at the digit just to the right of the place you are rounding to. If it is ⟨0⟩ or more, round up; if it is ⟨1⟩ or less, round down.
+387	Round ⟨0⟩ to the nearest ⟨1⟩.
+388	Look at the place you are rounding to.
+389	If the digit one place to the right is ⟨0⟩ or more, round up; otherwise round down.
+390	Rounded, it is ⟨0⟩.
+391	Change the two fraction pieces and think about how much the product is.
+392	To multiply fractions, multiply numerators together and denominators together, then simplify. Think of it as a part of a part.
+393	To multiply fractions, multiply numerators together and denominators together.
+394	The numerator is ⟨0⟩ × ⟨1⟩ and the denominator is ⟨2⟩ × ⟨3⟩.
+395	Simplified, it is ⟨0⟩/⟨1⟩.
+396	Drag the blue shape to overlap and turn it with the orange handle to compare line symmetry and point symmetry.
+397	Choose the kind of symmetry in the picture.
+398	line symmetry
+399	rotation

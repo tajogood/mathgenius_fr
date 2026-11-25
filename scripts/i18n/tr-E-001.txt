@@ -1,0 +1,88 @@
+0	Tap the straight sides and orange corners of each shape one at a time and count them. A triangle has ⟨0⟩ of each, and a square has ⟨1⟩ of each.
+1	Drag an orange corner to change the shape and check that the number of sides and corners stays the same. Measuring angles like ⟨0⟩° comes in grade ⟨1⟩.
+2	Choose the Perimeter tab and tap the top, right, bottom and left sides in turn. ⟨0⟩ cm + ⟨1⟩ cm + ⟨2⟩ cm + ⟨3⟩ cm = ⟨4⟩ cm is the length around the outside.
+3	For the same rectangle, area is the number of squares inside (⟨0⟩×⟨1⟩=⟨2⟩ cm²) and perimeter is the length of the four outside sides (⟨3⟩ cm). Move the orange corner and compare the two again.
+4	Press the "⟨0⟩ edges" and "⟨1⟩ vertices" buttons above to switch what you look at. An edge is a line where two faces meet, and a vertex is a point where three edges meet.
+5	Press "Unfold the net" and match the six flat faces with the six faces of the solid. Switch to a cube and all six faces become the same square.
+6	Pick one candy from a friend who has more and move it to a friend who has fewer. Moving candies does not change the total. You can also use the ▶ Move one candy to even things out button.
+7	When everyone has about the same, share the leftover candies equally too. The total ⟨0⟩ divided among ⟨1⟩ people is the mean. If it does not divide evenly by ⟨2⟩, you can cut candies into three pieces.
+8	one
+9	two
+10	three
+11	five
+12	six
+13	seven
+14	box shape
+15	can shape
+16	ball shape
+17	rolls one way
+18	does not roll
+19	⟨0⟩ sides
+20	curved line
+21	blue
+22	orange
+23	circle
+24	= ⟨0⟩ hour
+25	⟨1⟩ groups of ⟨0⟩
+26	⟨0⟩ min = ⟨1⟩ hr
+27	⟨0⟩:⟨1⟩ − ⟨2⟩ min
+28	⟨0⟩ left
+29	center
+30	radius
+31	diameter = radius × ⟨0⟩
+32	apple
+33	pear
+34	= ⟨0⟩ people
+35	ten thousand
+36	hundred thousand
+37	million
+38	ten million
+39	⟨0⟩ ten-thousands + ⟨1⟩
+40	thirty-five million two hundred seventy-one thousand eight hundred forty-six
+41	base line
+42	summer
+43	same places together
+44	hexagon
+45	factors of ⟨0⟩
+46	multiples of ⟨0⟩
+47	matchsticks
+48	same size
+49	base × height
+50	⟨0⟩ won
+51	side
+52	B
+53	C
+54	pizza
+55	triangular prism
+56	rectangular prism
+57	pentagonal prism
+58	faces ⟨0⟩ + ⟨1⟩ = ⟨2⟩
+59	square pyramid
+60	compared amount ⟨0⟩
+61	base amount ⟨0⟩
+62	rate
+63	⟨1⟩ of ⟨0⟩ squares
+64	soccer ⟨0⟩%
+65	soccer
+66	basketball
+67	× height ⟨0⟩
+68	layer ⟨0⟩: ⟨1⟩
+69	⟨0⟩ in all
+70	= ⟨0⟩
+71	front
+72	top
+73	extremes
+74	means
+75	radius × ⟨0⟩
+76	diameter × ⟨0⟩
+77	⟨0⟩ s
+78	= ⟨0⟩ s
+79	⟨0⟩ diameters
+80	≈ ⟨0⟩
+81	Give ⟨0⟩ to each person and you use ⟨1⟩, with ⟨2⟩ left over. To share the rest equally too, each gets ⟨3⟩ split into ⟨4⟩ equal parts.
+82	Each got ⟨0⟩ first, and the ⟨1⟩ left over were split equally into ⟨2⟩ parts among the three friends.
+83	Friend 1: ⟨0⟩ and ⟨2⟩/⟨1⟩
+84	Friend 2: ⟨0⟩ and ⟨2⟩/⟨1⟩
+85	Friend 3: ⟨0⟩ and ⟨2⟩/⟨1⟩
+86	Everyone has ⟨0⟩ now! This number is the mean.
+87	A

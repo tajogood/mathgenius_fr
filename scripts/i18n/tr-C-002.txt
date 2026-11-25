@@ -1,0 +1,240 @@
+180	Add ⟨0⟩ and ⟨1⟩ first to get ⟨2⟩, then add ⟨3⟩ to get ⟨4⟩.
+181	subtracting three numbers
+182	⟨0⟩ minus ⟨1⟩ is ⟨2⟩, and minus ⟨3⟩ again is ⟨4⟩.
+183	Number sentences with a blank
+184	Move blocks to find the number hiding in the blank.
+185	If you know the whole and one part, you can find the other part.
+186	What number goes in □ in ⟨0⟩ + □ = ⟨1⟩?
+187	Subtract the known ⟨1⟩ from ⟨0⟩ to get ⟨2⟩.
+188	subtraction with a blank
+189	What is □ in □ − ⟨0⟩ = ⟨1⟩?
+190	The whole is ⟨0⟩+⟨1⟩, so the blank is ⟨2⟩.
+191	Putting the same number together many times
+192	Change the number of blocks in a row and the number of rows, and count them all.
+193	Multiplication is handy for adding the same number many times.
+194	If there are ⟨1⟩ bags with ⟨0⟩ candies each, what is the number sentence?
+195	There are four groups of ⟨0⟩, so it is ⟨1⟩×⟨2⟩.
+196	Using the times tables
+197	Make several identical rows to try out the times tables.
+198	The times tables are a quick way to multiply the number of groups by the group size.
+199	Add ⟨0⟩ six times or use the times tables to get ⟨1⟩.
+200	Repeating number and shape patterns
+201	Change the start and the step to watch a repeating pattern.
+202	If the difference between numbers in a row is the same, use that difference for the next number.
+203	What comes after ⟨0⟩, ⟨1⟩, ⟨2⟩, ⟨3⟩?
+204	It goes up by ⟨0⟩ each time, so next is ⟨1⟩+⟨2⟩.
+205	Compare numbers that come one after another. The rule is to add ⟨0⟩ each time. The next number is ⟨1⟩.
+206	Making your own pattern
+207	Choose a new start and step to make your own pattern.
+208	You can keep building a number pattern with the rule you chose.
+209	Start at ⟨0⟩ and add ⟨1⟩ each time. What is the third number?
+210	Build a pattern by adding four each time, like ⟨0⟩.
+211	Finding solids in everyday objects
+212	Turn the box, can and ball models to find their different surfaces.
+213	A ball is shaped like a sphere and a drink can is shaped like a cylinder.
+214	Which solid looks most like a soccer ball?
+215	A ball that is round in every direction is shaped like a sphere.
+216	pyramid
+217	Look at the shape of the solid. Find where the flat faces and curved surfaces are. This shape is a cylinder.
+218	Look at the shape of the solid. Find where the flat faces and curved surfaces are. This shape is a rectangular prism.
+219	Shapes and positions of stacked cubes
+220	Stack blocks one layer at a time and look from the top and the front.
+221	The same number of blocks can make a different shape if you move them.
+222	If each layer has ⟨0⟩ blocks and there are ⟨1⟩ layers, how many blocks are there?
+223	One layer of ⟨0⟩, two layers, so ⟨1⟩+⟨2⟩ makes six.
+224	The bottom layer has ⟨0⟩ × ⟨1⟩ cubes. All ⟨2⟩ layers are stacked the same. That makes ⟨3⟩ in all.
+225	Finding triangles, squares and circles
+226	Move the triangle, square and circle yourself and tap their sides and corners.
+227	Tell apart shapes that are round or have different numbers of corners.
+228	Which flat shape looks like the face of a coin?
+229	The face of a round coin is a circle.
+230	Drawing basic shapes
+231	Move the shapes to tell straight sides from round edges.
+232	A triangle is surrounded by three straight sides.
+233	Which shape is surrounded by three straight sides?
+234	Three line segments joined into a closed shape make a triangle.
+235	What triangles and quadrilaterals have in common
+236	Tap the corners and sides to compare the two shapes.
+237	A triangle has three sides and a quadrilateral has four.
+238	How many vertices does a quadrilateral have?
+239	A quadrilateral has four sides and four vertices.
+240	Comparing length, capacity, weight and area
+241	Move the length bars to find the bigger amount.
+242	When comparing the same kind of thing, use words like longer or heavier.
+243	Which is longer, ⟨0⟩ cm or ⟨1⟩ cm?
+244	With the same unit (cm), ⟨0⟩ is more than ⟨1⟩.
+245	comparing weight
+246	Which is heavier, ⟨0⟩ kg or ⟨1⟩ kg?
+247	With the same unit (kg), ⟨0⟩ is more than ⟨1⟩.
+248	both the same
+249	comparing area
+250	One shape is filled with ⟨0⟩ equal squares and another with ⟨1⟩. Which is bigger?
+251	Filling more squares of the same size means a bigger area.
+252	⟨0⟩-square shape
+253	the same
+254	cannot compare
+255	comparing capacity
+256	The same bottles hold ⟨0⟩ mL and ⟨1⟩ mL of water. Which holds more?
+257	⟨0⟩ is more than ⟨1⟩, so it holds more water.
+258	⟨0⟩ m is ⟨1⟩ cm. ⟨2⟩ m is ⟨3⟩ cm, and then add ⟨4⟩ cm. So it is ⟨5⟩ cm.
+259	Reading clock time to the minute
+260	Move the minute hand and the hour hand to make a time.
+261	The long hand shows minutes and the short hand shows hours.
+262	If the minute hand is on ⟨0⟩ and the hour hand is between ⟨1⟩ and ⟨2⟩, what time is it?
+263	The minute hand on ⟨0⟩ means ⟨1⟩ minutes, and the hour hand past ⟨2⟩ means ⟨3⟩ o'clock.
+264	reading the minutes
+265	If the minute hand points to ⟨0⟩, how many minutes is it?
+266	Each number on the clock is ⟨0⟩ minutes, so ⟨1⟩×⟨2⟩=⟨3⟩ minutes.
+267	⟨0⟩ hour and ⟨1⟩ minutes
+268	Move the long hand once around and see how much time passes.
+269	One full turn of the long hand is ⟨0⟩ minutes, the same as ⟨1⟩ hour.
+270	How many minutes are in ⟨0⟩ hours?
+271	⟨0⟩ minutes in an hour, twice, makes ⟨1⟩ minutes.
+272	Days, weeks and calendar time
+273	Change the time on the clock, then compare longer stretches of time.
+274	A day is ⟨0⟩ hours and a week is ⟨1⟩ days.
+275	How many hours are in two days?
+276	⟨0⟩ hours in a day, twice, makes ⟨1⟩ hours.
+277	⟨0⟩ hours
+278	days in a week
+279	How many days are in ⟨0⟩ weeks?
+280	⟨0⟩ days in a week, three times, makes ⟨1⟩ days.
+281	⟨0⟩ days
+282	months in ⟨0⟩ year
+283	How many months are in ⟨0⟩ year?
+284	On a calendar, a year has twelve months.
+285	Measuring with ⟨0⟩ cm and ⟨1⟩ m
+286	Choose a unit on the length model and read the length.
+287	⟨0⟩ m can be split into ⟨1⟩ cm.
+288	How many m is ⟨0⟩ cm?
+289	⟨0⟩ cm together make ⟨1⟩ m.
+290	Writing lengths with both m and cm
+291	Swap between big and small units to convert lengths.
+292	⟨0⟩ m ⟨1⟩ cm is ⟨2⟩ cm and ⟨3⟩ cm together, ⟨4⟩ cm.
+293	Change ⟨0⟩ m into ⟨1⟩ cm and add ⟨2⟩ cm.
+294	Estimating lengths of everyday objects
+295	Move the length and choose the right unit, cm or m.
+296	The height of a classroom door is easier to say in m than in cm.
+297	Which unit is best for a classroom door about ⟨0⟩ tall?
+298	A door is about ⟨0⟩ m high.
+299	Adding and subtracting lengths
+300	Stretch the length model to check the sum of two parts.
+301	Add or subtract lengths in the same unit.
+302	What is ⟨0⟩ cm plus ⟨1⟩ cm?
+303	Line up the ones and tens: ⟨0⟩+⟨1⟩=⟨2⟩ cm.
+304	subtracting lengths
+305	You cut ⟨1⟩ cm off ⟨0⟩ cm. How long is what is left?
+306	⟨0⟩ cm minus ⟨1⟩ cm is ⟨2⟩ cm.
+307	Sorting things by a rule
+308	Tap the blue blocks and the orange blocks to group them.
+309	You need a sorting rule to count each kind consistently.
+310	Sorting ⟨0⟩ red balls and ⟨1⟩ blue balls by color makes how many groups?
+311	They split into two color groups, red and blue.
+312	changing the rule
+313	If you sort one red circle and one blue circle by shape, how many groups are there?
+314	By shape they are all circles, so there is one group.
+315	Sort the blocks by color. Leave out the orange ones and count only the blue ones. There are ⟨0⟩ blue blocks.
+316	Organizing data in a table
+317	Count each item, change the graph and compare it with the table.
+318	A table lets you compare the count of every item without missing any.
+319	With ⟨0⟩ apples, ⟨1⟩ pears and ⟨2⟩ tangerines, how many kinds of items go in the table?
+320	Make columns for the three kinds: apples, pears and tangerines.
+321	Find the blue item in the graph's key. Compare where the bar ends with the scale. There are ⟨0⟩ blue.
+322	Drawing graphs with ○ and ×
+323	When you change the bar height, check that one symbol stands for one piece of data.
+324	A symbol graph shows numbers by stacking the same symbol one at a time.
+325	How many does ○○○○○ stand for?
+326	Count the five circles one by one: five.
+327	Reading numbers of ten thousand and up
+328	Move the place-value cards to build a big number.
+329	The ten-thousands place means ⟨0⟩, and the position of a digit decides its value.
+330	What number is ⟨0⟩ hundred thousands and ⟨1⟩ ten thousands?
+331	⟨0⟩ hundred thousands is ⟨1⟩, and ⟨2⟩ ten thousands is ⟨3⟩.
+332	Let's break ⟨0⟩ into place values. The thousands place counts groups of ⟨1⟩. The digit ⟨2⟩ in this place means ⟨3⟩.
+333	Ordering and comparing big numbers
+334	Change the digits in the ten-thousands and thousands places and compare sizes.
+335	Compare big numbers starting from the biggest place on the left.
+336	Which is bigger, ⟨0⟩ or ⟨1⟩?
+337	Comparing the thousands and then the hundreds, ⟨0⟩ is bigger.
+338	Three-digit addition and subtraction
+339	Choose the hundreds, tens or ones place and check how the sum changes.
+340	Regrouping means bundling from a lower place and sending it up to a higher place.
+341	The ones add up to ⟨0⟩ and the tens also regroup, so it is ⟨1⟩.
+342	three-digit subtraction
+343	Regrouping across the hundreds, tens and ones gives ⟨0⟩.
+344	Line up the hundreds, tens and ones. Add starting from the ones place and regroup when needed. The sum is ⟨0⟩.
+345	How multiplication by one- and two-digit numbers works
+346	Change the number of groups and check the amount in the multiplication.
+347	Split the multiplier into tens and ones, multiply each, and add.
+348	Add ⟨0⟩×⟨1⟩=⟨2⟩ and ⟨3⟩×⟨4⟩=⟨5⟩ to get ⟨6⟩.
+349	multiplying two-digit numbers
+350	Add ⟨0⟩×⟨1⟩ and ⟨2⟩×⟨3⟩ to get ⟨4⟩.
+351	Split ⟨0⟩ into tens and ones. Work out ⟨1⟩ × ⟨2⟩ and ⟨3⟩ × ⟨4⟩ separately. Adding the two results gives ⟨5⟩.
+352	What division means and how it undoes multiplication
+353	Share the same number among people and find the size of each group.
+354	Multiplication and division are opposites.
+355	Which multiplication checks ⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩?
+356	Multiplying the number of groups by the quotient gives the whole.
+357	Dividing by one-digit numbers and remainders
+358	Pick the groups and check the leftover ones yourself.
+359	The remainder must be smaller than the divisor.
+360	⟨0⟩×⟨1⟩=⟨2⟩, and ⟨3⟩ minus ⟨4⟩ leaves ⟨5⟩.
+361	Make ⟨1⟩ groups of ⟨0⟩. ⟨2⟩ × ⟨3⟩ = ⟨4⟩, with ⟨5⟩ left over. The quotient is ⟨6⟩ and the remainder is ⟨7⟩.
+362	Dividing by two-digit numbers
+363	Change the group size to check division by a two-digit number.
+364	You can check a division by multiplying the divisor and the quotient to get the whole.
+365	⟨0⟩×⟨1⟩=⟨2⟩, so the quotient is ⟨3⟩.
+366	This is division by a two-digit number. Think about what to multiply ⟨0⟩ by to get ⟨1⟩. ⟨2⟩ × ⟨3⟩ = ⟨4⟩, so the quotient is ⟨5⟩.
+367	Estimating in everyday calculations
+368	Find the nearest ten on the number line.
+369	Estimating before you calculate exactly helps you judge whether the answer makes sense.
+370	Round each number in ⟨0⟩ + ⟨1⟩ to the nearest ten. What is the estimate?
+371	⟨0⟩ is about ⟨1⟩ and ⟨2⟩ is about ⟨3⟩, so it is about ⟨4⟩.
+372	estimating division
+373	About how many groups do you get if you put ⟨0⟩ into groups of ⟨1⟩?
+374	Estimate ⟨0⟩ as ⟨1⟩: ⟨2⟩÷⟨3⟩=⟨4⟩.
+375	Look at the place you are rounding to. If the digit one place to the right is ⟨0⟩ or more, round up; otherwise round down. Rounded, it is ⟨1⟩.
+376	Fractions from equal sharing
+377	Split the bar into equal parts and color them.
+378	The denominator is how many parts the whole is split into, and the numerator is how many parts are chosen.
+379	What number is the whole split into ⟨0⟩ equal parts with ⟨1⟩ parts colored?
+380	Two of five parts, so the numerator is ⟨0⟩ and the denominator is ⟨1⟩.
+381	Unit, proper, improper fractions and mixed numbers
+382	Color one piece, and more than one whole, on the bar.
+383	If the numerator is smaller than the denominator it is a proper fraction; a whole number with a proper fraction is a mixed number.
+384	What kind of fraction is written like ⟨0⟩ ⟨1⟩/⟨2⟩?
+385	It has the whole number ⟨0⟩ with the proper fraction ⟨1⟩/⟨2⟩, so it is a mixed number.
+386	Which of these is a unit fraction?
+387	A fraction with a numerator of ⟨0⟩ is called a unit fraction.
+388	Which of these is an improper fraction?
+389	If the numerator is equal to or bigger than the denominator, it is an improper fraction.
+390	Which of these is a proper fraction?
+391	Compare the numerator and denominator, or check for a whole number. A proper fraction has a smaller numerator, an improper fraction has a numerator that is bigger or equal, and a mixed number combines a whole number and a proper fraction. So ⟨0⟩ ⟨1⟩/⟨2⟩ is a mixed number.
+392	Compare the numerator and denominator, or check for a whole number. A proper fraction has a smaller numerator, an improper fraction has a numerator that is bigger or equal, and a mixed number combines a whole number and a proper fraction. So ⟨0⟩/⟨1⟩ is an improper fraction.
+393	Comparing fractions with the same denominator and unit fractions
+394	Color two bars of the same whole size and compare.
+395	With the same denominator, the bigger numerator is bigger. For unit fractions, the smaller the denominator, the bigger the fraction.
+396	Which is bigger, ⟨0⟩/⟨1⟩ or ⟨2⟩/⟨3⟩?
+397	One of four pieces of the same whole is bigger than one of seven pieces.
+398	equal
+399	comparing fractions with the same denominator
+400	Which is bigger, ⟨0⟩/⟨1⟩ or ⟨2⟩/⟨3⟩?
+401	The denominators are the same, so the fraction with the bigger numerator, ⟨0⟩, is bigger.
+402	If the denominators are different, rewrite them as pieces of the same size. Write ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩ with the same denominator. Compared, ⟨4⟩/⟨5⟩ > ⟨6⟩/⟨7⟩.
+403	If the denominators are different, rewrite them as pieces of the same size. Write ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩ with the same denominator. Compared, ⟨4⟩/⟨5⟩ = ⟨6⟩/⟨7⟩.
+404	Denominator ⟨0⟩ and one decimal place
+405	Turn the colored parts of ten into a decimal.
+406	One of ⟨0⟩ equal parts of the whole is ⟨1⟩.
+407	What is ⟨0⟩/⟨1⟩ as a decimal?
+408	⟨1⟩/⟨0⟩ is ⟨3⟩ of ⟨2⟩, so it is ⟨4⟩.
+409	The whole is split into ⟨0⟩ equal parts. One part is ⟨1⟩. So ⟨2⟩ parts is ⟨3⟩.
+410	Second and third decimal places
+411	Split a ten-part bar into even smaller parts and compare decimal place values.
+412	⟨0⟩ is one tenth of ⟨1⟩, and ⟨2⟩ is one tenth of ⟨3⟩.
+413	What do ⟨1⟩ of ⟨0⟩ make?
+414	Adding ⟨0⟩ eight times makes ⟨1⟩.
+415	third decimal place
+416	How many ⟨1⟩s are in ⟨0⟩?
+417	⟨0⟩ is six thousandths.
+418	Comparing decimals
+419	Line up the decimal points and digits and choose the bigger value.

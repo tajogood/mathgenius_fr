@@ -1,0 +1,180 @@
+0	Read numbers up to ⟨0⟩ and count the blocks.
+1	Count the blocks one by one, touching each with your finger.
+2	Check that you did not skip a number or count one twice.
+3	A rectangular prism is surrounded by flat four-sided faces.
+4	Cylinders and spheres are different because they have curved surfaces.
+5	Look closely at the numbers and shapes in the picture and find what is special about them.
+6	Try the same idea on another problem and explain it.
+7	Compare how many are in two groups, or compare where numbers sit on a number line.
+8	A number further right is bigger, and a number further left is smaller.
+9	Count up to ⟨1⟩ using groups of ⟨0⟩.
+10	First count how many groups of ⟨0⟩ there are.
+11	Add the leftover ones, then read and write the number.
+12	Learn two-digit numbers with groups of ⟨0⟩.
+13	⟨1⟩ groups of ⟨0⟩ make ⟨2⟩.
+14	Tell the tens place apart from the ones place.
+15	Compare the difference between two numbers in a row.
+16	Make ⟨0⟩ to add more easily.
+17	One in the hundreds place means ⟨0⟩.
+18	Multiply each digit by ⟨0⟩, ⟨1⟩ or ⟨2⟩ to show its value.
+19	A line segment has two fixed endpoints.
+20	Use a ruler to see how ⟨0⟩ m and ⟨1⟩ cm are related.
+21	⟨0⟩ m can be split into ⟨1⟩ cm.
+22	Change the m into cm, then add the leftover cm.
+23	First decide the rule for sorting.
+24	Group things with the same color or the same shape and count them.
+25	A ⟨0⟩ in the thousands place means ⟨1⟩.
+26	Look at the place value of each digit.
+27	Count how many there are for each item on the graph.
+28	Compare the counts for each item and find the biggest.
+29	Check the next number to see if the same rule repeats.
+30	Line up the ones, tens and hundreds places.
+31	Add each place and check for regrouping.
+32	A line goes on forever in both directions; a ray goes on forever in one direction.
+33	Split the two-digit number into tens and ones.
+34	Adding the partial products gives the same answer as the original multiplication.
+35	⟨0⟩ hour is ⟨1⟩ minutes and ⟨2⟩ minute is ⟨3⟩ seconds.
+36	If you split the whole into ⟨0⟩ equal parts, one part is ⟨1⟩.
+37	Count how many groups you can make with the divisor.
+38	Multiplication and division are opposites.
+39	The diameter is the longest chord, and it passes through the center.
+40	The radius is half of the diameter.
+41	If the numerator is smaller than the denominator, it is a proper fraction.
+42	⟨0⟩ L can be split into ⟨1⟩ mL.
+43	Check the items in the table and how many there are of each.
+44	When you organize all the data, it is easy to compare.
+45	Check the place values of ten thousands, hundred thousands, millions and ten millions.
+46	For large numbers, it helps to read them in groups of digits.
+47	The three angles inside a triangle add up to ⟨0⟩°.
+48	A longer bar means a bigger number.
+49	Read across from the end of the bar to the scale.
+50	Fractions with the same denominator have pieces of the same size.
+51	Keep the denominator and add or subtract the numerators.
+52	First compare the lengths of the three sides.
+53	You can spot a right triangle by whether it has a right angle.
+54	Line up the decimal points vertically, then calculate.
+55	Look at whether opposite sides are parallel.
+56	Look for right angles or sides of equal length.
+57	The height of a point shows the data value.
+58	The difference in height between two points is the change.
+59	Look at figures surrounded by straight line segments.
+60	The number of sides equals the number of vertices.
+61	If there are parentheses, calculate inside them first.
+62	Multiply and divide before you add and subtract.
+63	A number that divides another number evenly is a factor.
+64	Multiplying a number by ⟨0⟩, ⟨1⟩, ⟨2⟩… gives its multiples.
+65	Watch how the output changes as the input changes.
+66	You can write the same rule as an expression with symbols like □ and △.
+67	Rewrite different denominators as pieces of the same size (common denominators).
+68	If the denominators are different, find a common denominator first.
+69	Perimeter is the length around the outside of a figure.
+70	The perimeter of a rectangle is (length + width) × ⟨0⟩.
+71	"At least" and "at most" include the boundary value.
+72	Look at the digit just to the right of the place you are rounding to.
+73	Multiplying fractions can show a part of a part.
+74	Multiply numerators together and denominators together, then simplify.
+75	Line symmetry means the two halves match when you fold it.
+76	Point symmetry means it matches itself after turning ⟨0⟩ degrees.
+77	First ignore the decimal points and multiply like whole numbers.
+78	Count the total decimal places in the factors and put the point in the answer.
+79	A rectangular prism has six faces in all.
+80	Imagine how each face meets the others when the net is folded.
+81	Find the total of the data, then divide by how many values there are.
+82	Count how many of all the possible outcomes are the ones you want.
+83	To divide by a fraction, multiply by its reciprocal.
+84	The quotient of a whole-number division can be written as a fraction.
+85	A prism has two congruent polygon bases.
+86	A pyramid has one polygon base and triangular side faces.
+87	Think of the divisor as a whole number.
+88	Check your work to place the decimal point in the quotient.
+89	Think of the whole as ⟨0⟩%.
+90	The whole strip is ⟨0⟩%.
+91	Surface area is the total area of the six faces.
+92	Change it to multiplication, then simplify.
+93	First count the cubes in one layer.
+94	When you look at a solid from above, you cannot see how tall the stacks are.
+95	Split the total into as many parts as the two terms of the ratio add up to.
+96	The circumference is the distance around a circle.
+97	A cylinder has two circular bases.
+98	A cone has one circular base, and a sphere is surrounded by one curved surface.
+99	Split ⟨0⟩ into two groups and see how numbers break apart.
+100	If you moved one group out of all the blocks, count how many blocks are left.
+101	⟨0⟩ can be split into ⟨1⟩ and what number?
+102	We will split ⟨0⟩ into two groups.
+103	One group has ⟨0⟩, so the other has ⟨1⟩ − ⟨2⟩.
+104	⟨0⟩ = ⟨1⟩ + ⟨2⟩, so the answer is ⟨3⟩.
+105	Correct! Try the same idea on other problems.
+106	Tap the blocks to add or take away, and count how many there are.
+107	To add, put the two groups together. To subtract, remove that many from the starting number and count what is left.
+108	Let's put ⟨0⟩ and ⟨1⟩ together.
+109	Join the two groups and count them all.
+110	⟨0⟩ + ⟨1⟩ = ⟨2⟩.
+111	Let's take ⟨1⟩ away from ⟨0⟩.
+112	To count what is left, work out ⟨0⟩ − ⟨1⟩.
+113	⟨0⟩ − ⟨1⟩ = ⟨2⟩.
+114	Tap to find the sides and corners of triangles, squares and circles, and drag the orange dots to move them.
+115	Look at the number of sides, parallel sides and right angles. Turning a shape does not change its lengths or angles.
+116	What is the name of the shape in the picture?
+117	square
+118	triangle
+119	rectangle
+120	Look at the edges and corners of the shape.
+121	It is a four-sided shape with all sides the same length.
+122	So this shape is a square.
+123	It is a four-sided shape whose opposite sides are the same length.
+124	So this shape is a rectangle.
+125	It has ⟨0⟩ straight sides and ⟨1⟩ corners.
+126	So this shape is a triangle.
+127	It is round and has no corners.
+128	So this shape is a circle.
+129	Count groups of ⟨0⟩ yourself to discover how regrouping works.
+130	Make one group of ⟨0⟩, then add the leftover ones. That makes regrouping easy to understand.
+131	In ⟨0⟩ + ⟨1⟩, make a group of ⟨2⟩.
+132	Move ⟨1⟩ of the ⟨0⟩: ⟨2⟩ + ⟨3⟩ = ⟨4⟩.
+133	Add the remaining ⟨0⟩: ⟨1⟩ + ⟨2⟩ = ⟨3⟩.
+134	Pick one row at a time to see the same number added again and again.
+135	Check how many groups of the same number there are. Work out (number in a group) × (number of groups).
+136	Make ⟨1⟩ groups with ⟨0⟩ in each.
+137	It is the same as adding ⟨0⟩ ⟨1⟩ times.
+138	⟨0⟩ × ⟨1⟩ = ⟨2⟩.
+139	Move the short hand and the long hand and read the time.
+140	The long hand shows minutes and the short hand shows hours. When the long hand moves one number, that is ⟨0⟩ minutes.
+141	Choose the time the clock shows.
+142	⟨0⟩:⟨1⟩
+143	The short hand points to the hour and the long hand points to the minutes.
+144	The long hand moves clockwise from ⟨0⟩, ⟨2⟩ minutes for every ⟨1⟩ space (one number). Right now it is ⟨3⟩ minutes.
+145	The short hand has passed ⟨0⟩, so the time is ⟨1⟩:⟨2⟩.
+146	⟨0⟩ o'clock
+147	The short hand is on ⟨0⟩, so the time is ⟨1⟩ o'clock.
+148	Split into groups of the same size and count the quotient.
+149	Fix either the rows or the columns and check how many groups there are. In division, tell the quotient apart from the remainder.
+150	If ⟨0⟩ are shared equally among ⟨1⟩ people, how many does each person get?
+151	We will share ⟨0⟩ equally among ⟨1⟩ people.
+152	If you hand them out one at a time, all ⟨0⟩ people get the same number.
+153	⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩, so each person gets ⟨3⟩.
+154	Tap the equal parts and watch the fraction change.
+155	The whole bar is always the same length. Tell apart the denominator (the size of one piece) and the numerator (how many pieces are colored).
+156	What fraction of the shape is colored?
+157	One whole is split into ⟨0⟩ equal parts.
+158	⟨0⟩ of those parts are colored.
+159	⟨1⟩ of ⟨0⟩ parts, so it is ⟨2⟩/⟨3⟩.
+160	Change big units into small units to compare lengths and times.
+161	First check how many small units make one big unit. Minutes→seconds is ⟨0⟩, and m→cm is ⟨1⟩.
+162	How many cm is ⟨0⟩ m ⟨1⟩ cm?
+163	⟨0⟩ m is ⟨1⟩ cm.
+164	⟨0⟩ m is ⟨1⟩ cm, and then add ⟨2⟩ cm.
+165	⟨0⟩ + ⟨1⟩ = ⟨2⟩ cm.
+166	How many seconds is ⟨0⟩ minutes?
+167	⟨0⟩ seconds
+168	⟨0⟩ minute is ⟨1⟩ seconds.
+169	⟨0⟩ minutes means ⟨1⟩ seconds, ⟨2⟩ times.
+170	⟨0⟩ × ⟨1⟩ = ⟨2⟩ seconds.
+171	Drag the orange vertex with your finger to change the size of the angle.
+172	An angle is not about how long the lines are, but how far apart they open. Read the scale starting from the base line.
+173	How many degrees is the marked angle?
+174	An angle is how wide two rays from the same vertex open apart.
+175	Imagine a protractor and see how far it turned counterclockwise from the base line.
+176	The angle between the two lines is ⟨0⟩°.
+177	Compare three ways to move a shape: slide, flip and turn.
+178	How did the shape move?
+179	Turn

@@ -1,5 +1,5 @@
 import {useEffect,useRef,useState,type CSSProperties} from 'react';
-import {L} from '../i18n/index.ts';
+import {L,tr} from '../i18n/index.ts';
 import {renderMotionScene,type MotionScene} from './types.ts';
 import {fractionHtml} from './mathTokens.ts';
 import './motion.css';
@@ -54,7 +54,7 @@ export default function MotionPlayer({id,scenes,className}:{id:string;scenes:rea
       {started&&<i key={`${idx}-${run}`} style={{'--dur':`${scene.dur}s`} as CSSProperties} onAnimationEnd={onBarEnd}/>}
     </div>
     {/* 그림은 장식(aria-hidden), 설명은 아래 캡션이 화면낭독기로 전달 */}
-    <p className="mm-caption" aria-live="polite"><b>{idx+1} / {scenes.length}</b><span dangerouslySetInnerHTML={{__html:fractionHtml(scene.cap)}}/></p>
+    <p className="mm-caption" aria-live="polite"><b>{idx+1} / {scenes.length}</b><span dangerouslySetInnerHTML={{__html:fractionHtml(tr(scene.cap))}}/></p>
     <div className="mm-ctrl">
       <button type="button" disabled={idx===0} onClick={()=>go(idx-1)}>{L('◀ 이전','◀ Back')}</button>
       <button type="button" className="mm-main" onClick={()=>{

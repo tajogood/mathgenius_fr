@@ -1,0 +1,4 @@
+0	= cannot divide by ⟨0⟩
+1	✨ Share the leftover candies equally too
+2	Front view: tallest stack in each column ⟨0⟩ ⟨1⟩ ⟨2⟩
+3	Right view: tallest stack in each row ⟨0⟩ ⟨1⟩ ⟨2⟩

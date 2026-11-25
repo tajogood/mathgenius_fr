@@ -1,0 +1,61 @@
+0	First check how many small units make one big unit. Minutes→seconds is ⟨0⟩, and m→cm is ⟨1⟩.
+1	The pieces are different sizes, so make them the same: ⟨0⟩/⟨1⟩ = ⟨2⟩/⟨3⟩, ⟨4⟩/⟨5⟩ = ⟨6⟩/⟨7⟩ (common denominator)
+2	⟨0⟩, ⟨1⟩, ⟨2⟩, ?: what is the next number in the pattern?
+3	quotient ⟨0⟩ remainder ⟨1⟩
+4	The quotient is ⟨0⟩ and the remainder is ⟨1⟩.
+5	The numerator is ⟨0⟩ × ⟨1⟩ and the denominator is ⟨2⟩ × ⟨3⟩.
+6	Multiply each digit by ⟨0⟩, ⟨1⟩ or ⟨2⟩ to show its value.
+7	When ⟨0⟩ ones come together, they make one <strong>group of ⟨1⟩</strong>. ⟨3⟩ groups of ⟨2⟩ and ⟨4⟩ ones → ⟨5⟩, ⟨6⟩, ⟨7⟩, ⟨8⟩, ⟨9⟩, ⟨10⟩, <strong>⟨11⟩</strong>
+8	⟨1⟩ groups of ⟨0⟩ make <strong>⟨2⟩</strong>. Counting by ⟨3⟩s: ⟨4⟩, ⟨5⟩, ⟨6⟩, ⟨7⟩, ⟨8⟩. Much faster than counting one by one!
+9	Fill the ⟨0⟩-square board one row (⟨1⟩ squares) at a time. ⟨2⟩, ⟨3⟩, ⟨4⟩ … When all ten rows are full, that is <strong>⟨5⟩</strong>.
+10	Numbers have patterns too. ⟨0⟩, ⟨1⟩, ⟨2⟩, ⟨3⟩ … <strong>goes up by ⟨4⟩</strong> each time, so the next number is <strong>⟨5⟩</strong>.
+11	A digit card's value depends on <strong>which place it is in</strong>. The same ⟨0⟩ means ⟨1⟩ in the hundreds place and ⟨2⟩ in the ones place.
+12	<strong>⟨1⟩</strong> of ⟨0⟩ make <strong>⟨2⟩</strong>. Counting by ⟨3⟩s: ⟨4⟩, ⟨5⟩, ⟨6⟩ …
+13	⟨0⟩ − ⟨1⟩: you cannot take ⟨3⟩ from ⟨2⟩ in the ones place. <strong>Borrow ⟨4⟩</strong> from the tens (regrouping): ⟨5⟩ − ⟨6⟩ = ⟨7⟩. Tens: ⟨8⟩ − ⟨9⟩ = ⟨10⟩ → <strong>⟨11⟩</strong>
+14	⟨0⟩ × ⟨1⟩ is easier if you <strong>split ⟨2⟩ into ⟨3⟩ and ⟨4⟩</strong>. ⟨5⟩ × ⟨6⟩ = ⟨7⟩, ⟨8⟩ × ⟨9⟩ = ⟨10⟩ → ⟨11⟩ + ⟨12⟩ = <strong>⟨13⟩</strong>
+15	Split ⟨0⟩ × ⟨1⟩ into ⟨2⟩ + ⟨3⟩ across and ⟨4⟩ + ⟨5⟩ down and you get four pieces. ⟨6⟩ + ⟨7⟩ + ⟨8⟩ + ⟨9⟩ = <strong>⟨10⟩</strong>
+16	Put ⟨0⟩ candies into groups of ⟨1⟩: ⟨2⟩ groups with <strong>⟨3⟩ left over</strong>. ⟨4⟩ ÷ ⟨5⟩ = ⟨6⟩ R ⟨7⟩ (quotient ⟨8⟩, remainder ⟨9⟩)
+17	In a <strong>picture graph</strong>, one big picture stands for ⟨0⟩ and one small picture for ⟨1⟩. ⟨2⟩ big pictures + ⟨3⟩ small pictures = <strong>⟨4⟩</strong>
+18	In ⟨0⟩ + ⟨1⟩ × ⟨2⟩, <strong>multiply first</strong>. ⟨3⟩ × ⟨4⟩ = ⟨5⟩, then ⟨6⟩ + ⟨7⟩ = <strong>⟨8⟩</strong>. Working left to right gives ⟨9⟩, which is wrong.
+19	Arrange ⟨0⟩ dots into rectangles. They fit exactly as ⟨1⟩×⟨2⟩, ⟨3⟩×⟨4⟩ and ⟨5⟩×⟨6⟩. The numbers that divide ⟨7⟩ evenly, <strong>⟨8⟩, ⟨9⟩, ⟨10⟩, ⟨11⟩, ⟨12⟩, ⟨13⟩</strong>, are its factors.
+20	Multiplying ⟨0⟩ by ⟨1⟩, ⟨2⟩, ⟨3⟩ … gives <strong>⟨4⟩, ⟨5⟩, ⟨6⟩, ⟨7⟩ …</strong>, the multiples of ⟨8⟩. On a number chart, every third square is colored.
+21	Jump by ⟨0⟩ on the number line and the numbers you land on are multiples of ⟨1⟩. ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩ … Multiples go on <strong>forever</strong>.
+22	The numbers that are factors of both ⟨0⟩ and ⟨1⟩ (<strong>common factors</strong>) are ⟨2⟩, ⟨3⟩, ⟨4⟩ and ⟨5⟩. The biggest, <strong>⟨6⟩, is the greatest common factor</strong>.
+23	Write the multiples of ⟨0⟩ and of ⟨1⟩ side by side and <strong>⟨2⟩, ⟨3⟩ …</strong> are in both rows (common multiples). The smallest, <strong>⟨4⟩, is the least common multiple</strong>.
+24	This machine changes numbers by a rule. Put in ⟨0⟩ → ⟨1⟩, ⟨2⟩ → ⟨3⟩, ⟨4⟩ → ⟨5⟩. The rule is <strong>(output) = (input) × ⟨6⟩</strong>
+25	In ⟨0⟩/⟨1⟩, <strong>group the parts in ⟨2⟩s</strong> to get ⟨3⟩/⟨4⟩, and group again to get ⟨5⟩/⟨6⟩. The colored amount stays the same! Dividing the numerator and denominator by the same number is <strong>simplifying</strong>.
+26	To compare ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩, find a common denominator. ⟨4⟩/⟨5⟩ = ⟨6⟩/⟨7⟩, ⟨8⟩/⟨9⟩ = ⟨10⟩/⟨11⟩ → ⟨12⟩ > ⟨13⟩, so <strong>⟨14⟩/⟨15⟩ is bigger</strong>.
+27	A prism with an □-sided base has <strong>□×⟨0⟩</strong> vertices, <strong>□×⟨1⟩</strong> edges and <strong>□+⟨2⟩</strong> faces. Triangular prism: ⟨3⟩ vertices, ⟨4⟩ edges, ⟨5⟩ faces
+28	A pyramid with an □-sided base has <strong>□+⟨0⟩</strong> vertices, <strong>□×⟨1⟩</strong> edges and <strong>□+⟨2⟩</strong> faces. Square pyramid: ⟨3⟩ vertices, ⟨4⟩ edges, ⟨5⟩ faces
+29	As an equation: ⟨0⟩ × <strong>⟨1⟩/⟨2⟩</strong> = ⟨3⟩ and ⟨4⟩ × <strong>⟨5⟩/⟨6⟩</strong> = ⟨7⟩. The two shares add back up to ⟨8⟩!
+30	groups of ⟨0⟩: ⟨1⟩, ones: ⟨2⟩
+31	⟨0⟩ ÷ ⟨1⟩ → ⟨2⟩, ⟨3⟩ left
+32	factors of ⟨0⟩: ⟨1⟩, ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩, ⟨6⟩
+33	multiples of ⟨0⟩: ⟨1⟩, ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩ …
+34	⟨0⟩, ⟨1⟩, ⟨2⟩, ⟨3⟩, ⟨4⟩ are included
+35	at least ⟨0⟩ and at most ⟨1⟩: ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩
+36	ratio of ⟨0⟩ blue to ⟨1⟩ orange
+37	Row ⟨0⟩, column ⟨1⟩, height ⟨2⟩, tap to stack
+38	Front view: tallest stack in each column ⟨0⟩ ⟨1⟩
+39	Right view: tallest stack in each row ⟨0⟩ ⟨1⟩ ⟨2⟩ ⟨3⟩
+40	Right view: tallest stack in each row ⟨0⟩ ⟨1⟩ ⟨2⟩
+41	Add ⟨0⟩ and ⟨1⟩ first to get ⟨2⟩, then add ⟨3⟩ to get ⟨4⟩.
+42	⟨0⟩ minus ⟨1⟩ is ⟨2⟩, and minus ⟨3⟩ again is ⟨4⟩.
+43	What comes after ⟨0⟩, ⟨1⟩, ⟨2⟩, ⟨3⟩?
+44	⟨0⟩, ⟨1⟩, ⟨2⟩, ?: what is the next number in the pattern?
+45	Build a pattern by adding four each time, like ⟨0⟩,⟨1⟩,⟨2⟩.
+46	If the minute hand is on ⟨0⟩ and the hour hand is between ⟨1⟩ and ⟨2⟩, what time is it?
+47	The quotient is ⟨0⟩ and the remainder is ⟨1⟩.
+48	quotient ⟨0⟩ remainder ⟨1⟩
+49	⟨0⟩ is about ⟨1⟩ and ⟨2⟩ is about ⟨3⟩, so it is about ⟨4⟩.
+50	If point (⟨0⟩,⟨1⟩) moves ⟨2⟩ squares right, what is its horizontal position?
+51	If point (⟨0⟩,⟨1⟩) moves ⟨2⟩ squares up, what is its vertical position?
+52	The biggest of the common factors ⟨0⟩,⟨1⟩,⟨2⟩,⟨3⟩ is ⟨4⟩.
+53	⟨0⟩/⟨1⟩ is ⟨2⟩/⟨3⟩ and ⟨4⟩/⟨5⟩ is ⟨6⟩/⟨7⟩, so ⟨8⟩/⟨9⟩ is bigger.
+54	The numerator is ⟨0⟩ × ⟨1⟩ and the denominator is ⟨2⟩ × ⟨3⟩.
+55	What is the mean of ⟨0⟩, ⟨1⟩ and ⟨2⟩?
+56	e.g. ⟨0⟩M⟨1⟩-⟨2⟩, multiplying fractions
+57	ratio of ⟨0⟩ blue to ⟨1⟩ orange
+58	Row ⟨0⟩, column ⟨1⟩, height ⟨2⟩, tap to stack
+59	Front view: tallest stack in each column ⟨0⟩ ⟨1⟩ ⟨2⟩
+60	Right view: tallest stack in each row ⟨0⟩ ⟨1⟩ ⟨2⟩

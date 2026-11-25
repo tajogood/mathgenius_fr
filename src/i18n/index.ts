@@ -1,4 +1,15 @@
-import {EN} from './en.ts';
+import {EN as EN_BASE} from './en.ts';
+
+// Interface and unit names are bundled; lesson text (en-elementary.ts) is loaded
+// only for English visitors via loadEnglish(), so Korean visitors don't download it.
+const EN:Record<string,string>={...EN_BASE};
+let lessonsLoaded=false;
+export async function loadEnglish(){
+  if(lessonsLoaded)return;
+  const {EN_ELEMENTARY}=await import('./en-elementary.ts');
+  for(const [k,v] of Object.entries(EN_ELEMENTARY))if(!(k in EN))EN[k]=v;
+  lessonsLoaded=true;
+}
 
 /**
  * Site language (한국어 / English).
@@ -55,13 +66,49 @@ export function switchLang(next:Lang){
   window.location.assign(url.pathname+url.search+url.hash);
 }
 
+const HANGUL=/[가-힣]/;
+const NUM=/\d+(?:,\d{3})*(?:\.\d+)?/g; // 1,000 is one number; "100, 10" is two
+/** Placeholder for numbers in template keys, e.g. '⟨0⟩개의 사과' → '⟨0⟩ apples'. */
+export const slot=(i:number)=>'⟨'+i+'⟩';
+export function templateOf(ko:string):{key:string;nums:string[]}{
+  const nums:string[]=[];
+  const key=ko.replace(NUM,m=>{nums.push(m);return slot(nums.length-1);});
+  return {key,nums};
+}
+let collector:Set<string>|null=null;
+/** Harvest mode (scripts only): record every Korean string that reaches tr(). */
+export function startCollect(set:Set<string>){collector=set;}
+export function stopCollect(){collector=null;}
+
+/** Look up English for a Korean string; null when there is no entry. */
+export function lookup(ko:string):string|null{
+  if(!HANGUL.test(ko))return null;
+  const lead=ko.match(/^\s*/)![0],trail=ko.match(/\s*$/)![0];
+  const core=ko.trim();
+  if(collector)collector.add(templateOf(core).key);
+  const exact=EN[core];
+  if(exact!==undefined)return lead+exact+trail;
+  const {key,nums}=templateOf(core);
+  const t=EN[key];
+  if(t===undefined)return null;
+  return lead+t.replace(/⟨(\d+)⟩/g,(_,i)=>nums[Number(i)]??'')+trail;
+}
+/** Harvest helper: is there an English entry for this exact key or template? */
+export const hasEntry=(key:string)=>EN[key]!==undefined;
+export const hasHangul=(s:string)=>HANGUL.test(s);
+
 /** Translate a Korean source string (falls back to Korean when untranslated). */
 export function tr(ko:string):string{
-  if(current!=='en')return ko;
-  return EN[ko]??ko;
+  if(current!=='en'){if(collector)lookup(ko);return ko;}
+  return lookup(ko)??ko;
 }
 /** Inline pair for interface text that is built with values. */
-export function L(ko:string,en:string):string{return current==='en'?en:ko;}
+export function L(ko:string,en:string):string{
+  if(collector)handledByL.add(templateOf(ko.trim()).key);
+  return current==='en'?en:ko;
+}
+/** Harvest helper: Korean strings that already have an inline L() English pair. */
+export const handledByL=new Set<string>();
 
 export function applyDocumentLang(){
   if(typeof document==='undefined')return;
