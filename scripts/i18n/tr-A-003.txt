@@ -1,0 +1,210 @@
+400	translation
+401	point symmetry
+402	Imagine folding the shape or turning it ⟨0⟩°.
+403	If it matches when folded along an axis, it has line symmetry. If it matches after a half turn around a center, it has point symmetry.
+404	This shape has line symmetry.
+405	This shape has point symmetry.
+406	On the ⟨0⟩-square grid, overlap ⟨1⟩ blue columns and ⟨2⟩ orange rows and count the ⟨3⟩ overlapping squares.
+407	First work out the whole numbers ⟨0⟩ × ⟨1⟩.
+408	Each number has one decimal place, so the answer has two decimal places.
+409	The answer is ⟨0⟩.
+410	Turn the 3D rectangular prism yourself and tap a face to find the same face on the net.
+411	How many faces does a rectangular prism have?
+412	⟨0⟩
+413	A rectangular prism is surrounded by front, back, top, bottom, left and right faces.
+414	Opposite faces have the same shape.
+415	There are ⟨0⟩ faces in all.
+416	Move candies into other baskets so the total stays the same but everyone's share becomes equal. That is the mean.
+417	Find the mean by dividing the total of all the data by how many values there are.
+418	What is the mean of ⟨0⟩, ⟨1⟩ and ⟨2⟩ points? (to one decimal place)
+419	The mean is the total divided by how many there are.
+420	The total is ⟨0⟩ points and there are ⟨1⟩ scores.
+421	⟨0⟩ ÷ ⟨1⟩ ≈ ⟨2⟩ points.
+422	What is the mean of ⟨0⟩, ⟨1⟩ and ⟨2⟩ points?
+423	Add all three scores.
+424	⟨0⟩ + ⟨1⟩ + ⟨2⟩ = ⟨3⟩ points.
+425	There are ⟨0⟩ scores, so divide by ⟨1⟩ to get a mean of ⟨2⟩ points.
+426	Tap the marbles to change their colors, then draw one at random.
+427	The numerator is the number of marbles of the color you want, and the denominator is the total number of marbles.
+428	There are ⟨0⟩ marbles and ⟨1⟩ are blue. Write the chance of drawing blue as a fraction.
+429	Each marble has the same chance of being drawn.
+430	The chance is the number of marbles of that color divided by the total number of marbles.
+431	The answer is ⟨0⟩/⟨1⟩ = ⟨2⟩/⟨3⟩.
+432	Move the fraction bars and think about how many parts you get from the division.
+433	Change the division into multiplying by the reciprocal of the divisor, then simplify.
+434	Flip the dividing fraction and change it to multiplication.
+435	Work out ⟨0⟩/⟨1⟩ × ⟨2⟩/⟨3⟩.
+436	The answer is ⟨0⟩/⟨1⟩.
+437	Change the number of sides of the prism's base and count the vertices.
+438	How many vertices does a prism with a ⟨0⟩-sided base have?
+439	A prism has two bases of the same shape, one on top and one on the bottom.
+440	Each base has ⟨0⟩ vertices.
+441	Change the divisor and compare the results of decimal division.
+442	Multiply the dividend by ⟨0⟩ and think of it as whole-number division.
+443	⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩.
+444	Move the decimal point back to get ⟨0⟩.
+445	Use the sliders to adjust the parts of the circle graph.
+446	What percent of the whole is blue?
+447	The whole circle graph is ⟨0⟩%.
+448	Blue is ⟨0⟩ of the ten parts.
+449	So it is ⟨0⟩%.
+450	Tap each face of the 3D rectangular prism to compare lengths and widths and see the surface area of all six faces.
+451	Surface area is the total area of all ⟨0⟩ faces of the prism. It uses different units from volume.
+452	What is the surface area of a rectangular prism ⟨0⟩ cm long, ⟨1⟩ cm wide and ⟨2⟩ cm high?
+453	Surface area is the total area of the ⟨0⟩ faces that cover the outside.
+454	There are two faces of each size, so it is ⟨0⟩ × (⟨1⟩ × ⟨2⟩ + ⟨3⟩ × ⟨4⟩ + ⟨5⟩ × ⟨6⟩).
+455	The surface area is ⟨0⟩ cm².
+456	Add cubes one layer at a time and check the total.
+457	If you stack cubes ⟨0⟩ long, ⟨1⟩ wide and ⟨2⟩ layers high, how many cubes are there?
+458	The bottom layer has ⟨0⟩ × ⟨1⟩ cubes.
+459	All ⟨0⟩ layers are stacked the same.
+460	Move the radius and see how much bigger the area of the circle gets.
+461	The area of a circle is radius × radius × pi (⟨0⟩).
+462	What is the area of a circle with radius ⟨0⟩ cm? (Use ⟨1⟩ for pi.)
+463	The area of a circle is radius × radius × pi.
+464	Work out ⟨0⟩ × ⟨1⟩ × ⟨2⟩.
+465	The area is ⟨0⟩ cm².
+466	Turn the cone, cylinder and sphere to find their curved surfaces.
+467	What is the name of the solid in the picture?
+468	prism
+469	Look at the curved surfaces and the bases.
+470	A cylinder has two circular bases, a cone has one, and a sphere has none.
+471	The answer is a cylinder.
+472	The answer is a cone.
+473	The answer is a sphere.
+474	Tap a bar split into ⟨0⟩ equal parts to make decimals yourself.
+475	On a bar split into ⟨0⟩ equal parts, what decimal is ⟨1⟩ parts?
+476	The whole is split into ⟨0⟩ equal parts.
+477	One part is ⟨0⟩.
+478	So ⟨0⟩ parts is ⟨1⟩.
+479	Move the points on the number line to compare the difference between decimals.
+480	Line up the decimal points vertically and subtract the same places.
+481	Line up the decimal places of the two numbers.
+482	Take ⟨2⟩ away from ⟨1⟩ of ⟨0⟩.
+483	Tap the four outer sides in turn to add their lengths, and compare how the units differ from area.
+484	The perimeter of a rectangle is (length + width) × ⟨0⟩. That is different from area, which is length × width.
+485	What is the perimeter of a rectangle ⟨0⟩ cm long and ⟨1⟩ cm wide?
+486	Perimeter is the distance once around the edge of a shape.
+487	The length and the width each appear ⟨0⟩ times.
+488	The perimeter is (⟨0⟩ + ⟨1⟩) × ⟨2⟩ = ⟨3⟩ cm.
+489	Change the ratio of the two colors to explore how to share a total.
+490	Split the total into as many parts as the two terms add up to, then multiply by each term.
+491	If ⟨0⟩ are shared in the ratio ⟨1⟩ : ⟨2⟩, what is the first share?
+492	The terms of the ratio add up to ⟨0⟩ + ⟨1⟩ = ⟨2⟩.
+493	One part of the ratio is ⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩.
+494	The first share is ⟨0⟩ × ⟨1⟩ = ⟨2⟩.
+495	Adjust the amounts of L and mL to compare capacity.
+496	⟨0⟩ L is ⟨1⟩ mL. Convert the big unit first, then add the small unit.
+497	What is ⟨0⟩ L ⟨1⟩ mL in mL?
+498	⟨0⟩ L is ⟨1⟩ mL.
+499	Add ⟨0⟩ mL to get ⟨1⟩ mL.
+500	Move through the multiples to discover the multiplication rule yourself.
+501	Which of these is a multiple of ⟨0⟩?
+502	Multiples are made by multiplying a number by ⟨0⟩, ⟨1⟩, ⟨2⟩, and so on.
+503	Work out ⟨0⟩ × ⟨1⟩.
+504	⟨0⟩ is a multiple of ⟨1⟩.
+505	Move the point on the number line to find where the rounded-up value changes.
+506	When rounding up, if any digit after the chosen place is not ⟨0⟩, add ⟨1⟩ to the digit in the chosen place.
+507	Round ⟨0⟩ up to the nearest ⟨1⟩.
+508	Rounding up goes up if anything is left below the chosen place; rounding down drops it all.
+509	Show ⟨0⟩ in units of ⟨1⟩.
+510	Rounded up, it is ⟨0⟩.
+511	Move the point on the number line to find where the rounded-down value changes.
+512	Rounding down removes every digit below the chosen place. It never gets bigger than the original number.
+513	Round ⟨0⟩ down to the nearest ⟨1⟩.
+514	Rounded down, it is ⟨0⟩.
+515	Color the two fraction bars to see which is bigger.
+516	For two fractions with different denominators, find a common denominator and then compare the numerators.
+517	⟨0⟩/⟨1⟩ □ ⟨2⟩/⟨3⟩: which symbol fits?
+518	If the denominators are different, rewrite them as pieces of the same size.
+519	Write ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩ with the same denominator.
+520	Compared, ⟨0⟩/⟨1⟩ < ⟨2⟩/⟨3⟩.
+521	Compared, ⟨0⟩/⟨1⟩ = ⟨2⟩/⟨3⟩.
+522	Compared, ⟨0⟩/⟨1⟩ > ⟨2⟩/⟨3⟩.
+523	Tap the parts of the two fractions and compare what is left after finding a common denominator.
+524	Make the denominators the same, then subtract only the numerators. You can only subtract when one part of each bar is the same size.
+525	The denominators are different, so the pieces are different sizes. Rewrite ⟨0⟩/⟨1⟩ as ⟨2⟩/⟨3⟩ so the pieces are the same size.
+526	⟨0⟩/⟨1⟩ − ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩: subtract the numerators.
+527	Move the dividers on the strip graph to change each item's share.
+528	On the strip graph, what percent of the whole is the blue part?
+529	The whole strip graph is ⟨0⟩%.
+530	Read both ends of the blue section on the scale.
+531	The blue part is ⟨0⟩%.
+532	Split the whole and show the quotient as a fraction.
+533	What is the quotient of ⟨0⟩ ÷ ⟨1⟩ as a fraction?
+534	Even when whole numbers do not divide evenly, you can write the quotient as a fraction.
+535	Write the dividend ⟨0⟩ as the numerator and the divisor ⟨1⟩ as the denominator.
+536	The quotient is ⟨0⟩/⟨1⟩.
+537	Measure around the circle and unroll it to check that it is a bit more than ⟨0⟩ diameters long.
+538	Circumference is diameter × pi (⟨0⟩). Do not mix it up with the formula for area.
+539	What is the circumference of a circle with radius ⟨0⟩ cm? (Use ⟨1⟩ for pi.)
+540	The distance around a circle is called its circumference.
+541	Circumference = diameter × pi = ⟨0⟩ × ⟨1⟩.
+542	The circumference is ⟨0⟩ cm.
+543	Change the number of sides of the polygon and explore how the sum of the interior angles changes.
+544	What is the sum of the interior angles of a ⟨0⟩-sided polygon?
+545	The interior angles of a triangle add up to ⟨0⟩°.
+546	A ⟨0⟩-sided polygon can be split into ⟨1⟩ triangles from one vertex.
+547	The interior angles add up to ⟨0⟩°.
+548	Move the hands to add minutes and hours yourself.
+549	What is ⟨0⟩ minutes plus ⟨1⟩ minutes?
+550	⟨0⟩ minutes
+551	First make the time units the same.
+552	Work out ⟨0⟩ minutes + ⟨1⟩ minutes.
+553	Together that is ⟨0⟩ minutes.
+554	Compare where the two points sit on the number line to find the bigger decimal.
+555	Line up the decimal points and compare the digits in each place.
+556	Compare starting from the biggest place value.
+557	⟨0⟩ < ⟨1⟩.
+558	⟨0⟩ > ⟨1⟩.
+559	Change the number of sides of the pyramid's base and see how the vertices change.
+560	How many vertices does a pyramid with a ⟨0⟩-sided base have?
+561	A pyramid has one base and one vertex at the top.
+562	The base has ⟨0⟩ vertices.
+563	Add the one vertex at the top to get ⟨0⟩.
+564	Move along the number line to find out why "at least" and "greater than" have different boundaries.
+565	Is ⟨1⟩ included in the numbers greater than ⟨0⟩?
+566	included
+567	always smaller
+568	not included
+569	cannot tell
+570	"At least" includes the boundary number; "greater than" does not.
+571	"Greater than ⟨0⟩" is a range with the boundary ⟨1⟩.
+572	⟨0⟩ is not included.
+573	Is ⟨1⟩ included in the numbers that are at least ⟨0⟩?
+574	"At least ⟨0⟩" is a range with the boundary ⟨1⟩.
+575	⟨0⟩ is included.
+576	Explore common factors and common multiples with number cards.
+577	What is the least common multiple of ⟨0⟩ and ⟨1⟩?
+578	A common factor divides both numbers, and a common multiple is a multiple both numbers share.
+579	Find the smallest multiple the two numbers share.
+580	The answer is ⟨0⟩.
+581	What is the greatest common factor of ⟨0⟩ and ⟨1⟩?
+582	Find the biggest of the two numbers' common factors.
+583	Color the bars to see the difference between proper fractions, improper fractions and mixed numbers.
+584	What kind of fraction is ⟨0⟩/⟨1⟩?
+585	proper fraction
+586	unit fraction
+587	improper fraction
+588	mixed number
+589	Compare the numerator and denominator, or check for a whole number.
+590	A proper fraction has a smaller numerator, an improper fraction has a numerator that is bigger or equal, and a mixed number combines a whole number and a proper fraction.
+591	So ⟨0⟩/⟨1⟩ is an improper fraction.
+592	What kind of fraction is ⟨0⟩ ⟨1⟩/⟨2⟩?
+593	So ⟨0⟩ ⟨1⟩/⟨2⟩ is a mixed number.
+594	So ⟨0⟩/⟨1⟩ is a proper fraction.
+595	Turn the stacked cubes and find how the shape changes with the direction you look from.
+596	If cubes are stacked ⟨0⟩ long and ⟨1⟩ wide, how many squares do you see from above?
+597	Looking down from above, you see how the squares are laid out on the floor, not how tall the stacks are.
+598	You can see ⟨0⟩ squares across and ⟨1⟩ squares down.
+599	From above you see ⟨0⟩ squares.
+600	Let's count the apples <strong>one by one</strong>. The last number you say is how many there are. One, two, three … seven! There are <strong>⟨0⟩ apples</strong>.
+601	Fill dots in a ⟨0⟩-box frame and you can see how big a number is at a glance. <strong>⟨1⟩</strong> has one empty box, so it is <strong>⟨3⟩ less than ⟨2⟩</strong>.
+602	Let's <strong>split</strong> ⟨0⟩ blocks into two groups. You can split them into ⟨1⟩ and ⟨2⟩, or into ⟨3⟩ and ⟨4⟩. However you split them, together they make ⟨5⟩.
+603	Let's <strong>put</strong> two groups <strong>together</strong>. ⟨0⟩ and ⟨1⟩ together make ⟨2⟩. Splitting and putting together are opposites.
+604	Let's sort things around us by shape. There are <strong>box shapes</strong> (flat faces), <strong>can shapes</strong> (flat faces + a curved surface) and <strong>ball shapes</strong> (only a curved surface).
+605	Shall we roll them? A <strong>ball shape</strong> rolls any way, and a <strong>can shape</strong> rolls one way when lying down. A <strong>box shape</strong> does not roll.
+606	If you <strong>add</strong> ⟨1⟩ apples to ⟨0⟩ apples, how many are there? Put the groups together and count: ⟨2⟩ → <strong>⟨3⟩ + ⟨4⟩ = ⟨5⟩</strong>
+607	If ⟨1⟩ of ⟨0⟩ balloons fly away, how many are left? <strong>Subtracting</strong> means taking away → <strong>⟨2⟩ − ⟨3⟩ = ⟨4⟩</strong>
+608	Pair up the blocks one by one. The side with blocks left without a partner has more. ⟨0⟩ is ⟨2⟩ <strong>more</strong> than ⟨1⟩ → <strong>⟨3⟩ > ⟨4⟩</strong>
+609	On a number line, <strong>the number further right is bigger</strong>. ⟨0⟩ is to the right of ⟨1⟩.

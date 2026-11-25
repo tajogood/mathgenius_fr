@@ -1,0 +1,2 @@
+0	fall
+1	halfway ⟨0⟩

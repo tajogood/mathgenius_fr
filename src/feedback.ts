@@ -1,4 +1,5 @@
 import type { Problem, Topic } from './math.ts';
+import {isEn,tr} from './i18n/index.ts';
 import { interactionForProblem, interactionForTopic, type LabKind } from './interactions.ts';
 
 const LAB_HINTS: Record<LabKind,string> = {
@@ -54,6 +55,7 @@ const OVERRIDES: Partial<Record<Problem['topic'],string>> = {
 export function diagnosticHint(problem:Problem,selected:string):string {
   if(selected===problem.answer) return '정답이에요. 같은 개념을 다른 문제에도 적용해 보세요.';
   const topicHint=OVERRIDES[problem.topic]??LAB_HINTS[interactionForProblem(problem)];
+  if(isEn()) return 'Look again at your answer, '+tr(selected)+'. '+tr(topicHint);
   return '선택한 답 '+selected+'을 다시 살펴봐요. '+topicHint;
 }
 

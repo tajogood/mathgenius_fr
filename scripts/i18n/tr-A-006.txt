@@ -1,0 +1,240 @@
+1060	Narrower
+1061	Wider
+1062	⟨0⟩×⟨1⟩ example
+1063	Original size
+1064	Put ⟨1⟩ squares of ⟨0⟩ cm² in each row and make ⟨2⟩ rows to find the whole area. Drag the orange handle to change the size of the shape too.
+1065	Follow the four sides and add the outside lengths
+1066	Tap the top, right, bottom and left sides of the outer border one at a time.
+1067	Trace the top side, ⟨0⟩ cm
+1068	top ⟨0⟩ cm
+1069	Trace the right side, ⟨0⟩ cm
+1070	right ⟨0⟩ cm
+1071	Trace the bottom side, ⟨0⟩ cm
+1072	bottom ⟨0⟩ cm
+1073	Trace the left side, ⟨0⟩ cm
+1074	left ⟨0⟩ cm
+1075	Only the colored border counts toward the perimeter
+1076	sides traced ⟨0⟩ / ⟨1⟩
+1077	so far ⟨0⟩ cm
+1078	Tap the first side to start tracing the border
+1079	top ⟨0⟩ cm · right ⟨1⟩ cm · bottom ⟨2⟩ cm · left ⟨3⟩ cm
+1080	Perimeter is not the number of squares inside but
+1081	the four outside sides added together
+1082	▶ Trace the next side
+1083	The top and bottom are both ⟨0⟩ cm, and the left and right are both ⟨1⟩ cm. Add all four sides to get the perimeter. Drag the orange handle to change the size of the shape too.
+1084	✓ Whole perimeter ⟨0⟩ + ⟨1⟩ + ⟨2⟩ + ⟨3⟩ = ⟨4⟩ cm
+1085	You went all the way around! The perimeter is the ⟨0⟩ cm you walked along the outside edge.
+1086	↺ Trace the border again
+1087	Ratios in color
+1088	Share of blue
+1089	ratio of ⟨0⟩ blue to ⟨1⟩ orange
+1090	Remove one blue marble
+1091	Remove one orange marble
+1092	Tap a marble to remove it.
+1093	Now blue : orange =
+1094	Fewer blue marbles
+1095	More blue marbles
+1096	Fewer orange marbles
+1097	More orange marbles
+1098	↺ Starting ratio
+1099	Multiplying both numbers by the same number keeps the ratio the same.
+1100	⟨0⟩ cm³ cube lab
+1101	cm³ (volume)
+1102	one cube ⟨0⟩ cm × ⟨1⟩ cm × ⟨2⟩ cm = ⟨3⟩ cm³
+1103	First count one layer, then check how many times that layer is stacked up.
+1104	stacked cubes ⟨0⟩ long, ⟨1⟩ wide, ⟨2⟩ layers high
+1105	Select the cube in row ⟨0⟩, column ⟨1⟩, layer ⟨2⟩
+1106	Tap one row on top and count by ⟨0⟩s
+1107	▲ Stack one more layer
+1108	cubes in one layer = ⟨0⟩ × ⟨1⟩ rows = ⟨2⟩
+1109	selected: ⟨0⟩ rows × ⟨1⟩ = ⟨2⟩
+1110	⟨1⟩ layers of ⟨0⟩ = ⟨2⟩ cm³
+1111	Fewer layers
+1112	More layers
+1113	↷ View from the other side
+1114	↺ Stack from the start
+1115	Click a cube in the picture to highlight its row. Count the ⟨0⟩ cubes in one layer, then press "Stack one more layer" to see the same ⟨1⟩ cubes added for each layer.
+1116	↺ Start again from layer ⟨0⟩
+1117	✓ All ⟨0⟩ layers are stacked. The number of cubes that fill the space is the volume.
+1118	Cylinder, cone and sphere to turn
+1119	Choose cylinder, cone or sphere
+1120	Unfold the net
+1121	Sphere you can turn with your mouse or finger
+1122	Tap the curved surface of the sphere
+1123	Drag it to turn it
+1124	sphere · ⟨0⟩ flat circular bases · ⟨1⟩ curved surface
+1125	A sphere is one single curved surface.
+1126	⟨0⟩ flat faces · ⟨1⟩ vertices
+1127	Model size
+1128	Smaller model
+1129	Bigger model
+1130	↑ View from above
+1131	↷ Turn it
+1132	↺ Original model
+1133	Turn the solid with your finger and click the curved surface or the flat circles to compare. The sides of a cylinder and a cone can be unrolled, but the surface of a sphere cannot be flattened exactly without tearing.
+1134	Cylinder you can turn with your mouse or finger
+1135	Tap the curved side
+1136	Tap the bottom face
+1137	Tap the top face
+1138	cylinder · ⟨0⟩ flat circular bases · ⟨1⟩ curved surface
+1139	The side of a cylinder is curved, but unrolled it becomes a rectangle.
+1140	⟨0⟩ circular edges · ⟨1⟩ pointed vertices
+1141	Cone you can turn with your mouse or finger
+1142	Tap the smooth side of the cone
+1143	Tap the circular base
+1144	Select the apex of the cone
+1145	cone · ⟨0⟩ flat circular base · ⟨1⟩ curved surface
+1146	The side of a cone is curved, but unrolled it becomes a sector.
+1147	⟨0⟩ vertex · ⟨1⟩ circular edge
+1148	Fold the net
+1149	What shape is the side when you unroll it?
+1150	The curved surface of a sphere cannot be laid completely flat without tearing or crumpling it.
+1151	The solid from the problem, which you can turn with your mouse or finger
+1152	solid in the picture · ⟨0⟩ flat circular bases · ⟨1⟩ curved surfaces
+1153	Turn the solid and count how many flat circular bases and curved surfaces it has.
+1154	Count group ⟨0⟩ of ⟨1⟩
+1155	Tapping a group of ⟨0⟩ counts ⟨1⟩ at a time; leftover ones are counted one by one.
+1156	Groups of ⟨0⟩ to play with
+1157	Uncount group ⟨0⟩ of ⟨1⟩
+1158	Build with place value
+1159	Place values that make the number
+1160	Tap a place to select it
+1161	Selected place
+1162	Decrease the selected place
+1163	Increase the selected place
+1164	selected place +⟨0⟩
+1165	↺ Original number
+1166	Tap the place-value cards or use plus and minus to build a number.
+1167	This is a practice model.
+1168	 blue blocks chosen · ⟨0⟩ orange chosen
+1169	Choose blocks of the same color and count them
+1170	Tap only the blue blocks to count them. The sorting rule is color.
+1171	Make your own graph
+1172	Height of the blue bar
+1173	Tap the bars to change their heights
+1174	Raise bar ⟨0⟩ by one step
+1175	Tap to raise one step
+1176	Tap a bar to raise it by ⟨0⟩. You can also use the slider below.
+1177	↺ Original graph
+1178	Find the pattern
+1179	Tap the numbers in the pattern to explore them, or drag them up and down to change the pattern
+1180	Select pattern number ⟨0⟩ (⟨1⟩) and drag it up or down
+1181	Tap a number to find the expression that makes it.
+1182	Tap a number to see its rule as an expression. Drag a number card up or down to change the step, and the other numbers change too.
+1183	Start
+1184	Lower start
+1185	Higher start
+1186	Step
+1187	Smaller step
+1188	Bigger step
+1189	↺ Original pattern
+1190	Play with lines, segments and rays
+1191	Compare the two ends of each line.
+1192	Grab an orange dot to change the length and direction of the line.
+1193	Choose the kind of line
+1194	Drag the orange handles at both ends to move the line
+1195	A ray has one starting point and goes on forever in one direction.
+1196	↺ Starting line
+1197	The side with an arrow keeps going. You don't need angle measures like ⟨0⟩° yet.
+1198	A line goes on forever in both directions.
+1199	A line segment has an endpoint on each side.
+1200	For big numbers, this smaller model shows only some of the groups. Check the problem for the exact number.
+1201	⟨0⟩ left over
+1202	Tap a row to color it. The ⟨0⟩ selected rows have ⟨1⟩ blocks. The blocks left over must be fewer than the divisor.
+1203	Circle that grows and shrinks
+1204	Pi tells you how many times longer the circumference is than the diameter.
+1205	Whatever the size of the circle, circumference ÷ diameter is about ⟨0⟩.
+1206	Choose pi or the area of a circle
+1207	Distance around the circle (circumference)
+1208	Area inside the circle
+1209	Trace the edge of a circle with radius ⟨0⟩ cm and move the orange dot
+1210	about ⟨0⟩ cm
+1211	measured around the circle ⟨0⟩%
+1212	Share of the edge measured
+1213	↻ Measure around with a tape
+1214	▾ Unroll the tape and compare with the diameter
+1215	circumference = diameter × pi
+1216	Tap the edge of the circle or drag the orange dot to change its size.
+1217	Smaller radius
+1218	Bigger radius
+1219	↺ Starting circle
+1220	Make the circle bigger, wrap the tape all the way around, then unroll it. Even for a big circle, about ⟨0⟩ diameters laid end to end make the circumference.
+1221	area of a circle = radius × radius × pi
+1222	The orange line went all the way around and measured the whole circumference.
+1223	▴ Roll up the tape
+1224	The circumference is a bit more than ⟨0⟩ diameters!
+1225	circumference about ⟨0⟩ cm is ⟨2⟩ times the diameter ⟨1⟩ cm
+1226	about ⟨0⟩ times the diameter
+1227	circumference ÷ diameter = pi ≈ ⟨0⟩
+1228	π (pi) is the symbol for this ratio. In elementary school, first understand what "pi ≈ ⟨0⟩" means. π is not exactly ⟨1⟩.
+1229	Even when the circle changes size, circumference ÷ diameter is about ⟨0⟩.
+1230	Spread kilogram ⟨0⟩ (⟨1⟩ kg) into ⟨2⟩ g
+1231	Take a little away from ⟨0⟩ g
+1232	Fewer kg
+1233	More kg
+1234	Tap one big-unit card to spread it into small units of ⟨0⟩ g. The shape changes but the total amount stays the same. Tap a small-unit card to take some away.
+1235	Small units split into ⟨0⟩, ⟨1⟩ g each
+1236	hundred thousands
+1237	ten thousands
+1238	-⟨1⟩/⟨0⟩
+1239	⟨0⟩-sided polygon · turned ⟨1⟩°
+1240	⟨0⟩-sided polygon · turned ⟨1⟩° · flipped
+1241	Drag the data points to change the line graph
+1242	Drag a point with your finger or move the slider below to change the line.
+1243	Fewer sides
+1244	More sides
+1245	Moving calculation board
+1246	Move the multiplier and the number of groups and the value of the expression change right away.
+1247	↺ Start
+1248	Find the factors of ⟨0⟩
+1249	Which numbers divide it evenly?
+1250	Choose a number to check how the two numbers divide.
+1251	✅ ⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩ · it divides evenly!
+1252	💡 ⟨0⟩ ÷ ⟨1⟩ leaves a remainder of ⟨2⟩, so it is not a factor.
+1253	Smaller input
+1254	Bigger input
+1255	Smaller multiplier
+1256	Bigger multiplier
+1257	rounded: ⟨0⟩
+1258	The overlap when the first fraction ⟨0⟩/⟨1⟩ is multiplied by the second fraction ⟨2⟩/⟨3⟩
+1259	blue columns × orange rows = overlap
+1260	The bar is always the same length, and dotted lines show the equal parts. Tap parts to change the numerator. Splitting into smaller parts keeps the same size. The squares where both directions overlap are the product.
+1261	The bar is always the same length, and dotted lines show the equal parts. Tap parts to change the numerator. Right now it is a different size from the original fraction. The squares where both directions overlap are the product.
+1262	Congruence and symmetry lab
+1263	Kind of experiment
+1264	Overlap the same shape
+1265	Line-symmetry mirror
+1266	Point symmetry ⟨0⟩°
+1267	Choose an example shape
+1268	Point-symmetric shape you can drag with your mouse or finger
+1269	center of symmetry O
+1270	Drag the blue shape to move it. You can also press R to rotate it
+1271	Drag the orange rotation handle to turn the shape
+1272	Point symmetry: turn ⟨0⟩° around the center and it matches
+1273	turned ⟨0⟩°
+1274	↺ Starting position
+1275	Move the parallelogram onto the marked center. Turn it half a turn with the orange dot and it still matches.
+1276	☝️ Drag the blue shape to move it · drag the orange dot to turn it
+1277	Keyboard: arrow keys to move · R to turn ⟨0⟩°
+1278	house shape
+1279	L shape
+1280	Congruent shape you can drag with your mouse or finger
+1281	gray original
+1282	Congruent: same size and same shape
+1283	Drag the blue shape onto the gray shape. Turn the orange dot on top to change its direction too.
+1284	butterfly
+1285	Line-symmetric shape you can drag with your mouse or finger
+1286	Drag the right butterfly wing to fit the mirror outline
+1287	Line symmetry: both sides of the axis match like a mirror
+1288	Find the mirror image of the butterfly's left wing and drag the blue right wing into the dotted outline.
+1289	Decimal ⟨0⟩-square multiplication lab
+1290	Area model splitting ⟨0⟩ whole into ⟨1⟩ squares
+1291	What the colors mean
+1292	overlap
+1293	⟨0⟩-square grid. First decimal ⟨1⟩, second decimal ⟨2⟩
+1294	Row ⟨0⟩, column ⟨1⟩, overlap, tap to resize to here
+1295	across ⟨0⟩, down ⟨1⟩
+1296	Row ⟨0⟩, column ⟨1⟩, orange part, tap to resize to here
+1297	Row ⟨0⟩, column ⟨1⟩, blue part, tap to resize to here
+1298	Row ⟨0⟩, column ⟨1⟩, empty, tap to resize to here
+1299	overlapping squares

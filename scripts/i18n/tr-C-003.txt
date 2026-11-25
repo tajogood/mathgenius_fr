@@ -1,0 +1,260 @@
+420	⟨0⟩ equals ⟨1⟩, so you can compare the same places.
+421	⟨0⟩ is ⟨1⟩, so it is bigger than ⟨2⟩.
+422	Line up the decimal points and compare the digits in each place. Compare starting from the biggest place value. ⟨0⟩ > ⟨1⟩.
+423	Line up the decimal points and compare the digits in each place. Compare starting from the biggest place value. ⟨0⟩ < ⟨1⟩.
+424	Adding and subtracting fractions with the same denominator
+425	Add and take away pieces on bars split into equal sizes.
+426	Keep the denominator and add or subtract the numerators.
+427	⟨1⟩/⟨0⟩ and ⟨3⟩/⟨2⟩ together are five of eight pieces.
+428	subtracting fractions with the same denominator
+429	Keep the denominator and work out the numerators ⟨0⟩−⟨1⟩.
+430	Both fractions have the denominator ⟨0⟩, so one piece is the same size. ⟨1⟩/⟨2⟩ + ⟨3⟩/⟨4⟩ = ⟨5⟩/⟨6⟩: keep the denominator and add only the numerators. ⟨7⟩/⟨8⟩ cannot be simplified. The answer is ⟨9⟩/⟨10⟩.
+431	Both fractions have the denominator ⟨0⟩, so one piece is the same size. ⟨1⟩/⟨2⟩ − ⟨3⟩/⟨4⟩ = ⟨5⟩/⟨6⟩: keep the denominator and subtract only the numerators. ⟨7⟩/⟨8⟩ cannot be simplified. The answer is ⟨9⟩/⟨10⟩.
+432	Adding and subtracting to two decimal places
+433	Compare numbers with the same decimal place on the number line.
+434	Line up the place values of decimals, then add and subtract.
+435	Line up the decimal points: ⟨0⟩ and ⟨1⟩ add up to ⟨2⟩, which is ⟨3⟩.
+436	subtracting decimals
+437	Line up the decimal points and regroup to get ⟨0⟩.
+438	Writing rules for changing numbers as expressions
+439	Change the start and the step and predict the next number.
+440	A steady rule of change can be written as repeated addition or multiplication.
+441	It always adds ⟨0⟩ to the number before, so ⟨1⟩+⟨2⟩=⟨3⟩.
+442	multiplication rule
+443	Each step multiplies the number by ⟨0⟩, so next is ⟨1⟩.
+444	Guessing the rule in a set of calculations
+445	Make a rule and see how the results continue.
+446	When the same operation repeats, the results show a steady pattern too.
+447	When the multiplier goes up by ⟨0⟩, the result goes up by ⟨1⟩.
+448	addition rule
+449	When the second number goes up by ⟨0⟩, the sum also goes up by ⟨1⟩.
+450	Showing the same amount on both sides of the equals sign
+451	Change the input and compare whether both expressions become equal.
+452	The equals sign does not just mean "the answer is." It means both sides have the same value.
+453	In ⟨0⟩ + ⟨1⟩ = □ + ⟨2⟩, what is □?
+454	To equal the left side, ⟨0⟩, the blank on the right must be ⟨1⟩.
+455	both sides are equal
+456	Which of these uses the equals sign correctly?
+457	Only the sentence where both sides are ⟨0⟩ uses the equals sign correctly.
+458	□ and △ correspond by a fixed rule. Put ⟨0⟩ in □: ⟨1⟩ × ⟨2⟩ + ⟨3⟩. That works out to ⟨4⟩.
+459	Telling lines, segments and rays apart
+460	Turn the lines and compare the shapes of their ends.
+461	A segment has two endpoints, a ray has one starting point, and a line goes on in both directions.
+462	Which line has a starting point but goes on forever in one direction?
+463	A ray has only one endpoint and keeps going in one direction.
+464	angle
+465	Look at the marks on both ends. A line segment has two ends; a ray goes on forever in one direction. The picture shows a line segment.
+466	Look at the marks on both ends. A line segment has two ends; a ray goes on forever in one direction. The picture shows a ray.
+467	Look at the marks on both ends. A line segment has two ends; a ray goes on forever in one direction. The picture shows a line.
+468	Telling acute, right and obtuse angles apart
+469	Move the end of the protractor and sort angles using ⟨0⟩ degrees as the guide.
+470	Less than ⟨0⟩ degrees is acute, equal is right, and more is obtuse.
+471	What kind of angle is ⟨0⟩ degrees?
+472	⟨0⟩ degrees is more than ⟨1⟩ and less than ⟨2⟩, so it is obtuse.
+473	obtuse angle
+474	acute angle
+475	right angle
+476	straight angle
+477	Which of these angles is acute?
+478	An acute angle is smaller than ⟨0⟩ degrees.
+479	Perpendicular and parallel lines
+480	Change the direction of the lines and notice how they meet.
+481	Two lines that meet at a right angle are perpendicular; two lines in the same plane that never meet are parallel.
+482	Two lines in the same plane meet at ⟨0⟩ degrees. What are they?
+483	Lines that meet at a right angle are called perpendicular.
+484	perpendicular
+485	parallel
+486	the same line
+487	What do you call two lines in the same plane that never meet?
+488	Two parallel lines never meet, however far you extend them.
+489	congruent
+490	Slides, flips and turns
+491	Compare the results of sliding, reflecting and rotating a shape.
+492	A slide only changes position, and a flip switches left-right or up-down like a mirror.
+493	Which move turns a shape ⟨0⟩ degrees?
+494	A turn changes a shape's direction around one point.
+495	Which move switches left and right, as in a mirror?
+496	Think of a mirror image: it is a flip.
+497	stretch
+498	Which move shifts a shape to the right without changing its form or direction?
+499	It keeps its form and direction and only changes position.
+500	enlargement
+501	Moving a point: position and direction
+502	Move the shape and say which way it moved.
+503	Describe a point's move exactly with its starting position, direction and distance.
+504	If point (⟨0⟩) moves ⟨1⟩ squares right, what is its horizontal position?
+505	Add the distance moved right, ⟨1⟩, to the horizontal coordinate ⟨0⟩.
+506	moving up
+507	If point (⟨0⟩) moves ⟨1⟩ squares up, what is its vertical position?
+508	Add ⟨1⟩ to the vertical coordinate ⟨0⟩ to get ⟨2⟩.
+509	The center, diameter and radius of a circle
+510	Draw lines from the center to the edge and compare the radii.
+511	The diameter is twice the radius and always passes through the center.
+512	A circle has a radius of ⟨0⟩ cm. What is its diameter?
+513	Two radii join from the center to both edges, so the diameter is ⟨0⟩ cm.
+514	center of a circle
+515	What special point is the same distance from every point on the circle?
+516	The point where every radius starts is the center of the circle.
+517	diameter
+518	circumference
+519	The diameter passes through the center, and both its ends are on the circle. The diameter is ⟨0⟩ times the radius. The diameter is ⟨1⟩ × ⟨2⟩ = ⟨3⟩ cm.
+520	Drawing circles like a compass
+521	Change the radius and watch the circle made by points the same distance from the center.
+522	Every point on a circle is the same distance from the center.
+523	What do all the points ⟨0⟩ cm from the center make?
+524	Points at a fixed distance, ⟨0⟩ cm, from the center make a circle.
+525	a circle with radius ⟨0⟩ cm
+526	a circle with diameter ⟨0⟩ cm
+527	a line
+528	a line segment
+529	Properties of isosceles and equilateral triangles
+530	Compare the side lengths of the triangle and turn it to look at its shape.
+531	An equilateral triangle has all three sides equal, and an isosceles triangle has two equal sides.
+532	Which triangle has all sides the same length?
+533	All three sides are equal, so you know it is equilateral.
+534	obtuse triangle
+535	Which triangle has at least two sides of the same length?
+536	It has two sides of the same length, so it is isosceles.
+537	Look at the side lengths and angles of the triangle. Check for sides of the same length or a right angle. This is an isosceles triangle.
+538	Look at the side lengths and angles of the triangle. Check for sides of the same length or a right angle. This is an equilateral triangle.
+539	Right, acute and obtuse triangles
+540	Turn the shape and check whether an angle is ⟨0⟩ degrees.
+541	A right triangle has one ⟨0⟩-degree angle.
+542	Which triangle has one angle of ⟨0⟩ degrees?
+543	It has a right angle, so it is a right triangle.
+544	acute triangle
+545	A triangle has one angle of ⟨0⟩ degrees. What is it?
+546	If one angle is more than ⟨0⟩ degrees, it is an obtuse triangle.
+547	Look at the side lengths and angles of the triangle. Check for sides of the same length or a right angle. This is a right triangle.
+548	Sorting quadrilaterals
+549	Turn the quadrilaterals to find parallel sides and right angles.
+550	A rectangle has four right angles, and a parallelogram has opposite sides that are parallel.
+551	Which quadrilateral has four right angles?
+552	A rectangle is a quadrilateral whose four angles are ⟨0⟩ degrees.
+553	rhombus
+554	any quadrilateral
+555	Which shape has four equal sides and four right angles?
+556	A shape with four equal sides and right angles is a square.
+557	only a rhombus
+558	only a parallelogram
+559	What do you call a quadrilateral with all four sides the same length?
+560	A rhombus has four sides of the same length.
+561	Which quadrilateral has two pairs of parallel opposite sides?
+562	Two pairs of parallel opposite sides make a parallelogram.
+563	Which quadrilateral has at least one pair of parallel opposite sides?
+564	A quadrilateral with one pair of parallel opposite sides can be classed as a trapezoid.
+565	Compare the directions and lengths of the ⟨0⟩ sides. Check whether opposite sides are parallel. This quadrilateral is a square.
+566	Compare the directions and lengths of the ⟨0⟩ sides. Check whether opposite sides are parallel. This quadrilateral is a trapezoid.
+567	Compare the directions and lengths of the ⟨0⟩ sides. Check whether opposite sides are parallel. This quadrilateral is a rectangle.
+568	Polygons and regular polygons
+569	Add sides and count the vertices and sides.
+570	A regular polygon has all sides equal and all angles equal.
+571	Which pentagon has all sides and angles equal?
+572	It has five vertices and all its sides and angles are equal, so it is a regular pentagon.
+573	regular pentagon
+574	regular hexagon
+575	any triangle
+576	properties of regular polygons
+577	Which statement about a regular hexagon's sides and angles is right?
+578	A regular polygon has equal side lengths and equal angles.
+579	all sides are equal and all angles are equal
+580	only the sides are equal
+581	only the angles are equal
+582	the number of sides and angles differ
+583	Count the sides and vertices. A polygon is named by its number of sides. It has ⟨0⟩ sides, so it is a ⟨1⟩-sided polygon.
+584	Filling shapes with pieces
+585	Turn polygons to find how to fit them into empty spaces.
+586	Turning or flipping a shape does not change its area.
+587	Which shape can you make with no gaps by joining two squares?
+588	Two equal squares side by side make a rectangle.
+589	Reading time to the second
+590	Move the clock hands and look at how minutes and seconds are related.
+591	⟨0⟩ minute is ⟨1⟩ seconds, and after ⟨2⟩ seconds the minutes go up by ⟨3⟩.
+592	How many seconds is ⟨0⟩ minutes ⟨1⟩ seconds?
+593	⟨0⟩ minutes is ⟨1⟩ seconds, so add ⟨2⟩ seconds to get ⟨3⟩ seconds.
+594	reading seconds
+595	If the second hand points to ⟨0⟩, how many seconds is that?
+596	Each number the second hand moves is ⟨0⟩ seconds.
+597	Adding and subtracting time to the second
+598	Change minutes and seconds into the same unit and add the times.
+599	If the seconds add up to ⟨0⟩ or more, bundle them into ⟨1⟩ minute.
+600	⟨0⟩ min ⟨1⟩ s + ⟨2⟩ s = ?
+601	⟨0⟩ s and ⟨1⟩ s make ⟨2⟩ s, so change it to ⟨3⟩ min ⟨4⟩ s.
+602	⟨0⟩ min ⟨1⟩ s
+603	subtracting time
+604	⟨0⟩ min ⟨1⟩ s − ⟨2⟩ s = ?
+605	Change ⟨0⟩ min ⟨1⟩ s into ⟨2⟩ min ⟨3⟩ s, then subtract ⟨4⟩ s to get ⟨5⟩ min ⟨6⟩ s.
+606	First make the time units the same. Work out ⟨0⟩ minutes + ⟨1⟩ minutes. Together that is ⟨2⟩ minutes.
+607	Length units mm and km
+608	Switch to units that suit short lengths and long distances.
+609	⟨0⟩ cm is ⟨1⟩ mm, and ⟨2⟩ km is ⟨3⟩ m.
+610	How many m is ⟨0⟩ km?
+611	⟨0⟩ km is ⟨1⟩ m, so twice that is ⟨2⟩ m.
+612	Converting cm and mm, km and m
+613	Use how two length units are related to write the same amount.
+614	Use ⟨0⟩ cm = ⟨1⟩ mm and ⟨2⟩ km = ⟨3⟩ m.
+615	How many mm is ⟨0⟩ cm ⟨1⟩ mm?
+616	⟨0⟩ cm = ⟨1⟩ mm, and add ⟨2⟩ mm to get ⟨3⟩ mm.
+617	how km and m are related
+618	How many m is ⟨0⟩ km ⟨1⟩ m?
+619	Add ⟨0⟩ m and ⟨1⟩ m to get ⟨2⟩ m.
+620	Using L and mL for capacity
+621	Compare the big and small units for a water bottle.
+622	Capacity is how much liquid a container can hold, measured in L and mL.
+623	Which unit suits the capacity of one cup of drink?
+624	A small capacity, like one cup of drink, suits mL.
+625	⟨0⟩ L is ⟨1⟩ mL. ⟨2⟩ L is ⟨3⟩ mL. Add ⟨4⟩ mL to get ⟨5⟩ mL.
+626	How L and mL are related
+627	See how much the mL value changes when you change the L.
+628	⟨0⟩ L and ⟨1⟩ mL are the same amount.
+629	How many mL is ⟨0⟩ L ⟨1⟩ mL?
+630	Change ⟨0⟩ L into ⟨1⟩ mL and add ⟨2⟩ mL.
+631	Adding and subtracting capacity
+632	Convert the total capacity of two bottles into the same unit.
+633	Add the same units together and change ⟨0⟩ mL into ⟨1⟩ L.
+634	What is ⟨0⟩ mL + ⟨1⟩ mL?
+635	Add ⟨0⟩ and ⟨1⟩ to get ⟨2⟩ mL.
+636	subtracting capacity
+637	If you pour ⟨1⟩ mL from ⟨0⟩ L, how many mL are left?
+638	⟨0⟩ L is ⟨1⟩ mL, so ⟨2⟩−⟨3⟩=⟨4⟩ mL.
+639	Measuring weight in g and kg
+640	Change the number of weights and write it in kg and g.
+641	kg is handy for heavy things and g for light things.
+642	Which unit is natural for the weight of one pencil?
+643	A pencil is light, so g is the right unit.
+644	⟨0⟩ kg is ⟨1⟩ g. ⟨2⟩ kg is ⟨3⟩ g. Add ⟨4⟩ g to get ⟨5⟩ g.
+645	How kg and g are related
+646	Swap kg weights and g weights to check that the amounts are the same.
+647	⟨0⟩ kg = ⟨1⟩ g, then add ⟨2⟩ g.
+648	Understanding tons
+649	Compare heavy things in g, kg and t.
+650	⟨0⟩ t is ⟨1⟩ kg.
+651	What is ⟨0⟩ t in kg?
+652	⟨0⟩ t = ⟨1⟩ kg, so ⟨2⟩ t is ⟨3⟩ kg.
+653	Adding and subtracting weights
+654	Adjust the weights and check the total.
+655	Change kg and g into the same unit, then calculate.
+656	What is ⟨0⟩ kg ⟨1⟩ g + ⟨2⟩ g?
+657	⟨0⟩ g and ⟨1⟩ g make ⟨2⟩ g, which is ⟨3⟩ kg.
+658	subtracting weights
+659	What is ⟨0⟩ kg minus ⟨1⟩ g?
+660	⟨0⟩ kg is ⟨1⟩ g, so subtract ⟨2⟩ g to get ⟨3⟩ g.
+661	Measuring and estimating angles with a protractor
+662	Move the protractor scale using ⟨0⟩ degrees as the guide and compare.
+663	The size of an angle is how wide it opens, not how long its lines are.
+664	How big is a right angle?
+665	A right angle is always ⟨0⟩ degrees.
+666	Sum of the angles in triangles and quadrilaterals
+667	Change the number of sides between ⟨0⟩ and ⟨1⟩ and compare the angle sums.
+668	A triangle's angles add up to ⟨0⟩ degrees and a quadrilateral's to ⟨1⟩ degrees.
+669	What is the sum of the four angles of a quadrilateral?
+670	A quadrilateral splits into two triangles, so ⟨0⟩×⟨1⟩=⟨2⟩ degrees.
+671	angles of a triangle
+672	What is the sum of the three angles of a triangle?
+673	Put a triangle's three angles together and they make a straight angle, ⟨0⟩ degrees.
+674	The interior angles of a triangle add up to ⟨0⟩°. A ⟨1⟩-sided polygon can be split into ⟨2⟩ triangles from one vertex. The interior angles add up to ⟨3⟩°.
+675	Reading picture graphs and bar graphs
+676	Make the bars longer one step at a time and read the data.
+677	Know what one step on the scale stands for, then read the height of the graph.
+678	If one step on the scale is ⟨0⟩ people and the bar is ⟨1⟩ steps, how many is it?
+679	⟨0⟩ people per step, four steps, so ⟨1⟩×⟨2⟩=⟨3⟩ people.

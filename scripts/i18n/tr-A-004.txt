@@ -1,0 +1,190 @@
+610	When ⟨0⟩ ones come together, they make one <strong>group of ⟨1⟩</strong>. ⟨3⟩ groups of ⟨2⟩ and ⟨4⟩ ones → ⟨5⟩, ⟨6⟩, ⟨7⟩, ⟨8⟩, ⟨9⟩, ⟨10⟩, <strong>⟨11⟩</strong>
+611	⟨1⟩ groups of ⟨0⟩ make <strong>⟨2⟩</strong>. Counting by ⟨3⟩s: ⟨4⟩, ⟨5⟩, ⟨6⟩, ⟨7⟩, ⟨8⟩. Much faster than counting one by one!
+612	Add ⟨1⟩ to ⟨0⟩ and you get ⟨2⟩ ones, which makes one more <strong>group of ⟨3⟩</strong>. ⟨5⟩ groups of ⟨4⟩ → <strong>⟨6⟩</strong>
+613	Fill the ⟨0⟩-square board one row (⟨1⟩ squares) at a time. ⟨2⟩, ⟨3⟩, ⟨4⟩ … When all ten rows are full, that is <strong>⟨5⟩</strong>.
+614	Let's draw a triangle, a square and a circle. A triangle has ⟨0⟩ <strong>pointed corners (vertices)</strong>, a square has ⟨1⟩, and a circle has none.
+615	Follow each straight line (side). A triangle has <strong>⟨0⟩ sides</strong> and a square has <strong>⟨1⟩ sides</strong>. A circle is one curved line.
+616	While the <strong>long hand</strong> goes all the way around, the <strong>short hand</strong> moves just one number. One turn of the long hand = <strong>⟨0⟩ hour</strong> (⟨1⟩ o'clock → ⟨2⟩ o'clock)
+617	When the long hand points to <strong>⟨0⟩</strong>, that is "⟨1⟩ minutes." The short hand is between ⟨2⟩ and ⟨3⟩, so it is <strong>⟨4⟩:⟨5⟩</strong>.
+618	Find the <strong>repeating pattern</strong> in the shapes. Circle, square take turns, so next comes a <strong>square</strong>.
+619	Numbers have patterns too. ⟨0⟩, ⟨1⟩, ⟨2⟩, ⟨3⟩ … <strong>goes up by ⟨4⟩</strong> each time, so the next number is <strong>⟨5⟩</strong>.
+620	⟨0⟩ + ⟨1⟩: take ⟨3⟩ from ⟨2⟩ and give it to ⟨4⟩ to <strong>make ⟨5⟩</strong>. ⟨6⟩ and the remaining ⟨7⟩ → <strong>⟨8⟩</strong>
+621	⟨0⟩ + ⟨1⟩: ones place ⟨2⟩ + ⟨3⟩ = ⟨4⟩. <strong>Send ⟨5⟩ up to the tens place</strong> (regrouping) and keep ⟨6⟩. Tens place ⟨7⟩ + ⟨8⟩ + ⟨9⟩ = ⟨10⟩ → <strong>⟨11⟩</strong>
+622	⟨0⟩ has <strong>⟨2⟩</strong> of ⟨1⟩, <strong>⟨4⟩</strong> of ⟨3⟩ and <strong>⟨6⟩</strong> of ⟨5⟩. So ⟨7⟩ = ⟨8⟩ + ⟨9⟩ + ⟨10⟩
+623	A digit card's value depends on <strong>which place it is in</strong>. The same ⟨0⟩ means ⟨1⟩ in the hundreds place and ⟨2⟩ in the ones place.
+624	A straight line joining two points is a <strong>line segment</strong> (it has two ends). Extended forever in one direction it is a <strong>ray</strong>, and in both directions it is a <strong>line</strong>.
+625	Fold a sheet of paper in half twice and unfold it. The perfect corner you get is a <strong>right angle</strong>. A right angle is marked with ⌐.
+626	Line up the pencil tip with <strong>⟨0⟩</strong> on the ruler and read the mark at the other end. Mark ⟨1⟩ → the pencil is <strong>⟨2⟩ cm</strong> long.
+627	<strong>⟨0⟩ cm = ⟨1⟩ m</strong>. Join ⟨3⟩ sticks of ⟨2⟩ cm to make ⟨4⟩ m. Something ⟨6⟩ cm longer than ⟨5⟩ m is ⟨7⟩ m ⟨8⟩ cm = ⟨9⟩ cm.
+628	Let's sort things using <strong>color</strong> as the rule. Blue things go in the left basket, orange in the right!
+629	Sort the same things by <strong>shape</strong> and you get a different result. Circles, squares and triangles go together. When sorting, the <strong>rule</strong> must be clear.
+630	There are ⟨0⟩ plates with ⟨1⟩ cookies each. <strong>Adding the same number several times</strong>, like ⟨2⟩ + ⟨3⟩ + ⟨4⟩, is written as multiplication: <strong>⟨5⟩ × ⟨6⟩ = ⟨7⟩</strong>.
+631	Dots lined up in rows make multiplication easy to see. ⟨1⟩ rows of ⟨0⟩ = <strong>⟨2⟩ × ⟨3⟩</strong>. Turn the board: ⟨5⟩ rows of ⟨4⟩ = <strong>⟨6⟩ × ⟨7⟩</strong>. Both are ⟨8⟩!
+632	⟨0⟩ has ⟨2⟩ of ⟨1⟩, ⟨4⟩ of ⟨3⟩, ⟨6⟩ of ⟨5⟩ and ⟨8⟩ of ⟨7⟩ → <strong>⟨9⟩ + ⟨10⟩ + ⟨11⟩ + ⟨12⟩</strong>. Read it as "two thousand three hundred fourteen."
+633	<strong>⟨1⟩</strong> of ⟨0⟩ make <strong>⟨2⟩</strong>. Counting by ⟨3⟩s: ⟨4⟩, ⟨5⟩, ⟨6⟩ …
+634	When the long hand moves one small mark, that is <strong>⟨0⟩ minute</strong>. One full turn (⟨1⟩ marks) is <strong>⟨2⟩ minutes = ⟨3⟩ hour</strong>.
+635	How long is it from ⟨0⟩:⟨1⟩ to ⟨2⟩:⟨3⟩? After ⟨4⟩ hour it is ⟨5⟩:⟨6⟩, and ⟨7⟩ minutes later it is ⟨8⟩:⟨9⟩ → <strong>⟨10⟩ hour ⟨11⟩ minutes</strong>
+636	We asked classmates their favorite fruit. Stack one <strong>○</strong> for each person and you get a graph. You can see right away which fruit is most popular.
+637	A table gives exact numbers, and a graph shows <strong>more and less</strong> at a glance. The fruit most friends like is grapes (⟨0⟩ people).
+638	⟨0⟩ + ⟨1⟩: start with the ones. ⟨2⟩ + ⟨3⟩ = ⟨4⟩ → write ⟨5⟩ and <strong>carry ⟨6⟩</strong>. Tens: ⟨7⟩ + ⟨8⟩ + ⟨9⟩ = ⟨10⟩ → carry again. Hundreds: ⟨11⟩ + ⟨12⟩ + ⟨13⟩ = ⟨14⟩ → <strong>⟨15⟩</strong>
+639	⟨0⟩ − ⟨1⟩: you cannot take ⟨3⟩ from ⟨2⟩ in the ones place. <strong>Borrow ⟨4⟩</strong> from the tens (regrouping): ⟨5⟩ − ⟨6⟩ = ⟨7⟩. Tens: ⟨8⟩ − ⟨9⟩ = ⟨10⟩ → <strong>⟨11⟩</strong>
+640	<strong>Share</strong> ⟨0⟩ cookies <strong>equally</strong> on ⟨1⟩ plates. Put them down one at a time and each plate gets ⟨2⟩ → <strong>⟨3⟩ ÷ ⟨4⟩ = ⟨5⟩</strong>
+641	If you <strong>put ⟨0⟩ into groups of ⟨1⟩</strong>, how many groups are there? ⟨2⟩ groups. Division and multiplication go together: <strong>⟨3⟩ × ⟨4⟩ = ⟨5⟩ ⇔ ⟨6⟩ ÷ ⟨7⟩ = ⟨8⟩</strong>
+642	⟨0⟩ × ⟨1⟩ is easier if you <strong>split ⟨2⟩ into ⟨3⟩ and ⟨4⟩</strong>. ⟨5⟩ × ⟨6⟩ = ⟨7⟩, ⟨8⟩ × ⟨9⟩ = ⟨10⟩ → ⟨11⟩ + ⟨12⟩ = <strong>⟨13⟩</strong>
+643	Split ⟨0⟩ × ⟨1⟩ into ⟨2⟩ + ⟨3⟩ across and ⟨4⟩ + ⟨5⟩ down and you get four pieces. ⟨6⟩ + ⟨7⟩ + ⟨8⟩ + ⟨9⟩ = <strong>⟨10⟩</strong>
+644	⟨0⟩ hour ⟨1⟩ minutes + ⟨2⟩ minutes: the minutes add up to ⟨3⟩. Change <strong>⟨4⟩ minutes into ⟨5⟩ hour</strong> → ⟨6⟩ minutes = ⟨7⟩ hour ⟨8⟩ minutes → <strong>⟨9⟩ hours ⟨10⟩ minutes</strong>
+645	What time was it ⟨2⟩ minutes before ⟨0⟩:⟨1⟩? You cannot take ⟨4⟩ from ⟨3⟩ minutes, so <strong>change ⟨5⟩ hour into ⟨6⟩ minutes</strong>. ⟨7⟩:⟨8⟩ − ⟨9⟩ minutes = <strong>⟨10⟩:⟨11⟩</strong>
+646	A pizza is cut into <strong>⟨0⟩ equal slices</strong>. ⟨1⟩ slice is <strong>⟨2⟩/⟨3⟩</strong> of the whole, and ⟨4⟩ slices are <strong>⟨5⟩/⟨6⟩</strong>. The bottom number (denominator) is how many slices in all, and the top number (numerator) is how many you picked.
+647	To make a fraction, you must cut into <strong>equal sizes</strong>. If the pieces are different sizes, one piece is not ⟨0⟩/⟨1⟩.
+648	Split ⟨0⟩ into <strong>⟨1⟩ equal parts</strong> and one part is <strong>⟨2⟩</strong> (zero point one). ⟨3⟩ parts are ⟨4⟩, and all ⟨5⟩ parts make ⟨6⟩.
+649	⟨0⟩ is ⟨1⟩ and ⟨2⟩ put together. On the number line it is <strong>⟨4⟩ small marks</strong> past ⟨3⟩.
+650	Compare ⟨0⟩ and ⟨1⟩ with bars. ⟨3⟩ of ⟨2⟩ is longer than ⟨4⟩ of them → <strong>⟨5⟩ > ⟨6⟩</strong>
+651	If the whole-number parts are different, compare <strong>the whole-number parts first</strong>. ⟨0⟩ and ⟨1⟩ → ⟨2⟩ > ⟨3⟩, so <strong>⟨4⟩ is bigger</strong>.
+652	Put ⟨0⟩ candies into groups of ⟨1⟩: ⟨2⟩ groups with <strong>⟨3⟩ left over</strong>. ⟨4⟩ ÷ ⟨5⟩ = ⟨6⟩ R ⟨7⟩ (quotient ⟨8⟩, remainder ⟨9⟩)
+653	The remainder is always <strong>smaller than the divisor</strong>. Check by working backward: ⟨0⟩ × ⟨1⟩ + ⟨2⟩ = ⟨3⟩ ✓
+654	⟨0⟩ ÷ ⟨1⟩: first share ⟨3⟩ groups of ⟨2⟩ among ⟨4⟩ people, ⟨5⟩ each, and ⟨6⟩ group is left. Break the leftover ⟨7⟩ group into ⟨8⟩ ones, add the ⟨9⟩ ones to get <strong>⟨10⟩</strong>, and share them ⟨11⟩ each → <strong>⟨12⟩</strong>
+655	Long division follows the same order. Divide starting from the highest place, and <strong>bring the remainder down</strong> to the next place and keep dividing.
+656	Put the compass point on one spot (<strong>the center</strong>) and turn it to draw a circle. The distance from the center to the circle is the same everywhere. That length is the <strong>radius</strong>.
+657	A line through the center joining two points on the circle is the <strong>diameter</strong>. A diameter is ⟨0⟩ radii → <strong>diameter = radius × ⟨1⟩</strong>
+658	In a <strong>proper fraction</strong> the numerator is smaller than the denominator, so it is less than ⟨0⟩ (⟨1⟩/⟨2⟩). In an <strong>improper fraction</strong> the numerator is equal to or bigger than the denominator, so it is ⟨3⟩ or more (⟨4⟩/⟨5⟩).
+659	In ⟨0⟩/⟨1⟩, ⟨2⟩/⟨3⟩ makes <strong>⟨4⟩</strong>. Put ⟨5⟩ and ⟨6⟩/⟨7⟩ together and you can write it as <strong>⟨8⟩¼ (a mixed number)</strong>.
+660	Put a ⟨0⟩ kg bag on one side of the scale and add ⟨1⟩ g weights to the other side one at a time. With <strong>⟨2⟩</strong> of them it balances! → <strong>⟨3⟩ kg = ⟨4⟩ g</strong>
+661	⟨0⟩ kg ⟨1⟩ g is ⟨2⟩ g and ⟨3⟩ g put together → <strong>⟨4⟩ g</strong>. Changing big units into small units makes comparing easy.
+662	Pour water ⟨1⟩ times with a ⟨0⟩ mL cup to fill a ⟨2⟩ L container. ⟨3⟩ mL × ⟨4⟩ = ⟨5⟩ mL → <strong>⟨6⟩ L = ⟨7⟩ mL</strong>
+663	⟨0⟩ L ⟨1⟩ mL = ⟨2⟩ mL + ⟨3⟩ mL = <strong>⟨4⟩ mL</strong>. L is used mostly for big containers and mL for small ones.
+664	Counting data with <strong>tally marks</strong> keeps you from missing any. Bundling every five (卌) makes counting easy.
+665	In a <strong>picture graph</strong>, one big picture stands for ⟨0⟩ and one small picture for ⟨1⟩. ⟨2⟩ big pictures + ⟨3⟩ small pictures = <strong>⟨4⟩</strong>
+666	<strong>⟨1⟩</strong> of ⟨0⟩ make <strong>⟨2⟩ (ten thousand)</strong>. ⟨3⟩ ten thousands make a hundred thousand, ⟨4⟩ make a million, and ⟨5⟩ make ten million.
+667	Group big numbers in <strong>fours from the right</strong> to read them in Korean. ⟨0⟩ → ⟨1⟩ | ⟨2⟩ → <strong>⟨3⟩ ten-thousands and ⟨4⟩</strong> (in English: thirty-five million, two hundred seventy-one thousand, eight hundred forty-six)
+668	The size of an angle is <strong>how far apart</strong> its two sides open. Put the protractor's center on the vertex and ⟨0⟩° on one side, then read where the other side points → <strong>⟨1⟩°</strong>
+669	An angle smaller than a right angle (⟨0⟩°) is <strong>acute</strong>, and an angle bigger than a right angle but smaller than ⟨1⟩° is <strong>obtuse</strong>.
+670	Cut out the three angles of a triangle and put them together at one point. They make a <strong>straight line (⟨0⟩°)</strong>. The three angles of a triangle always add up to <strong>⟨1⟩°</strong>!
+671	One diagonal splits a quadrilateral into <strong>⟨0⟩ triangles</strong>. So its four angles add up to ⟨1⟩° × ⟨2⟩ = <strong>⟨3⟩°</strong>
+672	<strong>Slide</strong>: whichever way you slide a shape, its form and direction stay the same. <strong>Only its position</strong> changes.
+673	<strong>Flip</strong>: flipping over a line <strong>switches left and right</strong>. It looks like a mirror image.
+674	<strong>Turn</strong>: turn ⟨0⟩° at a time clockwise around a point. After ⟨2⟩ turns of ⟨1⟩° it is back to the start.
+675	A bar graph shows counts with <strong>the length of bars</strong>. First check what one step on the scale stands for (here ⟨0⟩ step = ⟨1⟩ person).
+676	Compare the ends of the bars to see <strong>how big the difference is</strong> right away. Summer (⟨0⟩ people) has ⟨2⟩ more than fall (⟨1⟩ people).
+677	Fractions with the same denominator have pieces of the same size. Just add the number of pieces (numerators): ⟨0⟩/⟨1⟩ + ⟨2⟩/⟨3⟩ = <strong>⟨4⟩/⟨5⟩</strong>
+678	Subtraction works the same way. Take ⟨2⟩/⟨3⟩ away from ⟨0⟩/⟨1⟩ and <strong>⟨4⟩/⟨5⟩</strong> is left. The denominator stays the same!
+679	Sort by side length. If two sides are equal it is an <strong>isosceles triangle</strong>; if all three sides are equal it is an <strong>equilateral triangle</strong>.
+680	You can also sort by angles. All three angles acute: <strong>acute triangle</strong>. One right angle: <strong>right triangle</strong>. One obtuse angle: <strong>obtuse triangle</strong>.
+681	⟨0⟩ + ⟨1⟩: ⟨3⟩ of ⟨2⟩ and ⟨4⟩ more, ⟨5⟩ in all → <strong>⟨6⟩</strong>. On the number line, go ⟨8⟩ further from ⟨7⟩.
+682	When adding in columns, <strong>line up the decimal points</strong>. Add the same places and bring the decimal point straight down.
+683	⟨0⟩ − ⟨1⟩: <strong>go back</strong> ⟨3⟩ from ⟨2⟩ to get ⟨4⟩. ⟨6⟩ of ⟨5⟩ minus ⟨7⟩ is ⟨8⟩ → <strong>⟨9⟩</strong>
+684	When the number of decimal places differs, as in ⟨0⟩ − ⟨1⟩, think of ⟨2⟩ as <strong>⟨3⟩</strong>. Adding ⟨4⟩ at the end does not change its size.
+685	A quadrilateral with one pair of parallel sides is a <strong>trapezoid</strong>; with two pairs it is a <strong>parallelogram</strong>.
+686	A parallelogram with four right angles is a <strong>rectangle</strong>, with four equal sides a <strong>rhombus</strong>, and with both a <strong>square</strong>.
+687	Values that change over time are shown in a <strong>line graph</strong>. Plot points and join them with lines to see whether things went up or down.
+688	<strong>The steeper</strong> the line, the bigger the change. The temperature rose the most between ⟨0⟩ and ⟨1⟩ o'clock (⟨2⟩°C).
+689	A figure surrounded only by line segments is a <strong>polygon</strong>. ⟨0⟩ sides: triangle, ⟨1⟩: quadrilateral, ⟨2⟩: pentagon, ⟨3⟩: hexagon!
+690	If all sides and all angles are equal, it is a <strong>regular polygon</strong>. A segment joining two vertices that are not next to each other is a <strong>diagonal</strong>. A pentagon has ⟨0⟩.
+691	In ⟨0⟩ + ⟨1⟩ × ⟨2⟩, <strong>multiply first</strong>. ⟨3⟩ × ⟨4⟩ = ⟨5⟩, then ⟨6⟩ + ⟨7⟩ = <strong>⟨8⟩</strong>. Working left to right gives ⟨9⟩, which is wrong.
+692	With parentheses, calculate <strong>inside the parentheses first</strong>. (⟨0⟩ + ⟨1⟩) × ⟨2⟩ = ⟨3⟩ × ⟨4⟩ = <strong>⟨5⟩</strong>. Order: parentheses → multiply and divide → add and subtract
+693	Arrange ⟨0⟩ dots into rectangles. They fit exactly as ⟨1⟩×⟨2⟩, ⟨3⟩×⟨4⟩ and ⟨5⟩×⟨6⟩. The numbers that divide ⟨7⟩ evenly, <strong>⟨8⟩, ⟨9⟩, ⟨10⟩, ⟨11⟩, ⟨12⟩, ⟨13⟩</strong>, are its factors.
+694	Is ⟨0⟩ a factor of ⟨1⟩? Put ⟨2⟩ into groups of ⟨3⟩ and <strong>⟨4⟩ is left over</strong>. It does not divide evenly, so ⟨5⟩ is not a factor of ⟨6⟩.
+695	Multiplying ⟨0⟩ by ⟨1⟩, ⟨2⟩, ⟨3⟩ … gives <strong>⟨4⟩, ⟨5⟩, ⟨6⟩, ⟨7⟩ …</strong>, the multiples of ⟨8⟩. On a number chart, every third square is colored.
+696	Jump by ⟨0⟩ on the number line and the numbers you land on are multiples of ⟨1⟩. ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩ … Multiples go on <strong>forever</strong>.
+697	The numbers that are factors of both ⟨0⟩ and ⟨1⟩ (<strong>common factors</strong>) are ⟨2⟩, ⟨3⟩, ⟨4⟩ and ⟨5⟩. The biggest, <strong>⟨6⟩, is the greatest common factor</strong>.
+698	Write the multiples of ⟨0⟩ and of ⟨1⟩ side by side and <strong>⟨2⟩, ⟨3⟩ …</strong> are in both rows (common multiples). The smallest, <strong>⟨4⟩, is the least common multiple</strong>.
+699	This machine changes numbers by a rule. Put in ⟨0⟩ → ⟨1⟩, ⟨2⟩ → ⟨3⟩, ⟨4⟩ → ⟨5⟩. The rule is <strong>(output) = (input) × ⟨6⟩</strong>
+700	When you make a row of triangles from matchsticks, each new triangle needs <strong>⟨0⟩ more</strong> matchsticks. (matchsticks) = (triangles) × ⟨1⟩ + ⟨2⟩
+701	In ⟨0⟩/⟨1⟩, <strong>group the parts in ⟨2⟩s</strong> to get ⟨3⟩/⟨4⟩, and group again to get ⟨5⟩/⟨6⟩. The colored amount stays the same! Dividing the numerator and denominator by the same number is <strong>simplifying</strong>.
+702	⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩ have different piece sizes, so they are hard to compare. Split both into <strong>⟨4⟩ pieces</strong> to get ⟨5⟩/⟨6⟩ and ⟨7⟩/⟨8⟩. Making the denominators the same is finding a <strong>common denominator</strong>.
+703	To compare ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩, find a common denominator. ⟨4⟩/⟨5⟩ = ⟨6⟩/⟨7⟩, ⟨8⟩/⟨9⟩ = ⟨10⟩/⟨11⟩ → ⟨12⟩ > ⟨13⟩, so <strong>⟨14⟩/⟨15⟩ is bigger</strong>.
+704	When the numerators are the same, <strong>the smaller the denominator, the bigger the fraction</strong>. ⟨0⟩/⟨1⟩ is one of ⟨2⟩ pieces and ⟨3⟩/⟨4⟩ is one of ⟨5⟩, so the ⟨6⟩/⟨7⟩ piece is bigger.
+705	For fractions with different denominators, <strong>find a common denominator first</strong>, then add. ⟨0⟩/⟨1⟩ + ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩ + ⟨6⟩/⟨7⟩ = <strong>⟨8⟩/⟨9⟩</strong>
+706	If the sum is more than ⟨0⟩, change it to a mixed number. ⟨1⟩/⟨2⟩ + ⟨3⟩/⟨4⟩ = ⟨5⟩/⟨6⟩ + ⟨7⟩/⟨8⟩ = ⟨9⟩/⟨10⟩ = <strong>⟨11⟩⅙</strong>
+707	Subtraction also starts with a common denominator! ⟨0⟩/⟨1⟩ − ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩ − ⟨6⟩/⟨7⟩ = <strong>⟨8⟩/⟨9⟩</strong>. Make the pieces the same size, then take away.
+708	When the number being subtracted is bigger, as in ⟨0⟩ − ⟨1⟩/⟨2⟩, <strong>change the whole number ⟨3⟩ into ⟨4⟩/⟨5⟩</strong>. ⟨6⟩ − ⟨7⟩/⟨8⟩ = ⟨9⟩ ⟨10⟩/⟨11⟩ − ⟨12⟩/⟨13⟩ = <strong>⟨14⟩¼</strong>
+709	<strong>Perimeter</strong> is the distance once around the outside of a shape. A rectangle ⟨0⟩ cm long and ⟨1⟩ cm wide → ⟨2⟩ + ⟨3⟩ + ⟨4⟩ + ⟨5⟩ = <strong>⟨6⟩ cm</strong>
+710	The <strong>area</strong> of the same rectangle is how many ⟨0⟩ cm² squares fill it. ⟨2⟩ rows of ⟨1⟩ = <strong>⟨3⟩ cm²</strong>. Perimeter (cm) and area (cm²) are different!
+711	Area of a rectangle = <strong>length × width</strong>. ⟨1⟩ rows of ⟨0⟩ squares: ⟨2⟩ × ⟨3⟩ = ⟨4⟩ squares, so ⟨5⟩ cm².
+712	Cut a triangle off one side of a parallelogram and move it to the other side, and it becomes a <strong>rectangle</strong>. So area = <strong>base × height</strong>
+713	Two triangles together make a parallelogram. So the area of a triangle = <strong>base × height ÷ ⟨0⟩</strong>
+714	<strong>At least</strong> and <strong>at most</strong> include the boundary, shown with <strong>●</strong>. <strong>Greater than</strong> and <strong>less than</strong> do not, shown with <strong>○</strong>. "At least ⟨0⟩ and less than ⟨1⟩" includes ⟨2⟩ but not ⟨3⟩.
+715	Summary: at least (≥) ●, at most (≤) ●, greater than (>) ○, less than (<) ○. <strong>At most</strong> ⟨0⟩ includes ⟨1⟩; <strong>less than</strong> ⟨2⟩ does not.
+716	<strong>Rounding</strong>: if the next digit is ⟨0⟩–⟨1⟩, round down; if it is ⟨2⟩–⟨3⟩, round up. ⟨4⟩ to the nearest ten → ones digit ⟨5⟩ → <strong>⟨6⟩</strong>
+717	Decimals work the same way. Round ⟨0⟩ to one decimal place: the second digit is ⟨1⟩ → round up → <strong>⟨2⟩</strong>
+718	<strong>Rounding up</strong> goes up if there is anything other than ⟨0⟩ below. ⟨1⟩ people on buses that hold ⟨2⟩ each → ⟨3⟩ buses leave ⟨4⟩ people behind, so you need <strong>⟨5⟩ buses</strong>!
+719	When to round up: <strong>when you must not run short</strong>. Round up when you need one extra for what is left over, like boxes, buses or wrapping paper.
+720	<strong>Rounding down</strong> turns every digit below into ⟨0⟩. With ⟨1⟩ won you can buy only <strong>⟨3⟩</strong> notebooks at ⟨2⟩ won each → ⟨4⟩ rounded down to the thousands = ⟨5⟩
+721	When to round down: <strong>when something not completely filled does not count</strong>. Packing ⟨0⟩ per box, ⟨1⟩ items fill only ⟨2⟩ boxes.
+722	⟨0⟩ × ⟨1⟩/⟨2⟩ means <strong>adding ⟨3⟩/⟨4⟩ ⟨5⟩ times</strong>. ⟨6⟩/⟨7⟩ + ⟨8⟩/⟨9⟩ + ⟨10⟩/⟨11⟩ = <strong>⟨12⟩/⟨13⟩</strong> (= ⟨14⟩⅕)
+723	⟨0⟩/⟨1⟩ × ⟨2⟩/⟨3⟩ means "⟨6⟩/⟨7⟩ of ⟨4⟩/⟨5⟩." Split a square into ⟨8⟩ columns and ⟨9⟩ rows; the overlap is ⟨11⟩ of ⟨10⟩ squares → <strong>⟨12⟩/⟨13⟩</strong>
+724	Two figures with the same shape and size that <strong>match exactly</strong> are <strong>congruent</strong>. Move and turn one onto the other and they fit perfectly.
+725	If a figure <strong>matches exactly when folded along a line</strong>, it has <strong>line symmetry</strong>. That line is the axis of symmetry.
+726	If a figure matches its starting shape after <strong>turning ⟨0⟩° around a point</strong>, it has <strong>point symmetry</strong>.
+727	⟨0⟩ × ⟨1⟩ means adding ⟨2⟩ ⟨3⟩ times. ⟨5⟩ × ⟨6⟩ = ⟨7⟩ of ⟨4⟩ → <strong>⟨8⟩</strong>
+728	⟨0⟩ × ⟨1⟩: on the ⟨2⟩-square board, ⟨3⟩ columns (⟨4⟩) and ⟨5⟩ rows (⟨6⟩) <strong>overlap in ⟨7⟩ squares</strong>. Each square is ⟨8⟩, so <strong>⟨9⟩</strong>
+729	Unfold a rectangular prism and you get a net of <strong>⟨0⟩ connected faces</strong>. The side faces unfold one by one around the middle face.
+730	In a rectangular prism, <strong>opposite faces</strong> are parallel and the same size. ⟨0⟩ pairs of the same color! When you fold the net, these faces end up facing each other.
+731	Three friends have ⟨0⟩, ⟨1⟩ and ⟨2⟩ candies. If those with more give to those with fewer to make it <strong>even</strong>, everyone has ⟨3⟩ → the mean is <strong>⟨4⟩</strong>
+732	To calculate it, <strong>add everything and divide by the number of people</strong>. (⟨0⟩ + ⟨1⟩ + ⟨2⟩) ÷ ⟨3⟩ = ⟨4⟩ ÷ ⟨5⟩ = <strong>⟨6⟩</strong>
+733	How likely something is can be shown with a number from <strong>⟨0⟩ (impossible)</strong> to <strong>⟨1⟩ (certain)</strong>. A coin landing heads is an even chance → <strong>⟨2⟩/⟨3⟩</strong>
+734	If a bag has only ⟨0⟩ red marbles, drawing red is <strong>certain (⟨1⟩)</strong>. With ⟨2⟩ red and ⟨3⟩ blue, it is <strong>an even chance (⟨4⟩/⟨5⟩)</strong>.
+735	⟨0⟩ ÷ ⟨1⟩/⟨2⟩ asks "how many ⟨4⟩/⟨5⟩ fit in ⟨3⟩?" Each ⟨6⟩ holds ⟨9⟩ of ⟨7⟩/⟨8⟩ → ⟨10⟩ holds <strong>⟨11⟩</strong>. ⟨12⟩ ÷ ⟨13⟩/⟨14⟩ = ⟨15⟩ × ⟨16⟩ = ⟨17⟩
+736	To divide fractions with the same denominator, <strong>just divide the numerators</strong>. ⟨0⟩/⟨1⟩ ÷ ⟨2⟩/⟨3⟩ = ⟨4⟩ ÷ ⟨5⟩ = <strong>⟨6⟩</strong> (⟨9⟩ groups of ⟨7⟩/⟨8⟩)
+737	If ⟨1⟩ people share ⟨0⟩ pizzas equally, how much pizza does each person get? Cut each pizza into ⟨2⟩ slices and each person gets one slice ⟨3⟩ times → <strong>⟨4⟩/⟨5⟩ of a pizza</strong>! ⟨6⟩ ÷ ⟨7⟩ = ⟨8⟩/⟨9⟩
+738	The quotient of (whole number) ÷ (whole number) can be written as a fraction. <strong>The dividend is the numerator</strong> and <strong>the divisor is the denominator</strong>: ⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩/⟨3⟩
+739	A solid with <strong>two parallel, congruent bases</strong> on top and bottom and rectangular side faces is a <strong>prism</strong>. Depending on the base: triangular prism, rectangular prism, pentagonal prism!
+740	A prism with an □-sided base has <strong>□×⟨0⟩</strong> vertices, <strong>□×⟨1⟩</strong> edges and <strong>□+⟨2⟩</strong> faces. Triangular prism: ⟨3⟩ vertices, ⟨4⟩ edges, ⟨5⟩ faces
+741	A solid with one base and side faces that are all <strong>triangles</strong> meeting at one point (the red <strong>apex</strong>) is a <strong>pyramid</strong>.
+742	A pyramid with an □-sided base has <strong>□+⟨0⟩</strong> vertices, <strong>□×⟨1⟩</strong> edges and <strong>□+⟨2⟩</strong> faces. Square pyramid: ⟨3⟩ vertices, ⟨4⟩ edges, ⟨5⟩ faces
+743	⟨0⟩ ÷ ⟨1⟩: ⟨2⟩ is <strong>⟨4⟩</strong> of ⟨3⟩. Split ⟨5⟩ into ⟨6⟩ groups and each group has ⟨7⟩ → <strong>⟨8⟩</strong>
+744	When dividing by a decimal, <strong>multiply both numbers by ⟨0⟩</strong> to make whole numbers. The quotient stays the same: ⟨1⟩ ÷ ⟨2⟩ = ⟨3⟩ ÷ ⟨4⟩ = <strong>⟨5⟩</strong>
+745	⟨1⟩ of ⟨0⟩ marbles are red. Comparing red marbles with all marbles gives the <strong>ratio ⟨2⟩ : ⟨3⟩</strong>. The size of the compared amount (⟨5⟩) relative to the base amount (⟨4⟩) is the <strong>rate ⟨6⟩/⟨7⟩ = ⟨8⟩</strong>.
+746	A rate times ⟨0⟩ is a <strong>percentage (%)</strong>. ⟨2⟩ of ⟨1⟩ squares → ⟨3⟩ × ⟨4⟩ = <strong>⟨5⟩%</strong>
+747	A <strong>circle graph</strong> shows the whole (⟨0⟩%) as a circle and splits it by each item's share. The bigger the share, the bigger the slice.
+748	All the shares in a circle graph add up to <strong>⟨0⟩%</strong>. The biggest slice (soccer, ⟨1⟩%) is the sport the most people like.
+749	A <strong>strip graph</strong> lays the whole out as a long strip and splits it by share. The whole strip is ⟨0⟩%.
+750	If there are ⟨0⟩ students in all, the students who like basketball (⟨1⟩%) are ⟨2⟩ × ⟨3⟩/⟨4⟩ = <strong>⟨5⟩ students</strong>. You can find real numbers from shares.
+751	Fill a rectangular prism with ⟨0⟩ cm³ cubes. One layer has ⟨1⟩ × ⟨2⟩ = ⟨3⟩ cubes, and ⟨4⟩ layers have ⟨5⟩ → volume = <strong>length × width × height</strong> = ⟨6⟩ cm³
+752	A big unit of volume: a cube with ⟨0⟩ m edges is ⟨1⟩ × ⟨2⟩ × ⟨3⟩ = <strong>⟨4⟩ cm³ = ⟨5⟩ m³</strong>.
+753	Unfold a rectangular prism and there are <strong>⟨1⟩ pairs of ⟨0⟩ faces of the same size</strong>. Surface area = (sum of three faces' areas) × ⟨2⟩
+754	A prism ⟨0⟩ cm long, ⟨1⟩ cm wide, ⟨2⟩ cm high: (⟨3⟩×⟨4⟩ + ⟨5⟩×⟨6⟩ + ⟨7⟩×⟨8⟩) × ⟨9⟩ = (⟨10⟩ + ⟨11⟩ + ⟨12⟩) × ⟨13⟩ = <strong>⟨14⟩ cm²</strong>
+755	Count stacked cubes <strong>layer by layer</strong> so you don't miss any. Layer ⟨0⟩: ⟨1⟩, layer ⟨2⟩: ⟨3⟩, layer ⟨4⟩: ⟨5⟩ → <strong>⟨6⟩ in all</strong>
+756	Write on each square of the <strong>top view</strong> how many cubes are stacked on it, and you can count even the hidden cubes exactly. ⟨0⟩ + ⟨1⟩ + ⟨2⟩ + ⟨3⟩ + ⟨4⟩ = ⟨5⟩
+757	The same solid looks different depending on <strong>where you look from</strong>. Draw the views from the front, the side and the top.
+758	Looking at the front, side and top views together, you can picture the original solid. Check one by one that all three views match.
+759	Multiply both numbers in ⟨0⟩ : ⟨1⟩ <strong>by ⟨2⟩</strong> to get ⟨3⟩ : ⟨4⟩. The rates are equal, so <strong>⟨5⟩ : ⟨6⟩ = ⟨7⟩ : ⟨8⟩</strong> (a proportion)
+760	In a proportion, <strong>the product of the outer terms</strong> (extremes) equals <strong>the product of the inner terms</strong> (means): ⟨0⟩ × ⟨1⟩ = ⟨2⟩ × ⟨3⟩ = ⟨4⟩
+761	Share ⟨0⟩ candies in the ratio ⟨1⟩ : ⟨2⟩. Split the total into ⟨3⟩ + ⟨4⟩ = <strong>⟨5⟩ groups</strong>, ⟨6⟩ per group → ⟨7⟩ groups = ⟨8⟩, ⟨9⟩ groups = ⟨10⟩
+762	As an equation: ⟨0⟩ × <strong>⟨1⟩/⟨2⟩</strong> = ⟨3⟩ and ⟨4⟩ × <strong>⟨5⟩/⟨6⟩</strong> = ⟨7⟩. The two shares add back up to ⟨8⟩!
+763	Cut a circle into thin wedges and fit them together alternately: it becomes <strong>almost a rectangle</strong>. Its length is half the circumference (radius × ⟨0⟩) and its height is the radius → area = <strong>radius × radius × ⟨1⟩</strong>
+764	Area of a circle with radius ⟨0⟩ cm: ⟨1⟩ × ⟨2⟩ × ⟨3⟩ = <strong>⟨4⟩ cm²</strong>. If the radius becomes ⟨5⟩ times as long, the area becomes ⟨6⟩ times as big.
+765	Roll a circle once around and the distance it travels is its circumference. It is <strong>a bit longer</strong> than ⟨0⟩ diameters, about <strong>⟨1⟩ times</strong> the diameter!
+766	For circles of any size, <strong>circumference ÷ diameter</strong> is always about ⟨0⟩. This number is called <strong>pi (π)</strong>.
+767	<strong>Spin a flat shape once around</strong> a line and you get a solid. Rectangle → <strong>cylinder</strong>, right triangle → <strong>cone</strong>, semicircle → <strong>sphere</strong>
+768	A cylinder has <strong>⟨0⟩ bases + a curved side</strong>, a cone has <strong>⟨1⟩ base + a pointed apex</strong>, and a sphere <strong>looks like a circle from every direction</strong>.
+769	four
+770	⟨0⟩ apples in all
+771	⟨0⟩ = ⟨2⟩ less than ⟨1⟩
+772	This is ⟨0⟩ too!
+773	⟨0⟩ and ⟨1⟩ together make ⟨2⟩
+774	Rolls well
+775	⟨0⟩ more
+776	Bigger to the right
+777	groups of ⟨0⟩: ⟨1⟩, ones: ⟨2⟩
+778	⟨1⟩ groups of ⟨0⟩ = ⟨2⟩
+779	⟨0⟩ ones → a group of ⟨1⟩!
+780	⟨0⟩ corners
+781	no corners
+782	Long hand (red): one full turn
+783	Short hand (blue): one space
+784	Long hand on ⟨0⟩ → ⟨1⟩ minutes
+785	Short hand between ⟨0⟩ and ⟨1⟩
+786	●■ keeps repeating
+787	⟨0⟩ → to the tens place
+788	The place decides the value
+789	forever →
+790	← forever
+791	a square corner
+792	pencil = ⟨0⟩ cm
+793	⟨0⟩ small mark = ⟨1⟩ minute
+794	one turn = ⟨0⟩ minutes
+795	+⟨0⟩ hour
+796	+⟨0⟩ minutes
+797	time taken = ⟨0⟩ hour ⟨1⟩ minutes
+798	most: 🍇 ⟨0⟩ people
+799	⟨0⟩ tens

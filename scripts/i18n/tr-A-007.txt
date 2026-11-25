@@ -1,0 +1,221 @@
+1300	① blue columns
+1301	⟨0⟩ squares ÷ ⟨1⟩ = ⟨2⟩
+1302	② orange rows
+1303	③ squares where both colors overlap
+1304	⟨0⟩ squares ÷ ⟨1⟩ squares = ⟨2⟩
+1305	▾ See it as repeated addition too
+1306	First decimal
+1307	Second decimal
+1308	↺ Original decimals
+1309	On the ⟨0⟩-square grid, count the squares where the blue and orange parts overlap. Tap squares or move the two sliders and the decimals and the result change together.
+1310	3D solid lab to turn by hand
+1311	Choose rectangular prism or cube
+1312	▤ Unfold the net
+1313	Look at the parts of the solid
+1314	⟨0⟩ edges
+1315	Drag the rectangular prism with your mouse or finger to turn it ⟨0⟩ degrees. You can use the arrow keys too.
+1316	Select the front face
+1317	Select the back face
+1318	back
+1319	Select the top face
+1320	Select the bottom face
+1321	bottom
+1322	Select the left face
+1323	left
+1324	Select the right face
+1325	right
+1326	☝️ Drag the model to turn it
+1327	Rotation helper
+1328	↶ Left
+1329	↷ Right
+1330	↑ Up
+1331	↺ Front view
+1332	Faces
+1333	The front face is ⟨0⟩ cm × ⟨1⟩ cm. Tap a face and watch it change color.
+1334	In a rectangular prism, opposite faces are the same size.
+1335	Select the six faces of the prism
+1336	Depth
+1337	Less depth
+1338	More depth
+1339	Number of parts of the prism
+1340	A rectangular prism is not a flat paper drawing but a solid that takes up space. Turn it, tap its faces, edges and vertices, and match them with the same faces on the net.
+1341	All the edges of a cube are the same length.
+1342	Edge length
+1343	Shorter edges
+1344	Longer edges
+1345	▣ Fold the net
+1346	▤ Unfolded net · tap a face
+1347	Net that matches the six faces of the prism
+1348	Select the front face on the net
+1349	Select the back face on the net
+1350	Select the top face on the net
+1351	Select the bottom face on the net
+1352	Select the left face on the net
+1353	Select the right face on the net
+1354	Tap a face to highlight the same face on the 3D model.
+1355	Select edge ⟨0⟩
+1356	Edges
+1357	Edge ⟨0⟩ is where the front face and top face meet. It is ⟨1⟩ cm long.
+1358	Select the ⟨0⟩ edges
+1359	Select vertex ⟨0⟩
+1360	Vertices
+1361	At vertex ⟨0⟩, three faces meet: front, top and left.
+1362	Select the ⟨0⟩ vertices
+1363	Mean lab: sharing evenly
+1364	Mean = each person's share when the total is shared equally
+1365	Move candies one at a time between the three friends until everyone has about the same. Moving them does not change the total.
+1366	All three baskets together
+1367	⟨0⟩ + ⟨1⟩ + ⟨2⟩ = ⟨3⟩
+1368	Whoever gets them, the total of ⟨0⟩ stays the same!
+1369	Baskets for moving candies between three friends
+1370	Friend 1
+1371	Friend 1 has ⟨0⟩ candies
+1372	Pick friend 1's candy ⟨0⟩ to move
+1373	Give one candy to friend 1
+1374	Give here
+1375	Friend 2
+1376	Friend 2 has ⟨0⟩ candies
+1377	Pick friend 2's candy ⟨0⟩ to move
+1378	Give one candy to friend 2
+1379	Friend 3
+1380	Friend 3 has ⟨0⟩ candies
+1381	Pick friend 3's candy ⟨0⟩ to move
+1382	Give one candy to friend 3
+1383	Tap a friend's candy to pick it, then tap the basket of the friend who gets it.
+1384	⟨0⟩ moved so far · the total stays ⟨1⟩
+1385	▶ Move one candy to even things out
+1386	⚖️ Share fairly in one go
+1387	↺ Original data
+1388	🔍 Why must they all become the same?
+1389	Total
+1390	Friends
+1391	How do you share ⟨0⟩ equally among three people?
+1392	Try other examples
+1393	⟨0⟩·⟨1⟩·⟨2⟩ (with a remainder)
+1394	⟨0⟩·⟨1⟩·⟨2⟩ (divides evenly)
+1395	Tap a candy to pick it, then press "Send ⟨0⟩ here" on another basket, or drag the candy to another basket. The mean is the sum of all values divided by how many there are. If the total is not a multiple of ⟨1⟩, each share may be a fraction.
+1396	sending basket
+1397	Send ⟨0⟩ here
+1398	You picked one of friend 1's candies. Now tap the basket that gets it.
+1399	Please choose two different baskets.
+1400	You picked one of friend 2's candies. Now tap the basket that gets it.
+1401	You picked one of friend 3's candies. Now tap the basket that gets it.
+1402	Moved one candy from ⟨0⟩ to ⟨1⟩. The total of ⟨2⟩ stays the same.
+1403	See how much each friend gets when the three friends share all ⟨0⟩ equally.
+1404	🎉 You discovered what the mean is
+1405	Give ⟨0⟩ to each person and all ⟨1⟩ are shared equally.
+1406	What it looks like shared equally among three friends
+1407	Friend 1: ⟨0⟩
+1408	Friend 2: ⟨0⟩
+1409	Friend 3: ⟨0⟩
+1410	The mean does not have to be one of the original three values. It is the total shared out equally.
+1411	Count all the candies and move candies from the friend with the most to the others.
+1412	Probability lab
+1413	Chance of drawing a blue ball
+1414	Tap the balls to change their colors
+1415	Ball ⟨0⟩, blue, tap to change color
+1416	Ball ⟨0⟩, orange, tap to change color
+1417	blue ⟨0⟩ · orange ⟨1⟩
+1418	🎲 Draw one ball at random
+1419	↺ Start again
+1420	Tap the balls to change their colors, or draw one at random.
+1421	This time an 🟠 orange ball came out. Blue ⟨1⟩ times in ⟨0⟩ draws!
+1422	This time a 🔵 blue ball came out. Blue ⟨1⟩ times in ⟨0⟩ draws!
+1423	Prism and pyramid lab to turn by hand
+1424	Choose prism or pyramid
+1425	▣ Prism
+1426	▲ Pyramid
+1427	Look at faces, edges and vertices
+1428	⟨1⟩D model of a prism with a ⟨0⟩-sided base. Drag with your mouse or finger to turn it
+1429	Select side face ⟨0⟩
+1430	Select the bottom face (base)
+1431	Select the top face (base)
+1432	Turn with your finger · tap a face to highlight it
+1433	Rotation helper
+1434	↑ Up
+1435	↺ Starting angle
+1436	Prism with a ⟨0⟩-sided base: ⟨1⟩ bases + ⟨2⟩ side faces = ⟨3⟩ faces
+1437	The side faces of a prism are rectangles.
+1438	selected face: side face ⟨0⟩ · faces checked ⟨1⟩/⟨2⟩
+1439	Base sides
+1440	Number of base sides
+1441	+ One more base side
+1442	▶ Find the next face
+1443	Change the number of sides of the base and see whether the side faces and vertices all increase together. Turn the solid, tap its faces, and find the same faces on the net too.
+1444	⟨1⟩D model of a pyramid with a ⟨0⟩-sided base. Drag with your mouse or finger to turn it
+1445	Select triangular side face ⟨0⟩
+1446	Select the base
+1447	Pyramid with a ⟨0⟩-sided base: ⟨1⟩ base + ⟨2⟩ side faces = ⟨3⟩ faces
+1448	A pyramid has only one base.
+1449	selected face: base · faces checked ⟨0⟩/⟨1⟩
+1450	Change the number of sides of the base and see how the number of triangular side faces and vertices changes. Turn the solid, tap its faces, and find the same faces on the net too.
+1451	Real net of a pyramid with a ⟨0⟩-sided base
+1452	Net of a pyramid with a ⟨0⟩-sided base: one polygon base and ⟨1⟩ triangular side faces
+1453	Select triangular side face ⟨0⟩ on the net
+1454	Select the polygon base on the net
+1455	⟨0⟩ polygon base + ⟨1⟩ triangular side faces
+1456	Tap an unfolded face to highlight the same face on the solid.
+1457	Select edge ⟨0⟩
+1458	An edge is a line segment where two faces meet. A prism has ⟨0⟩×⟨1⟩=⟨2⟩ and a pyramid has ⟨3⟩×⟨4⟩=⟨5⟩.
+1459	selected edge: where the base meets triangular side face ⟨0⟩.
+1460	A vertex is a point where several edges meet. Turn the shape and find every point.
+1461	Faces meeting at this vertex: the base, triangular side face ⟨0⟩ and triangular side face ⟨1⟩
+1462	The side faces of a pyramid are triangles that meet at the top.
+1463	selected face: triangular side face ⟨0⟩ · faces checked ⟨1⟩/⟨2⟩
+1464	Decimal division: sharing the same amount evenly
+1465	The dividend ⟨0⟩ stays the same!
+1466	There are ⟨1⟩ of ⟨0⟩. Split them into ⟨2⟩ equal shares.
+1467	⟨2⟩ made of ⟨1⟩ pieces of size ⟨0⟩
+1468	⟨1⟩ of ⟨0⟩
+1469	Split the whole ⟨0⟩ into ⟨1⟩ equal groups.
+1470	⟨0⟩ equal shares
+1471	Select share ⟨0⟩ (⟨1⟩)
+1472	share ⟨0⟩
+1473	Tap each share. When you change the divisor, the whole stays the same and only the size of one share changes.
+1474	The divisor decides how many equal shares the whole is split into. Keep the dividend ⟨0⟩ fixed and tap the ⟨1⟩ shares to see how big one group is.
+1475	Share ⟨0⟩ is ⟨1⟩. All ⟨2⟩ together make the whole ⟨3⟩.
+1476	Share of the blue region
+1477	Drag the border between the blue and orange regions: blue ⟨0⟩%
+1478	Tap the circle graph or strip graph to move the border. Blue and orange always add up to ⟨0⟩%.
+1479	 cubes
+1480	⟨1⟩ layers of ⟨0⟩ = ⟨2⟩
+1481	Pi ⟨0⟩ lab
+1482	Spread liter ⟨0⟩ (⟨1⟩ L) into ⟨2⟩ mL
+1483	Take a little away from ⟨0⟩ mL
+1484	Fewer L
+1485	More L
+1486	Tap one big-unit card to spread it into small units of ⟨0⟩ mL. The shape changes but the total amount stays the same. Tap a small-unit card to take some away.
+1487	Small units split into ⟨0⟩, ⟨1⟩ mL each
+1488	rounded up: ⟨0⟩
+1489	rounded down: ⟨0⟩
+1490	blue ⟨0⟩%
+1491	orange ⟨0⟩%
+1492	⟨0⟩-sided polygon · interior angles add up to ⟨1⟩°
+1493	The point is not in the range
+1494	The point is in the range
+1495	Find the common factors of ⟨0⟩ and ⟨1⟩
+1496	✅ Both numbers divide evenly by ⟨0⟩.
+1497	Not a common factor yet. It has to divide both numbers.
+1498	Find the common multiples of ⟨0⟩ and ⟨1⟩
+1499	Not a common multiple yet. Check that it is a multiple of both numbers.
+1500	✅ ⟨0⟩ is a common multiple of both numbers.
+1501	Stacked cubes from three directions
+1502	Total cubes
+1503	Top view
+1504	Top view: height of cubes in each square, ⟨0⟩ rows × ⟨1⟩ columns
+1505	Row ⟨0⟩, column ⟨1⟩, height ⟨2⟩, tap to stack
+1506	Front view
+1507	Front view: tallest stack in each column ⟨0⟩ ⟨1⟩ ⟨2⟩ ⟨3⟩ ⟨4⟩
+1508	Right view
+1509	Right view: tallest stack in each row ⟨0⟩ ⟨1⟩
+1510	Clear all
+1511	Fill all to layer ⟨0⟩
+1512	Tap a square in the top view to add ⟨0⟩ cube there. However many layers are in one spot, it is just one square from above.
+1513	Right view: tallest stack in each row ⟨0⟩ ⟨1⟩ ⟨2⟩ ⟨3⟩
+1514	Numbers to ⟨0⟩
+1515	Addition and Subtraction (⟨0⟩)
+1516	Choose a triangle, square or circle. Drag the inside of the shape and look at how it is made.
+1517	Choose the Area tab. Each square is a ⟨2⟩ cm² square, ⟨0⟩ cm long and ⟨1⟩ cm wide. Fill ⟨4⟩ rows of ⟨3⟩ squares to make ⟨5⟩+⟨6⟩+⟨7⟩=⟨8⟩ squares yourself.
+1518	Bring the six faces of a rectangular prism together in space. Turn the blue 3D model with your mouse or finger, and tap the front, top and side faces to select different faces.
+1519	Put all three friends' candies together. We will share the ⟨3⟩ candies, ⟨0⟩ + ⟨1⟩ + ⟨2⟩, evenly.
+1523	, group again to get

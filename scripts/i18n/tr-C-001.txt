@@ -1,0 +1,180 @@
+0	Study room for the ⟨0⟩ learning standards
+1	Korea's ⟨0⟩ math curriculum · learning standards
+2	Learn and check the ⟨0⟩ standards one at a time
+3	Each standard has a hands-on lesson, its own concept check and an application problem that changes every time.
+4	← Back to units
+5	Standards checked ⟨0⟩/⟨1⟩
+6	/ ⟨0⟩ standards checked
+7	This shows you passed the app's ⟨0⟩-step check. It is not a school assessment result.
+8	Find a standard to study
+9	Show all ⟨0⟩
+10	e.g. ⟨0⟩M⟨1⟩-⟨2⟩, multiplying fractions
+11	Grade band
+12	All grade bands · ⟨0⟩
+13	Grades ⟨0⟩–⟨1⟩ · ⟨2⟩
+14	List of standards
+15	⟨0⟩M⟨1⟩-⟨2⟩
+16	Not checked yet
+17	Grades ⟨0⟩–⟨1⟩ · ⟨2⟩M⟨3⟩-⟨4⟩
+18	Lesson stages
+19	⟨0⟩. Explore
+20	⟨0⟩. Concept check
+21	⟨0⟩. Apply
+22	⟨0⟩. Done
+23	☝️ Math you can touch and move
+24	Tap or drag the blocks, lines and shapes in the picture.
+25	Concept lesson ⟨0⟩/⟨1⟩
+26	What will you move?
+27	← Back
+28	Next scene →
+29	What idea is hiding here?
+30	Can you explain it in your own words?
+31	Start the concept check →
+32	The model is for practicing the idea. The numbers in the picture may differ from the numbers in the question.
+33	Answer choices for the standard question
+34	Review the idea
+35	Check answer
+36	Explore it again
+37	Try again ↻
+38	Detailed skills
+39	Skills:
+40	thousands place
+41	tens place
+42	✔ Correct
+43	Next skill →
+44	⟨0⟩ ones
+45	one group
+46	groups
+47	next number
+48	⟨0⟩ faces
+49	front
+50	top
+51	width
+52	faces
+53	edges
+54	vertices
+55	layers
+56	On to the application problem →
+57	hour
+58	minute
+59	⟨0⟩ times
+60	 has a whole number with it, so it is a mixed number.
+61	compare ⟨0⟩
+62	output
+63	input ⟨0⟩
+64	input
+65	multiplier
+66	diameter ⟨0⟩ cm
+67	radius ⟨0⟩ cm
+68	circumference ÷ diameter
+69	radius
+70	number of sides
+71	 in simplest form is?
+72	 =
+73	⟨0⟩ × ⟨1⟩ = ⟨2⟩ squares
+74	divisor
+75	number of marbles
+76	, total
+77	blue marbles
+78	orange marbles
+79	blue shape
+80	base
+81	✓ You moved it yourself. Try other numbers too.
+82	The two bases are parallel and have the same size and shape.
+83	selected face: top face (base) · faces checked ⟨0⟩/⟨1⟩
+84	Real net of a prism with a ⟨0⟩-sided base
+85	Net joining the two bases and ⟨1⟩ side faces of a prism with a ⟨0⟩-sided base
+86	Select side face ⟨0⟩ on the net
+87	Select the top face on the net
+88	Select the bottom face on the net
+89	⟨0⟩ identical polygon bases + ⟨1⟩ side faces
+90	selected face: bottom face (base) · faces checked ⟨0⟩/⟨1⟩
+91	Net of a cylinder: two circles and a rectangular side
+92	Select the rectangle made by unrolling the curved side
+93	rectangular side
+94	⟨0⟩ circles + a rectangular side
+95	Front view: tallest stack in each column ⟨0⟩ ⟨1⟩
+96	width ⟨0⟩ cm
+97	 rows =
+98	Row ⟨0⟩, ⟨2⟩ squares of ⟨1⟩ cm², colored
+99	⟨0⟩ + ⟨1⟩ + ⟨2⟩ + ⟨3⟩ + ⟨4⟩ + ⟨5⟩ = ⟨6⟩ squares
+100	✓ Whole area ⟨0⟩ × ⟨1⟩ = ⟨2⟩ cm²
+101	Every square is filled! ⟨1⟩ squares of ⟨0⟩ cm² fit inside the rectangle.
+102	↺ Count the rows again
+103	⟨0⟩ + ⟨1⟩ + ⟨2⟩ + ⟨3⟩ = ⟨4⟩ squares
+104	Choose a shape to find its area
+105	How to find the area of a triangle
+106	base ⟨0⟩ cm
+107	height ⟨0⟩ cm
+108	base × height ÷ ⟨0⟩
+109	area ⟨0⟩ cm²
+110	base
+111	Shorter base
+112	Longer base
+113	height
+114	Lower height
+115	Higher height
+116	Change the shape and adjust the lengths yourself. Even if quadrilaterals look alike, the way to find their area can differ. Two triangles make one parallelogram.
+117	surface area
+118	orange
+119	Counting and writing numbers from ⟨0⟩ to ⟨1⟩
+120	Count in groups of ⟨0⟩ or one by one to show numbers from ⟨1⟩ to ⟨2⟩.
+121	⟨0⟩ groups of ten and ⟨1⟩ ones make ⟨2⟩.
+122	What number is ⟨0⟩ groups of ten and ⟨1⟩ ones?
+123	A group of ten means ⟨0⟩, so add ⟨2⟩ ones to ⟨1⟩.
+124	Count by making groups of ⟨0⟩. There are ⟨2⟩ groups of ⟨1⟩ and ⟨3⟩ ones. That makes ⟨4⟩ in all.
+125	Place value: ones, tens, hundreds, thousands
+126	Tap the digits of a four-digit number to find how the value changes in each place.
+127	Even the same digit ⟨0⟩ means ⟨1⟩ in the thousands place.
+128	In ⟨0⟩, what value does the thousands digit show?
+129	The thousands digit ⟨0⟩ is worked out as ⟨1⟩×⟨2⟩.
+130	hundreds place
+131	What is the hundreds digit in ⟨0⟩?
+132	The hundreds place is third from the right, so the digit is ⟨0⟩.
+133	ones place
+134	What is the ones digit of ⟨0⟩?
+135	The rightmost digit is the ones place, ⟨0⟩.
+136	Let's break ⟨0⟩ into place values. The hundreds place counts groups of ⟨1⟩. The digit ⟨2⟩ in this place means ⟨3⟩.
+137	Comparing numbers up to four digits
+138	Compare one place at a time, starting from the biggest place value, to put numbers in order.
+139	If two numbers have the same number of digits, compare from the highest place.
+140	Which is bigger, ⟨0⟩ or ⟨1⟩?
+141	The hundreds are the same, so compare the tens digits ⟨0⟩ and ⟨1⟩.
+142	order of numbers
+143	What number comes after ⟨0⟩?
+144	Adding ⟨0⟩ regroups into the thousands place to make ⟨1⟩.
+145	Splitting and combining numbers
+146	Move ⟨0⟩ blocks into two groups yourself.
+147	The whole equals the two parts added back together.
+148	If ⟨0⟩ are split and one part is ⟨1⟩, how many are in the other part?
+149	Take the ⟨1⟩ already moved away from ⟨0⟩ and ⟨2⟩ are left.
+150	combining numbers
+151	What is ⟨0⟩ and ⟨1⟩ combined?
+152	Combining the two parts ⟨0⟩ and ⟨1⟩ gives the whole, ⟨2⟩.
+153	Move the real amounts on the model to check, then apply the steps of the original problem again.
+154	Addition and subtraction in daily life
+155	Add or remove apple blocks to turn the situation into a number sentence.
+156	Putting together is addition; taking some away is subtraction.
+157	You had ⟨0⟩ candies and ate ⟨1⟩. Which number sentence is right?
+158	Subtract the number that went away from the starting number to find what is left.
+159	addition in daily life
+160	You got ⟨0⟩ stickers and then ⟨1⟩ more. What is the number sentence?
+161	You are putting together what you got, so use addition.
+162	Two-digit addition and subtraction
+163	Make a group of ⟨0⟩ to regroup, then calculate.
+164	If the ones add up to ⟨0⟩ or more, group them into a ten.
+165	What is ⟨0⟩ + ⟨1⟩?
+166	Ones: ⟨0⟩+⟨1⟩=⟨2⟩, so carry one ten to get ⟨3⟩.
+167	two-digit subtraction
+168	Change one ten into ones, then ⟨0⟩ minus ⟨1⟩ is ⟨2⟩.
+169	three-digit sums
+170	In ⟨0⟩+⟨1⟩, regroup and combine with ⟨2⟩+⟨3⟩ to get ⟨4⟩.
+171	How addition and subtraction are related
+172	Compare the blocks put together and the blocks taken away, and work backward.
+173	Addition and subtraction can check each other in reverse.
+174	If ⟨0⟩ + ⟨1⟩ = ⟨2⟩, which subtraction is right?
+175	Take one part ⟨1⟩ away from the whole ⟨0⟩ and the other part ⟨2⟩ is left.
+176	Calculating three numbers in order
+177	Put two groups of blocks together, then add the third group.
+178	Add and subtract three numbers in order.
+179	What is ⟨0⟩ + ⟨1⟩ + ⟨2⟩?

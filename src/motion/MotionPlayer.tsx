@@ -1,4 +1,5 @@
 import {useEffect,useRef,useState,type CSSProperties} from 'react';
+import {L,tr} from '../i18n/index.ts';
 import {renderMotionScene,type MotionScene} from './types.ts';
 import {fractionHtml} from './mathTokens.ts';
 import './motion.css';
@@ -37,12 +38,12 @@ export default function MotionPlayer({id,scenes,className}:{id:string;scenes:rea
     else {setFinished(true);setPaused(true);}
   };
 
-  return <section ref={root} className={`mm-player${className?' '+className:''}${paused?' mm-paused':''}`} aria-label="움직이는 개념 설명" data-topic={id}>
+  return <section ref={root} className={`mm-player${className?' '+className:''}${paused?' mm-paused':''}`} aria-label={L('움직이는 개념 설명','Animated explanation')} data-topic={id}>
     <div className="mm-head">
-      <div><span className="mm-kicker">🎬 MOTION · 움직이며 이해하기</span><h4>애니메이션으로 원리 보기</h4></div>
-      <div className="mm-tabs" role="tablist" aria-label="장면 선택">
+      <div><span className="mm-kicker">🎬 MOTION · {L('움직이며 이해하기','Learn by watching it move')}</span><h4>{L('애니메이션으로 원리 보기','See the idea in an animation')}</h4></div>
+      <div className="mm-tabs" role="tablist" aria-label={L('장면 선택','Choose scene')}>
         {scenes.map((_,i)=><button type="button" role="tab" key={i} aria-selected={i===idx}
-          aria-label={`장면 ${i+1}`} onClick={()=>go(i)}>{i+1}</button>)}
+          aria-label={L(`장면 ${i+1}`,`Scene ${i+1}`)} onClick={()=>go(i)}>{i+1}</button>)}
       </div>
     </div>
     <div className="mm-stage-wrap">
@@ -53,14 +54,14 @@ export default function MotionPlayer({id,scenes,className}:{id:string;scenes:rea
       {started&&<i key={`${idx}-${run}`} style={{'--dur':`${scene.dur}s`} as CSSProperties} onAnimationEnd={onBarEnd}/>}
     </div>
     {/* 그림은 장식(aria-hidden), 설명은 아래 캡션이 화면낭독기로 전달 */}
-    <p className="mm-caption" aria-live="polite"><b>{idx+1} / {scenes.length}</b><span dangerouslySetInnerHTML={{__html:fractionHtml(scene.cap)}}/></p>
+    <p className="mm-caption" aria-live="polite"><b>{idx+1} / {scenes.length}</b><span dangerouslySetInnerHTML={{__html:fractionHtml(tr(scene.cap))}}/></p>
     <div className="mm-ctrl">
-      <button type="button" disabled={idx===0} onClick={()=>go(idx-1)}>◀ 이전</button>
+      <button type="button" disabled={idx===0} onClick={()=>go(idx-1)}>{L('◀ 이전','◀ Back')}</button>
       <button type="button" className="mm-main" onClick={()=>{
         if(finished) go(0); else {setStarted(true);setPaused(p=>!p);}
-      }}>{finished?'↻ 처음부터':paused?'▶ 재생':'❚❚ 일시정지'}</button>
-      <button type="button" onClick={()=>go(idx)}>↻ 다시 보기</button>
-      <button type="button" disabled={idx===scenes.length-1} onClick={()=>go(idx+1)}>다음 ▶</button>
+      }}>{finished?L('↻ 처음부터','↻ Start over'):paused?L('▶ 재생','▶ Play'):L('❚❚ 일시정지','❚❚ Pause')}</button>
+      <button type="button" onClick={()=>go(idx)}>{L('↻ 다시 보기','↻ Replay')}</button>
+      <button type="button" disabled={idx===scenes.length-1} onClick={()=>go(idx+1)}>{L('다음 ▶','Next ▶')}</button>
     </div>
   </section>;
 }

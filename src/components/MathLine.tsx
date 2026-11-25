@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import {mathTokens} from '../motion/mathTokens.ts';
 import {Fraction} from './MathText.tsx';
 import './math-line.css';
+import {tr} from '../i18n/index.ts';
 
 /**
  * 중·고등 수식 문장 조판.
@@ -89,7 +90,7 @@ function render(s:string,prefix='m'):ReactNode[]{
   return out;
 }
 export function MathLine({text}:{text:string}){
-  return <>{render(text)}</>;
+  return <>{render(tr(text))}</>;
 }
 /** SVG·문서 제목 등 HTML 조판을 쓸 수 없는 곳에서 읽을 수 있는 텍스트 */
 export function mathPlain(text:string){

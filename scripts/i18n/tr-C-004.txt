@@ -1,0 +1,220 @@
+680	⟨0⟩ people
+681	picture graph
+682	If one picture stands for ⟨0⟩ people and there are four pictures, how many people is that?
+683	One picture means ⟨0⟩ people, so ⟨1⟩×⟨2⟩=⟨3⟩ people.
+684	Reading change on a line graph
+685	Drag the data points to find how much things change over time.
+686	A line graph shows amounts going up and down.
+687	If it was ⟨0⟩ degrees on Monday and ⟨1⟩ degrees on Tuesday, how much warmer did it get?
+688	⟨0⟩ minus ⟨1⟩: the temperature rose ⟨2⟩ degrees.
+689	⟨0⟩ degrees
+690	Read the heights of the first and second points. It increased from ⟨0⟩ to ⟨1⟩. The difference is ⟨2⟩ − ⟨3⟩ = ⟨4⟩.
+691	Collecting data and choosing a graph
+692	Change several values and tell when to use a bar graph and when to use a line graph.
+693	Line graphs suit change over time; bar graphs suit comparing items.
+694	Which graph suits the temperature changes over one week?
+695	Joining the day-by-day temperatures with a line makes the change easy to see.
+696	circle graph
+697	a table with only pictures
+698	an expression without units
+699	Order of operations with whole numbers
+700	Put expressions with mixed operations on the board and compare the order.
+701	Multiply and divide first, then add and subtract.
+702	What is ⟨0⟩ + ⟨1⟩ × ⟨2⟩?
+703	First find ⟨0⟩×⟨1⟩=⟨2⟩, then add ⟨3⟩ to get ⟨4⟩.
+704	parentheses first
+705	What is ⟨0⟩ × (⟨1⟩ − ⟨2⟩)?
+706	First find ⟨0⟩−⟨1⟩=⟨2⟩ inside the parentheses, then work out ⟨3⟩×⟨4⟩.
+707	This expression mixes addition and multiplication. Multiply first to get ⟨0⟩. ⟨1⟩ + ⟨2⟩ = ⟨3⟩.
+708	At least, at most, greater than, less than
+709	Move along the number line to find boundaries that are included and excluded.
+710	"At least" and "at most" include the boundary; "greater than" and "less than" do not.
+711	What is the smallest natural number greater than ⟨0⟩?
+712	⟨0⟩ is not included, so the natural numbers start at ⟨1⟩.
+713	Which number is among the natural numbers that are at most ⟨0⟩?
+714	"At most" includes the boundary, so ⟨0⟩ is included.
+715	less than
+716	What is the biggest natural number less than ⟨0⟩?
+717	"Less than" does not include ⟨0⟩, so ⟨1⟩ is the biggest.
+718	"At least" includes the boundary number; "greater than" does not. "Greater than ⟨0⟩" is a range with the boundary ⟨1⟩. ⟨2⟩ is not included.
+719	Using rounding, rounding up and rounding down
+720	Move the point on the number line to find where the estimates change.
+721	Rounding goes up from ⟨0⟩ or more; rounding up goes up if any value is left in the lower places.
+722	What is ⟨0⟩ rounded to the nearest ten?
+723	The ones digit, ⟨0⟩, is ⟨1⟩ or more, so the tens digit goes up by one.
+724	rounding up
+725	What is ⟨0⟩ rounded up to the nearest ten?
+726	There is a ⟨0⟩ left in the ones place, so the tens digit goes up.
+727	rounding down
+728	What is ⟨0⟩ rounded down to the nearest ten?
+729	Drop the ones digit to get ⟨0⟩.
+730	Factors and the greatest common factor
+731	Tap the common factors of two numbers to find the biggest.
+732	The biggest common factor of two numbers is called the greatest common factor.
+733	What is the greatest common factor of ⟨0⟩ and ⟨1⟩?
+734	The biggest of the common factors ⟨0⟩ is ⟨1⟩.
+735	factors
+736	Which number is not a factor of ⟨0⟩?
+737	Dividing ⟨0⟩ by ⟨1⟩ leaves a remainder, so it is not a factor.
+738	A common factor divides both numbers, and a common multiple is a multiple both numbers share. Find the biggest of the two numbers' common factors. The answer is ⟨0⟩.
+739	A common factor divides both numbers, and a common multiple is a multiple both numbers share. Find the smallest multiple the two numbers share. The answer is ⟨0⟩.
+740	Multiples and the least common multiple
+741	Add more multiples and find the first value where they overlap.
+742	The smallest positive common multiple of two numbers is the least common multiple.
+743	The first number that is a multiple of both ⟨0⟩ and ⟨1⟩ is ⟨2⟩.
+744	multiples
+745	Which number is a multiple of ⟨0⟩?
+746	⟨0⟩ can be written as ⟨1⟩×⟨2⟩, so it is a multiple.
+747	Multiples are made by multiplying a number by ⟨0⟩, ⟨1⟩, ⟨2⟩, and so on. Work out ⟨3⟩ × ⟨4⟩. ⟨5⟩ is a multiple of ⟨6⟩.
+748	Making equivalent fractions by simplifying and finding common denominators
+749	Split the fraction bar into smaller parts and check that the length stays the same.
+750	Multiplying or dividing the numerator and denominator by the same number keeps the fraction's value.
+751	What is ⟨0⟩/⟨1⟩ in simplest form?
+752	Divide both ⟨0⟩ and ⟨1⟩ by ⟨2⟩ to get ⟨3⟩/⟨4⟩.
+753	common denominator
+754	Rewrite ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩ with the common denominator ⟨4⟩.
+755	⟨0⟩/⟨1⟩ is ⟨2⟩/⟨3⟩ and ⟨4⟩/⟨5⟩ is ⟨6⟩/⟨7⟩.
+756	⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩
+757	⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩
+758	Comparing fractions with different denominators
+759	Keep the two bars the same length and make them have the same number of parts.
+760	If the denominators differ, find a common denominator and then compare the numerators.
+761	Which is bigger, ⟨0⟩/⟨1⟩ or ⟨2⟩/⟨3⟩?
+762	⟨0⟩/⟨1⟩ is ⟨2⟩/⟨3⟩ and ⟨4⟩/⟨5⟩ is ⟨6⟩/⟨7⟩, so ⟨8⟩/⟨9⟩ is bigger.
+763	If the denominators are different, rewrite them as pieces of the same size. Write ⟨0⟩/⟨1⟩ and ⟨2⟩/⟨3⟩ with the same denominator. Compared, ⟨4⟩/⟨5⟩ < ⟨6⟩/⟨7⟩.
+764	Adding and subtracting fractions with different denominators
+765	Split two bars with different denominators into equal-size parts, then calculate.
+766	A common denominator makes the pieces the same size, so you can add or subtract them.
+767	Change ⟨0⟩/⟨1⟩ into ⟨2⟩/⟨3⟩ to find ⟨4⟩/⟨5⟩=⟨6⟩/⟨7⟩.
+768	subtracting fractions
+769	⟨0⟩/⟨1⟩ minus ⟨2⟩/⟨3⟩ is ⟨4⟩/⟨5⟩.
+770	A part of a part in fraction multiplication
+771	Use the overlapping squares of the fraction bars to multiply two parts.
+772	To multiply fractions, multiply numerators together and denominators together, then simplify.
+773	⟨0⟩×⟨1⟩/⟨2⟩×⟨3⟩ is ⟨4⟩/⟨5⟩, which simplifies to ⟨6⟩/⟨7⟩.
+774	multiplying a fraction by a whole number
+775	Multiply the numerator ⟨0⟩ by ⟨1⟩ and keep the denominator ⟨2⟩.
+776	To multiply fractions, multiply numerators together and denominators together. The numerator is ⟨0⟩ × ⟨1⟩ and the denominator is ⟨2⟩ × ⟨3⟩. Simplified, it is ⟨4⟩/⟨5⟩.
+777	Writing whole-number quotients as fractions
+778	Split the division into equal parts and write it as a fraction.
+779	The dividend becomes the numerator and the divisor becomes the denominator.
+780	What is ⟨0⟩ ÷ ⟨1⟩ as a fraction?
+781	It is ⟨0⟩ split into five parts, so ⟨1⟩/⟨2⟩.
+782	Even when whole numbers do not divide evenly, you can write the quotient as a fraction. Write the dividend ⟨0⟩ as the numerator and the divisor ⟨1⟩ as the denominator. The quotient is ⟨2⟩/⟨3⟩.
+783	Dividing fractions
+784	Change the fraction bars and think about how many groups fit.
+785	To divide by a fraction, multiply by its reciprocal.
+786	⟨0⟩/⟨1⟩ times ⟨2⟩/⟨3⟩ is ⟨4⟩/⟨5⟩.
+787	Flip the dividing fraction and change it to multiplication. Work out ⟨0⟩/⟨1⟩ × ⟨2⟩/⟨3⟩. The answer is ⟨4⟩/⟨5⟩.
+788	Comparing fractions and decimals
+789	Compare fractions and decimals on the same number line.
+790	Fractions with a denominator of ⟨0⟩ or ⟨1⟩ are easy to change into decimals.
+791	What is ⟨0⟩/⟨1⟩ as a decimal?
+792	⟨0⟩/⟨1⟩ is ⟨2⟩/⟨3⟩, so it is ⟨4⟩.
+793	comparing fractions and decimals
+794	Which is bigger, ⟨0⟩/⟨1⟩ or ⟨2⟩?
+795	⟨0⟩/⟨1⟩=⟨2⟩, so it is bigger than ⟨3⟩.
+796	How decimal multiplication works
+797	Change the decimal you multiply by and check the place value of the result.
+798	Multiply like whole numbers, then put in as many decimal places as the two numbers have together.
+799	⟨0⟩×⟨1⟩=⟨2⟩ and there are ⟨3⟩ decimal places in all, so it is ⟨4⟩.
+800	First work out the whole numbers ⟨0⟩ × ⟨1⟩. Each number has one decimal place, so the answer has two decimal places. The answer is ⟨2⟩.
+801	Writing whole-number quotients as decimals
+802	Change the divisor and look at quotients written as decimals.
+803	If needed, add ⟨0⟩s after the decimal point and keep dividing.
+804	What is ⟨0⟩ ÷ ⟨1⟩ as a decimal?
+805	⟨0⟩ divided by ⟨1⟩ is ⟨2⟩.
+806	Multiply the dividend by ⟨0⟩ and think of it as whole-number division. ⟨1⟩ ÷ ⟨2⟩ = ⟨3⟩. Move the decimal point back to get ⟨4⟩.
+807	Dividing decimals
+808	Move the divisor and check where the decimal point goes in the quotient.
+809	Scaling the divisor and the dividend by the same amount keeps the quotient the same.
+810	Multiply both by ⟨0⟩ and work out ⟨1⟩ ÷ ⟨2⟩ = ⟨3⟩.
+811	Showing correspondence with tables and expressions
+812	Change the input, watch the output and find the rule.
+813	How two values correspond can be shown with an expression or a table.
+814	The rule multiplies the input by ⟨0⟩. What is the output for input ⟨1⟩?
+815	Input ⟨0⟩ times ⟨1⟩ gives output ⟨2⟩.
+816	Writing two amounts as a ratio
+817	Change the number of marbles of each color and compare the parts.
+818	A ratio keeps the order of the two amounts and is written a:b.
+819	With ⟨0⟩ apples and ⟨1⟩ pears, what is the ratio of apples to pears?
+820	Write the apples, ⟨0⟩, first and the pears, ⟨1⟩, second.
+821	Rates as fractions, decimals and percentages
+822	Change the marble ratio and watch the number shown as ⟨0⟩%.
+823	A rate is the compared amount divided by the base amount.
+824	What percent of the whole is ⟨1⟩ out of ⟨0⟩?
+825	⟨0⟩÷⟨1⟩=⟨2⟩, which is ⟨3⟩% as a percentage.
+826	rates as fractions
+827	Write the rate of ⟨1⟩ out of ⟨0⟩ as a fraction.
+828	Divide the compared amount ⟨0⟩ by the base amount ⟨1⟩.
+829	Proportions and properties of ratios
+830	Make the ratios of two groups of marbles the same.
+831	Multiplying both terms of a ratio by the same number makes an equal ratio.
+832	In ⟨0⟩:⟨1⟩ = ⟨2⟩:□, what goes in the blank?
+833	The first term was multiplied by four, so the second term ⟨0⟩ is also multiplied by four to get ⟨1⟩.
+834	extremes and means of a proportion
+835	Why are the two ratios in ⟨0⟩:⟨1⟩ = ⟨2⟩:⟨3⟩ equal?
+836	Both ⟨0⟩ and ⟨1⟩ were multiplied by ⟨2⟩ to make ⟨3⟩ and ⟨4⟩.
+837	both terms were multiplied by the same number
+838	only the first term was tripled
+839	only the second term was tripled
+840	the two terms were added
+841	Sharing a total by a ratio
+842	Move the ratio of the two colors of marbles to share the total.
+843	Sharing in the ratio ⟨0⟩:⟨1⟩ gives two parts and three parts out of five.
+844	When ⟨0⟩ candies are shared in the ratio ⟨1⟩:⟨2⟩, what is the smaller share?
+845	Split the whole into five shares of ⟨0⟩ each; two shares are ⟨1⟩.
+846	the bigger share
+847	When ⟨0⟩ are shared in the ratio ⟨1⟩:⟨2⟩, what is the bigger share?
+848	⟨0⟩÷⟨1⟩=⟨2⟩, times three parts, is ⟨3⟩.
+849	The terms of the ratio add up to ⟨0⟩ + ⟨1⟩ = ⟨2⟩. One part of the ratio is ⟨3⟩ ÷ ⟨4⟩ = ⟨5⟩. The first share is ⟨6⟩ × ⟨7⟩ = ⟨8⟩.
+850	Congruent shapes that overlap
+851	Slide and turn the shape and check that its size and shape stay the same.
+852	Congruent shapes are exactly the same size and shape when overlapped.
+853	Are two shapes with the same form but one twice as big congruent?
+854	Congruent shapes must have the same lengths, not just the same form.
+855	no
+856	yes
+857	always yes
+858	the lengths are unknown
+859	congruence and turning
+860	If a shape turned ⟨0⟩ degrees keeps its lengths, how is it related to the original?
+861	Turning keeps the side lengths and angles, so they can overlap.
+862	only similar
+863	different area
+864	always a different shape
+865	Imagine folding the shape or turning it ⟨0⟩°. If it matches when folded along an axis, it has line symmetry. If it matches after a half turn around a center, it has point symmetry. This shape has line symmetry.
+866	Imagine folding the shape or turning it ⟨0⟩°. If it matches when folded along an axis, it has line symmetry. If it matches after a half turn around a center, it has point symmetry. This shape has point symmetry.
+867	Line symmetry and point symmetry
+868	Find shapes that match when folded along a line or turned ⟨0⟩ degrees.
+869	Line symmetry matches when folded; point symmetry matches after a half turn.
+870	Which shape matches itself after turning ⟨0⟩ degrees around a point?
+871	Point symmetry means turning a half turn around a center point.
+872	point-symmetric shape
+873	line-symmetric shape
+874	only an equilateral triangle
+875	Which shape matches exactly when folded like a mirror?
+876	Fold along the axis of symmetry and the two parts match.
+877	only point symmetry
+878	a shape that is not similar
+879	Parts of rectangular prisms and cubes
+880	Turn the solid and count its faces, edges and vertices.
+881	A rectangular prism has ⟨0⟩ faces, ⟨1⟩ edges and ⟨2⟩ vertices.
+882	How many vertices does a rectangular prism have?
+883	Four points on top and four on the bottom make eight.
+884	cube
+885	What shape are the six faces of a cube?
+886	The six faces of a cube are squares of the same size.
+887	A rectangular prism is surrounded by front, back, top, bottom, left and right faces. Opposite faces have the same shape. There are ⟨0⟩ faces in all.
+888	Nets and sketches of rectangular prisms
+889	Unfold the net and imagine how the faces fold back up.
+890	A net lays out the faces of a solid flat.
+891	How many faces appear on the net of a rectangular prism?
+892	A rectangular prism has six faces, so its net needs six faces too.
+893	sketch
+894	How do you draw the hidden edges at the back of a solid?
+895	Drawing hidden edges with dotted lines makes the solid easier to understand.
+896	dotted lines
+897	only thick solid lines
+898	arrows
+899	Parts of prisms and pyramids

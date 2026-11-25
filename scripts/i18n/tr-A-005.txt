@@ -1,0 +1,260 @@
+800	⟨0⟩ ones
+801	⟨0⟩ hr ⟨1⟩ min + ⟨2⟩ min = ⟨3⟩ hr ⟨4⟩ min
+802	= ⟨0⟩:⟨1⟩ − ⟨2⟩ min
+803	⟨0⟩ hour → ⟨1⟩ minutes
+804	= ⟨0⟩:⟨1⟩
+805	numerator = pieces picked
+806	denominator = pieces in all
+807	○ ⟨0⟩ equal parts → ⟨1⟩/⟨2⟩
+808	○ ⟨0⟩ equal parts →
+809	✕ sizes are different
+810	⟨0⟩ = ⟨2⟩ of ⟨1⟩
+811	remainder ⟨0⟩ < divisor ⟨1⟩
+812	(with ⟨0⟩ you could make one more group)
+813	⟨0⟩ ÷ ⟨1⟩ → ⟨2⟩, ⟨3⟩ left
+814	bring down ⟨0⟩ → ⟨1⟩
+815	all the same
+816	proper fraction (less than ⟨0⟩)
+817	improper fraction (more than ⟨0⟩)
+818	big picture = ⟨0⟩ people
+819	small picture = ⟨0⟩ person
+820	acute (⟨0⟩°)
+821	right (⟨0⟩°)
+822	obtuse (⟨0⟩°)
+823	slide right
+824	turn ⟨0⟩°
+825	spring
+826	winter
+827	Favorite season (people)
+828	⟨0⟩ more people
+829	line up the points
+830	adding ⟨0⟩ keeps it the same
+831	trapezoid (⟨0⟩ pair parallel)
+832	parallelogram (⟨0⟩ pairs parallel)
+833	temperature (°C)
+834	steepest
+835	almost no change
+836	sides = vertices
+837	⟨0⟩ diagonals
+838	regular pentagon: all sides and angles equal
+839	① first
+840	parentheses → × ÷ → + −
+841	factors of ⟨0⟩: ⟨1⟩, ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩, ⟨6⟩
+842	⟨0⟩ left over
+843	⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩ R ⟨3⟩ → not a factor
+844	multiples of ⟨0⟩: ⟨1⟩, ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩ …
+845	skip count by +⟨0⟩
+846	greatest common factor = ⟨0⟩
+847	least common multiple = ⟨0⟩
+848	common denominator ⟨0⟩
+849	half of the parallelogram
+850	at least ⟨0⟩ ●
+851	less than ⟨0⟩ ○
+852	⟨0⟩, ⟨1⟩, ⟨2⟩, ⟨3⟩, ⟨4⟩ are included
+853	at most ⟨0⟩ → includes ⟨1⟩ ●
+854	less than ⟨0⟩ → excludes ⟨1⟩ ○
+855	at least ⟨0⟩ and at most ⟨1⟩: ⟨2⟩, ⟨3⟩, ⟨4⟩, ⟨5⟩
+856	⟨0⟩ ≥ ⟨1⟩ → round up
+857	⟨0⟩ to ⟨1⟩ → all round up to ⟨2⟩
+858	⟨0⟩ people → ⟨1⟩ buses
+859	when nothing can be left out → round up
+860	⟨0⟩ won (not enough)
+861	⟨0⟩ notebooks
+862	⟨0⟩ → ⟨1⟩ (⟨2⟩ boxes)
+863	match exactly → congruent
+864	matches when folded
+865	matches after turning ⟨0⟩°
+866	⟨0⟩ overlapping squares
+867	same color = opposite faces
+868	mean = ⟨0⟩
+869	die shows ⟨0⟩
+870	coin lands heads
+871	the sun rises
+872	red: certain (⟨0⟩)
+873	red: even chance (⟨0⟩/⟨1⟩)
+874	red: even chance (
+875	= ⟨0⟩ × ⟨1⟩ (flip and multiply)
+876	red slice = one person's share = ⟨0⟩/⟨1⟩ pizza
+877	red slice = one person's share =
+878	↑ numerator
+879	↑ denominator
+880	vertices ⟨0⟩ × ⟨1⟩ = ⟨2⟩
+881	edges ⟨0⟩ × ⟨1⟩ = ⟨2⟩
+882	triangular pyramid
+883	pentagonal pyramid
+884	vertices ⟨0⟩ + ⟨1⟩ = ⟨2⟩
+885	ratio ⟨0⟩ : ⟨1⟩
+886	rate ⟨0⟩/⟨1⟩ = ⟨2⟩
+887	basketball ⟨0⟩%
+888	baseball ⟨0⟩%
+889	other ⟨0⟩%
+890	baseball
+891	other
+892	total ⟨0⟩%
+893	length ⟨0⟩ × width ⟨1⟩ = ⟨2⟩
+894	edge ⟨0⟩ m
+895	blue × ⟨0⟩
+896	green × ⟨0⟩
+897	orange × ⟨0⟩
+898	surface area = sum of ⟨0⟩ faces
+899	front + side + top
+900	→ figure out the solid
+901	think about hidden cubes too
+902	⟨0⟩ (⟨1⟩ groups)
+903	⟨0⟩ ÷ ⟨1⟩ = ⟨2⟩ (one group)
+904	area = radius × radius × ⟨0⟩
+905	+ a little
+906	circumference ≈ diameter × ⟨0⟩
+907	circumference ÷ diameter = pi (π)
+908	⟨0⟩ bases · curved side
+909	apex · ⟨0⟩ base
+910	center · radius
+911	The pieces are different sizes, so split both into ⟨0⟩ pieces (common denominator).
+912	Add the numerators: ⟨0⟩/⟨1⟩ + ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩
+913	Group the parts of ⟨0⟩/⟨1⟩ in ⟨2⟩s and it is as long as ⟨3⟩/⟨4⟩. Dividing the numerator and denominator by ⟨5⟩ is simplifying.
+914	The denominators are both ⟨0⟩, so one piece is the same size.
+915	Subtract the numerators: ⟨0⟩/⟨1⟩ − ⟨2⟩/⟨3⟩ = ⟨4⟩/⟨5⟩
+916	Result: <
+917	Result: >
+918	Result: =
+919	Hands-on math model
+920	Count the blocks
+921	Touch to play
+922	 left · ⟨0⟩ moved
+923	⟨0⟩ blocks left
+924	⟨0⟩ blocks moved
+925	Tap the blocks to move them to the other group
+926	Move block ⟨0⟩
+927	Move ⟨0⟩ blocks to the orange group. The blue group gets smaller by the same amount.
+928	↺ Start over
+929	⟨0⟩ blocks to play with
+930	Undo moving block ⟨0⟩
+931	✨ ⟨0⟩ = ⟨1⟩ + ⟨2⟩! You split the number.
+932	 left · ⟨0⟩ taken away
+933	⟨0⟩ blocks taken away
+934	Tap the blocks to take them away
+935	Take away block ⟨0⟩
+936	Tap ⟨0⟩ blocks to take them away. The blocks left are the answer.
+937	Undo taking away block ⟨0⟩
+938	✨ ⟨0⟩ − ⟨1⟩ = ⟨2⟩! You did the subtraction yourself.
+939	/ ⟨0⟩ counted
+940	Tap the blocks to count them
+941	Count block ⟨0⟩
+942	Hover over or tap a block and it changes color and the count goes up.
+943	Uncount block ⟨0⟩
+944	✨ You counted them all! Grouping them makes counting faster.
+945	Triangles, squares and circles
+946	Move the triangle, square and circle yourself!
+947	Grab the inside of a shape to move it, or drag an orange dot to change its shape.
+948	Choose a shape
+949	Drag the shape to move it and touch a vertex to change its shape
+950	Select side ⟨0⟩
+951	Select vertex ⟨0⟩
+952	square · ⟨0⟩ sides · ⟨1⟩ vertices
+953	Tap the sides and vertices. Even if you move a vertex, a triangle still has ⟨0⟩ sides and a square ⟨1⟩.
+954	Moved ⟨0⟩ times · You will learn degrees (°) for angles in grade ⟨1⟩.
+955	→ Move the shape
+956	↺ Original shape
+957	In grade ⟨0⟩, instead of measuring angles like ⟨1⟩°, we look at how triangles, squares and circles look and count their sides and vertices.
+958	circle · ⟨0⟩ straight sides · ⟨1⟩ vertices
+959	A circle has no straight sides or vertices. Drag the orange dot to change its size.
+960	triangle · ⟨0⟩ sides · ⟨1⟩ vertices
+961	rectangle · ⟨0⟩ sides · ⟨1⟩ vertices
+962	 chosen · ⟨1⟩ group of ⟨0⟩
+963	Groups of ⟨0⟩ and leftover ones
+964	First count ⟨0⟩ and make one group. Make ⟨3⟩ from ⟨1⟩ + ⟨2⟩.
+965	✨ You made a group of ⟨0⟩! Now add the ⟨1⟩ leftover ones.
+966	Groups and arrays
+967	 blocks
+968	Tap one row at a time to check the number of groups
+969	Row ⟨0⟩, ⟨1⟩ selected
+970	Tap a row to color it. The ⟨0⟩ selected rows have ⟨1⟩ blocks.
+971	One fewer in each group
+972	One more in each group
+973	Fewer groups
+974	More groups
+975	↺ Problem array
+976	Moving clock
+977	A clock whose minutes change when you drag the long hand
+978	Hour back
+979	Hour forward
+980	↺ Problem clock
+981	Move the blue minute hand with your finger. When the minute hand moves, the orange hour hand moves a little too.
+982	Fraction bar to color
+983	= ⟨0⟩ whole
+984	The whole length is always the same = ⟨0⟩
+985	First fraction · tap to color
+986	Part ⟨0⟩ colored, tap to change how many are colored
+987	Part ⟨0⟩ empty, tap to change how many are colored
+988	Colored part
+989	Smaller parts
+990	Fewer parts
+991	More parts
+992	Split into equal sizes
+993	↺ Original fraction
+994	The bar is always the same length, and dotted lines show the equal parts. Tap parts to change the numerator. Splitting into smaller parts keeps the same size.
+995	The bar is always the same length, and dotted lines show the equal parts. Tap parts to change the numerator. Right now it is a different size from the original fraction.
+996	Unit conversion lab
+997	In the small unit
+998	Tap a big unit to spread it into small units
+999	Spread minute ⟨0⟩ (⟨1⟩ min) into ⟨2⟩ seconds
+1000	⟨0⟩ min + ⟨1⟩ s
+1001	Fewer minutes
+1002	More minutes
+1003	↺ Original units
+1004	Tap one big-unit card to spread it into small units of ⟨0⟩ seconds. The shape changes but the total amount stays the same. Tap a small-unit card to take some away.
+1005	Small units split into ⟨0⟩, ⟨1⟩ s each
+1006	Spread meter ⟨0⟩ (⟨1⟩ m) into ⟨2⟩ cm
+1007	Take a little away from ⟨0⟩ cm
+1008	Fewer meters
+1009	More meters
+1010	Tap one big-unit card to spread it into small units of ⟨0⟩ cm. The shape changes but the total amount stays the same. Tap a small-unit card to take some away.
+1011	Small units split into ⟨0⟩, ⟨1⟩ cm each
+1012	Hands-on protractor
+1013	Angle between the two lines
+1014	Drag the blue line to change the angle
+1015	Move the orange dot
+1016	Make a right angle
+1017	↺ Problem angle
+1018	Obtuse: bigger than ⟨0⟩°. Look between the base line and the moving line.
+1019	✨ A right angle! Look between the base line and the moving line.
+1020	Acute: smaller than ⟨0⟩°. Look between the base line and the moving line.
+1021	Shape lab
+1022	Turn or flip the shape, or move its vertices
+1023	slid ⟨0⟩px · turned ⟨1⟩°
+1024	↻ Turn ⟨0⟩°
+1025	⇄ Flip left-right
+1026	→ Slide
+1027	Press the turn and flip buttons and watch how the shape's position and direction change.
+1028	Press the turn and flip buttons and watch how the shape's position and direction change. Compare what you just did with the shape in the problem.
+1029	slid ⟨0⟩px · turned ⟨1⟩° · flipped
+1030	Moving number line
+1031	Moving point on the number line
+1032	Move the point along the number line with your finger
+1033	Drag the blue point or move the slider. The light orange circle is the original number in the problem, ⟨0⟩.
+1034	Move the point
+1035	↺ Original position
+1036	Second fraction · tap to color
+1037	simplest form
+1038	Perimeter and area lab
+1039	Choose perimeter or area
+1040	▦ Area: fill the inside
+1041	▢ Perimeter: trace the outside
+1042	Fill the inside with ⟨0⟩ cm² squares
+1043	Each row has ⟨0⟩ squares and there are ⟨1⟩ rows. Tap the rows yourself.
+1044	rectangle ⟨0⟩ squares long and ⟨1⟩ squares wide
+1045	Row ⟨0⟩, ⟨2⟩ squares of ⟨1⟩ cm²
+1046	Drag the orange handle to change the rectangle's length and width
+1047	Drag to change the length and width
+1048	one square = ⟨0⟩ cm × ⟨1⟩ cm =
+1049	rows filled ⟨0⟩ / ⟨1⟩
+1050	⟨1⟩ rows of ⟨0⟩ = ⟨2⟩ squares
+1051	Tap the first row to start
+1052	 squares ×
+1053	Area is not the length of the border
+1054	but the number of ⟨0⟩ cm² squares inside
+1055	▶ Fill the next row
+1056	Show all
+1057	↺ Clear colors
+1058	Shorter
+1059	Longer
