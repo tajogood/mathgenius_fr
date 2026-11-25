@@ -26,17 +26,20 @@ function normalizeSiteUrl(raw) {
   u.pathname=u.pathname.replace(/\/+$/,'')+'/';
   return u.href;
 }
-// Cloudflare Pages automatically sets CF_PAGES, CF_PAGES_BRANCH and CF_PAGES_URL.
-// Keep production canonicals stable rather than pointing at an ephemeral deployment URL.
-// SITE_URL overrides this value when a purchased custom domain is ready.
+// 검색엔진에 알릴 대표 주소(canonical·og:url·sitemap·robots)는 빌드 위치와 상관없이 정식 도메인 하나로 통일한다.
+// GitHub Pages(tajogood.github.io/mathgenius_fr)와 Cloudflare(mathgenius-b0c.pages.dev) 사본은
+// 모두 www.math1000je.com 을 대표 주소로 가리켜 중복 문서로 분산되지 않게 한다.
+// - CANONICAL_URL: 대표 도메인을 바꿀 때만 지정
+// - Cloudflare 미리보기 브랜치(source 이외)는 미리보기 주소를 쓰고 noindex 처리
+// - SITE_URL은 과거 호환용(로컬 테스트 등)으로, CANONICAL_URL이 없고 PRODUCTION_SEO=0일 때만 쓴다
+const PRODUCTION_URL='https://www.math1000je.com/';
+const isCfPreview=process.env.CF_PAGES==='1'&&process.env.CF_PAGES_BRANCH&&process.env.CF_PAGES_BRANCH!=='source';
 const siteUrl=normalizeSiteUrl(
-  process.env.SITE_URL ||
-  (process.env.CF_PAGES === '1' ?
-    (process.env.CF_PAGES_BRANCH === 'source' ?
-      'https://mathgenius-b0c.pages.dev/' :
-      (process.env.CF_PAGES_URL || 'https://mathgenius-b0c.pages.dev/')) :
-    null)
+  process.env.CANONICAL_URL ||
+  (isCfPreview?(process.env.CF_PAGES_URL||null):
+    process.env.PRODUCTION_SEO==='0'?(process.env.SITE_URL||null):PRODUCTION_URL)
 );
+const buildDate=new Date().toISOString().slice(0,10);
 
 // The original Web Analytics token belongs to tajogood.github.io. Cloudflare
 // validates the hostname, so it must never be silently reused for pages.dev.
@@ -206,7 +209,7 @@ function pageHtml(page,body){
     '<!doctype html><html lang="ko"><head>',
     '<meta charset="UTF-8">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
-    '<meta name="robots" content="index,follow,max-image-preview:large">',
+    '<meta name="robots" content="'+(isCfPreview?'noindex,nofollow':'index,follow,max-image-preview:large')+'">',
     '<meta name="theme-color" content="#f7f8ff">',
     '<title>'+escapeHtml(page.title)+'</title>',
     metaTag('name','description',page.description),
@@ -334,6 +337,7 @@ function run(){
   }
   writeFileSync(indexPath,initial.replace(oldTrackerPattern,trackerTag)
     .replace('<!--SEO_HEAD-->',homepageTags())
+    .replace('content="index,follow,max-image-preview:large"',isCfPreview?'content="noindex,nofollow"':'content="index,follow,max-image-preview:large"')
     .replace('<!--SEO_STRUCTURED_DATA-->',ldJson(homeSchema())));
   for(const page of contents.pages)writeStaticPage(page,audienceBody(page));
   writeStaticPage(curriculumPage,curriculumBody());
@@ -342,11 +346,11 @@ function run(){
   for(let grade=1;grade<=3;grade++)writeStaticPage(middlePages[grade-1],middleGradeBody(grade));
   writeStaticPage(highOverview,highOverviewBody());
   highPages.forEach((page,i)=>writeStaticPage(page,highCourseBody(highCourses[i])));
-  const robots=['User-agent: *','Allow: /'];
+  const robots=isCfPreview?['User-agent: *','Disallow: /']:['User-agent: *','Allow: /'];
   if(siteUrl){
     const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n'+
       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+
-      routes.map(page=>'  <url><loc>'+escapeHtml(absolute(page.slug))+'</loc></url>').join('\n')+
+      routes.map(page=>'  <url><loc>'+escapeHtml(absolute(page.slug))+'</loc><lastmod>'+buildDate+'</lastmod></url>').join('\n')+
       '\n</urlset>\n';
     writeFileSync(join(outDir,'sitemap.xml'),sitemap);
     robots.push('Sitemap: '+new URL('sitemap.xml',siteUrl).href);

@@ -25,8 +25,6 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund --legacy-peer-deps
       - name: Build complete static site
-        env:
-          SITE_URL: https://tajogood.github.io/mathgenius_fr/
         run: npm run build
       - name: Validate all math exercises
         run: npm test
@@ -43,6 +41,9 @@ jobs:
           test -s dist/robots.txt
           test -f dist/.nojekyll
           grep -q '/mathgenius_fr/assets/' dist/index.html
+          grep -q 'rel="canonical" href="https://www.math1000je.com/"' dist/index.html
+          grep -q 'Sitemap: https://www.math1000je.com/sitemap.xml' dist/robots.txt
+          if grep -q 'github.io\|pages.dev' dist/sitemap.xml; then exit 1; fi
       - name: Publish tested build to staging and GitHub Pages main
         env:
           GH_TOKEN: ${{ github.token }}
@@ -64,9 +65,10 @@ jobs:
           SITE_URL: https://mathgenius-b0c.pages.dev/
         run: |
           npm run build
-          grep -q 'https://mathgenius-b0c.pages.dev/' dist/sitemap.xml
-          grep -q 'https://mathgenius-b0c.pages.dev/' dist/robots.txt
-          grep -q 'rel="canonical" href="https://mathgenius-b0c.pages.dev/"' dist/index.html
+          grep -q '<loc>https://www.math1000je.com/</loc>' dist/sitemap.xml
+          grep -q 'Sitemap: https://www.math1000je.com/sitemap.xml' dist/robots.txt
+          grep -q 'rel="canonical" href="https://www.math1000je.com/"' dist/index.html
+          if grep -q 'pages.dev' dist/sitemap.xml dist/robots.txt; then exit 1; fi
           grep -q '/assets/' dist/index.html
           if grep -q '/mathgenius_fr/assets/' dist/index.html; then exit 1; fi
           if grep -q 'd88a528d03094ff5894095a38b1792b8' dist/index.html; then exit 1; fi
