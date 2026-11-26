@@ -1,0 +1,190 @@
+280	Keep splitting ⟦0⟧ into <strong>primes</strong> that divide it evenly, growing branches. Stop when you reach a prime (green) that can't be split any further.
+281	Gather the scattered prime factors into one row. When the same prime is multiplied several times, group it as a <strong>power</strong> and write ⟦0⟧.
+282	Factor ⟦0⟧ and ⟦1⟧ into primes and find the <strong>common prime factors</strong>. Multiply only the shared ones for the greatest common factor; multiply each one once for the least common multiple.
+283	⟦0⟧ and ⟦1⟧ are the <strong>same distance, ⟦3⟧,</strong> from ⟦2⟧. The distance from ⟦4⟧ is called the absolute value, and ⟦5⟧.
+284	⟦0⟧: <strong>adding</strong> a negative moves you <strong>left</strong>. Going ⟦2⟧ spaces left from ⟦1⟧ gives ⟦3⟧.
+285	⟦0⟧: <strong>subtracting</strong> a negative is like moving <strong>the opposite way (right)</strong>. ⟦1⟧, so the answer is ⟦2⟧.
+286	⟦0⟧ is like <strong>flipping the number line around ⟦1⟧</strong>. Flip once and you get a negative; flip twice and it is positive again → (−)×(−) = (+)
+287	Show an unknown number as a <strong>box ⟦0⟧</strong>. With ⟦2⟧ of ⟦1⟧ and ⟦4⟧ of ⟦3⟧ you have ⟦5⟧, and leaving out the multiplication sign you write <strong>⟦6⟧</strong>.
+288	Putting a real number in for ⟦0⟧ is called <strong>substitution</strong>. Put in ⟦1⟧ and every box gets ⟦2⟧, so ⟦3⟧ <strong>⟦4⟧</strong>.
+289	Only <strong>like terms</strong>, grouped by the same letter, can be combined. ⟦0⟧, but ⟦1⟧ are different kinds and can't be simplified further.
+290	⟦0⟧ is like a <strong>balance scale</strong>. The left side⟦1⟧ ⟦2⟧ boxes ⟦3⟧ two) and the right side⟦4⟧ fourteen) weigh the same, so it balances.
+291	Take ⟦1⟧ of ⟦0⟧ off only the left side and the scale tips. Take ⟦2⟧ off <strong>both sides equally</strong> to balance it again → ⟦3⟧
+292	Split the right side's ⟦0⟧ <strong>equally into ⟦1⟧ groups</strong> and each box matches ⟦2⟧. Divide both sides by ⟦3⟧ to get ⟦4⟧
+293	The point ⟦0⟧ is where you get by moving from the origin <strong>⟦2⟧ along the ⟦1⟧-axis</strong>, then <strong>⟦4⟧ along the ⟦3⟧-axis</strong>. Change the order and you get a different point.
+294	The two axes split the plane into four parts. Starting at the top right and going <strong>counterclockwise</strong> they are quadrants ⟦0⟧, told apart by the signs of the coordinates.
+295	Points on an axis, like ⟦0⟧ or ⟦1⟧, <strong>are not in any quadrant.</strong> The same goes for the origin ⟦2⟧.
+296	In direct variation ⟦0⟧, when it becomes ⟦1⟧ or ⟦2⟧ times as big, ⟦3⟧ also becomes <strong>⟦4⟧ or ⟦5⟧ times</strong> as big. Joining the points makes <strong>a straight line through the origin</strong>.
+297	Inverse variation ⟦0⟧: a rectangle with width ⟦1⟧ and height ⟦2⟧ <strong>always has area ⟦3⟧</strong>. When ⟦4⟧ becomes ⟦5⟧ times as big, ⟦6⟧ becomes <strong>half</strong>, and joining the corners makes a curve.
+298	At a glance: direct variation is <strong>a straight line through the origin</strong>; inverse variation is <strong>a curve that gets closer and closer to the axes</strong> (a hyperbola).
+299	Turn a ray around a point on a line. The two angles ⟦0⟧ always change together, but <strong>their sum is always ⟦1⟧</strong>.
+300	When two lines cross, opposite <strong>vertical angles</strong> form. <strong>Turn</strong> the top angle <strong>⟦0⟧</strong> around the crossing point and it lands exactly on the bottom angle.
+301	When a line crosses two parallel lines, <strong>sliding</strong> the top angle along the line lands on its <strong>corresponding angle</strong>, and <strong>turning it ⟦0⟧</strong> lands on its <strong>alternate angle</strong>. That is why they are equal.
+302	Drawing diagonals from one vertex (red) of a pentagon splits it into <strong>⟦0⟧ triangles</strong>. A triangle's angles add up to ⟦1⟧, so ⟦2⟧
+303	A hexagon splits into <strong>⟦0⟧</strong> triangles → a ⟦1⟧-sided polygon always splits into ⟦2⟧ triangles, so <strong>its interior angles add up to ⟦3⟧</strong>
+304	Bring the <strong>exterior angle</strong> at each vertex together at one point. The five pieces fill <strong>a full turn⟦0⟧</strong> with no gaps. Whatever the number of sides, the exterior angles add up to ⟦1⟧.
+305	The central angle of a whole circle is ⟦0⟧. A sector with central angle ⟦1⟧ is <strong>⟦2⟧ of the circle</strong>, so its area is ⟦3⟧
+306	Arc length works the same way. The arc is <strong>the central-angle fraction⟦1⟧</strong> of the unrolled circumference ⟦0⟧.
+307	If the central angle becomes <strong>⟦0⟧ times</strong> as big, the arc length and area also become <strong>⟦1⟧ times</strong> as big. In the same circle, both are directly proportional to the central angle.
+308	A cylinder is a solid made by <strong>stacking</strong> its circular base <strong>up to its height</strong>. So volume = base area × height = <strong>⟦0⟧</strong>
+309	Make only the height <strong>⟦0⟧ times</strong> as tall and there are ⟦1⟧ times as many layers → the volume is also <strong>⟦2⟧ times</strong> as big.
+310	Make the radius <strong>⟦0⟧ times</strong> as long and, since ⟦2⟧ is multiplied twice in the base area ⟦1⟧, it becomes <strong>⟦3⟧ times</strong> as big, and so does the volume (⟦4⟧ times). ⟦5⟧ fits ⟦6⟧ squares)
+311	Sort ⟦0⟧ math scores into <strong>classes (intervals)</strong>. The number of data values in each class is its <strong>frequency</strong>.
+312	Draw bars as tall as the frequencies and you have a <strong>histogram</strong>. Bar height = frequency, and all the frequencies add up to the total number of data values, ⟦0⟧.
+313	Joining the <strong>midpoints</strong> of the bar tops makes a frequency polygon. <strong>Relative frequency</strong> = that class's frequency ÷ total frequency (e.g. ⟦0⟧
+314	Keep dividing ⟦0⟧ and <strong>the remainder comes back to ⟦1⟧</strong>. The same calculation repeats, so ⟦2⟧ repeats forever in the quotient too → ⟦3⟧
+315	Find the <strong>repeating block</strong>, as in ⟦0⟧. Put dots over the first and last digits of the block and write it simply as ⟦1⟧̇⟦2⟧̇.
+316	Multiplying ⟦0⟧ by ⟦1⟧ gives ⟦2⟧. <strong>Subtract the two and the endless tail disappears</strong>: ⟦3⟧, that is, ⟦4⟧
+317	⟦0⟧ is ⟦1⟧ multiplied ⟦2⟧ times joined to it multiplied ⟦3⟧ times. In all, <strong>⟦4⟧ is multiplied ⟦5⟧ times</strong>, so ⟦6⟧. You <strong>add</strong> the exponents.
+318	⟦0⟧ is the group ⟦1⟧ multiplied <strong>⟦2⟧ times</strong>. ⟦5⟧ groups of ⟦4⟧ copies of ⟦3⟧ → ⟦6⟧ copies, so ⟦7⟧. You <strong>multiply</strong> the exponents.
+319	Written as a fraction, ⟦0⟧ lets you <strong>cancel ⟦2⟧ at a time</strong> of ⟦1⟧ on top and bottom. ⟦4⟧ copies of ⟦3⟧ are left, so ⟦5⟧. You <strong>subtract</strong> the exponents.
+320	The solution of an inequality is a <strong>range</strong>. ⟦0⟧ means every number bigger than ⟦1⟧. ⟦2⟧ is not included, so it gets an <strong>open dot ○</strong>; ⟦3⟧ includes ⟦4⟧, so it gets a <strong>filled dot ●</strong>
+321	<strong>Multiply</strong> the two numbers in ⟦0⟧ <strong>by ⟦1⟧</strong> and they flip around ⟦2⟧ on the number line to become ⟦3⟧ and ⟦4⟧. Now ⟦5⟧, so <strong>the inequality sign flips.</strong>
+322	Solve inequalities like equations, but flip the sign <strong>only when you divide by a negative number</strong>.
+323	The solutions of ⟦0⟧ form one line and the solutions of ⟦1⟧ form another. <strong>The point where the two lines meet, ⟦2⟧,</strong> satisfies both equations at once.
+324	<strong>Elimination</strong>: adding the two equations cancels ⟦0⟧ and ⟦1⟧, giving ⟦2⟧ → ⟦3⟧. Substitute it to get ⟦4⟧
+325	<strong>Substitution</strong>: rewrite ⟦0⟧ as ⟦1⟧ and put the whole thing in place of ⟦2⟧ in the first equation. Then you get a linear equation with only ⟦3⟧ left.
+326	The graph of ⟦0⟧ starts at <strong>⟦2⟧</strong> on the ⟦1⟧-axis. Each time ⟦3⟧ increases by ⟦4⟧, ⟦5⟧ goes up by <strong>⟦6⟧</strong>; join the steps and you get a straight line.
+327	Changing the <strong>slope ⟦0⟧</strong> <strong>turns</strong> the line around the ⟦1⟧-intercept. The bigger ⟦2⟧ is, the steeper it gets; if ⟦3⟧ is negative, it goes down to the right.
+328	Changing the <strong>⟦0⟧-intercept ⟦1⟧</strong> keeps the slope the same and <strong>shifts</strong> the line up or down.
+329	Think of each side of ⟦0⟧ as a function ⟦1⟧: the <strong>⟦2⟧-coordinate where the two graphs meet</strong> is the solution of the equation, ⟦3⟧.
+330	Plot every ⟦1⟧ that satisfies the linear equation ⟦0⟧ and you get a <strong>straight line</strong>. Solving for ⟦2⟧ gives ⟦3⟧, the same as the graph of a linear function.
+331	If the two lines are <strong>parallel</strong> they never meet, so there is no solution; if they <strong>overlap</strong> completely, every point is an intersection, so there are infinitely many solutions.
+332	<strong>Fold</strong> an isosceles triangle in half from the vertex angle to the midpoint of the base. The halves match exactly, so <strong>the two base angles are equal</strong>, and the fold line is perpendicular to the base.
+333	The <strong>perpendicular bisectors</strong> of the three sides meet at one point. This point ⟦0⟧<strong>circumcenter</strong>) is the same distance from all three vertices, so you can draw a circle centered at ⟦1⟧ through all three.
+334	The three <strong>angle bisectors</strong> meet at one point ⟦0⟧<strong>incenter</strong>). ⟦1⟧ is the same distance from all three sides, so you can draw a circle touching all three sides (the incircle).
+335	A parallelogram has <strong>two pairs of opposite sides, each parallel</strong>. So opposite sides are equal in length and opposite angles are equal.
+336	Draw the diagonals and <strong>turn</strong> the parallelogram <strong>⟦0⟧</strong> around where they cross: it matches its original shape exactly. So <strong>the two diagonals bisect each other</strong>.
+337	Add conditions to a parallelogram and you get special quadrilaterals. A <strong>rectangle</strong> has equal diagonals, a <strong>rhombus</strong> has perpendicular diagonals, and a <strong>square</strong> has both.
+338	Stretch the distance from point ⟦0⟧ to each vertex by the same <strong>⟦1⟧ times</strong> and you get a <strong>similar figure</strong>: the same shape, a different size. Ratio of corresponding sides = similarity ratio ⟦2⟧
+339	If the similarity ratio is ⟦0⟧, both width and height grow, so the area ratio is <strong>⟦1⟧</strong>. Count the squares of the same size.
+340	For solids, length, width and height all grow, so the volume ratio is <strong>⟦0⟧</strong>.
+341	Build squares on the three sides of a right triangle. The areas of the squares on the two shorter sides, <strong>⟦0⟧</strong>, equal the area of the square on the hypotenuse, <strong>⟦1⟧</strong>.
+342	Place ⟦0⟧ identical right triangles inside a big square of the same size. <strong>Just moving the triangles</strong> doesn't change the leftover area, so <strong>⟦1⟧</strong>.
+343	Draw the ways to wear ⟦0⟧ shirts and ⟦1⟧ pants as a <strong>tree diagram</strong>. Each shirt branches into ⟦2⟧ pants → <strong>⟦3⟧ ways</strong> (multiplication rule)
+344	Line up three people ⟦0⟧. The first spot can be any of ⟦1⟧, the second any of the remaining ⟦2⟧, the third ⟦3⟧ → <strong>⟦4⟧ ways</strong>
+345	Choosing one of ⟦0⟧ bus routes <strong>or</strong> ⟦1⟧ subway lines: the two can't happen at once, so you <strong>add</strong>: ⟦2⟧ ways (addition rule)
+346	A bag has ⟦0⟧ red marbles and ⟦1⟧ blue marbles. When you draw one, every marble is equally likely, so the probability of red = <strong>⟦2⟧</strong>
+347	When you actually draw many times, the results jump around at first, but <strong>the more trials</strong> you do, the closer the share of red gets to <strong>⟦0⟧</strong>.
+348	Either you draw red or you don't: one of them always happens. So <strong>⟦0⟧red⟦1⟧not red⟦2⟧</strong>.
+349	A square with area ⟦0⟧ has side ⟦1⟧; a square with area ⟦2⟧ has a side that squares to ⟦3⟧: <strong>⟦4⟧ ≈ ⟦5⟧</strong>. A square root finds "area → side."
+350	The diagonal of a square with side ⟦0⟧ is ⟦1⟧ by the Pythagorean theorem. <strong>Swing</strong> this diagonal <strong>like a compass</strong> down onto the number line to mark exactly where ⟦2⟧ is.
+351	There are <strong>two</strong> numbers that square to ⟦0⟧: ⟦1⟧ and ⟦2⟧. Write the positive one as ⟦3⟧ and the negative one as ⟦4⟧.
+352	Put ⟦1⟧ small squares of area ⟦0⟧ together as ⟦2⟧ and you get a big square of area ⟦3⟧. Its side is ⟦5⟧ copies of ⟦4⟧ → <strong>⟦6⟧</strong>
+353	If the numbers under the radicals are the same, group them like letters: ⟦0⟧ <strong>⟦1⟧</strong>. But ⟦2⟧ are different kinds, so it is <strong>not</strong> ⟦3⟧.
+354	If the denominator has ⟦0⟧, multiply the top and bottom by ⟦1⟧. ⟦2⟧, so <strong>the denominator becomes rational</strong> (rationalizing the denominator).
+355	Think of ⟦0⟧ as the area of a rectangle with width ⟦1⟧ and height ⟦2⟧. Adding all four pieces <strong>⟦3⟧</strong> gives ⟦4⟧
+356	⟦0⟧ is a square with side ⟦1⟧. ⟦2⟧ and <strong>⟦4⟧ copies of the same rectangle ⟦3⟧</strong> → ⟦5⟧
+357	Cut the ⟦1⟧ corner out of the ⟦0⟧ square, then <strong>turn the leftover bottom piece and attach it to the side</strong>: a rectangle ⟦2⟧ wide and ⟦3⟧ tall → ⟦4⟧
+358	Fit the pieces of ⟦0⟧ ⟦1⟧ pieces, ⟦3⟧ bars of ⟦2⟧, ⟦5⟧ squares of ⟦4⟧) into a <strong>rectangle with no gaps</strong>. Width ⟦6⟧, height ⟦7⟧ → ⟦8⟧
+359	If ⟦0⟧, then <strong>⟦1⟧</strong>, <strong>⟦2⟧</strong>. Check each pair whose product is ⟦3⟧.
+360	<strong>Pull out</strong> the factor every term shares. Both terms of ⟦0⟧ have ⟦1⟧, so ⟦2⟧
+361	Factoring ⟦0⟧ gives ⟦1⟧. <strong>If a product is ⟦2⟧, one factor must be ⟦3⟧</strong>, so ⟦4⟧ or ⟦5⟧
+362	On the graph, the ⟦3⟧-coordinates of the <strong>points where</strong> ⟦0⟧ <strong>meets the ⟦1⟧-axis</strong>⟦2⟧ are exactly the roots ⟦4⟧ and ⟦5⟧.
+363	<strong>Completing the square</strong>: in ⟦0⟧, cut the ⟦1⟧ bar in half and attach the halves to two sides of the square; fill just the corner <strong>⟦2⟧</strong> and ⟦3⟧ is complete.
+364	The graph of ⟦0⟧ is a <strong>parabola</strong> starting at the vertex ⟦1⟧ and rising on both sides. Fold along the ⟦2⟧-axis and the two sides match exactly (axis of symmetry ⟦3⟧.
+365	The bigger the absolute value of <strong>⟦0⟧</strong>, the narrower the parabola; the smaller, the wider. If ⟦1⟧ is <strong>negative</strong>, it flips upside down.
+366	⟦0⟧ is ⟦1⟧ shifted <strong>⟦2⟧ right and ⟦3⟧ up</strong>. The vertex moves from ⟦4⟧ → <strong>⟦5⟧</strong>.
+367	Right triangles with the same angle ⟦0⟧ are all <strong>similar</strong>, whatever their size. So (height ÷ hypotenuse) is <strong>always the same</strong> regardless of size: this ratio is a trigonometric ratio.
+368	Name the sides from angle ⟦0⟧: the <strong>hypotenuse</strong> (the longest side⟦1⟧, the <strong>opposite side</strong> (height⟦2⟧, and the <strong>adjacent side</strong> (base⟦3⟧ are ratios of two of these sides.
+369	Halving an equilateral triangle (side ⟦0⟧ makes a ⟦1⟧ triangle. Hypotenuse ⟦2⟧, base ⟦3⟧, height ⟦4⟧, so <strong>⟦5⟧</strong>, ⟦6⟧
+370	An <strong>inscribed angle</strong> on the same arc ⟦0⟧ stays the same wherever you move point ⟦1⟧ on the circle, and it is <strong>half the central angle</strong> ⟦2⟧ → ⟦3⟧.
+371	If the arc is a semicircle, the central angle is ⟦0⟧, so <strong>an inscribed angle facing a diameter is always ⟦1⟧</strong>. Wherever point ⟦2⟧ is, it is a right angle.
+372	A line that just touches the circle at one point is a <strong>tangent</strong>. The tangent is <strong>always perpendicular to the radius</strong> through that point.
+373	The mean of the data ⟦0⟧ is ⟦1⟧. The mean is the <strong>balance point</strong> on the number line, and each value − mean = its <strong>deviation</strong>. Deviations on the left and right cancel, so they always add up to ⟦2⟧.
+374	The deviations always add up to ⟦0⟧, so they can't show spread. <strong>Squaring</strong> the deviations (square areas) and averaging gives the <strong>variance</strong>, and its square root is the <strong>standard deviation</strong>.
+375	Even with the same mean, the spread can differ. If the data cluster near the mean, the standard deviation is small; if they scatter far, it is large.
+376	Put ⟦0⟧ data values in order and find the <strong>very middle value (median ⟦1⟧</strong>. The middle of the lower half is <strong>⟦2⟧</strong> and the middle of the upper half is <strong>⟦3⟧</strong>.
+377	Draw a <strong>box plot</strong> from five values (minimum ⟦0⟧, median, ⟦1⟧, maximum ⟦2⟧. The box holds the middle ⟦3⟧ of the data, and the box length ⟦4⟧ is the <strong>interquartile range</strong>.
+378	Overlap the box plots of two classes to compare them at a glance. Compare where the medians are and how long the boxes are (the spread).
+379	Taller people ⟦0⟧ generally tend to weigh more ⟦1⟧. When the points cluster <strong>up to the right</strong>, it is a <strong>positive correlation</strong>.
+380	The higher the temperature ⟦0⟧, the lower heating costs ⟦1⟧ generally are. When the points cluster <strong>down to the right</strong>, it is a <strong>negative correlation</strong>.
+381	When points are <strong>scattered evenly</strong>, like height and math score, there is no correlation. And even when there is a correlation, <strong>it does not mean cause and effect.</strong>
+382	prime
+383	composite
+384	⟦0⟧ multiplied ⟦1⟧ times → ⟦2⟧
+385	greatest common factor (shared only)
+386	least common multiple (each once)
+387	same-color circles = prime factors in both numbers
+388	distance ⟦0⟧
+389	⟦0⟧ : ⟦1⟧ spaces left
+390	⟦0⟧ → ⟦1⟧ spaces right
+391	flip around ⟦0⟧
+392	flip again
+393	same signs +, different signs −
+394	⟦1⟧ of ⟦0⟧
+395	⟦1⟧ of ⟦0⟧
+396	⟦0⟧as is)
+397	both sides weigh the same = equation
+398	tipped!
+399	one ⟦0⟧ ↔ ⟦1⟧
+400	check: ⟦0⟧ ✓
+401	right ⟦0⟧
+402	up ⟦0⟧
+403	⟦0⟧-coordinate, ⟦1⟧-coordinate)
+404	origin ⟦0⟧
+405	points on an axis
+406	→ not in a quadrant
+407	⟦0⟧constant)
+408	width × height ⟦0⟧
+409	direct variation
+410	inverse variation
+411	vertical angles are equal: ⟦0⟧
+412	corresponding angles: slide
+413	alternate angles: turn ⟦0⟧
+414	⟦0⟧-sided polygon → ⟦1⟧ triangles
+415	exterior angles add to ⟦0⟧
+416	together they make a full turn!
+417	central angle ⟦0⟧ of
+418	arc
+419	circumference ⟦0⟧
+420	arc ⟦0⟧
+421	arc length ⟦0⟧
+422	arc and area ⟦0⟧ too
+423	base area ⟦0⟧
+424	volume
+425	= base area × height
+426	volume ⟦0⟧
+427	⟦0⟧ → base area and volume ⟦1⟧
+428	(points)
+429	relative frequency ⟦0⟧
+430	sum of relative frequencies ⟦0⟧
+431	… remainder
+432	quotient
+433	the remainder repeats
+434	→ so does the quotient
+435	⟦0⟧repeating decimal)
+436	repeating block
+437	dots over the first and last digits
+438	the tails are identical
+439	⟦0⟧ copies
+440	○ boundary not included
+441	● boundary included
+442	Multiplying or dividing by a negative flips the inequality sign!
+443	both sides ⟦0⟧
+444	both sides ⟦0⟧positive → no change)
+445	both sides ⟦0⟧ → sign flips
+446	intersection = common solution
+447	eliminate ⟦0⟧ and ⟦1⟧
+448	⟦0⟧-intercept ⟦1⟧
+449	slope ⟦0⟧ change ⟦1⟧ change)
+450	slope =
+451	change in ⟦0⟧
+452	⟦0⟧steep)
+453	⟦0⟧going down)
+454	pivot: ⟦0⟧-intercept ⟦1⟧
+455	slope ⟦0⟧ stays the same
+456	the ⟦1⟧ with the same ⟦0⟧-value
+457	parallel → no solution
+458	the same line → infinitely many solutions
+459	base angles are equal
+460	fold line ⊥ base
+461	same distance to all three sides
+462	opposite sides equal · opposite angles equal
+463	⟦0⟧ moves to ⟦1⟧!
+464	diagonals equal in length
+465	diagonals ⊥
+466	equal + perpendicular
+467	similarity ratio
+468	angles stay the same
+469	every side is ⟦0⟧

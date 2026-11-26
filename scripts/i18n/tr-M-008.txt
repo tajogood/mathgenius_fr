@@ -1,0 +1,181 @@
+1420	⟦1⟧ of ⟦0⟧
+1421	how the truth sets ⟦0⟧ and ⟦1⟧ contain each other
+1422	What is the contrapositive of "if ⟦0⟧, then ⟦1⟧
+1423	⟦0⟧"?
+1424	if ⟦0⟧, then ⟦1⟧
+1425	⟦0⟧
+1426	The contrapositive of "if ⟦0⟧, then ⟦1⟧" is "if ⟦2⟧, then ⟦3⟧." The proposition is true, so the contrapositive is true too. (The converse "if ⟦4⟧
+1427	⟦0⟧, then ⟦1⟧" is false, with the counterexample ⟦2⟧.)
+1428	For a one-to-one function ⟦0⟧, solve ⟦1⟧ for ⟦2⟧ and swap ⟦3⟧ and ⟦4⟧ to get the inverse ⟦5⟧
+1429	⟦0⟧ and ⟦1⟧
+1430	The graphs of ⟦0⟧ are symmetric about the line ⟦1⟧.
+1431	slope ⟦0⟧ excluded)
+1432	graphs of a linear function and its inverse
+1433	's graph is a hyperbola with the ⟦0⟧-axis and ⟦1⟧-axis as asymptotes.
+1434	⟦0⟧ is ⟦1⟧
+1435	⟦0⟧ excluded)
+1436	rational function, asymptotes ⟦0⟧
+1437	rational function ⟦0⟧
+1438	What are the equations of the asymptotes of ⟦0⟧?
+1439	starting point ⟦0⟧
+1440	value of ⟦0⟧
+1441	radical function, starting point ⟦0⟧
+1442	starting point
+1443	}.
+1444	Even with rational exponents, ⟦0⟧
+1445	base ⟦0⟧
+1446	exponent numerator ⟦0⟧
+1447	exponent denominator ⟦0⟧
+1448	point on ⟦0⟧
+1449	exponent
+1450	)ⁿ⟦0⟧.
+1451	⟦0⟧. ⟦1⟧
+1452	argument ⟦0⟧
+1453	the point on the graph of ⟦0⟧ where ⟦1⟧
+1454	exponential and logarithmic functions with base ⟦0⟧
+1455	⟦0⟧satisfies the argument condition ⟦1⟧)
+1456	⟦0⟧ radians. For example, ⟦1⟧
+1457	For the point ⟦0⟧ on the unit circle, ⟦1⟧
+1458	angle ⟦0⟧° on the unit circle
+1459	⟦0⟧ has maximum ⟦1⟧, minimum ⟦2⟧, and period
+1460	The graph of ⟦0⟧ is the same as ⟦1⟧ translated along the ⟦2⟧-axis by −
+1461	.
+1462	⟦0⟧amplitude)
+1463	⟦0⟧sets the period)
+1464	⟦0⟧shifts up or down)
+1465	function
+1466	trigonometric graph, period ⟦0⟧
+1467	for ⟦0⟧ to change by ⟦1⟧, ⟦2⟧ only needs to change by
+1468	.
+1469	The period of ⟦0⟧ is
+1470	Law of sines:
+1471	⟦0⟧ is the radius of the circumscribed circle)
+1472	The area of the triangle is
+1473	side ⟦0⟧
+1474	included angle ⟦0⟧
+1475	triangle with two sides ⟦0⟧ and included angle ⟦1⟧°
+1476	area =
+1477	law of cosines ⟦0⟧
+1478	law of sines
+1479	from ⟦0⟧, ⟦1⟧, so ⟦2⟧
+1480	The general term of the arithmetic sequence with first term ⟦0⟧ and common difference ⟦1⟧ is ⟦2⟧
+1481	The sum from the first term to term ⟦0⟧ is ⟦1⟧
+1482	⟦0⟧ is the last term).
+1483	first term ⟦0⟧
+1484	common difference ⟦0⟧
+1485	bar graph of the first ⟦0⟧ terms of an arithmetic sequence
+1486	The general term of the geometric sequence with first term ⟦0⟧ and common ratio ⟦1⟧ is ⟦2⟧
+1487	If the three numbers ⟦0⟧ form a geometric sequence in this order, then ⟦1⟧
+1488	⟦0⟧geometric mean).
+1489	common ratio ⟦0⟧
+1490	bar graph of the first ⟦0⟧ terms of a geometric sequence
+1491	sum from ⟦0⟧ to ⟦1⟧
+1492	picture showing the sum from ⟦0⟧ to ⟦1⟧ as two staircases
+1493	height ⟦0⟧
+1494	Two identical staircases make a ⟦0⟧ rectangle with area ⟦1⟧, and the sum is half of it. Note:
+1495	number of dominoes
+1496	knock over the first domino
+1497	don't knock it over
+1498	connects for every ⟦0⟧
+1499	breaks after ⟦0⟧
+1500	⟦1⟧ of ⟦0⟧ dominoes fell
+1501	by mathematical induction, ⟦0⟧
+1502	When proving ⟦0⟧, assuming it holds for ⟦1⟧, what term must you add to both sides to show it for ⟦2⟧?
+1503	limit ⟦0⟧→⟦1⟧
+1504	⟦0⟧ means that as ⟦1⟧ gets arbitrarily close to ⟦2⟧, ⟦3⟧ gets arbitrarily close to ⟦4⟧.
+1505	 form: factor, cancel the common factor, then substitute.
+1506	value approached ⟦0⟧
+1507	line graph with a hole at ⟦0⟧
+1508	As ⟦0⟧ gets closer to ⟦1⟧, both values get closer to ⟦2⟧.
+1509	dividing the top and bottom by ⟦0⟧
+1510	For ⟦0⟧ to be continuous at ⟦1⟧, ⟦2⟧ must be defined,
+1511	⟦0⟧ must exist, and that value must equal ⟦1⟧.
+1512	constant ⟦0⟧ in the left piece
+1513	piecewise function, discontinuous at ⟦0⟧
+1514	function ⟦0⟧
+1515	If ⟦0⟧ is continuous at ⟦1⟧, what is the value of ⟦2⟧?
+1516	It must be that ⟦0⟧, so ⟦1⟧
+1517	When ⟦0⟧ changes from ⟦1⟧ to ⟦2⟧, the average rate of change is
+1518	, the average rate of change is ⟦0⟧, so ⟦1⟧.
+1519	point of tangency ⟦0⟧
+1520	parabola with a secant and a tangent
+1521	when
+1522	when ⟦0⟧
+1523	, (constant ⟦0⟧.
+1524	coefficient of ⟦0⟧: ⟦1⟧
+1525	graphs of a cubic function and its derivative
+1526	⟦0⟧-coordinate of the point of tangency ⟦1⟧
+1527	cubic function and a tangent
+1528	curve ⟦0⟧
+1529	 , what is the equation of the tangent at the point ⟦0⟧?
+1530	, so tidying up with slope ⟦0⟧ gives ⟦1⟧
+1531	cubic function with a local max and min
+1532	local max
+1533	local min
+1534	constant of integration ⟦0⟧
+1535	family of antiderivative curves
+1536	integral from ⟦0⟧ to ⟦1⟧
+1537	upper limit ⟦0⟧
+1538	number of rectangles ⟦0⟧
+1539	⟦1⟧ rectangles under ⟦0⟧
+1540	 is odd, so its integral over a symmetric interval is ⟦0⟧, and the definite integral of the constant ⟦1⟧ is ⟦2⟧
+1541	The area between the two curves ⟦0⟧ is
+1542	Moving with velocity ⟦0⟧, the change in position from time ⟦1⟧ to ⟦2⟧ is
+1543	line slope ⟦0⟧
+1544	area between a parabola and a line
+1545	What is the area enclosed by ⟦0⟧ and the ⟦1⟧-axis?
+1546	They meet at ⟦0⟧ and the area is
+1547	The number of ways to arrange ⟦1⟧ of ⟦0⟧ different items, with repeats allowed, is
+1548	The number of ways to arrange ⟦0⟧ items with ⟦1⟧, ⟦2⟧ and ⟦3⟧ identical ones is
+1549	⟦1⟧! over ⟦0⟧!
+1550	kinds to choose from ⟦0⟧
+1551	number of slots ⟦0⟧
+1552	⟦0⟧ to the power ⟦1⟧
+1553	filling ⟦0⟧ slots with repeats allowed
+1554	The number of ways to choose ⟦1⟧ of ⟦0⟧ different kinds, with repeats allowed, is
+1555	The number of non-negative integer solutions of ⟦0⟧ is
+1556	kinds ⟦0⟧
+1557	⟦0⟧ stars and ⟦1⟧ bars
+1558	kind #⟦0⟧: ⟦1⟧
+1559	one way to line up ⟦0⟧ stars and ⟦1⟧ bars
+1560	Pascal's triangle row ⟦0⟧, #⟦1⟧
+1561	term
+1562	coefficient
+1563	 expansion, what is the coefficient of ⟦0⟧?
+1564	general term
+1565	from ⟦0⟧:
+1566	complement: ⟦0⟧
+1567	⟦0⟧. "At least one" is easiest to find with the complement.
+1568	probability Venn diagram
+1569	outside: ⟦0⟧
+1570	For two events ⟦0⟧, ⟦1⟧
+1571	 , what is ⟦0⟧∪⟦1⟧?
+1572	The probability of the complement (all tails) is
+1573	⟦1⟧∩⟦2⟧ over ⟦0⟧
+1574	(given ⟦0⟧
+1575	conditional probability area model
+1576	⟦0⟧blue
+1577	Of the ⟦0⟧ students with glasses, ⟦1⟧ are girls, so
+1578	⟦0⟧glasses|girl)=
+1579	number of trials ⟦0⟧
+1580	success probability ⟦0⟧
+1581	probability of ⟦0⟧ successes
+1582	If the random variable ⟦0⟧ follows the binomial distribution ⟦1⟧,
+1583	), what is ⟦0⟧?
+1584	normal distribution ⟦0⟧
+1585	)'s graph is a bell shape symmetric about ⟦0⟧, and the bigger ⟦1⟧ is, the wider it spreads.
+1586	 standardizes it, and ⟦0⟧ follows the standard normal distribution ⟦1⟧.
+1587	standard deviation ⟦0⟧
+1588	⟦1⟧ of cutoff ⟦0⟧
+1589	normal curve ⟦0⟧
+1590	 standardizes it, so you can use the same standard normal table regardless of ⟦0⟧.
+1591	If the random variable ⟦0⟧ follows the normal distribution ⟦1⟧
+1592	), what is the value of ⟦0⟧? (Given ⟦1⟧
+1593	Drawing a sample of size ⟦2⟧ from a population with mean ⟦0⟧ and standard deviation ⟦1⟧ gives ⟦3⟧̄⟦4⟧̄)=
+1594	⟦0⟧ confidence interval for the population mean: ⟦1⟧̄⟦2⟧
+1595	sample size ⟦0⟧
+1596	population standard deviation ⟦0⟧
+1597	confidence level
+1598	confidence interval from ⟦0⟧ to ⟦1⟧
+1599	interval length ⟦0⟧
+1600	≈⟦0⟧; making it ⟦1⟧ times bigger halves it.

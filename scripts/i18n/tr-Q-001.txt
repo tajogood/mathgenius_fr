@@ -1,0 +1,10 @@
+0	Split ⟦0⟧ dots into equal groups. Which primes divide it evenly?
+1	all real numbers
+2	It is the range of ⟦1⟧ where the parabola is above (or touching) the ⟦0⟧-axis.
+3	It is the range of ⟦2⟧ where the parabola is above ⟦1⟧or touching) the ⟦0⟧-axis.
+4	solution of the quadratic inequality: all real numbers
+5	The expression under the radical must be at least ⟦0⟧, so the graph starts at the point ⟦1⟧ and extends to the left.
+6	✕ broken
+7	only ⟦0⟧ fell
+8	Without a starting point (⟦0⟧), nothing gets going.
+9	Without a starting point ⟦0⟧, nothing gets going.

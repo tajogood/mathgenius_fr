@@ -1,0 +1,33 @@
+0	What is the value of ⟦1⟧ when ⟦0⟧?
+1	What is ⟦0⟧?
+2	The period of ⟦0⟧ is ⟦1⟧, so ⟦2⟧
+3	From the law of sines ⟦0⟧, ⟦1⟧, so ⟦2⟧
+4	If the function ⟦0⟧ is continuous at ⟦1⟧, what is the value of ⟦2⟧?
+5	If ⟦0⟧, what is the value of ⟦1⟧→⟦2⟧?
+6	What is the equation of the tangent to the curve ⟦0⟧ at the point ⟦1⟧?
+7	The probability of the complement (all tails) is ⟦0⟧, so ⟦1⟧
+8	The number of ways to choose ⟦1⟧ of ⟦0⟧ different items and line them up is ⟦2⟧.
+9	The number of ways to choose ⟦0⟧ without regard to order is ⟦1⟧.
+10	⟦0⟧ has maximum ⟦1⟧, minimum ⟦2⟧, and period ⟦3⟧.
+11	Law of sines: ⟦0⟧ is the radius of the circumscribed circle)
+12	The area of the triangle is ⟦0⟧.
+13	The area between the two curves ⟦0⟧ is ⟦1⟧.
+14	Moving with velocity ⟦0⟧, the change in position from time ⟦1⟧ to ⟦2⟧ is ⟦3⟧.
+15	The number of ways to arrange ⟦1⟧ of ⟦0⟧ different items, with repeats allowed, is ⟦2⟧.
+16	The number of ways to arrange ⟦0⟧ items with ⟦1⟧, ⟦2⟧ and ⟦3⟧ identical ones is ⟦4⟧.
+17	The number of ways to choose ⟦1⟧ of ⟦0⟧ different kinds, with repeats allowed, is ⟦2⟧.
+18	The number of non-negative integer solutions of ⟦0⟧ is ⟦1⟧.
+19	adjacent angle ⟦0⟧
+20	coefficient of ⟦0⟧: ⟦1⟧ constant term ⟦2⟧
+21	central angle ⟦0⟧ → inscribed angle ⟦1⟧
+22	median ⟦0⟧ IQR ⟦1⟧
+23	⟦1⟧ term of ⟦0⟧
+24	circle radius ⟦0⟧
+25	radius ⟦0⟧ central angle ⟦1⟧
+26	.
+27	— what is its value?
+28	solution of the quadratic inequality ⟦0⟧
+29	, so ⟦0⟧
+30	width ⟦0⟧
+31	⟦0⟧ of
+32	binomial distribution ⟦0⟧

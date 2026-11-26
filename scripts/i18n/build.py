@@ -10,7 +10,7 @@ for f in sorted(glob.glob('scripts/i18n/tr-*.txt')):
         i,en=(line.split('\t',1)+[''])[:2]
         k=keys[int(i)][0]
         # every slot in the Korean key must appear in the English
-        ks=set(re.findall(r'⟨\d+⟩',k)); es=set(re.findall(r'⟨\d+⟩',en))
+        ks=set(re.findall(r'[⟨⟦]\d+[⟩⟧]',k)); es=set(re.findall(r'[⟨⟦]\d+[⟩⟧]',en))
         if es-ks: print('EXTRA SLOT',i,k,'=>',en); sys.exit(1)
         if ks-es: print('missing slot',i,sorted(ks-es),k[:60])
         if re.search('[가-힣]',en): print('HANGUL LEFT',i,en[:80])

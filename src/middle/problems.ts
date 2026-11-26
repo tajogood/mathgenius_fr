@@ -1,4 +1,5 @@
 import {middleUnits,type MiddleTopic} from './curriculum.ts';
+import {tr} from '../i18n/index.ts';
 import {dotRepeat} from './notation.ts';
 
 export type MiddleProblem={
@@ -38,9 +39,10 @@ function P(topic:MiddleTopic,prompt:string,answer:string,wrong:string[],solution
   const arr=[answer,...distinct.slice(0,3)];
   const offset=random(0,3);
   const concept=middleUnits.find(unit=>unit.topic===topic);
-  return {topic,prompt:prompt.length>7?prompt:'다음 식을 간단히 계산하세요. '+prompt,
+  // Parts are translated one by one so English mode needs no entry for each combination.
+  return {topic,prompt:prompt.length>7?prompt:tr('다음 식을 간단히 계산하세요.')+' '+prompt,
     answer,choices:arr.slice(offset).concat(arr.slice(0,offset)),
-    solution:solution+' '+(concept?.concept[2]??'')};
+    solution:tr(solution)+' '+tr(concept?.concept[2]??'')};
 }
 function numberProblem(topic:MiddleTopic,prompt:string,value:number,wrong:number[],solution:string){
   return P(topic,prompt,String(value),wrong.map(String),solution);

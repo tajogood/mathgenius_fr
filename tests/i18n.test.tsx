@@ -84,6 +84,27 @@ describe('English interface',()=>{
     for(const u of curriculumUnits)u.concept.forEach(check);
     expect([...left].slice(0,10)).toEqual([]);
   });
+  it('middle and high school lessons and problems translate fully',async()=>{
+    window.localStorage.setItem('mathgenius.lang.v1','en');
+    vi.resetModules();
+    const i18n=await import('../src/i18n/index.ts');
+    await i18n.loadEnglish();
+    const {MIDDLE_TOPICS,middleUnits}=await import('../src/middle/curriculum.ts');
+    const {createMiddleProblem}=await import('../src/middle/problems.ts');
+    const {HIGH_TOPICS,highUnits}=await import('../src/high/curriculum.ts');
+    const {createHighProblem}=await import('../src/high/problems.ts');
+    const left=new Set<string>();
+    const check=(s:string)=>{if(!s)return;const out=i18n.tr(s);if(/[가-힣]/.test(out))left.add(s);};
+    for(const topic of MIDDLE_TOPICS)for(let i=0;i<20;i++){
+      const p=createMiddleProblem(topic);check(p.prompt);p.choices.forEach(check);check(p.solution);
+    }
+    for(const topic of HIGH_TOPICS)for(let i=0;i<20;i++){
+      const p=createHighProblem(topic);check(p.prompt);p.choices.forEach(check);check(p.solution);
+    }
+    for(const u of highUnits){u.concept.forEach(check);[u.action,u.notice,u.reason].forEach(check);}
+    for(const u of middleUnits)(u.concept??[]).forEach(check);
+    expect([...left].slice(0,10)).toEqual([]);
+  });
   it('every curriculum title and description has an English entry',async()=>{
     const {EN}=await import('../src/i18n/en.ts');
     const {curriculumUnits,grades}=await import('../src/curriculum.ts');

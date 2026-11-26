@@ -1,0 +1,250 @@
+1170	⟦0⟧, so the vertex is ⟦1⟧.
+1171	What are the coordinates of the point ⟦0⟧ reflected in the ⟦1⟧-axis?
+1172	reflection in the ⟦0⟧-axis: ⟦1⟧, so ⟦2⟧
+1173	What are the coordinates of the point ⟦0⟧ reflected in the line ⟦1⟧?
+1174	reflection in the line ⟦0⟧: ⟦1⟧, so ⟦2⟧
+1175	What are the coordinates of the point ⟦0⟧ reflected through the origin?
+1176	reflection through the origin: ⟦0⟧, so ⟦1⟧
+1177	If ⟦0⟧∩⟦1⟧, what is ⟦2⟧∪⟦3⟧?
+1178	How many subsets of the set ⟦0⟧ must contain ⟦1⟧?
+1179	Put the ⟦0⟧ required elements in first and build subsets from the other ⟦1⟧ elements: ⟦2⟧.
+1180	If ⟦0⟧, what kind of condition is ⟦1⟧ for ⟦2⟧?
+1181	necessary and sufficient
+1182	Solving ⟦0⟧ gives ⟦1⟧, so ⟦2⟧.
+1183	neither necessary nor sufficient
+1184	sufficient but not necessary
+1185	necessary but not sufficient
+1186	⟦0⟧ and ⟦1⟧⊂⟦2⟧, so only ⟦3⟧→⟦4⟧ is true.
+1187	What is the contrapositive of "if ⟦0⟧, then ⟦1⟧"?
+1188	if ⟦0⟧, then ⟦1⟧
+1189	The contrapositive of "if ⟦0⟧, then ⟦1⟧" is "if ⟦2⟧, then ⟦3⟧." The proposition is true, so the contrapositive is true too. (The converse "if ⟦4⟧, then ⟦5⟧" is false, with the counterexample ⟦6⟧.)
+1190	⟦0⟧⊂⟦1⟧, so ⟦2⟧→⟦3⟧ is true and ⟦4⟧→⟦5⟧ is false.
+1191	If ⟦0⟧, what is the value of ⟦1⟧∘⟦2⟧?
+1192	⟦0⟧ and ⟦1⟧.
+1193	Let ⟦0⟧; then from ⟦1⟧, ⟦2⟧.
+1194	What are the equations of the asymptotes of the rational function ⟦0⟧?
+1195	The asymptotes are ⟦1⟧, where the denominator becomes ⟦0⟧, and ⟦2⟧.
+1196	What are the coordinates of the intersection of the two asymptotes of the rational function ⟦0⟧?
+1197	Rewriting it as ⟦0⟧, the asymptotes are ⟦1⟧.
+1198	What is the domain of the radical function ⟦0⟧?
+1199	The expression under the radical must be at least ⟦0⟧, so ⟦1⟧. The range is ⟦2⟧.
+1200	⟦0⟧, so ⟦1⟧
+1201	Change of base: ⟦0⟧
+1202	What is the solution of the equation ⟦0⟧?
+1203	What is the equation of the asymptote of the graph of ⟦0⟧?
+1204	⟦0⟧ was translated along the ⟦1⟧-axis ⟦2⟧-axis by ⟦3⟧, so the asymptote is ⟦4⟧.
+1205	By the definition of a logarithm, ⟦0⟧satisfies the argument condition ⟦1⟧)
+1206	⟦0⟧ is an angle in quadrant ⟦1⟧ with reference angle ⟦2⟧. Deciding the sign gives ⟦3⟧
+1207	What is the period of the function ⟦0⟧?
+1208	What is the maximum of the function ⟦0⟧?
+1209	It is largest when ⟦0⟧ is ⟦1⟧, so ⟦2⟧
+1210	In triangle ⟦0⟧, if ⟦1⟧, what is the radius ⟦2⟧ of the circumscribed circle?
+1211	In triangle ⟦0⟧, if ⟦1⟧, what is the value of ⟦2⟧?
+1212	By the law of cosines ⟦0⟧, so ⟦1⟧
+1213	What is term ⟦2⟧ of the arithmetic sequence with first term ⟦0⟧ and common difference ⟦1⟧?
+1214	What is the sum of the first ⟦2⟧ terms of the arithmetic sequence with first term ⟦0⟧ and common difference ⟦1⟧?
+1215	What is term ⟦2⟧ of the geometric sequence with first term ⟦0⟧ and common ratio ⟦1⟧?
+1216	What is the sum of the first ⟦2⟧ terms of the geometric sequence with first term ⟦0⟧ and common ratio ⟦1⟧?
+1217	When proving ⟦0⟧ by mathematical induction, assuming it holds for ⟦1⟧, what term must you add to both sides to show it for ⟦2⟧?
+1218	Adding the next term, term number ⟦1⟧, ⟦2⟧, to the left side for ⟦0⟧ gives the left side for ⟦3⟧.
+1219	What is the value of ⟦0⟧→⟦1⟧?
+1220	Factoring the numerator gives ⟦0⟧, so cancel and substitute ⟦1⟧: ⟦2⟧
+1221	Dividing the top and bottom by ⟦0⟧, it converges to the ratio of the leading coefficients, ⟦1⟧.
+1222	It must be that ⟦0⟧→⟦1⟧, so ⟦2⟧
+1223	If ⟦0⟧ is continuous for all real numbers, what is the value of ⟦1⟧?
+1224	At ⟦0⟧, the left-hand limit ⟦1⟧ must equal ⟦2⟧, so ⟦3⟧
+1225	For the function ⟦0⟧, what is the average rate of change as ⟦1⟧ goes from ⟦2⟧ to ⟦3⟧?
+1226	This limit is ⟦0⟧, and ⟦1⟧, so ⟦2⟧
+1227	⟦0⟧, so tidying up with slope ⟦1⟧ gives ⟦2⟧
+1228	What is the local maximum of ⟦0⟧?
+1229	⟦0⟧, and the sign of ⟦2⟧ changes from + to − around ⟦1⟧, so the local maximum is ⟦3⟧
+1230	What is the local minimum of ⟦0⟧?
+1231	⟦0⟧, and the sign of ⟦2⟧ changes from − to + around ⟦1⟧, so the local minimum is ⟦3⟧
+1232	If ⟦0⟧ and ⟦1⟧, what is the value of ⟦2⟧?
+1233	⟦0⟧ and ⟦1⟧, so ⟦2⟧
+1234	⟦0⟧ is odd, so its integral over a symmetric interval is ⟦1⟧, and the definite integral of the constant ⟦2⟧ is ⟦3⟧
+1235	What is the area enclosed by the curve ⟦0⟧ and the ⟦1⟧-axis?
+1236	They meet at ⟦0⟧ and the area is ⟦1⟧
+1237	If a point moving on a number line has velocity ⟦1⟧ at time ⟦0⟧, what is its change in position from ⟦2⟧ to ⟦3⟧?
+1238	How many ways are there to arrange all the letters ⟦0⟧ in a row?
+1239	How many ways are there to choose ⟦1⟧ fruits from ⟦0⟧ different kinds, with repeats allowed?
+1240	How many ordered pairs of non-negative integers ⟦1⟧ satisfy ⟦0⟧?
+1241	What is the coefficient of ⟦1⟧ in the expansion of ⟦0⟧?
+1242	From the general term ⟦0⟧, ⟦1⟧
+1243	For two events ⟦0⟧, if ⟦1⟧∩⟦2⟧, what is ⟦3⟧∪⟦4⟧?
+1244	If you toss a coin ⟦0⟧ times, what is the probability of getting heads at least once?
+1245	In a class, ⟦1⟧ of the ⟦0⟧ girls and ⟦3⟧ of the ⟦2⟧ boys wear glasses. A student chosen at random is a girl. What is the probability she wears glasses?
+1246	⟦0⟧glasses|girl⟦1⟧
+1247	In a class, ⟦1⟧ of the ⟦0⟧ girls and ⟦3⟧ of the ⟦2⟧ boys wear glasses. A student chosen at random wears glasses. What is the probability the student is a girl?
+1248	Of the ⟦0⟧ students with glasses, ⟦1⟧ are girls, so ⟦2⟧
+1249	If the random variable ⟦0⟧ follows the binomial distribution ⟦1⟧, what is ⟦2⟧?
+1250	If the random variable ⟦0⟧ follows the normal distribution ⟦1⟧, what is the value of ⟦2⟧? (Given ⟦3⟧
+1251	Standardizing with ⟦0⟧ gives ⟦1⟧
+1252	From a population with standard deviation ⟦0⟧, a random sample of size ⟦1⟧ is drawn. What is the standard deviation of the sample mean ⟦2⟧̄?
+1253	From a population with standard deviation ⟦0⟧, a sample of size ⟦1⟧ has mean ⟦2⟧. What is the ⟦4⟧ confidence interval for the population mean ⟦3⟧? (Use ⟦5⟧
+1254	remainder of ⟦0⟧ divided by ⟦1⟧: ⟦2⟧
+1255	The height of the point ⟦0⟧ on the graph is the remainder.
+1256	The coefficient of ⟦0⟧, ⟦1⟧, is −(sum of the roots), and the constant term ⟦2⟧ is −(product of the roots).
+1257	The conjugate is a reflection in the real axis, and multiplying by ⟦0⟧ turns it ⟦1⟧ around the origin.
+1258	two different real roots
+1259	roots and coefficients: ⟦0⟧ roots ≈ ⟦1⟧
+1260	meets at two points
+1261	The sign of the discriminant ⟦0⟧ decides the number of intersections.
+1262	⟦0⟧ real roots
+1263	⟦2⟧ intersections of the curve ⟦0⟧ and the line ⟦1⟧ · local max ⟦3⟧, local min ⟦4⟧
+1264	It is the range of ⟦1⟧ where the parabola is below (or touches above) the ⟦0⟧-axis.
+1265	permutations ⟦0⟧ combinations ⟦1⟧
+1266	There are ⟦1⟧ ways to line up the same ⟦0⟧ items, so permutations are ⟦2⟧ times combinations.
+1267	⟦1⟧ entry of ⟦0⟧: ⟦2⟧
+1268	Multiply row ⟦1⟧ of ⟦0⟧ by column ⟦3⟧ of ⟦2⟧ entry by entry and add.
+1269	The point dividing ⟦0⟧ and ⟦1⟧ in the ratio ⟦2⟧ is ⟦3⟧.
+1270	distance from the origin ≈ ⟦0⟧
+1271	The perpendicular's slope is ⟦0⟧. The two slopes multiply to ⟦1⟧.
+1272	meets the ⟦0⟧-axis at two points
+1273	distance from the center to the ⟦0⟧-axis ⟦1⟧, radius ⟦2⟧ → ⟦3⟧
+1274	⟦0⟧-axis ⟦1⟧-axis ⟦2⟧ origin ⟦3⟧
+1275	Changing signs or swapping the two coordinates gives a reflection.
+1276	only in ⟦0⟧: ⟦1⟧, only in ⟦2⟧: ⟦3⟧, in both: ⟦4⟧
+1277	⟦0⟧ is a sufficient condition for ⟦1⟧
+1278	The two graphs are symmetric about the line ⟦0⟧.
+1279	asymptotes ⟦0⟧
+1280	The graph is symmetric about the point ⟦0⟧.
+1281	domain ⟦0⟧ range ⟦1⟧
+1282	The expression under the radical must be at least ⟦0⟧, so the graph starts at the point ⟦1⟧ and extends to the right.
+1283	The exponent ⟦0⟧ means "take the ⟦1⟧th root, then raise to the ⟦2⟧th power."
+1284	Multiplying ⟦0⟧ ⟦1⟧ times gives ⟦2⟧.
+1285	both functions increase
+1286	The two graphs are symmetric about the line ⟦0⟧, and each passes through ⟦1⟧.
+1287	The point ⟦0⟧ is in quadrant ⟦1⟧. ⟦2⟧
+1288	period ⟦0⟧ max ⟦1⟧ min ⟦2⟧
+1289	If ⟦0⟧, the period is ⟦1⟧. Making ⟦2⟧ bigger squeezes the graph.
+1290	⟦0⟧ area ≈ ⟦1⟧
+1291	area ⟦0⟧
+1292	Each term is multiplied by ⟦0⟧.
+1293	Two identical staircases make a ⟦0⟧ rectangle with area ⟦1⟧, and the sum is half of it. Note: ⟦2⟧
+1294	holds for ⟦0⟧; if ⟦1⟧, holds for ⟦2⟧
+1295	all ⟦0⟧ fall
+1296	If both steps hold, it holds for every natural number.
+1297	As ⟦0⟧ gets closer to ⟦1⟧, both values get closer to ⟦2⟧. ⟦3⟧→⟦4⟧
+1298	discontinuous at ⟦0⟧
+1299	left-hand limit ⟦0⟧, right-hand limit and function value ⟦1⟧ → not equal, so the graph breaks.
+1300	secant slope ⟦0⟧ → tangent slope ⟦1⟧
+1301	The average rate of change of ⟦0⟧ is ⟦1⟧. If ⟦2⟧→⟦3⟧, it becomes ⟦4⟧.
+1302	Where the blue curve rises, the orange curve ⟦0⟧ is above the ⟦1⟧-axis.
+1303	tangent ⟦0⟧
+1304	slope ⟦1⟧ at the point of tangency ⟦0⟧
+1305	local max ≈ ⟦0⟧ local min ≈ ⟦1⟧
+1306	Where the sign of ⟦0⟧ goes +→− there is a local max; where it goes −→+, a local min.
+1307	Curves that differ only in ⟦0⟧ are vertical shifts of each other and have the same slope at the same ⟦1⟧.
+1308	rectangle sum ≈ ⟦0⟧ definite integral ≈ ⟦1⟧
+1309	When ⟦0⟧ the error ≈ ⟦1⟧; increasing it gets closer to ⟦2⟧.
+1310	The parabola ⟦0⟧ and the line ⟦1⟧ meet at ⟦2⟧.
+1311	⟦0⟧ ways
+1312	⟦0⟧ ways for each of ⟦1⟧ slots, so ⟦2⟧
+1313	With ⟦0⟧ stars and ⟦1⟧ bars, just choose the bar positions out of ⟦2⟧ spots. Example: ⟦3⟧
+1314	coefficient ⟦0⟧
+1315	adding all the numbers in row ⟦0⟧ gives ⟦1⟧
+1316	complement: ⟦0⟧∪⟦1⟧
+1317	⟦0⟧ is the share of all of ⟦1⟧ taken up by ⟦2⟧∩⟦3⟧.
+1318	Standardizing with ⟦0⟧ lets you use the same standard normal table regardless of ⟦1⟧.
+1319	Making the interval length ⟦0⟧≈⟦1⟧ ⟦2⟧ times smaller halves it.
+1320	If you know ⟦0⟧ and ⟦1⟧, ⟦2⟧
+1321	you can find the value of the expression right away with ⟦0⟧.
+1322	length of ⟦0⟧
+1323	area model splitting a square with side ⟦0⟧ into four pieces
+1324	 is expanded, what is the coefficient of ⟦0⟧?
+1325	if ⟦0⟧, ⟦1⟧
+1326	⟦1⟧ of the divisor ⟦0⟧
+1327	constant term of ⟦0⟧
+1328	graph of a cubic function and its value ⟦1⟧ at ⟦0⟧
+1329	polynomial ⟦0⟧
+1330	If ⟦0⟧ is divisible by ⟦1⟧, what is the constant ⟦2⟧?
+1331	By the remainder theorem, the remainder is ⟦0⟧
+1332	if the roots are ⟦0⟧
+1333	), and the graph meets the ⟦0⟧-axis at these three points.
+1334	first root ⟦0⟧₁
+1335	second root ⟦0⟧₂
+1336	third root ⟦0⟧₃
+1337	cubic function meeting the ⟦1⟧-axis at its three roots ⟦0⟧
+1338	To add or multiply complex numbers, calculate with ⟦0⟧ like a letter, then ⟦1⟧
+1339	replace it with ⟦0⟧.
+1340	The conjugate of ⟦0⟧ is ⟦1⟧, and ⟦2⟧
+1341	real part ⟦0⟧
+1342	imaginary part ⟦0⟧
+1343	the point ⟦0⟧ on the complex plane and its conjugate
+1344	real axis
+1345	imaginary axis
+1346	expanded: ⟦0⟧
+1347	discriminant of ⟦0⟧: ⟦1⟧
+1348	If ⟦0⟧ is positive there are two different real roots; if ⟦1⟧, a double root; if negative, two imaginary roots.
+1349	If the two roots are ⟦0⟧, then ⟦1⟧
+1350	linear coefficient ⟦0⟧
+1351	constant term ⟦0⟧
+1352	parabola with discriminant ⟦0⟧
+1353	If ⟦0⟧ has a double root, what is the constant ⟦1⟧?
+1354	discriminant ⟦0⟧
+1355	If the two roots of ⟦0⟧ are ⟦1⟧, ⟦2⟧
+1356	The ⟦2⟧-coordinates where the graph of ⟦0⟧ meets the ⟦1⟧-axis are the real roots of the quadratic equation ⟦3⟧
+1357	⟦0⟧.
+1358	parabola ⟦0⟧
+1359	⟦0⟧, so the discriminant tells you how many points they share.
+1360	slope of the line ⟦0⟧
+1361	⟦0⟧-intercept of the line ⟦1⟧
+1362	parabola ⟦0⟧ and a line, ⟦1⟧ intersections
+1363	the line ⟦0⟧ and the parabola ⟦1⟧
+1364	What is the greatest integer ⟦2⟧ for which the graph of ⟦0⟧ meets the ⟦1⟧-axis at two different points?
+1365	as in ⟦0⟧, ⟦1⟧
+1366	⟦1⟧ of the line ⟦0⟧
+1367	⟦1⟧ intersections of a cubic and the line ⟦0⟧
+1368	quartic equation ⟦0⟧
+1369	setting ⟦0⟧ gives ⟦1⟧
+1370	equation ⟦0⟧
+1371	How many different real roots does ⟦0⟧ have?
+1372	roots ⟦0⟧
+1373	inequality sign
+1374	The number of ways to choose ⟦1⟧ of ⟦0⟧ different items and line them up is
+1375	The number of ways to choose ⟦0⟧ without regard to order is
+1376	⟦1⟧ over ⟦0⟧!
+1377	, and by convention ⟦0⟧.
+1378	total ⟦0⟧
+1379	number chosen ⟦0⟧
+1380	choosing ⟦1⟧ of ⟦0⟧: ⟦2⟧ permutations, ⟦3⟧ combinations
+1381	#⟦0⟧
+1382	choosing ⟦1⟧ of ⟦0⟧ one at a time
+1383	row ⟦1⟧, column ⟦2⟧ of ⟦0⟧
+1384	entry to look at in ⟦0⟧
+1385	⟦1⟧ entry of the matrix product ⟦0⟧: ⟦2⟧
+1386	matrix ⟦0⟧
+1387	 , what is the ⟦1⟧ entry of the matrix ⟦0⟧?
+1388	two points ⟦0⟧
+1389	) distance between them: ⟦0⟧
+1390	The point dividing the segment ⟦0⟧ in the ratio ⟦1⟧ is (
+1391	If ⟦0⟧, the dividing point is the midpoint (
+1392	).
+1393	⟦1⟧-coordinate of point ⟦0⟧
+1394	ratio ⟦0⟧
+1395	segment ⟦0⟧ and the ⟦1⟧ dividing point ⟦2⟧
+1396	⟦0⟧, so ⟦1⟧ is, from ⟦2⟧,
+1397	 of the way along.
+1398	the line with slope ⟦0⟧ through the point ⟦1⟧
+1399	) is ⟦0⟧
+1400	point ⟦0⟧
+1401	) and the line ⟦0⟧: the distance is
+1402	∣⟦1⟧∣ over ⟦0⟧
+1403	line with slope ⟦0⟧-intercept ⟦1⟧ and the perpendicular from the origin
+1404	The perpendicular's slope is −
+1405	⟦0⟧. The two slopes multiply to ⟦1⟧.
+1406	The perpendicular's slope is always −
+1407	line ⟦0⟧
+1408	What is the slope of a line perpendicular to ⟦0⟧?
+1409	The circle with center ⟦0⟧ and radius ⟦1⟧ is ⟦2⟧
+1410	⟦0⟧-coordinate of the center ⟦1⟧
+1411	circle with center ⟦0⟧ and radius ⟦1⟧ and the ⟦2⟧-axis
+1412	circle ⟦0⟧
+1413	How is ⟦0⟧ positioned relative to the ⟦1⟧-axis?
+1414	What are the center and radius of ⟦0⟧?
+1415	point ⟦0⟧ and its four reflections
+1416	⟦0⟧-axis
+1417	origin
+1418	A set with ⟦0⟧ elements has ⟦1⟧ subsets
+1419	Venn diagram ⟦0⟧∩⟦1⟧

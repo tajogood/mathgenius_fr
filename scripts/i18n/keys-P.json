@@ -1,0 +1,134 @@
+[
+[
+"⟦0⟧일 때 ⟦1⟧의 값은?",
+"mprob:expressions"
+],
+[
+"⟦0⟧은?",
+"mprob:exponents"
+],
+[
+"⟦0⟧의 주기는 ⟦1⟧이므로 ⟦2⟧",
+"hprob:trigGraph"
+],
+[
+"사인법칙 ⟦0⟧에서 ⟦1⟧이므로 ⟦2⟧",
+"hprob:sineCosineLaw"
+],
+[
+"함수 ⟦0⟧가 ⟦1⟧에서 연속일 때 ⟦2⟧의 값은?",
+"hprob:continuity"
+],
+[
+"⟦0⟧일 때 ⟦1⟧→⟦2⟧의 값은?",
+"hprob:derivativeCoef"
+],
+[
+"곡선 ⟦0⟧ 위의 점 ⟦1⟧에서의 접선의 방정식은?",
+"hprob:tangentLine"
+],
+[
+"여사건(모두 뒷면)의 확률은 ⟦0⟧이므로 ⟦1⟧",
+"hprob:probAdd"
+],
+[
+"서로 다른 ⟦0⟧개에서 ⟦1⟧개를 골라 일렬로 나열하는 경우의 수는 ⟦2⟧이에요.",
+"hconcept:h-c1-9"
+],
+[
+"순서를 생각하지 않고 ⟦0⟧개를 고르는 경우의 수는 ⟦1⟧이에요.",
+"hconcept:h-c1-9"
+],
+[
+"⟦0⟧의 최댓값은 ⟦1⟧, 최솟값은 ⟦2⟧, 주기는 ⟦3⟧예요.",
+"hconcept:h-alg-5"
+],
+[
+"사인법칙: ⟦0⟧은 외접원의 반지름)",
+"hconcept:h-alg-6"
+],
+[
+"삼각형의 넓이는 ⟦0⟧예요.",
+"hconcept:h-alg-6"
+],
+[
+"두 곡선 ⟦0⟧ 사이의 넓이는 ⟦1⟧예요.",
+"hconcept:h-calc-9"
+],
+[
+"속도 ⟦0⟧로 움직일 때 시각 ⟦1⟧에서 ⟦2⟧까지 위치의 변화량은 ⟦3⟧예요.",
+"hconcept:h-calc-9"
+],
+[
+"서로 다른 ⟦0⟧개에서 중복을 허락해 ⟦1⟧개를 나열하는 경우의 수는 ⟦2⟧이에요.",
+"hconcept:h-stat-1"
+],
+[
+"⟦0⟧개 중 같은 것이 ⟦1⟧개, ⟦2⟧개, ⟦3⟧개씩 있을 때 나열하는 경우의 수는 ⟦4⟧예요.",
+"hconcept:h-stat-1"
+],
+[
+"서로 다른 ⟦0⟧개에서 중복을 허락해 ⟦1⟧개를 고르는 경우의 수는 ⟦2⟧이에요.",
+"hconcept:h-stat-2"
+],
+[
+"⟦0⟧을 만족하는 음이 아닌 정수해의 개수는 ⟦1⟧이에요.",
+"hconcept:h-stat-2"
+],
+[
+"이웃각 ⟦0⟧",
+"mui:2:02Properties of Quad"
+],
+[
+"⟦0⟧의 계수 ⟦1⟧ 상수항 ⟦2⟧",
+"mui:3:03Multiplying Polyno"
+],
+[
+"중심각 ⟦0⟧ → 원주각 ⟦1⟧",
+"mui:3:02Properties of Circ"
+],
+[
+"중앙값 ⟦0⟧ 사분위범위 ⟦1⟧",
+"mui:3:04Box PlotsData & Pr"
+],
+[
+"⟦0⟧의 ⟦1⟧ 항",
+"hui:stat:03The Binomial Theor"
+],
+[
+"원의 반지름 ⟦0⟧",
+"mui:1:04SectorsGeometry & "
+],
+[
+"반지름 ⟦0⟧ 중심각 ⟦1⟧",
+"mui:1:04SectorsGeometry & "
+],
+[
+"을 찾아요.",
+"mui:2:01Rational Numbers a"
+],
+[
+"의 값은?",
+"hui:c1:01Polynomial Operati"
+],
+[
+"이차부등식의 해 ⟦0⟧",
+"hui:c1:08Quadratic Inequali"
+],
+[
+"이므로 ⟦0⟧",
+"hui:alg:05Graphs of Trigonom"
+],
+[
+"가로 ⟦0⟧",
+"hui:alg:09Sums of SequencesS"
+],
+[
+"의 ⟦0⟧",
+"hui:stat:03The Binomial Theor"
+],
+[
+"이항분포 ⟦0⟧",
+"hui:stat:06Binomial Distribut"
+]
+]

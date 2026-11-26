@@ -15,12 +15,3 @@ export default function LangSwitch({className=''}:{className?:string}){
   </div>;
 }
 
-/** Shown in English mode on middle/high school pages while their lessons are still Korean. */
-export function TranslationNotice(){
-  if(lang()!=='en')return null;
-  return <p className="translation-notice" role="note">
-    English version (beta): menus and unit names are in English. Middle and high school lesson
-    explanations and practice problems are still in Korean while we translate them.
-    Elementary lessons (grades 1–6) are fully in English.
-  </p>;
-}

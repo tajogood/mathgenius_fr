@@ -1,0 +1,208 @@
+72	What is the prime factorization of ⟦0⟧?
+73	Put the starting point at ⟦0⟧ and move by ⟦1⟧.
+74	When the number you add is negative you move left; when it is positive you move right.
+75	Adding integers can be understood as a direction and a distance on the number line.
+76	Starting at ⟦0⟧ on the number line and moving ⟦1⟧ gives ⟦2⟧.
+77	Multiplying two numbers with the same sign gives a positive; with different signs, a negative.
+78	Change ⟦0⟧ from ⟦1⟧ to ⟦2⟧. Watch whether only one ⟦3⟧ card changes or all of them do.
+79	Every ⟦0⟧ card gets the same number, and the total changes by the coefficient of ⟦1⟧.
+80	The same letter always stands for the same value within an expression.
+81	First work out ⟦0⟧ and add ⟦1⟧ to get ⟦2⟧.
+82	Only terms with ⟦0⟧ are like terms, so ⟦1⟧, but ⟦2⟧ cannot be simplified further.
+83	Remove the same number of marbles from both sides and split them into equal groups to find ⟦0⟧.
+84	Doing the same calculation on both sides keeps the equation balanced.
+85	Use the properties of equations to solve a linear equation.
+86	Subtract ⟦0⟧ from both sides to get ⟦1⟧, then divide by ⟦2⟧ to get ⟦3⟧.
+87	Substitute the ⟦0⟧ you found into the original equation and check that both sides are equal.
+88	What is the solution of ⟦0⟧?
+89	Change ⟦0⟧ from ⟦1⟧ to ⟦2⟧ and ⟦3⟧ from ⟦4⟧ to ⟦5⟧ to find all four quadrants.
+90	⟦0⟧ sets the left-right position and ⟦1⟧ the up-down position.
+91	On the coordinate plane, a point's position is fixed by one ordered pair ⟦0⟧.
+92	⟦0⟧ is negative and ⟦1⟧ is positive, so it is in quadrant ⟦2⟧.
+93	Move the point yourself and watch the ⟦0⟧- and ⟦1⟧-coordinates change together.
+94	Where is the point ⟦0⟧?
+95	quadrant ⟦0⟧
+96	⟦0⟧ is negative and ⟦1⟧ is negative, so it is in quadrant ⟦2⟧.
+97	⟦0⟧ is positive and ⟦1⟧ is positive, so it is in quadrant ⟦2⟧.
+98	⟦0⟧ is positive and ⟦1⟧ is negative, so it is in quadrant ⟦2⟧.
+99	Switch between direct and inverse variation and see how ⟦2⟧ changes when ⟦0⟧ becomes ⟦1⟧ times as big.
+100	In direct variation the ratio of ⟦0⟧ to ⟦1⟧ stays the same; in inverse variation the product of the two stays the same.
+101	Direct variation is written ⟦0⟧ and inverse variation ⟦1⟧.
+102	It is direct variation, ⟦0⟧, so ⟦1⟧.
+103	Change ⟦0⟧ and see how the direct and inverse variation graphs differ.
+104	In ⟦0⟧, if ⟦1⟧, what is ⟦2⟧?
+105	Increase one angle from ⟦0⟧ to ⟦1⟧. How much does the neighboring angle shrink?
+106	The two angles always add up to ⟦0⟧.
+107	It is because two angles side by side on a line add up to a straight angle, ⟦0⟧.
+108	A straight angle is ⟦0⟧, so ⟦1⟧.
+109	Adjust the angle on the line and watch how the other angle changes.
+110	If one of two neighboring angles on a line is ⟦0⟧, how many degrees is the other?
+111	Increase the number of sides from a triangle to a hexagon. How many more triangles fit inside each time?
+112	A ⟦0⟧-sided polygon splits into ⟦1⟧ triangles.
+113	The interior angles add up to ⟦0⟧.
+114	A ⟦0⟧-sided polygon splits into ⟦1⟧ triangles, so ⟦2⟧.
+115	Check whether the sum of the exterior angles stays the same as you add sides.
+116	What is the sum of the interior angles (in degrees) of a ⟦0⟧-sided polygon?
+117	Keep the radius and change the central angle from ⟦0⟧ to ⟦1⟧. Does the area double?
+118	Doubling the radius makes the area four times as big.
+119	The area of a sector is ⟦0⟧central angle⟦1⟧.
+120	The area of the whole circle is ⟦0⟧, and the sector's area is ⟦1⟧.
+121	The area of a sector is the circle's area ⟦0⟧ times the central angle fraction ⟦1⟧.
+122	What is the area of a sector with radius ⟦0⟧ and central angle ⟦1⟧?
+123	Double the cylinder's height, then double its radius instead.
+124	Doubling the height doubles the volume; doubling the radius makes it four times as big.
+125	Volume is base area ⟦0⟧height ⟦1⟧.
+126	Base area ⟦0⟧ times height ⟦1⟧ gives ⟦2⟧.
+127	When the height doubles the volume doubles, but when the radius doubles it becomes four times as big.
+128	What is the volume of a cylinder with radius ⟦0⟧ and height ⟦1⟧?
+129	Raise the frequencies of the first and second classes. How do the total frequency and relative frequencies change?
+130	The sum of the frequencies is the number of data values.
+131	Relative frequency is class frequency ÷ total frequency.
+132	The total frequency is the three frequencies added together, ⟦0⟧.
+133	Relative frequency is that class's frequency ÷ total frequency. All the relative frequencies add up to ⟦0⟧.
+134	If the three classes have frequencies ⟦0⟧, what is the total frequency?
+135	Choose the fraction ⟦0⟧ and press "next decimal place" several times to find a remainder that repeats.
+136	Once a remainder shows up again, the decimal digits start repeating from there.
+137	The next digit of a division depends only on the remainder left over.
+138	Multiply the repeating decimal by a power of ⟦0⟧ and subtract the identical repeating part to get ⟦1⟧.
+139	Multiplying a repeating decimal by ⟦0⟧ or ⟦1⟧ and subtracting shows how to turn it into a fraction.
+140	What is ⟦0⟧̇ as a fraction?
+141	What is ⟦0⟧̇⟦1⟧̇ as a fraction?
+142	Choose the base ⟦0⟧ and the exponents ⟦1⟧ and ⟦2⟧, then put the two groups of number cards together.
+143	⟦0⟧ is multiplied ⟦1⟧ times in all to make ⟦2⟧.
+144	This is why you add the exponents when multiplying powers with the same base.
+145	Simplify the expression.
+146	Multiplying powers with the same base adds the exponents, so ⟦0⟧.
+147	When multiplying a monomial by a polynomial, use the distributive property to multiply every term.
+148	Simplify the expression. What is ⟦0⟧?
+149	Choose "when ⟦0⟧ is bigger" and multiply both sides by ⟦1⟧ to see whether the inequality sign flips.
+150	Even when the expression changes, the shaded direction of the solution set stays the same.
+151	Multiplying both sides of an inequality by a negative number reverses the sign.
+152	Dividing both sides by the negative number ⟦0⟧ reverses the sign, giving ⟦1⟧.
+153	On the number line, check whether the boundary point is included (○ or ●) and which direction to shade.
+154	Change the slopes and intercepts of the two lines to find when they cross.
+155	Substituting the intersection ⟦0⟧ into both linear equations makes both true.
+156	The common solution of a system is the intersection of the two graphs.
+157	Adding the two equations gives ⟦0⟧, so ⟦1⟧ and ⟦2⟧.
+158	On the graph, the point where the two lines meet is the common solution.
+159	What ⟦1⟧ satisfies ⟦0⟧ at the same time?
+160	Change the slope from positive to negative and see whether the line goes up or down.
+161	Changing the ⟦0⟧-intercept slides a line with the same slope up or down.
+162	In ⟦0⟧, ⟦1⟧ is the slope and ⟦2⟧ is the ⟦3⟧-intercept.
+163	Substituting ⟦0⟧ into the expression gives ⟦1⟧.
+164	Adjusting the slope and intercept turns the whole line or moves it parallel.
+165	In ⟦0⟧, if ⟦1⟧, what is ⟦2⟧?
+166	Set the first line's slope to ⟦0⟧ so the two lines are parallel.
+167	If the slopes are the same and the intercepts differ, there is no intersection.
+168	The intersection happens at the ⟦1⟧ where the two functions have the same ⟦0⟧-value.
+169	At the intersection ⟦0⟧ is the same, so ⟦1⟧, and therefore ⟦2⟧.
+170	Parallel lines never meet, so there is no intersection and no solution.
+171	What is the ⟦1⟧-coordinate of the intersection of the two lines ⟦0⟧?
+172	Adjust the two base angles to make the vertex angle ⟦0⟧.
+173	The two base angles are always equal, and the three angles add up to ⟦0⟧.
+174	It comes from the base-angle property of isosceles triangles and the sum of a triangle's angles.
+175	The two base angles are equal, so the vertex angle is ⟦0⟧.
+176	The incenter is where the three angle bisectors meet; it is the same distance from all three sides.
+177	If the two base angles of an isosceles triangle are each ⟦0⟧, what is the vertex angle?
+178	Increase one angle of the parallelogram. Compare the neighboring angle and the opposite angle.
+179	Neighboring angles add up to ⟦0⟧, and opposite angles are equal.
+180	It comes from the fact that opposite sides are parallel.
+181	Two neighboring interior angles of a parallelogram add up to ⟦0⟧, so ⟦1⟧.
+182	A rectangle's diagonals are also equal in length, and a rhombus's diagonals are perpendicular.
+183	If one interior angle of a parallelogram is ⟦0⟧, what is the neighboring angle?
+184	Double the length of one side and see how many times bigger the real square gets.
+185	The length is ⟦0⟧ times as long, but the area is ⟦1⟧ times as big.
+186	If the similarity ratio is ⟦0⟧, the area ratio is ⟦1⟧.
+187	Splitting the small side ⟦0⟧ into ⟦1⟧ equal parts makes each part ⟦2⟧, and the big side is ⟦3⟧.
+188	Change the scale of the figure and check whether corresponding sides and areas change differently.
+189	If two figures have similarity ratio ⟦0⟧ and a side of the small one is ⟦1⟧, how long is the matching side of the big one?
+190	Change the lengths of the two legs and add the areas written on the three squares.
+191	The two small squares' areas add up to the area of the biggest square.
+192	It is because ⟦0⟧ in a right triangle.
+193	By the Pythagorean theorem, ⟦0⟧, so ⟦1⟧.
+194	Compare the areas of the squares drawn on each side yourself.
+195	If the legs of a right triangle are ⟦0⟧, how long is the hypotenuse?
+196	Make three kinds of tops and four kinds of pants, and tap each square one at a time.
+197	For each top you can choose four pants, so there are ⟦0⟧ in all.
+198	For two choices that follow each other, multiply the numbers of outcomes.
+199	Each shirt goes with ⟦0⟧ pants, so there are ⟦1⟧ outfits.
+200	Choices that don't overlap are added with the addition rule.
+201	How many ways are there to choose one of ⟦0⟧ shirts and one of ⟦1⟧ pants?
+202	Add red marbles, remove blue ones, then draw many times yourself.
+203	The experimental relative frequency changes every time, but with enough trials it tends to get close to the theoretical probability.
+204	When every marble is equally likely, the probability of red is (red marbles) ÷ (all marbles).
+205	⟦1⟧ of the ⟦0⟧ are red, so ⟦2⟧.
+206	When you repeat an experiment many times, the actual relative frequency tends to get close to the calculated probability.
+207	If you draw one ball at random from ⟦0⟧ red and ⟦1⟧ blue balls, what is the probability it is red?
+208	Change the side of the square from ⟦0⟧ to ⟦1⟧ and check the area and the square root.
+209	The area changes from ⟦0⟧ to ⟦1⟧, but ⟦2⟧.
+210	The positive square root ⟦0⟧ is the non-negative number that squares to ⟦1⟧.
+211	⟦0⟧ and ⟦1⟧, so the square roots are ⟦2⟧. ⟦3⟧ means only ⟦4⟧.
+212	Change the side of the square and check how area and square roots are related.
+213	What are the square roots of ⟦0⟧?
+214	In ⟦0⟧, find the part where the same number ⟦1⟧ is multiplied twice.
+215	The perfect square ⟦0⟧ becomes ⟦1⟧ outside the radical.
+216	⟦0⟧, and when ⟦1⟧ is positive, ⟦2⟧.
+217	⟦0⟧, so ⟦1⟧.
+218	If the denominator has ⟦0⟧, multiply by ⟦1⟧ to rationalize the denominator.
+219	What is ⟦0⟧ simplified by taking factors out of the radical?
+220	Look at the four regions of ⟦0⟧ and change ⟦1⟧ and ⟦2⟧.
+221	Adding the areas of ⟦0⟧ gives ⟦1⟧.
+222	This is the distributive property shown as the area of a rectangle.
+223	Putting ⟦0⟧ together with the area model gives ⟦1⟧.
+224	Changing the two constant terms ⟦0⟧ and ⟦1⟧ makes the ⟦2⟧-term coefficient ⟦3⟧ and the constant term ⟦4⟧.
+225	What is ⟦0⟧ expanded?
+226	To make ⟦0⟧, what numbers should go in the two constant terms?
+227	The sum of the two numbers is the coefficient of ⟦0⟧, and their product is the constant term.
+228	Factoring uses the product formulas in reverse.
+229	Find two numbers ⟦2⟧ whose sum is ⟦0⟧ and product is ⟦1⟧.
+230	Putting the area model of the product back together gives the original polynomial.
+231	What is ⟦0⟧ factored?
+232	Change the two roots and see whether the two points where the parabola meets the ⟦0⟧-axis move too.
+233	Where the graph meets the ⟦0⟧-axis, ⟦1⟧.
+234	The real roots of a quadratic equation are the ⟦0⟧-intercepts of the matching quadratic function.
+235	⟦0⟧, so ⟦1⟧ or ⟦2⟧.
+236	On the graph, the points where the quadratic function meets the ⟦0⟧-axis are the real roots of the equation.
+237	What are the two roots of ⟦0⟧?
+238	Change the coefficient ⟦0⟧ from positive to negative and move the vertex.
+239	The sign of ⟦0⟧ decides which way it opens.
+240	The vertex of ⟦0⟧ is ⟦1⟧.
+241	In vertex form ⟦0⟧, the vertex is ⟦1⟧ and the axis of symmetry is ⟦2⟧.
+242	Adjust ⟦0⟧ and compare how the graph moves and changes width and direction.
+243	What is the vertex of ⟦0⟧?
+244	Change the angle ⟦0⟧ to ⟦1⟧ and make the hypotenuse longer.
+245	If the angle stays the same, ⟦0⟧ stays the same even when the hypotenuse changes; if the angle changes, ⟦1⟧ changes too.
+246	Trigonometric ratios are side-length ratios decided by the angle, not by size.
+247	Using the side ratios of the right triangle with the special angle ⟦0⟧ gives ⟦1⟧.
+248	Even if you change the hypotenuse, the trigonometric ratios stay the same as long as the angle does.
+249	In the right triangle, what is the value of ⟦0⟧?
+250	Increase the central angle from ⟦0⟧ to ⟦1⟧ and see how much the inscribed angle grows.
+251	An inscribed angle on an arc is half the central angle on the same arc.
+252	It is because both angles look at the same arc.
+253	An inscribed angle is half the central angle on the same arc, so ⟦0⟧.
+254	At the point of tangency, the tangent line is perpendicular to the radius.
+255	If the central angle on an arc is ⟦0⟧, how big is the inscribed angle?
+256	Keep the mean fixed and spread the data on both sides farther apart.
+257	The mean stays the same, but the variance grows and the data is more spread out.
+258	Variance is the mean of the squared distances from the mean.
+259	The range is ⟦0⟧. The more spread out, the bigger the range.
+260	Variance is the mean of the squared deviations, and standard deviation is the positive square root of the variance.
+261	What is the range (maximum − minimum) of the data ⟦0⟧?
+262	Spread the data apart and see whether the box length ⟦0⟧ changes.
+263	The box holds the middle ⟦0⟧ of the data.
+264	The distance from ⟦0⟧ to ⟦1⟧ is called the interquartile range.
+265	Sorting the five values, the middle (third) value ⟦0⟧ is the median.
+266	A box plot shows the minimum, ⟦0⟧, median, ⟦1⟧ and maximum at a glance.
+267	What is the median of the data ⟦0⟧?
+268	Change the slope between positive and negative and look at the overall trend of the points.
+269	If the points rise to the right it is a positive correlation; if they fall to the right, a negative correlation.
+270	Correlation alone does not prove cause and effect.
+271	When two variables move in opposite directions, it is a negative correlation. Correlation does not automatically mean causation.
+272	Just because two things are correlated does not mean one causes the other.
+273	On a scatter plot, if ⟦1⟧ tends to get smaller as ⟦0⟧ increases, what is it?
+274	negative correlation
+275	positive correlation
+276	no correlation
+277	one definitely causes the other
+278	When two variables move in the same direction, it is a positive correlation. Correlation does not automatically mean causation.
+279	On a scatter plot, if ⟦1⟧ tends to get bigger as ⟦0⟧ increases, what is it?

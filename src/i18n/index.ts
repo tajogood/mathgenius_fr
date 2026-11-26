@@ -75,9 +75,30 @@ export function templateOf(ko:string):{key:string;nums:string[]}{
   const key=ko.replace(NUM,m=>{nums.push(m);return slot(nums.length-1);});
   return {key,nums};
 }
+/**
+ * Second template level for formula-heavy text (middle/high school): every run of
+ * formula characters between Korean words becomes one slot ⟦n⟧, so
+ * 'f(x)=x³+5x+2일 때 f′(−1)의 값은?' → '⟦0⟧일 때 ⟦1⟧의 값은?'.
+ */
+const MATH_RUN=/[0-9A-Za-zα-ωΑ-Ω√π∑∫∞²³⁴⁵⁶⁷⁸⁹⁰¹⁻′″'^_{}()\[\]|=+\-−×÷·∙/<>≤≥≠±∠△□°%.,:;!?⋯…~ ]+/g;
+const MATH_CORE=/[0-9A-Za-zα-ωΑ-Ω√π∑∫∞]/;
+export const mslot=(i:number)=>'⟦'+i+'⟧';
+export function mathTemplateOf(ko:string):{key:string;parts:string[]}{
+  const parts:string[]=[];
+  // HTML tags (animation captions use <strong>) stay literal in the key.
+  const key=ko.split(/(<\/?[a-z][^>]*>)/).map(piece=>/^<\/?[a-z][^>]*>$/.test(piece)?piece:
+    piece.replace(MATH_RUN,run=>{
+      const m=run.match(/^([\s.,:;!?]*)(.*?)([\s.,:;!?]*)$/s)!;
+      if(!MATH_CORE.test(m[2]))return run;
+      parts.push(m[2]);
+      return m[1]+mslot(parts.length-1)+m[3];
+    })).join('');
+  return {key,parts};
+}
 let collector:Set<string>|null=null;
 /** Harvest mode (scripts only): record every Korean string that reaches tr(). */
-export function startCollect(set:Set<string>){collector=set;}
+let collectAs:'number'|'math'='number';
+export function startCollect(set:Set<string>,as:'number'|'math'='number'){collector=set;collectAs=as;}
 export function stopCollect(){collector=null;}
 
 /** Look up English for a Korean string; null when there is no entry. */
@@ -85,13 +106,16 @@ export function lookup(ko:string):string|null{
   if(!HANGUL.test(ko))return null;
   const lead=ko.match(/^\s*/)![0],trail=ko.match(/\s*$/)![0];
   const core=ko.trim();
-  if(collector)collector.add(templateOf(core).key);
   const exact=EN[core];
   if(exact!==undefined)return lead+exact+trail;
   const {key,nums}=templateOf(core);
   const t=EN[key];
-  if(t===undefined)return null;
-  return lead+t.replace(/⟨(\d+)⟩/g,(_,i)=>nums[Number(i)]??'')+trail;
+  if(t!==undefined)return lead+t.replace(/⟨(\d+)⟩/g,(_,i)=>nums[Number(i)]??'')+trail;
+  const {key:mkey,parts}=mathTemplateOf(core);
+  const mt=EN[mkey];
+  if(mt!==undefined)return lead+mt.replace(/⟦(\d+)⟧/g,(_,i)=>parts[Number(i)]??'')+trail;
+  if(collector)collector.add(collectAs==='math'?mkey:key);
+  return null;
 }
 /** Harvest helper: is there an English entry for this exact key or template? */
 export const hasEntry=(key:string)=>EN[key]!==undefined;
