@@ -1,0 +1,230 @@
+700	When the remainders of a division repeat, the decimal repeats too
+701	Do the division you'd do on paper one digit at a time. The moment the remainder
+702	becomes ⟦0⟧ or comes back to a number seen before
+703	numerator
+704	denominator
+705	Work out the next decimal place →
+706	decimal so far
+707	nothing calculated yet
+708	current remainder:
+709	division steps
+710	Multiply the repeating decimal by a power of ⟦0⟧ and subtract the identical repeating part:
+711	⟦0⟧ is ⟦1⟧ multiplied ⟦2⟧ times joined to it multiplied ⟦3⟧ times. In all,
+712	are multiplied, so ⟦0⟧. You
+713	add the exponents
+714	Why do you add exponents when multiplying powers with the same base?
+715	An exponent is
+716	of multiplying the same number. Watch the two groups of cards merge into one.
+717	same base
+718	exponent of the first group
+719	exponent of the second group
+720	Gather the multiplication into one group →
+721	⟦0⟧ factors of ⟦1⟧ in all
+722	left ⟦0⟧ + right ⟦1⟧ = ⟦2⟧ in all
+723	Discovery: the base stays
+724	and only the number of factors grows to
+725	.
+726	The solution of an inequality is a
+727	range
+728	open dot ○
+729	filled dot ●
+730	The side the inequality sign points to is the direction of the solutions
+731	An open circle means the boundary value itself is not included. Multiplying by a negative flips the inequality sign.
+732	boundary value
+733	direction of solutions
+734	when ⟦0⟧ is bigger ( > )
+735	when ⟦0⟧ is smaller ( < )
+736	Multiply both sides by ⟦0⟧
+737	Number line of solutions shaded to the right, excluding the boundary ⟦0⟧
+738	Every number in the shaded direction from the open circle is a solution.
+739	Solution: ⟦0⟧ is not a solution.
+740	The solutions of ⟦0⟧ form one line and the solutions of ⟦1⟧ form another.
+741	the point where the two lines meet, ⟦0⟧
+742	first line's slope
+743	first line's intercept
+744	intersection ⟦0⟧
+745	The graph of ⟦0⟧ on the ⟦1⟧-axis
+746	 each time; join the steps and you get a straight line.
+747	slope ⟦0⟧
+748	Think of each side of ⟦0⟧ as a function ⟦1⟧: the two graphs
+749	the ⟦0⟧-coordinate where they meet
+750	slope of the first line
+751	intercept of the first line
+752	The halves match exactly, so
+753	Fold it in half
+754	the two base angles are equal
+755	size of the two base angles (°)
+756	triangle size
+757	isosceles triangle with two equal base angles
+758	A parallelogram has
+759	. So opposite sides are equal in length and opposite angles are equal.
+760	two pairs of opposite sides, each parallel
+761	size of one interior angle (°)
+762	base of the parallelogram
+763	parallelogram whose neighboring angle and lengths change
+764	Stretch the distance from point ⟦0⟧ to each vertex by the same
+765	and you get a figure with the same shape but a different size:
+766	⟦0⟧ times
+767	a similar figure
+768	similarity ratio (times)
+769	original length ⟦0⟧
+770	two squares that change together with the similarity ratio
+771	⟦0⟧ area ⟦1⟧ times
+772	length ratio ⟦0⟧
+773	Build squares on the three sides of a right triangle. The areas of the squares on the two shorter sides
+774	first leg ⟦0⟧
+775	second leg ⟦0⟧
+776	Pythagorean area comparison with squares attached to each side of a right triangle
+777	Compare the actual areas of the three squares
+778	The ways to wear ⟦0⟧ shirts and ⟦1⟧ pants
+779	(multiplication rule)
+780	tree diagram
+781	If you pick one of each kind of clothing, how many ways are there?
+782	Every first choice connects to every second choice. Pick them one by one and check every combination.
+783	kinds of tops
+784	kinds of pants
+785	Each top has ⟦0⟧ pants, and there are ⟦1⟧ such tops.
+786	Tap each square to check a combination.
+787	top ⟦0⟧, pants ⟦1⟧
+788	Pick a combination you like.
+789	A bag has ⟦0⟧ red marbles and ⟦1⟧ blue marbles. When you draw one, every marble is equally likely, so the probability of red =
+790	red marbles
+791	blue marbles
+792	🎲 Draw one marble
+793	trials ⟦0⟧ · red ⟦1⟧ · experimental probability —
+794	The probability of drawing one marble from ⟦0⟧ red and ⟦1⟧ blue marbles is
+795	⟦1⟧ of the ⟦0⟧ are red, so
+796	A square with area ⟦0⟧ has side ⟦1⟧; a square with area ⟦2⟧ has a side that squares to ⟦3⟧:
+797	side of the square
+798	square whose grid area grows as the square of its side
+799	Put ⟦1⟧ small squares of area ⟦0⟧ together as ⟦2⟧ and you get a big square of area ⟦3⟧. Its side is ⟦5⟧ copies of ⟦4⟧ →
+800	Find a pair of identical numbers under the radical.
+801	If the same positive number is multiplied twice, you can take one out of the square root.
+802	number that forms a pair
+803	number left without a pair
+804	number left under the radical
+805	Pair up two identical numbers and take them out →
+806	Two ⟦0⟧s form a pair, and ⟦1⟧ stays under the radical.
+807	Check: ⟦0⟧, so they are the same number.
+808	⟦0⟧, so ⟦1⟧. If the denominator has ⟦2⟧
+809	Think of ⟦0⟧ as the area of a rectangle with width ⟦1⟧ and height ⟦2⟧. The four pieces
+810	first increase ⟦0⟧
+811	second increase ⟦0⟧
+812	area model splitting product formulas and factoring into four regions
+813	the pieces of ⟦0⟧ ⟦1⟧ pieces, ⟦3⟧ bars of ⟦2⟧, ⟦5⟧ squares of ⟦4⟧)
+814	a rectangle with no gaps
+815	constant of the first factor
+816	constant of the second factor
+817	Factoring ⟦0⟧ gives ⟦1⟧.
+818	If a product is ⟦0⟧, one factor must be ⟦1⟧
+819	first root
+820	second root
+821	The graph of ⟦0⟧ starts at the vertex ⟦1⟧ and rises on both sides:
+822	a parabola
+823	how the parabola opens and its width ⟦0⟧
+824	⟦0⟧-coordinate of the vertex ⟦1⟧
+825	Right triangles with the same angle ⟦0⟧ are all
+826	. This ratio is a trigonometric ratio.
+827	similar
+828	always the same
+829	angle ⟦0⟧
+830	length of the hypotenuse
+831	triangle with adjustable side length and angle
+832	hypotenuse ⟦0⟧
+833	Using the side ratios of the right triangle with the special angle ⟦0⟧ gives ⟦1⟧
+834	on the same arc ⟦0⟧
+835	inscribed angle
+836	half the central angle
+837	central angle (°)
+838	radius ⟦0⟧
+839	The mean of the data ⟦0⟧ is ⟦1⟧. The mean is the number line's
+840	. Deviations on the left and right cancel, so they always add up to ⟦0⟧.
+841	balance point
+842	deviation
+843	What happens if the mean stays the same but the data spread out?
+844	Put three data values at equal spacing on both sides of the mean and change the spacing.
+845	distance from the mean
+846	mean
+847	data ⟦0⟧, mean ⟦1⟧, variance ⟦2⟧
+848	deviations: ⟦0⟧
+849	Discovery: doubling the spacing makes the squared deviations four times as big, so the variance is four times as big too. The mean ⟦0⟧ doesn't change.
+850	Put ⟦0⟧ data values in order and
+851	the very middle value (median ⟦0⟧
+852	spacing of the data
+853	starting value
+854	box plot showing the minimum, quartiles, median and maximum
+855	median
+856	box width is the interquartile range ⟦0⟧
+857	Taller people ⟦0⟧ generally tend to weigh more ⟦1⟧. When the points
+858	cluster
+859	up to the right
+860	direction of change and slope
+861	shift the whole position
+862	Change ⟦0⟧ and ⟦1⟧ and watch the big square split into four pieces, ⟦2⟧.
+863	Two rectangles ⟦0⟧ of the same size always appear.
+864	It is because distributing ⟦0⟧ produces ⟦1⟧ twice.
+865	To add or subtract polynomials, combine the coefficients of like terms; to multiply, use the distributive property on every term.
+866	There are product formulas you use often, like ⟦0⟧.
+867	If you know ⟦0⟧ and ⟦1⟧, you can find the value of the expression right away with ⟦2⟧.
+868	Move the ⟦1⟧ of the divisor ⟦0⟧ and check whether the height of the point on the graph equals the remainder.
+869	The ⟦1⟧-coordinate of point ⟦0⟧ is exactly the remainder. Where the graph meets the ⟦2⟧-axis, at ⟦3⟧, the remainder is ⟦4⟧.
+870	Substituting ⟦1⟧ into ⟦0⟧ makes ⟦2⟧ equal ⟦3⟧, leaving only ⟦4⟧.
+871	An equation that holds for any value of ⟦0⟧ is called an identity. The coefficients of the same degree on both sides are equal.
+872	The remainder of ⟦0⟧ divided by ⟦1⟧ is ⟦2⟧, because putting ⟦4⟧ into ⟦3⟧ gives ⟦5⟧.
+873	If ⟦0⟧, then ⟦1⟧ is divisible by ⟦2⟧. This is called the factor theorem.
+874	Change the three roots and see whether the coefficients of the expanded expression and the points where the graph meets the ⟦0⟧-axis change together.
+875	The coefficient of ⟦0⟧ is the negative of the sum of the three roots, and the constant term is the negative of their product.
+876	Expanding ⟦0⟧₁⟦1⟧₂⟦2⟧₃) makes the coefficients come from the sums and products of the roots.
+877	⟦0⟧.
+878	For a cubic, find the ⟦1⟧ that makes it ⟦0⟧, divide by ⟦2⟧, then factor the leftover quadratic again.
+879	If the roots are ⟦0⟧, then ⟦1⟧, and the graph meets the ⟦2⟧-axis at these three points.
+880	Change the real part ⟦0⟧ and the imaginary part ⟦1⟧ and see whether the point ⟦2⟧ and its conjugate are symmetric about the real axis.
+881	Multiplying ⟦0⟧ by ⟦1⟧ turns the point ⟦2⟧ around the origin.
+882	⟦0⟧, so the coordinates ⟦1⟧ become ⟦2⟧.
+883	The number whose square is ⟦0⟧ is written ⟦1⟧. Numbers of the form ⟦2⟧ real) are complex numbers.
+884	To add or multiply complex numbers, calculate with ⟦0⟧ like a letter, then replace it with ⟦1⟧.
+885	The conjugate of ⟦0⟧ is ⟦1⟧, and ⟦2⟧ is real.
+886	Move ⟦0⟧ and ⟦1⟧ and see whether the parabola just touches the ⟦3⟧-axis at the moment the discriminant becomes ⟦2⟧.
+887	If ⟦0⟧, it meets the ⟦1⟧-axis at two points; if ⟦2⟧, at one point; if ⟦3⟧, not at all.
+888	It is because the part under the ⟦0⟧ in the quadratic formula is the discriminant.
+889	If the discriminant ⟦1⟧ of ⟦0⟧ is positive there are two different real roots; if ⟦2⟧, a double root; if negative, two imaginary roots.
+890	If the two roots are ⟦0⟧, then ⟦1⟧.
+891	As with ⟦0⟧, you can find the value of an expression without finding the two roots.
+892	Change the line's slope and ⟦0⟧-intercept to make two points, one point (tangent) and no intersection.
+893	The number of intersections depends on the sign of ⟦0⟧.
+894	The ⟦0⟧-coordinates of the intersections are ⟦1⟧, that is, the solutions of ⟦2⟧.
+895	The ⟦2⟧-coordinates where the graph of the quadratic function ⟦0⟧ meets the ⟦1⟧-axis are the real roots of the quadratic equation ⟦3⟧.
+896	The intersections of the parabola ⟦0⟧ and the line ⟦1⟧ are the real roots of ⟦2⟧, so the discriminant tells you how many points they share.
+897	If the discriminant is ⟦0⟧, the line is tangent to the parabola.
+898	Move the line ⟦0⟧ up and down and find the ranges where ⟦1⟧ has ⟦2⟧, ⟦3⟧ or ⟦4⟧ real roots.
+899	If ⟦0⟧ is between ⟦1⟧ and ⟦2⟧ there are ⟦3⟧ real roots; if ⟦4⟧, ⟦5⟧; otherwise ⟦6⟧.
+900	It is because the height of the curve ⟦0⟧ swings between the local maximum ⟦1⟧ and the local minimum ⟦2⟧.
+901	For a cubic equation, find one root with the factor theorem and divide by synthetic division to get a quadratic equation.
+902	As in ⟦0⟧, treating ⟦1⟧ as one letter turns it into a quadratic equation.
+903	The number of real roots of the equation ⟦0⟧ equals the number of intersections of ⟦1⟧ and the line ⟦2⟧.
+904	Change the two roots and the inequality direction and check the range of solutions shaded on the ⟦0⟧-axis.
+905	If the sign is <, the solutions are between the two roots; if >, outside them.
+906	A parabola that opens upward is below the ⟦0⟧-axis only between the two roots.
+907	When ⟦0⟧, the solution of ⟦1⟧ is ⟦2⟧<x<β, and the solution of (x−α)(x−β)>⟦3⟧ is ⟦4⟧ or ⟦5⟧.
+908	The solution of a quadratic inequality is the range of ⟦1⟧ where the parabola is below (or above) the ⟦0⟧-axis.
+909	⟦0⟧<b(b>⟦1⟧ is the same as ⟦2⟧.
+910	Change ⟦0⟧ and ⟦1⟧ and check how many times a combination a permutation is ⟦2⟧! times).
+911	After choosing the same ⟦0⟧ items there are ⟦1⟧! ways to line them up, so ₙ⟦2⟧ᵣ=ₙ⟦3⟧ᵣ⟦4⟧!.
+912	A combination only chooses; a permutation chooses and then lines up.
+913	⟦0⟧, and by convention ⟦1⟧.
+914	Change the entries of ⟦0⟧ and follow which row and column each entry of the product ⟦1⟧ comes from.
+915	Changing only the first row of ⟦0⟧ changes only the first row of ⟦1⟧.
+916	It is because row ⟦1⟧ of ⟦0⟧ is calculated only from row ⟦3⟧ of ⟦2⟧ and the columns of ⟦4⟧.
+917	Numbers arranged in a rectangle form a matrix; horizontal lines are rows and vertical lines are columns.
+918	Add matrices of the same size entry by entry, and for a scalar multiple multiply every entry.
+919	The ⟦1⟧ entry of ⟦0⟧ is row ⟦3⟧ of ⟦2⟧ and column ⟦5⟧ of ⟦4⟧ multiplied entry by entry and added. In general, ⟦6⟧.
+920	Move point ⟦0⟧ and change the ratio ⟦1⟧ to see where the dividing point ⟦2⟧ lands on the segment.
+921	The bigger ⟦0⟧ gets, the closer ⟦1⟧ moves to ⟦2⟧.
+922	⟦0⟧, so ⟦1⟧ is ⟦3⟧ of the way from ⟦2⟧.
+923	The distance between the two points ⟦0⟧ is ⟦1⟧.
+924	The point dividing the segment ⟦0⟧ in the ratio ⟦1⟧ is ⟦2⟧.
+925	If ⟦0⟧, the dividing point is the midpoint ⟦1⟧.
+926	Change the slope and ⟦0⟧-intercept and watch the perpendicular from the origin to the line and its length.
+927	The perpendicular's slope is always ⟦0⟧ of the original line's slope.
+928	The slopes of two perpendicular lines multiply to ⟦0⟧.
+929	The line with slope ⟦0⟧ through the point ⟦1⟧ is ⟦2⟧.

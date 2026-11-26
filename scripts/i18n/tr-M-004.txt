@@ -1,0 +1,230 @@
+470	side ⟦0⟧ → area ⟦1⟧
+471	area ratio ⟦0⟧
+472	volume ratio ⟦0⟧
+473	start: middle ⟦0⟧
+474	move the triangles
+475	into ⟦0⟧ and ⟦1⟧!
+476	jeans
+477	red + jeans
+478	shorts
+479	red + shorts
+480	blue + jeans
+481	blue + shorts
+482	green
+483	green + jeans
+484	green + shorts
+485	1st
+486	2nd
+487	3rd
+488	bus
+489	subway
+490	or
+491	"and (one after another)" → multiply · "or" → add
+492	⟦0⟧ red
+493	⟦0⟧ in all
+494	⟦0⟧red⟦1⟧
+495	⟦0⟧red) =
+496	trials
+497	experimental probability → theoretical probability
+498	not red (blue)
+499	total ⟦0⟧
+500	side ⟦0⟧
+501	side × side ⟦0⟧
+502	can't be written as a fraction
+503	irrational numbers are on the number line too!
+504	square roots of ⟦0⟧: ⟦1⟧
+505	the ⟦0⟧ sign means only the positive square root
+506	← rational!
+507	Which two numbers have product ⟦0⟧ and sum ⟦1⟧?
+508	sum ⟦0⟧
+509	common: ⟦0⟧
+510	⟦0⟧ → ⟦1⟧ or ⟦2⟧
+511	where ⟦0⟧ = roots
+512	axis of symmetry ⟦0⟧
+513	bigger ⟦0⟧: narrower
+514	smaller ⟦0⟧: wider
+515	⟦0⟧ → opens down
+516	height ÷ hypotenuse
+517	hypotenuse
+518	⟦0⟧ opposite/hypotenuse
+519	⟦0⟧ adjacent/hypotenuse
+520	⟦0⟧ opposite/adjacent
+521	central angle ⟦0⟧
+522	inscribed angle = central angle ⟦0⟧
+523	→ inscribed angle ⟦0⟧
+524	tangent ⊥ radius
+525	mean ⟦0⟧
+526	variance ⟦0⟧
+527	standard deviation ⟦0⟧ ≈ ⟦1⟧
+528	tightly grouped → small standard deviation
+529	widely spread → large standard deviation
+530	median ⟦0⟧
+531	lower half
+532	upper half
+533	interquartile range ⟦0⟧
+534	minimum
+535	maximum
+536	class ⟦0⟧
+537	class ⟦0⟧: higher median, shorter box → evenly grouped
+538	height
+539	weight
+540	temperature
+541	heating cost
+542	math score
+543	result ⟦0⟧
+544	Start at ⟦0⟧ on the number line and move ⟦1⟧ spaces right.
+545	A direct variation graph passes through the origin, and when ⟦0⟧ increases by ⟦1⟧, ⟦2⟧ changes by ⟦3⟧.
+546	other angle ⟦0⟧
+547	Two neighboring angles on a line always add up to ⟦0⟧.
+548	interior angle sum ⟦0⟧
+549	Split it into ⟦0⟧ triangles from one vertex.
+550	area ≈ ⟦0⟧
+551	It is ⟦0⟧ of the whole circle's area.
+552	volume ≈ ⟦0⟧
+553	Doubling the radius makes the base area and the volume four times as big.
+554	total frequency ⟦0⟧
+555	Dividing by the total frequency, the first class's relative frequency is ⟦0⟧.
+556	intersection ⟦0⟧≈⟦1⟧
+557	Setting the two expressions' ⟦0⟧-values equal and solving gives ⟦1⟧.
+558	slope ⟦0⟧-intercept ⟦1⟧
+559	⟦0⟧ is the slope and ⟦1⟧ is the ⟦2⟧-intercept. If ⟦3⟧, it becomes a constant function.
+560	Set the two lines' ⟦0⟧ equal and solve for ⟦1⟧.
+561	vertex angle ⟦0⟧
+562	An isosceles triangle's base angles are equal, so you can find the remaining vertex angle.
+563	In a parallelogram, neighboring angles add up to ⟦0⟧ and opposite angles are equal.
+564	big figure's side ⟦0⟧
+565	If the similarity ratio is ⟦0⟧, the area ratio is ⟦1⟧.
+566	hypotenuse ≈ ⟦0⟧
+567	The squares on the two legs add up to the square on the hypotenuse.
+568	probability of red ⟦0⟧
+569	⟦1⟧ of the ⟦0⟧ are red. Compare it with the results of repeated trials.
+570	square root ⟦0⟧
+571	When a square's area is ⟦0⟧, its side is ⟦1⟧, and the square roots of ⟦2⟧ are ⟦3⟧.
+572	Splitting the rectangle into ⟦0⟧ shows the distributive property.
+573	sum ⟦0⟧ product ⟦1⟧
+574	Factor using two numbers whose sum is ⟦0⟧ and product is ⟦1⟧.
+575	solutions ⟦0⟧ or ⟦1⟧
+576	For the product to be ⟦0⟧, one of the two linear factors must be ⟦1⟧.
+577	vertex ⟦0⟧
+578	It opens upward, and its minimum is ⟦0⟧.
+579	opposite side ≈ ⟦0⟧
+580	For the same angle, ⟦0⟧ is the same whatever the size of the right triangle.
+581	inscribed angle ⟦0⟧
+582	An inscribed angle is half the central angle on the same arc.
+583	data: ⟦0⟧
+584	Set ⟦0⟧ using the medians of the lower four values and the upper four values.
+585	trend line ⟦0⟧
+586	With a positive slope the points rise to the right; with a negative slope they fall.
+587	The square ⟦0⟧, two rectangles ⟦1⟧ and the square ⟦2⟧ together make the square ⟦4⟧ with side ⟦3⟧.
+588	⟦0⟧ language
+589	that divide ⟦0⟧ evenly
+590	Prime factorization by picking primes and dividing yourself
+591	Challenge: can you write ⟦0⟧ as a product of primes only?
+592	numbers to factor
+593	quick pick of numbers to factor
+594	① Choose a prime to divide by
+595	 is a natural number of at least ⟦1⟧ whose only factors are ⟦0⟧ and itself. ⟦2⟧ is not prime.
+596	choose a prime to divide by
+597	work out ⟦0⟧
+598	If you group ⟦0⟧ dots in ⟦1⟧s, do they divide exactly?
+599	↻ Divide again
+600	② Count the dots yourself
+601	⟦0⟧ dots left, ⟦2⟧ in each of ⟦1⟧ groups
+602	⟦0⟧ dots split into ⟦1⟧ groups of ⟦2⟧
+603	The picture has as many dots as the number left,
+604	. When a division works, the number of dots goes down too.
+605	prime factors found
+606	none yet
+607	number left
+608	check with the starting number
+609	⟦0⟧ and ⟦1⟧ from ⟦2⟧
+610	 apart. The distance from ⟦0⟧ is called the absolute value, and ⟦1⟧.
+611	same distance ⟦0⟧
+612	Hands-on math experiment
+613	Change the values and watch what happens
+614	starting point on the number line
+615	integer to move by
+616	↻ Back to the starting values
+617	Number line moving ⟦1⟧ spaces right from ⟦0⟧ to arrive at ⟦2⟧
+618	start ⟦0⟧
+619	math relationship
+620	result
+621	Show an unknown number
+622	as a box ⟦0⟧
+623	Try it yourself
+624	If you change the value of ⟦0⟧, does every ⟦1⟧ change together?
+625	The letter ⟦0⟧ is a number not yet decided. First choose a value for ⟦1⟧, then actually substitute it.
+626	number to put in for ⟦0⟧
+627	How many ⟦0⟧ are there?
+628	number to add at the end
+629	⟦1⟧ ⟦0⟧ cards
+630	in each ⟦0⟧ spot
+631	 goes in.
+632	Discovery: when ⟦0⟧ grows by ⟦1⟧, the value of the expression grows by
+633	. That is because ⟦0⟧ appears
+634	 times.
+635	⟦0⟧ is
+636	a balance scale
+637	Do the same thing to both sides to find ⟦0⟧
+638	The left and right sides are equal. ⟦0⟧ means the same number of marbles in every bag.
+639	linear equation to solve
+640	left
+641	right
+642	take ⟦0⟧ from both sides →
+643	↻ New equation
+644	Taking the same amount from both sides keeps the balance.
+645	The point ⟦0⟧ is where you get by moving from the origin
+646	, then
+647	. Change the order and you get a different point.
+648	⟦1⟧ along the ⟦0⟧-axis
+649	Grab the point, move it and read its coordinates.
+650	Moving left and right changes the ⟦0⟧-value; moving up and down changes the ⟦1⟧-value.
+651	⟦0⟧-coordinate
+652	The draggable point ⟦0⟧ is ⟦1⟧ and is in quadrant ⟦2⟧.
+653	Drag the point ⟦0⟧ yourself
+654	Check: if ⟦0⟧ is positive it is right of the ⟦1⟧-axis; if ⟦2⟧ is negative it is below the ⟦3⟧-axis. Points on an axis are not in any quadrant.
+655	In direct variation ⟦0⟧, when it becomes ⟦1⟧ or ⟦2⟧ times as big, ⟦3⟧ also becomes
+656	⟦0⟧ or ⟦1⟧ times as big
+657	a straight line through the origin
+658	constant of proportionality
+659	⟦0⟧-value
+660	type of variation
+661	Coordinate plane and graph that change as soon as you adjust the coefficient
+662	direct variation is ⟦0⟧, inverse variation is ⟦1⟧
+663	⟦1⟧ over ⟦0⟧
+664	inverse variation ⟦0⟧
+665	Turn a ray around a point on a line. The two angles ⟦0⟧ always change together, but
+666	their sum is always ⟦0⟧
+667	size of one angle
+668	moving diagram of two neighboring angles on a line
+669	the two angles add up to a straight angle, ⟦0⟧
+670	Drawing diagonals from one vertex (red) of a pentagon splits it into
+671	⟦0⟧ triangles
+672	number of sides of the polygon
+673	polygon whose number of sides and size you can change
+674	⟦0⟧ triangles
+675	The central angle of a whole circle is ⟦0⟧. A sector with central angle ⟦1⟧ is
+676	of the circle
+677	sector's central angle (°)
+678	sector that moves with the central angle
+679	sector area is ⟦0⟧
+680	central angle over ⟦0⟧
+681	central angle
+682	Arc length is the circumference ⟦0⟧
+683	The whole circle's area is ⟦0⟧ and the sector's area is ⟦1⟧
+684	⟦0⟧. The area of a sector is the circle's area ⟦1⟧
+685	A cylinder is a solid made by stacking its circular base
+686	. So volume = base area × height =
+687	up to its height
+688	cylinder radius ⟦0⟧
+689	height ⟦0⟧
+690	cylinder whose volume changes with its radius and height
+691	Sort ⟦0⟧ math scores
+692	. The number of data values in each class is its
+693	into classes (intervals)
+694	frequency
+695	first class frequency
+696	second class frequency
+697	data graph whose bars change as you move the values
+698	Keep dividing ⟦0⟧
+699	the remainder comes back to ⟦0⟧

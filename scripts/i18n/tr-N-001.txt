@@ -1,0 +1,1 @@
+0	The probability of drawing one marble from ⟦0⟧ red and ⟦1⟧ blue marbles is ⟦2⟧.

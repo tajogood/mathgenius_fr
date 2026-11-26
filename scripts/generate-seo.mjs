@@ -398,7 +398,7 @@ function englishPageHtml(){
     section('High school · '+totalHigh+' units','Polynomials, complex numbers, functions, exponents and logarithms, trigonometry, sequences, limits, derivatives, integrals, and probability distributions.',
       '<a href="'+app('level=high&amp;course=c1')+'">Start high school math</a>')+
     section('Good to know','The lessons follow the South Korean national curriculum (2022 revision), so unit order may differ from your school. '+
-      'Elementary lessons (grades 1–6) are fully in English. Middle and high school lessons are still being translated, so some explanations and problems there are in Korean. '+
+      'Every lesson, from grade 1 to high school, is in English. '+
       'Progress is saved only in your browser. We use Cloudflare Web Analytics for anonymous visit counts.')+
     '<div class="actions"><a href="'+app('guest=1&amp;grade=1')+'">Start learning, no sign-up</a>'+
     '<a class="secondary" href="'+prefix+'?lang=ko" hreflang="ko">한국어로 보기</a></div>'+

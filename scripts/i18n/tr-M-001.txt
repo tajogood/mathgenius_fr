@@ -1,0 +1,72 @@
+0	A natural number greater than ⟦0⟧ whose only factors are ⟦1⟧ and itself is called a prime. ⟦2⟧ is not prime.
+1	Divide a composite number by primes again and again and the prime factorization is done. You can also write it with powers, like ⟦0⟧.
+2	Numbers to the right of ⟦0⟧ are positive and those to the left are negative. Absolute value is the distance from ⟦1⟧.
+3	Adding a negative is like moving left, and subtracting a negative is like moving right.
+4	If you call a number ⟦0⟧, you can write ⟦1⟧ simply as ⟦2⟧.
+5	Putting a real number in place of the letter ⟦0⟧ is called substitution. If ⟦1⟧, then ⟦2⟧.
+6	An equation means both sides have the same value. Adding or subtracting the same number on both sides keeps them equal.
+7	In ⟦0⟧, subtract ⟦1⟧ from both sides to get ⟦2⟧, then divide by ⟦3⟧ to get ⟦4⟧.
+8	The point ⟦0⟧ is where you end up moving first along the ⟦1⟧-axis and then along the ⟦2⟧-axis.
+9	The signs of the two coordinates decide the quadrant (quadrant ⟦0⟧). Points on an axis are not in any quadrant.
+10	In direct variation ⟦0⟧, when ⟦1⟧ doubles, ⟦2⟧ doubles too. Its graph is a straight line through the origin.
+11	In inverse variation ⟦0⟧, the product of ⟦1⟧ and ⟦2⟧ stays the same. Double ⟦3⟧ and ⟦4⟧ halves.
+12	Two neighboring angles on a straight line add up to ⟦0⟧. Vertical angles are equal.
+13	When a line crosses two parallel lines, corresponding angles and alternate angles are equal.
+14	A polygon with ⟦0⟧ sides can be split into ⟦1⟧ triangles by drawing diagonals from one vertex.
+15	So its interior angles add up to ⟦0⟧. The exterior angles of a convex polygon always add up to ⟦1⟧.
+16	The central angle of a whole circle is ⟦0⟧, and of a semicircle ⟦1⟧.
+17	Arc length is the circumference ⟦0⟧ times the central angle fraction ⟦1⟧.
+18	A prism has two parallel bases of the same shape. Its volume is base area × height.
+19	The base area of a cylinder is ⟦0⟧, so its volume is ⟦1⟧.
+20	Frequency tells how many data values fall at a value or in an interval.
+21	The bar heights of a histogram are the frequencies of each class. The total of the frequencies equals the number of data values.
+22	A non-integer rational number is a terminating decimal if its denominator can be made from only ⟦0⟧ and ⟦1⟧ as factors.
+23	If certain digits repeat forever, as in ⟦0⟧, it is a repeating decimal.
+24	⟦0⟧ has ⟦1⟧ multiplied five times in all, so it is ⟦2⟧.
+25	When multiplying powers with the same base, add the exponents; when dividing, subtract them (base ⟦0⟧.
+26	An inequality shows which of two values is bigger. The solution of ⟦0⟧ is ⟦1⟧.
+27	Multiplying or dividing by a positive number keeps the inequality sign; multiplying or dividing by a negative number flips it.
+28	⟦0⟧, the solution of two linear equations, must satisfy both conditions.
+29	Adding ⟦0⟧ gives ⟦1⟧, so ⟦2⟧.
+30	The ⟦1⟧ of the linear function ⟦0⟧ is where it meets the ⟦2⟧-axis.
+31	⟦0⟧ shows how much ⟦3⟧ changes when ⟦1⟧ increases by ⟦2⟧. If ⟦4⟧ is negative, the line goes down to the right.
+32	The graphs of two linear functions meet at the ⟦1⟧-coordinate where they have the same ⟦0⟧-value.
+33	If ⟦0⟧, then ⟦1⟧, so ⟦2⟧ and ⟦3⟧.
+34	The two base angles of an isosceles triangle are equal, and the line from the vertex angle to the midpoint of the base is perpendicular to it.
+35	The circumcenter is where the perpendicular bisectors of the three sides meet; it is the same distance from every vertex.
+36	A parallelogram has each pair of opposite sides parallel, and its opposite angles are equal.
+37	The two diagonals of a parallelogram pass through each other's midpoints.
+38	Similar figures have equal corresponding angles, and the ratio of corresponding sides stays the same.
+39	If the similarity ratio is ⟦0⟧, lengths are ⟦1⟧, areas ⟦2⟧ and volumes ⟦3⟧.
+40	In a right triangle, if the two legs are ⟦0⟧ and the hypotenuse is ⟦1⟧, then ⟦2⟧.
+41	Since ⟦0⟧, ⟦1⟧ is a right triangle.
+42	Pairing ⟦0⟧ shirts with ⟦1⟧ pairs of pants gives ⟦2⟧ outfits.
+43	When two different choices happen one after the other, use the multiplication rule to count the outcomes.
+44	If all outcomes are equally likely, probability is (favorable outcomes) ÷ (all outcomes).
+45	If ⟦0⟧, then ⟦1⟧ is a square root of ⟦2⟧. The square roots of ⟦3⟧ are ⟦4⟧ and ⟦5⟧, and ⟦6⟧ means the positive one, ⟦7⟧.
+46	Some numbers, like ⟦0⟧, are irrational and cannot be written as fractions. The real numbers include both rational and irrational numbers.
+47	As in ⟦0⟧, you can take the square root of ⟦1⟧ out of the radical.
+48	As in ⟦0⟧, if the numbers under the radical are the same, you can add the coefficients.
+49	In ⟦0⟧, the rectangle can be split into four parts: ⟦1⟧.
+50	Collect like terms to get ⟦0⟧.
+51	In ⟦0⟧, find numbers ⟦3⟧ and ⟦4⟧ whose sum is ⟦1⟧ and product is ⟦2⟧.
+52	So ⟦0⟧.
+53	⟦0⟧ can be factored as ⟦1⟧.
+54	If the product of two numbers is ⟦0⟧, one of them is ⟦1⟧, so ⟦2⟧ or ⟦3⟧.
+55	The vertex of ⟦0⟧ is ⟦1⟧ and its axis of symmetry is ⟦2⟧.
+56	If ⟦0⟧, the parabola opens upward and its minimum is ⟦1⟧. If ⟦2⟧, it opens downward.
+57	⟦0⟧ is the ratio of the opposite side (height) to the hypotenuse, and ⟦1⟧ is the ratio of the adjacent side to the hypotenuse.
+58	⟦0⟧ is the ratio of the opposite side to the adjacent side. When ⟦1⟧ changes, the ratio changes too.
+59	An inscribed angle is half the central angle that subtends the same arc.
+60	Inscribed angles on the same arc are equal.
+61	The range of data is maximum − minimum. Data with the same mean can be spread out differently.
+62	A deviation is each value − the mean. The deviations always add up to ⟦0⟧.
+63	The median is the middle value of the sorted data.
+64	The first and third quartiles (Q⟦0⟧, Q⟦1⟧) are the medians of the lower and upper halves of the data. The interquartile range is ⟦2⟧.
+65	A scatter plot plots ⟦0⟧ points to show how two variables are related.
+66	If ⟦1⟧ tends to increase as ⟦0⟧ increases, it is a positive correlation; if it decreases, a negative correlation.
+67	Choose ⟦0⟧ and divide it by ⟦1⟧. If ⟦2⟧ dots are left, check whether ⟦3⟧ is also prime.
+68	Each division changes the number that is left, and multiplying all the prime factors gives back the original number.
+69	Prime factorization writes a natural number as a product of primes only, dividing all the way down.
+70	Dividing ⟦0⟧ by the smallest primes again and again gives ⟦1⟧, and multiplying gives back ⟦2⟧.
+71	The shared prime factors connect to the greatest common factor, and all the needed prime factors connect to the least common multiple.

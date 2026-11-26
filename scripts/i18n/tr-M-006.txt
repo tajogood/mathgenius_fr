@@ -1,0 +1,240 @@
+930	Two parallel lines have equal slopes, and two perpendicular lines have slopes that multiply to ⟦0⟧.
+931	The distance between the point ⟦0⟧ and the line ⟦1⟧ is {{∣⟦2⟧∣⟦3⟧.
+932	Change the circle's center and radius to make it meet the ⟦0⟧-axis at two points, touch it, or miss it.
+933	Compare the absolute value of the center's ⟦0⟧-coordinate, ⟦1⟧, with the radius ⟦2⟧.
+934	It is because the distance from the center to the ⟦0⟧-axis is ⟦1⟧.
+935	The circle with center ⟦0⟧ and radius ⟦1⟧ is ⟦2⟧.
+936	Rewrite ⟦0⟧ by completing the square to find the center and radius.
+937	If the distance ⟦0⟧ between the center and the line is less than ⟦1⟧, they meet at two points; if equal, the line is tangent; if greater, they don't meet.
+938	Move point ⟦0⟧ and watch how its four reflections move together.
+939	Reflecting the ⟦0⟧-axis reflection or the ⟦1⟧-axis reflection again gives the reflection through the origin.
+940	It is because flipping one sign, twice, flips both signs.
+941	Translating point ⟦0⟧ along the ⟦1⟧-axis ⟦2⟧-axis by ⟦3⟧ gives ⟦4⟧.
+942	Translating the figure ⟦0⟧ gives ⟦1⟧.
+943	Reflection in the ⟦0⟧-axis ⟦1⟧-axis reflection ⟦2⟧, through the origin ⟦3⟧, in the line ⟦4⟧ ⟦5⟧.
+944	Change ⟦0⟧∩⟦1⟧ and check the count in each region of the Venn diagram.
+945	The bigger ⟦0⟧∩⟦1⟧ gets, the smaller ⟦2⟧∪⟦3⟧ becomes.
+946	It is because the shared elements are counted twice, once in ⟦0⟧ and once in ⟦1⟧.
+947	⟦0⟧∪⟦1⟧ is the set of elements in ⟦2⟧ or ⟦3⟧, and ⟦4⟧∩⟦5⟧ is the set of elements in both ⟦6⟧ and ⟦7⟧.
+948	⟦0⟧∪⟦1⟧∩⟦2⟧. Subtract the overlap once so it isn't counted twice.
+949	A set with ⟦0⟧ elements has ⟦1⟧ subsets.
+950	Change the ranges of ⟦0⟧ and ⟦1⟧ and find the moment ⟦2⟧ fits completely inside ⟦3⟧.
+951	⟦2⟧→⟦3⟧ is true only when ⟦0⟧⊂⟦1⟧. If ⟦4⟧, it is a necessary and sufficient condition.
+952	Every element of ⟦0⟧ must belong to ⟦1⟧ for "if ⟦2⟧ then ⟦3⟧" to hold with no exceptions.
+953	If the truth set of condition ⟦0⟧ is ⟦1⟧ and ⟦2⟧⊂⟦3⟧, then the proposition ⟦4⟧→⟦5⟧ is true.
+954	If ⟦0⟧→⟦1⟧ is true, ⟦2⟧ is a sufficient condition for ⟦3⟧, and ⟦4⟧ is a necessary condition for ⟦5⟧.
+955	A proposition and its contrapositive ⟦0⟧→⟦1⟧ are always both true or both false.
+956	Change the slope and intercept and see whether the graphs of the function and its inverse are symmetric about ⟦0⟧.
+957	The two graphs meet on the line ⟦0⟧.
+958	It is because if ⟦0⟧ is on ⟦1⟧, then ⟦2⟧ is on ⟦3⟧.
+959	⟦0⟧∘⟦1⟧ means work out ⟦2⟧ first and put the result into ⟦3⟧. In general, ⟦4⟧∘⟦5⟧∘⟦6⟧.
+960	For a one-to-one function ⟦0⟧, solve ⟦1⟧ for ⟦2⟧ and swap ⟦3⟧ and ⟦4⟧ to get the inverse ⟦5⟧.
+961	The graphs of ⟦0⟧ and ⟦1⟧ are symmetric about the line ⟦2⟧.
+962	Change ⟦0⟧ and ⟦1⟧ and see whether the two asymptotes move with the graph.
+963	When the sign of ⟦0⟧ changes, the quadrants the graph sits in change.
+964	At ⟦0⟧ the denominator becomes ⟦1⟧, so the function value is undefined.
+965	The graph of ⟦0⟧ is a hyperbola with the ⟦1⟧-axis and ⟦2⟧-axis as asymptotes.
+966	⟦0⟧ is ⟦1⟧ translated along the ⟦2⟧-axis ⟦3⟧-axis by ⟦4⟧.
+967	The asymptotes are ⟦0⟧, and the graph is symmetric about their intersection ⟦1⟧.
+968	Change the sign of ⟦0⟧ and the starting point ⟦1⟧ and watch which way the graph extends.
+969	If ⟦0⟧, the graph extends to the left.
+970	It is because ⟦0⟧ under the radical must be at least ⟦1⟧.
+971	⟦0⟧ is defined for ⟦1⟧; it starts at the origin and rises slowly up to the right.
+972	If ⟦0⟧, the domain is ⟦1⟧ and the range is ⟦2⟧.
+973	Change the base and the numerator and denominator of the exponent and see where the value sits on the graph of ⟦0⟧ˣ.
+974	An exponent of ⟦0⟧ means square root, and ⟦1⟧ means cube root.
+975	It is because it was defined so that ⟦0⟧ⁿ⟦1⟧.
+976	A number whose ⟦0⟧th power is ⟦1⟧ is called an ⟦3⟧th root of ⟦2⟧. For example, ∛⟦4⟧.
+977	When ⟦0⟧, we define ⟦1⟧ⁿ⟦2⟧.
+978	Even with rational exponents, ⟦0⟧ holds.
+979	Change the base ⟦0⟧ and the argument ⟦1⟧ and check that ⟦2⟧ counts how many times you multiplied.
+980	Each time the argument becomes ⟦0⟧ times as big, the log value goes up by ⟦1⟧.
+981	It is because ⟦0⟧.
+982	If ⟦0⟧, then ⟦1⟧. ⟦2⟧
+983	⟦0⟧.
+984	Change of base: ⟦0⟧.
+985	Make the base bigger, then smaller, than ⟦0⟧ and compare how the two graphs increase or decrease.
+986	The two graphs always pass through the points ⟦0⟧ and ⟦1⟧ respectively.
+987	If ⟦0⟧, ⟦1⟧ increases; if ⟦2⟧, it decreases. The asymptote is the ⟦3⟧-axis.
+988	⟦0⟧ is the inverse of ⟦1⟧, so the two graphs are symmetric about the line ⟦2⟧.
+989	Solve exponential and logarithmic equations by making the bases equal or using the definition of a logarithm.
+990	Turn the angle ⟦0⟧ and see how the signs of point ⟦1⟧'s ⟦2⟧-coordinate⟦3⟧ and ⟦4⟧-coordinate⟦5⟧ change in each quadrant.
+991	⟦0⟧ is always on the circle with radius ⟦1⟧, so ⟦2⟧.
+992	⟦0⟧ comes from the Pythagorean theorem.
+993	⟦0⟧ radians. For example, ⟦1⟧.
+994	For the point ⟦0⟧ on the unit circle, we define ⟦1⟧.
+995	⟦0⟧, and the signs are fixed in each quadrant.
+996	Change ⟦0⟧ and watch the height of the graph (amplitude), how often it repeats (period), and how high it sits.
+997	Doubling ⟦0⟧ halves the period.
+998	It is because for ⟦0⟧ to change by ⟦1⟧, ⟦2⟧ only needs to change by ⟦3⟧.
+999	⟦0⟧ and ⟦1⟧ have period ⟦2⟧ has period ⟦3⟧.
+1000	The graph of ⟦0⟧ is the same as ⟦1⟧ translated along the ⟦2⟧-axis by ⟦3⟧.
+1001	Change the two sides ⟦0⟧ and the angle between them ⟦1⟧, and see how the third side ⟦2⟧ and the area change.
+1002	If ⟦0⟧, the law of cosines becomes the Pythagorean theorem.
+1003	⟦0⟧, so the ⟦1⟧ term disappears.
+1004	Law of cosines: ⟦0⟧
+1005	Change the first term and the common difference and see whether the bar heights change by equal steps like stairs.
+1006	If the common difference is negative, the bars get lower and lower.
+1007	It is because the same number ⟦0⟧ is added to each term.
+1008	The general term of the arithmetic sequence with first term ⟦0⟧ and common difference ⟦1⟧ is ⟦2⟧.
+1009	The sum from the first term to term ⟦0⟧ is ⟦1⟧ is the last term).
+1010	If the three numbers ⟦0⟧ form an arithmetic sequence in this order, then ⟦1⟧arithmetic mean).
+1011	Make the common ratio bigger than ⟦0⟧, between ⟦1⟧ and ⟦2⟧, and negative, and compare how the bars change.
+1012	If the common ratio is negative, the signs alternate.
+1013	It is because each term is multiplied by the same number ⟦0⟧.
+1014	The general term of the geometric sequence with first term ⟦0⟧ and common ratio ⟦1⟧ is ⟦2⟧.
+1015	If ⟦0⟧, then ⟦1⟧.
+1016	If the three numbers ⟦0⟧ form a geometric sequence in this order, then ⟦1⟧geometric mean).
+1017	Change ⟦0⟧ and watch two staircases from ⟦1⟧ to ⟦2⟧ fit together into a rectangle.
+1018	The two staircases fill a rectangle ⟦0⟧ wide and ⟦1⟧ tall.
+1019	So ⟦0⟧ is half the rectangle's area, ⟦1⟧.
+1020	You can split it up and calculate, as in ⟦0⟧.
+1021	Turn the first domino and the connecting condition on and off one at a time, and find when every domino falls.
+1022	If either condition is missing, it stops somewhere.
+1023	The first step guarantees a start, and the second guarantees each step connects to the next.
+1024	Show the statement holds when ⟦0⟧.
+1025	Assuming it holds when ⟦0⟧, show it also holds when ⟦1⟧.
+1026	Once both steps are checked, it holds for every natural number ⟦0⟧, like dominoes.
+1027	Shrink ⟦0⟧ and see whether the function values on the left and right of ⟦1⟧ approach the same value.
+1028	The spot at ⟦0⟧ is empty, but the values on both sides approach ⟦1⟧.
+1029	⟦0⟧→⟦1⟧ means that as ⟦2⟧ gets arbitrarily close to ⟦3⟧, ⟦4⟧ gets arbitrarily close to ⟦5⟧.
+1030	A limit can exist even with no function value at ⟦0⟧. The limit exists when the left-hand and right-hand limits are equal.
+1031	For the form ⟦0⟧, factor, cancel the common factor, then substitute.
+1032	Move the constant ⟦0⟧ in the left piece and find the moment the two pieces join at ⟦1⟧.
+1033	When the left-hand and right-hand limits are equal, the graph has no break.
+1034	It is because continuity means "limit = function value."
+1035	For ⟦0⟧ to be continuous at ⟦1⟧, ⟦2⟧ must be defined, ⟦3⟧→⟦4⟧ must exist, and that value must equal ⟦5⟧.
+1036	Polynomial functions are continuous at every real number.
+1037	A function continuous on an interval has a maximum and minimum (extreme value theorem) and takes every value in between (intermediate value theorem).
+1038	Shrink ⟦0⟧ toward ⟦1⟧ and watch the secant turn into the tangent.
+1039	The secant's slope is ⟦0⟧, and as ⟦1⟧ gets smaller it approaches ⟦2⟧.
+1040	When the two points get arbitrarily close, the secant becomes the tangent.
+1041	When ⟦0⟧ changes from ⟦1⟧ to ⟦2⟧, the average rate of change is ⟦3⟧, the slope of the secant.
+1042	As ⟦0⟧→⟦1⟧, the limit of the average rate of change is the derivative ⟦2⟧, the slope of the tangent.
+1043	If ⟦0⟧, the average rate of change is ⟦1⟧, so ⟦2⟧.
+1044	Change ⟦0⟧ and ⟦1⟧ and check that ⟦3⟧ is positive where ⟦2⟧ rises.
+1045	Where ⟦0⟧, the graph of ⟦1⟧ flattens out for a moment.
+1046	The value of the derivative is the slope of the tangent at each point.
+1047	⟦0⟧constant⟦1⟧.
+1048	⟦0⟧product rule)
+1049	Move the point of tangency ⟦0⟧ and see how the tangent's slope and equation change.
+1050	At a point where ⟦0⟧, the tangent is parallel to the ⟦1⟧-axis.
+1051	The slope of the tangent is the derivative.
+1052	The tangent to the curve ⟦0⟧ at the point ⟦1⟧ is ⟦2⟧.
+1053	Given a slope, find the ⟦1⟧ with ⟦0⟧ to get the point of tangency.
+1054	Mean value theorem: on the interval ⟦0⟧ there is a ⟦2⟧ whose instantaneous rate of change ⟦1⟧ equals the average rate of change.
+1055	Change ⟦0⟧ and see whether local maxima and minima appear where the sign of ⟦1⟧ changes.
+1056	If the quadratic ⟦0⟧ doesn't meet the ⟦1⟧-axis, there are no extrema.
+1057	It is because the sign has to change for increasing to turn into decreasing (or the reverse).
+1058	On intervals where ⟦0⟧, ⟦1⟧ increases; where ⟦2⟧, it decreases.
+1059	If ⟦0⟧ and the sign of ⟦1⟧ changes from + to − around it, it is a local maximum; from − to +, a local minimum.
+1060	For the cubic ⟦0⟧ to have extrema, ⟦1⟧ must have two different real roots.
+1061	Change the constant of integration ⟦0⟧ and see whether the curves with the same slope lie parallel, one above another.
+1062	Even with different ⟦0⟧, every curve has the same tangent slope ⟦2⟧ at the same ⟦1⟧.
+1063	It is because the derivative of a constant is ⟦0⟧, so it doesn't affect the derivative.
+1064	If ⟦0⟧, then ⟦1⟧ is called an antiderivative (indefinite integral) of ⟦2⟧ and written ⟦3⟧.
+1065	⟦0⟧ is an integer of at least ⟦1⟧)
+1066	The constant of integration ⟦0⟧ is fixed by a given condition (e.g. the value of ⟦1⟧).
+1067	Increase the number of rectangles ⟦0⟧ and see whether the sum approaches the exact area.
+1068	As ⟦0⟧ grows, the gap between the rectangle sum and the definite integral shrinks.
+1069	It is because the definite integral is defined as the limit of rectangle-area sums.
+1070	The sum of the rectangle areas over ⟦0⟧ subintervals approaches the area under the curve as ⟦1⟧ grows.
+1071	⟦0⟧ is an antiderivative of ⟦1⟧)
+1072	As in ⟦0⟧, an odd function's definite integral over a symmetric interval is ⟦1⟧.
+1073	Change the slope ⟦0⟧ and check whether the area between the parabola and the line is proportional to ⟦1⟧.
+1074	Doubling ⟦0⟧ makes the area ⟦1⟧ times as big.
+1075	It is because ⟦0⟧₀ᵐ ⟦1⟧.
+1076	The area enclosed by the curve ⟦0⟧ and the line ⟦1⟧ is ⟦2⟧.
+1077	Change ⟦0⟧ and ⟦1⟧ and see whether choosing ⟦2⟧ ways in each slot gives ⟦3⟧ʳ.
+1078	Each extra slot multiplies the number of outcomes by ⟦0⟧.
+1079	The choices in the slots don't affect each other, so use the multiplication rule.
+1080	The number of shortest paths can also be counted as permutations with identical items.
+1081	Change ⟦0⟧ and ⟦1⟧ and check the number of ways to arrange stars and bars.
+1082	Once you place the bars, how many of each kind you choose is decided.
+1083	It is because it is the combination of choosing ⟦1⟧ bar positions out of ⟦0⟧.
+1084	It equals the number of ways to arrange ⟦0⟧ stars and ⟦1⟧ bars.
+1085	Change ⟦0⟧ and ⟦1⟧ and find where the binomial coefficient sits in Pascal's triangle.
+1086	Adding all the numbers in a row gives ⟦0⟧ⁿ.
+1087	It is because it is ⟦0⟧ⁿ expanded with the binomial theorem.
+1088	Pascal's triangle is the binomial coefficients ⟦0⟧ arranged in a triangle.
+1089	⟦0⟧, so adding the two numbers above gives the number below.
+1090	Change ⟦0⟧∩⟦1⟧ and see how the probability of the union changes.
+1091	The bigger the overlap, the smaller ⟦0⟧∪⟦1⟧ becomes.
+1092	It is because the overlap is included twice, once in ⟦0⟧ and once in ⟦1⟧.
+1093	⟦0⟧∪⟦1⟧∩⟦2⟧.
+1094	If ⟦0⟧ are mutually exclusive, then ⟦1⟧∩⟦2⟧, so ⟦3⟧∪⟦4⟧.
+1095	Complement: ⟦0⟧. "At least one" is easiest to find with the complement.
+1096	Change the three ratios and check in the area model that conditional probability is "the share within ⟦0⟧, not the whole."
+1097	Once we know ⟦0⟧ happened, the sample space shrinks to ⟦1⟧.
+1098	It is because conditional probability is the share of ⟦0⟧ taken up by ⟦1⟧.
+1099	⟦0⟧∩⟦1⟧provided ⟦2⟧
+1100	Multiplication rule: ⟦0⟧∩⟦1⟧
+1101	If ⟦0⟧, then ⟦1⟧ and ⟦2⟧ are independent, and ⟦3⟧∩⟦4⟧.
+1102	Change ⟦0⟧ and ⟦1⟧ and see whether the peak of the bar graph appears near the mean ⟦2⟧.
+1103	As ⟦0⟧ grows, the distribution gets closer to a bell shape.
+1104	When ⟦0⟧ is large enough, a binomial distribution can be approximated by a normal distribution.
+1105	In ⟦1⟧ independent trials with success probability ⟦0⟧, the number of successes ⟦2⟧ follows the binomial distribution ⟦3⟧.
+1106	Change the mean ⟦0⟧, the standard deviation ⟦1⟧ and the cutoff, and watch the shaded area (probability).
+1107	If the cutoff is the same number of ⟦0⟧ away, the probability is the same even when ⟦1⟧ and ⟦2⟧ differ.
+1108	It is because standardizing turns every normal distribution into the same standard normal distribution.
+1109	The graph of the normal distribution ⟦0⟧ is a bell shape symmetric about ⟦1⟧, and the bigger ⟦2⟧ is, the wider it spreads.
+1110	Standardizing with ⟦0⟧, ⟦1⟧ follows the standard normal distribution ⟦2⟧.
+1111	⟦0⟧≈⟦1⟧≈⟦2⟧≈⟦3⟧standard normal table)
+1112	Change the sample size ⟦0⟧ and ⟦1⟧ and see how the length of the confidence interval changes.
+1113	Making ⟦0⟧ ⟦1⟧ times as big halves the interval length.
+1114	It is because the interval length is proportional to ⟦0⟧.
+1115	Drawing a sample of size ⟦2⟧ from a population with mean ⟦0⟧ and standard deviation ⟦1⟧ gives ⟦3⟧̄⟦4⟧̄⟦5⟧.
+1116	⟦0⟧ confidence interval for the population mean: ⟦1⟧̄⟦2⟧̄⟦3⟧
+1117	At ⟦0⟧ confidence, use ⟦2⟧ instead of ⟦1⟧. The bigger the sample, the narrower the interval.
+1118	When ⟦0⟧ is expanded, what is the coefficient of ⟦1⟧?
+1119	The ⟦1⟧ term of ⟦0⟧ is ⟦2⟧.
+1120	If the polynomial ⟦0⟧ is divisible by ⟦1⟧, what is the constant ⟦2⟧?
+1121	By the factor theorem, ⟦0⟧, so ⟦1⟧.
+1122	What is the remainder when ⟦0⟧ is divided by ⟦1⟧?
+1123	By the remainder theorem, the remainder is ⟦0⟧.
+1124	What is ⟦0⟧ factored?
+1125	Put ⟦1⟧ into ⟦0⟧.
+1126	⟦0⟧, so ⟦1⟧ is a factor. Divide by synthetic division and factor the leftover quadratic to get ⟦2⟧.
+1127	What is ⟦0⟧?
+1128	Expanding gives ⟦0⟧, and ⟦1⟧, so ⟦2⟧.
+1129	What is the value of ⟦0⟧?
+1130	⟦0⟧, so ⟦1⟧.
+1131	If the quadratic equation ⟦0⟧ has a double root, what is the constant ⟦1⟧?
+1132	The discriminant ⟦0⟧, so ⟦1⟧.
+1133	If the two roots of the quadratic equation ⟦0⟧ are ⟦1⟧, what is the value of ⟦2⟧?
+1134	If the line ⟦0⟧ is tangent to the parabola ⟦1⟧, what is ⟦2⟧?
+1135	The discriminant of ⟦0⟧ is ⟦1⟧, so ⟦2⟧.
+1136	What is the greatest integer ⟦2⟧ for which the graph of the quadratic function ⟦0⟧ meets the ⟦1⟧-axis at two different points?
+1137	From the discriminant of ⟦0⟧, ⟦1⟧, we get ⟦2⟧, so the greatest integer ⟦3⟧ is ⟦4⟧.
+1138	What are the solutions of the quartic equation ⟦0⟧?
+1139	⟦0⟧ or ⟦1⟧
+1140	Setting ⟦0⟧ gives ⟦1⟧, so ⟦2⟧ or ⟦3⟧.
+1141	How many different real roots does the equation ⟦0⟧ have?
+1142	The local maximum of ⟦0⟧ is ⟦1⟧ and the local minimum is ⟦2⟧. It meets the line ⟦3⟧ at ⟦4⟧ points, so there are ⟦5⟧ real roots.
+1143	What is the solution of the quadratic inequality ⟦0⟧?
+1144	⟦0⟧, so between the two roots: ⟦1⟧
+1145	⟦0⟧, so outside the two roots: ⟦1⟧ or ⟦2⟧
+1146	What is the solution of the inequality ⟦0⟧?
+1147	Adding ⟦1⟧ to each part of ⟦0⟧ gives ⟦2⟧.
+1148	How many ways are there to choose ⟦2⟧ boys and ⟦3⟧ girls from ⟦0⟧ boys and ⟦1⟧ girls?
+1149	If ⟦0⟧⟦⟦1⟧⟧ and ⟦2⟧⟦⟦3⟧⟧, what is the ⟦5⟧ entry of the matrix ⟦4⟧?
+1150	Multiply row ⟦1⟧ of ⟦0⟧, ⟦2⟧, by column ⟦4⟧ of ⟦3⟧, ⟦5⟧, and add: ⟦6⟧
+1151	For the two points ⟦0⟧, what are the coordinates of the point dividing the segment ⟦1⟧ in the ratio ⟦2⟧?
+1152	What is the distance between the two points ⟦0⟧?
+1153	What is the distance between the origin and the line ⟦0⟧?
+1154	What is the equation of the line with slope ⟦0⟧ through the point ⟦1⟧?
+1155	Rearranging ⟦0⟧ gives ⟦1⟧
+1156	What is the slope of a line perpendicular to the line ⟦0⟧?
+1157	The slopes of two perpendicular lines multiply to ⟦0⟧, so ⟦1⟧slope⟦2⟧, and the slope is ⟦3⟧.
+1158	What are the center and radius of the circle ⟦0⟧?
+1159	center ⟦0⟧, radius ⟦1⟧
+1160	Completing the square gives ⟦0⟧
+1161	How is the circle ⟦0⟧ positioned relative to the ⟦1⟧-axis?
+1162	It meets it at two different points
+1163	Comparing the distance ⟦2⟧ from the center ⟦0⟧ to the ⟦1⟧-axis with the radius ⟦3⟧, it meets it at two different points.
+1164	It meets it at one point (tangent)
+1165	It does not meet it
+1166	The circle contains the ⟦0⟧-axis
+1167	Comparing the distance ⟦2⟧ from the center ⟦0⟧ to the ⟦1⟧-axis with the radius ⟦3⟧, it meets it at one point (tangent).
+1168	Comparing the distance ⟦2⟧ from the center ⟦0⟧ to the ⟦1⟧-axis with the radius ⟦3⟧, it does not meet it.
+1169	What is the vertex of the graph of the parabola ⟦0⟧ translated along the ⟦1⟧-axis ⟦2⟧-axis by ⟦3⟧?

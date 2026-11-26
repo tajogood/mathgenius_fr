@@ -4,7 +4,7 @@ import MiddleApp from '../middle/MiddleApp.tsx';
 import HighApp from '../high/HighApp.tsx';
 import {HIGH_COURSE_IDS,type HighCourseId} from '../high/curriculum.ts';
 import './level-switch.css';
-import LangSwitch,{TranslationNotice} from '../i18n/LangSwitch.tsx';
+import LangSwitch from '../i18n/LangSwitch.tsx';
 import {L} from '../i18n/index.ts';
 
 // Elementary curriculum and its App component are intentionally untouched.
@@ -40,9 +40,9 @@ export default function FreeSite(){
   const openMiddle=(grade:1|2|3)=>{go({level:'middle',grade:String(grade)});setMode({level:'middle',grade});};
   const openHigh=(course:HighCourseId='c1')=>{go({level:'high',course});setMode({level:'high',course});};
   const openElementary=()=>{go({});setMode({level:'elementary',grade:5});};
-  if(mode.level==='high')return <><TranslationNotice/><HighApp key={'high'+mode.course} initialCourse={mode.course}
+  if(mode.level==='high')return <><HighApp key={'high'+mode.course} initialCourse={mode.course}
     onElementary={openElementary} onMiddle={()=>openMiddle(1)}/></>;
-  if(mode.level==='middle')return <><TranslationNotice/><MiddleApp key={'middle'+mode.grade}
+  if(mode.level==='middle')return <><MiddleApp key={'middle'+mode.grade}
     initialGrade={mode.grade} onElementary={openElementary} onHigh={()=>openHigh('c1')}/></>;
   return <div className="free-grade-portal">
     <nav className="free-level-nav" aria-label={L('학교급 선택','Choose school level')}>
