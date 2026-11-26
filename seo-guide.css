@@ -1,0 +1,22 @@
+:root{font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;color:#26344f;background:#f7f9ff;line-height:1.8}
+*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:1000px;margin:0 auto;padding:24px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font-weight:850;color:#3d4bb7;text-decoration:none;font-size:23px}
+nav{display:flex;flex-wrap:wrap;gap:8px 20px}nav a{font-size:14px;font-weight:650;color:#44549a;text-decoration:none}
+nav a:hover,a:hover{text-decoration:underline}main{padding-top:32px;padding-bottom:65px}
+h1{font-size:clamp(29px,4.4vw,43px);line-height:1.3;letter-spacing:-.045em;margin:12px 0 20px}
+h2{font-size:23px;line-height:1.4;margin:8px 0 14px}h3{font-size:17px;line-height:1.5;margin:20px 0 5px}
+p{margin:8px 0 14px}.eyebrow{font-size:13px;font-weight:800;color:#6170cf}
+.intro{font-size:17px;color:#4b5a75}.panel{background:white;border:1px solid #e0e6f3;border-radius:18px;padding:25px;margin-top:23px}
+.panel p,.panel li{color:#4b5a73}ul,ol{padding-left:22px}li{padding:3px 0}a{color:#405cc1}
+.callout{background:#f0f2ff;border-radius:14px;padding:16px 20px;margin-top:26px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0}
+.actions a{display:inline-block;border-radius:12px;background:#5465d7;color:white;padding:11px 18px;text-decoration:none;font-weight:800}
+.actions a.secondary{background:white;color:#5363cc;border:1px solid #dce2f3}
+.unit-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.unit-list article{border:1px solid #e3e8f2;border-radius:12px;padding:12px 17px;background:#fff}
+.unit-list article h3{margin:0;font-size:15px}.unit-list article p{font-size:13px;margin:6px 0;color:#65738a}
+.grade-link{display:block;text-decoration:none;font-weight:800;margin:18px 0 8px}
+.quiet{color:#76849a;font-size:13px}footer{border-top:1px solid #dfe5f1;color:#6f7c95;font-size:13px}
+@media(max-width:620px){header,main,footer{padding:18px}.unit-list{grid-template-columns:1fr}.panel{padding:17px}nav{gap:6px 12px}}
+nav a.lang-link{border:1px solid #cdd8f5;border-radius:8px;padding:1px 9px}

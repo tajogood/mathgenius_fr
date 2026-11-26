@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mathgenius_fr/sw.js', { scope: '/mathgenius_fr/' })})}

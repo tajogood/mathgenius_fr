@@ -1,0 +1,18 @@
+{
+  "name": "수학천재 — 움직이면 이해되는 수학",
+  "short_name": "수학천재",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8ff",
+  "theme_color": "#5865dc",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
